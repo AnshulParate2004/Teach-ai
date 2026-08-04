@@ -37,6 +37,7 @@ export interface Submission {
   submittedAt?: string;
   errorLog?: string;
   isPassed?: boolean;
+  problemNumber?: string;
 }
 
 export interface User {
@@ -117,10 +118,11 @@ export async function fetchProblem(id: string): Promise<Problem | undefined> {
 
 /* ---------------- Submissions ---------------- */
 
-function mapSubmission(s: any, problemTitle: string): Submission {
+function mapSubmission(s: any, problemTitle: string, problemNumber?: string): Submission {
   return {
     ...s,
     problemTitle,
+    problemNumber,
     fileName: s.file_path ? (s.file_path.split("/").pop() || s.file_path.split("\\").pop() || "notebook.ipynb") : "notebook.ipynb",
     submittedAt: s.submitted_at,
     isPassed: s.is_passed,
@@ -157,9 +159,10 @@ export async function fetchSubmissions(): Promise<Submission[]> {
     const backendSubs: any[] = await apiFetch("/submissions");
     const problems = await fetchProblems();
     const problemMap = new Map(problems.map((p) => [p.id, p.title]));
+    const problemNumberMap = new Map(problems.map((p: any) => [p.id, p.number]));
     
     return backendSubs.map((s) => 
-      mapSubmission(s, problemMap.get(s.problem_id) || "Unknown Problem")
+      mapSubmission(s, problemMap.get(s.problem_id) || "Unknown Problem", problemNumberMap.get(s.problem_id))
     );
   } catch {
     return [];

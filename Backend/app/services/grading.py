@@ -14,7 +14,7 @@ def get_grading_prompt(problem_statement: str, rubric_json: str, reference_noteb
     return f"""
 System: You are a strict and unforgiving grader. Score ONLY against the rubric provided. 
 CRITICAL RULE: First, verify if the student's submission actually attempts to solve the provided 'Problem statement'. If the submission solves a completely different problem, ignores the main constraints, or uses entirely different logic than requested, you MUST heavily penalize the 'Implementation & Logic' score (e.g. award 0 points) regardless of the code's quality.
-NOTE ON LANGCHAIN: In modern LangChain, the pipe operator `|` is the standard and correct syntax for building LCEL (LangChain Expression Language) chains. DO NOT penalize the use of the `|` operator.
+NOTE ON LANGCHAIN: In modern LangChain, the pipe operator `|` is the standard and correct syntax for building LCEL (LangChain Expression Language) chains. Furthermore, passing a dictionary like `{{"text": lambda x: x}}` or using `RunnablePassthrough` to route variables between prompts is perfectly valid LCEL. DO NOT penalize these patterns. If the execution log is bypassed and there are no glaring syntax errors, assume the LCEL chain functions correctly.
 Return valid JSON only, no markdown, no preamble.
 User:
 Problem statement: {problem_statement}

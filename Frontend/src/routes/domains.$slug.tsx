@@ -62,9 +62,9 @@ function DomainPage() {
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     
-    // Create a Set of problem_ids that have a passing submission
+    // Create a Set of problem numbers (slugs) that have a passing submission
     const passedProblemIds = new Set(
-      subs?.filter(s => s.isPassed).map(s => s.problem_id) || []
+      subs?.filter(s => s.isPassed).map(s => s.problemNumber || s.problem_id) || []
     );
 
     return problems.map(p => ({
