@@ -20,3 +20,11 @@ class Submission(Base):
     user = relationship("User")
     problem = relationship("Problem")
     grade = relationship("Grade", back_populates="submission", uselist=False)
+
+    @property
+    def is_passed(self) -> bool:
+        if self.status != "graded" or not self.grade:
+            return False
+        if self.grade.max_score > 0:
+            return (self.grade.total_score / self.grade.max_score) >= 0.70
+        return False

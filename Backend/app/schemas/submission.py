@@ -17,6 +17,7 @@ class SubmissionResponse(SubmissionBase):
     user_id: uuid.UUID
     problem_id: uuid.UUID
     submitted_at: datetime
+    is_passed: bool = False
     
     # We will include grade if it exists, but usually that's fetched separately or as a nested dict
     # grade: Optional[GradeReport] = None

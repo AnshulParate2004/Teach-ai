@@ -2,6 +2,7 @@ from typing import List, Optional
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
+from sqlalchemy.orm import selectinload
 from app.core.db import get_db
 from app.models.problem import Problem
 from app.models.domain import Domain
@@ -14,7 +15,7 @@ async def read_problems(
     domain: Optional[str] = Query(None, description="Filter by domain slug"),
     db: AsyncSession = Depends(get_db)
 ):
-    stmt = select(Problem).join(Domain, Problem.domain_id == Domain.id)
+    stmt = select(Problem).options(selectinload(Problem.domain)).join(Domain, Problem.domain_id == Domain.id)
     if domain:
         stmt = stmt.where(Domain.slug == domain)
     
@@ -65,7 +66,7 @@ async def read_problem(id: str, db: AsyncSession = Depends(get_db)):
     except ValueError:
         stmt = select(Problem).where(Problem.number == id)
         
-    stmt = stmt.join(Domain, Problem.domain_id == Domain.id)
+    stmt = stmt.options(selectinload(Problem.domain)).join(Domain, Problem.domain_id == Domain.id)
     result = await db.execute(stmt)
     p = result.scalars().first()
     

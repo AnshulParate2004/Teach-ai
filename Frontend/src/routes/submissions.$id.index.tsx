@@ -45,7 +45,7 @@ const STEPS: { key: SubmissionStatus; label: string; note: string }[] = [
     label: "AI Grading",
     note: "AI is reviewing your solution against the rubric…",
   },
-  { key: "complete", label: "Complete", note: "Your grade report is ready." },
+  { key: "graded", label: "Complete", note: "Your grade report is ready." },
 ];
 
 function SubmissionStatusPage() {
@@ -58,7 +58,7 @@ function SubmissionStatusPage() {
       const sub = q.state.data;
       if (!sub) return 2000;
       const s = statusOf(sub);
-      return s === "complete" || s === "failed" ? false : 1500;
+      return s === "graded" || s === "complete" || s === "failed" ? false : 1500;
     },
   });
 
@@ -87,7 +87,7 @@ function SubmissionStatusPage() {
   }
 
   const status = statusOf(data);
-  const activeIndex = STEPS.findIndex((s) => s.key === status);
+  const activeIndex = STEPS.findIndex((s) => s.key === status || (s.key === "graded" && status === "complete"));
   const failed = status === "failed";
 
   return (
@@ -104,22 +104,27 @@ function SubmissionStatusPage() {
 
       <ol className="mt-10 space-y-1">
         {STEPS.map((step, i) => {
-          const done = !failed && i < activeIndex;
+          const done = !failed && i <= activeIndex;
           const active = !failed && i === activeIndex;
+          // The last step shouldn't show active (spinner), it should show done if reached.
+          const isFinalStep = i === STEPS.length - 1;
+          const showCheck = done || (isFinalStep && active);
+          const showSpinner = active && !isFinalStep;
+          
           return (
             <li key={step.key} className="flex gap-4">
               <div className="flex flex-col items-center">
                 <span
                   className={cn(
                     "grid size-8 place-items-center rounded-full border text-xs transition-colors",
-                    done && "border-success/40 bg-success/15 text-success",
-                    active && "border-primary/50 bg-primary/15 text-primary",
-                    !done && !active && "border-border bg-card text-muted-foreground",
+                    showCheck && "border-success/40 bg-success/15 text-success",
+                    showSpinner && "border-primary/50 bg-primary/15 text-primary",
+                    !showCheck && !showSpinner && "border-border bg-card text-muted-foreground",
                   )}
                 >
-                  {done ? (
+                  {showCheck ? (
                     <Check className="size-4" />
-                  ) : active ? (
+                  ) : showSpinner ? (
                     <Loader2 className="size-4 animate-spin" />
                   ) : (
                     <span className="font-mono">{i + 1}</span>
@@ -129,7 +134,7 @@ function SubmissionStatusPage() {
                   <span
                     className={cn(
                       "my-1 w-px flex-1",
-                      done ? "bg-success/40" : "bg-border",
+                      showCheck ? "bg-success/40" : "bg-border",
                     )}
                   />
                 )}
@@ -138,7 +143,7 @@ function SubmissionStatusPage() {
                 <p
                   className={cn(
                     "text-sm font-medium",
-                    !done && !active && "text-muted-foreground",
+                    !showCheck && !showSpinner && "text-muted-foreground",
                   )}
                 >
                   {step.label}
@@ -162,7 +167,7 @@ function SubmissionStatusPage() {
         </div>
       )}
 
-      {status === "complete" && (
+      {(status === "complete" || status === "graded") && (
         <div className="flex flex-wrap gap-3">
           <Button asChild>
             <Link to="/submissions/$id/grade" params={{ id: data.id }}>

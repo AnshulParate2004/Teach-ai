@@ -1,6 +1,8 @@
 import { createFileRoute, notFound, Link, redirect } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { Search, ArrowLeft } from "lucide-react";
+import { useQuery } from "@tanstack/react-query";
+import { fetchSubmissions } from "@/services/api";
 import { getDomain, type Domain } from "@/data/domains";
 import { problemsByDomain, type Problem } from "@/data/problems";
 import { ProblemCard } from "@/components/problem-card";
@@ -55,9 +57,20 @@ function DomainPage() {
     [problems],
   );
 
+  const { data: subs } = useQuery({ queryKey: ["submissions"], queryFn: fetchSubmissions });
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return problems.filter((p) => {
+    
+    // Create a Set of problem_ids that have a passing submission
+    const passedProblemIds = new Set(
+      subs?.filter(s => s.isPassed).map(s => s.problem_id) || []
+    );
+
+    return problems.map(p => ({
+      ...p,
+      solved: passedProblemIds.has(p.id)
+    })).filter((p) => {
       const matchesIndustry = !industry || p.industry === industry;
       const matchesQuery =
         !q ||
@@ -67,7 +80,7 @@ function DomainPage() {
         p.industry.toLowerCase().includes(q);
       return matchesIndustry && matchesQuery;
     });
-  }, [problems, query, industry]);
+  }, [problems, query, industry, subs]);
 
   return (
     <div className="mx-auto max-w-6xl px-5 py-12">

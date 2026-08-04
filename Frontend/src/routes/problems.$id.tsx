@@ -86,12 +86,17 @@ function ProblemPage() {
   const submit = async () => {
     if (!file) return;
     setSubmitting(true);
-    const sub = await createSubmission({
-      problemId: problem.id,
-      file,
-    });
-    toast.success("Notebook uploaded", { description: "Grading pipeline started." });
-    navigate({ to: "/submissions/$id", params: { id: sub.id } });
+    try {
+      const sub = await createSubmission({
+        problemId: problem.id,
+        file,
+      });
+      toast.success("Notebook uploaded", { description: "Grading pipeline started." });
+      navigate({ to: "/submissions/$id", params: { id: sub.id } });
+    } catch (err: any) {
+      toast.error("Upload failed", { description: err.message || "An error occurred" });
+      setSubmitting(false);
+    }
   };
 
   return (

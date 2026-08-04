@@ -41,17 +41,19 @@ function Dashboard() {
     return d;
   });
 
+  const passedSubs = subs.data?.filter((s) => s.isPassed) || [];
+
   const days = last7Days.map(d => d.toLocaleDateString("en-US", { weekday: "narrow" }));
   const activity = last7Days.map(date => {
     if (!subs.data) return false;
     const dateStr = date.toDateString();
-    return subs.data.some(s => s.submittedAt && new Date(s.submittedAt).toDateString() === dateStr);
+    return passedSubs.some(s => s.submittedAt && new Date(s.submittedAt).toDateString() === dateStr);
   });
 
   let currentStreak = 0;
-  if (subs.data && subs.data.length > 0) {
+  if (passedSubs.length > 0) {
     const datesWithActivity = new Set(
-      subs.data.map(s => s.submittedAt ? new Date(s.submittedAt).toDateString() : "")
+      passedSubs.map(s => s.submittedAt ? new Date(s.submittedAt).toDateString() : "")
     );
     let checkDate = new Date();
     if (!datesWithActivity.has(checkDate.toDateString())) {

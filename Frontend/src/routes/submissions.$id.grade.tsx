@@ -2,7 +2,7 @@ import { createFileRoute, Link, redirect } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { Loader2, RotateCcw } from "lucide-react";
 import { useState } from "react";
-import { fetchSubmission, gradeOf, statusOf } from "@/services/api";
+import { fetchSubmission, fetchGrade, statusOf } from "@/services/api";
 import { ScoreRing } from "@/components/score-ring";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -40,10 +40,18 @@ export const Route = createFileRoute("/submissions/$id/grade")({
 
 function GradePage() {
   const { id } = Route.useParams();
-  const { data, isLoading } = useQuery({
+  
+  const { data, isLoading: isSubLoading } = useQuery({
     queryKey: ["submission", id],
     queryFn: () => fetchSubmission(id),
   });
+
+  const { data: grade, isLoading: isGradeLoading } = useQuery({
+    queryKey: ["grade", id],
+    queryFn: () => fetchGrade(id),
+  });
+
+  const isLoading = isSubLoading || isGradeLoading;
 
   if (isLoading) {
     return (
@@ -52,8 +60,6 @@ function GradePage() {
       </div>
     );
   }
-
-  const grade = data ? gradeOf(data) : undefined;
 
   if (!data || !grade) {
     return (
@@ -86,9 +92,17 @@ function GradePage() {
       <div className="mt-8 flex flex-col items-center gap-6 rounded-2xl border border-border bg-card p-8 sm:flex-row sm:items-center sm:gap-10">
         <ScoreRing score={grade.total} max={grade.max} />
         <div className="flex-1 text-center sm:text-left">
-          <p className="font-mono text-xs uppercase tracking-widest text-primary">
-            Total score
-          </p>
+          <div className="flex items-center justify-center sm:justify-start gap-3">
+            <p className="font-mono text-xs uppercase tracking-widest text-primary">
+              Total score
+            </p>
+            <span className={cn(
+              "rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider",
+              pct >= 70 ? "bg-success/15 text-success" : "bg-destructive/15 text-destructive"
+            )}>
+              {pct >= 70 ? "Passed" : "Not Passed"}
+            </span>
+          </div>
           <p className="mt-2 text-2xl font-semibold">
             {pct >= 85
               ? "Strong submission"
@@ -132,7 +146,7 @@ function GradePage() {
           </Link>
         </Button>
         <Button variant="secondary" asChild>
-          <Link to="/problems/$id" params={{ id: data.problemId }}>
+          <Link to="/problems/$id" params={{ id: data.problem_id }}>
             <RotateCcw className="size-4" /> Retry this problem
           </Link>
         </Button>

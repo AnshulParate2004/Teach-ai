@@ -15,6 +15,8 @@ from app.workers.grade_worker import grade_submission
 
 router = APIRouter()
 
+from sqlalchemy.orm import selectinload
+
 @router.get("", response_model=List[SubmissionResponse])
 async def list_submissions(
     current_user: User = Depends(get_current_user),
@@ -22,6 +24,7 @@ async def list_submissions(
 ):
     result = await db.execute(
         select(Submission)
+        .options(selectinload(Submission.grade))
         .where(Submission.user_id == current_user.id)
         .order_by(Submission.submitted_at.desc())
     )
@@ -32,14 +35,20 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 @router.post("", response_model=SubmissionResponse)
 async def create_submission(
-    problem_id: uuid.UUID,
+    problem_id: str,
     background_tasks: BackgroundTasks,
     file: UploadFile = File(...),
     current_user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db)
 ):
-    # Verify problem exists
-    result = await db.execute(select(Problem).where(Problem.id == problem_id))
+    from uuid import UUID
+    try:
+        uuid_obj = UUID(problem_id)
+        stmt = select(Problem).where(Problem.id == uuid_obj)
+    except ValueError:
+        stmt = select(Problem).where(Problem.number == problem_id)
+        
+    result = await db.execute(stmt)
     problem = result.scalars().first()
     if not problem:
         raise HTTPException(status_code=404, detail="Problem not found")
@@ -61,13 +70,20 @@ async def create_submission(
     )
     db.add(submission)
     await db.commit()
-    await db.refresh(submission)
+
+    # Re-fetch with relationships loaded to avoid MissingGreenlet on schema serialization
+    result = await db.execute(
+        select(Submission)
+        .options(selectinload(Submission.grade))
+        .where(Submission.id == submission.id)
+    )
+    submission_loaded = result.scalars().first()
 
     # Kick off background job
     # We pass the submission id to the background worker
-    background_tasks.add_task(grade_submission, submission.id)
+    background_tasks.add_task(grade_submission, submission_loaded.id)
 
-    return submission
+    return submission_loaded
 
 @router.get("/{id}", response_model=SubmissionResponse)
 async def get_submission(
@@ -75,7 +91,11 @@ async def get_submission(
     current_user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db)
 ):
-    result = await db.execute(select(Submission).where(Submission.id == id, Submission.user_id == current_user.id))
+    result = await db.execute(
+        select(Submission)
+        .options(selectinload(Submission.grade))
+        .where(Submission.id == id, Submission.user_id == current_user.id)
+    )
     submission = result.scalars().first()
     if not submission:
         raise HTTPException(status_code=404, detail="Submission not found")

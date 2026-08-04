@@ -32,9 +32,19 @@ async def get_grade(
     if not grade:
         raise HTTPException(status_code=404, detail="Grade not found for this submission")
         
+    criteria_list = []
+    if grade.criteria_breakdown:
+        for c in grade.criteria_breakdown:
+            criteria_list.append({
+                "name": c.get("criterion", "Unknown"),
+                "score": c.get("score", 0),
+                "max": c.get("max", 0),
+                "comment": c.get("feedback", "")
+            })
+
     return {
         "total": grade.total_score,
         "max": grade.max_score,
-        "criteria": grade.criteria_breakdown,
+        "criteria": criteria_list,
         "overall": grade.ai_feedback or ""
     }

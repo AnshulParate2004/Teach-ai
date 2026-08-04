@@ -12,7 +12,10 @@ litellm.failure_callback = []
 
 def get_grading_prompt(problem_statement: str, rubric_json: str, reference_notebook_code: str, student_notebook_code: str, execution_log: str) -> str:
     return f"""
-System: You are a strict but fair grader. Score ONLY against the rubric provided. Return valid JSON only, no markdown, no preamble.
+System: You are a strict and unforgiving grader. Score ONLY against the rubric provided. 
+CRITICAL RULE: First, verify if the student's submission actually attempts to solve the provided 'Problem statement'. If the submission solves a completely different problem, ignores the main constraints, or uses entirely different logic than requested, you MUST heavily penalize the 'Implementation & Logic' score (e.g. award 0 points) regardless of the code's quality.
+NOTE ON LANGCHAIN: In modern LangChain, the pipe operator `|` is the standard and correct syntax for building LCEL (LangChain Expression Language) chains. DO NOT penalize the use of the `|` operator.
+Return valid JSON only, no markdown, no preamble.
 User:
 Problem statement: {problem_statement}
 Rubric: {rubric_json}

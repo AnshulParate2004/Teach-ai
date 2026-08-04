@@ -1,5 +1,5 @@
 import { createFileRoute, Link, useNavigate, redirect } from "@tanstack/react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Hexagon, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -20,12 +20,12 @@ export const Route = createFileRoute("/login")({
       { title: "Log in — SkillForge" },
       {
         name: "description",
-        content: "Log in to track your solved problems and grade reports.",
+        content: "Log in to your SkillForge account to continue learning.",
       },
       { property: "og:title", content: "Log in — SkillForge" },
       {
         property: "og:description",
-        content: "Log in to track your solved problems and grade reports.",
+        content: "Log in to your SkillForge account to continue learning.",
       },
     ],
   }),
@@ -37,7 +37,13 @@ function LoginPage() {
   const [password, setPassword] = useState("");
   const [pending, setPending] = useState(false);
   const navigate = useNavigate();
-  const { setUser } = useAuth();
+  const { user, setUser } = useAuth();
+
+  useEffect(() => {
+    if (user) {
+      navigate({ to: "/dashboard", replace: true });
+    }
+  }, [user, navigate]);
 
   return (
     <div className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center overflow-hidden px-5 py-16">

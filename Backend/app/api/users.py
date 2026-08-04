@@ -31,16 +31,19 @@ async def get_user_progress(
         
         # Count solved by this user (status == 'graded' or 'complete' depending on naming, let's say 'graded')
         # We join Submission -> Problem -> Domain
+        from app.models.grade import Grade
         solved_res = await db.execute(
-            select(func.count(Submission.id))
-            .join(Problem, Submission.problem_id == Problem.id)
+            select(func.count(func.distinct(Problem.id)))
+            .join(Submission, Submission.problem_id == Problem.id)
+            .join(Grade, Grade.submission_id == Submission.id)
             .where(
                 Submission.user_id == current_user.id,
                 Submission.status == "graded",
-                Problem.domain_id == d.id
+                Problem.domain_id == d.id,
+                (Grade.total_score / func.nullif(Grade.max_score, 0)) >= 0.70
             )
         )
-        solved_count = solved_res.scalar()
+        solved_count = solved_res.scalar() or 0
         
         progress_list.append({
             "slug": d.slug,

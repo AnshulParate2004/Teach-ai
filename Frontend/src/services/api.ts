@@ -36,6 +36,7 @@ export interface Submission {
   fileName?: string;
   submittedAt?: string;
   errorLog?: string;
+  isPassed?: boolean;
 }
 
 export interface User {
@@ -122,6 +123,7 @@ function mapSubmission(s: any, problemTitle: string): Submission {
     problemTitle,
     fileName: s.file_path ? (s.file_path.split("/").pop() || s.file_path.split("\\").pop() || "notebook.ipynb") : "notebook.ipynb",
     submittedAt: s.submitted_at,
+    isPassed: s.is_passed,
   };
 }
 

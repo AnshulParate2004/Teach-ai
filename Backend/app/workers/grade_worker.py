@@ -30,8 +30,11 @@ async def grade_submission(submission_id: uuid.UUID):
         submission.status = "running"
         await db.commit()
         
-        # 1. Run in Sandbox
-        success, execution_log = await run_notebook_safely(submission.file_path)
+        # 1. Run in Sandbox (Bypassed by user request)
+        # success, execution_log = await run_notebook_safely(submission.file_path)
+        success = True
+        execution_log = "Execution bypassed. Grade based strictly on the source code, logic, and any pre-existing cell outputs provided in the notebook JSON."
+
         
         # 2. Grade with AI
         try:
