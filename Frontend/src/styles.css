@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Caveat:wght@500;600;700&display=swap');
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --shadow-elevated: var(--shadow-elevated);
+}
+
+:root {
+  --radius: 0.75rem;
+  --background: hsl(40 20% 97%);
+  --foreground: hsl(220 15% 16%);
+  --surface: hsl(40 20% 97%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(220 15% 16%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(220 15% 16%);
+  --primary: hsl(238 84% 67%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(40 15% 94%);
+  --secondary-foreground: hsl(220 15% 16%);
+  --muted: hsl(40 10% 92%);
+  --muted-foreground: hsl(220 8% 50%);
+  --accent: hsl(24 80% 55%);
+  --accent-foreground: hsl(0 0% 100%);
+  --destructive: hsl(0 72% 51%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --success: hsl(238 84% 67%);
+  --success-foreground: hsl(0 0% 100%);
+  --warning: hsl(38 92% 50%);
+  --warning-foreground: hsl(0 0% 100%);
+  --border: hsl(220 10% 88%);
+  --input: hsl(220 10% 88%);
+  --ring: hsl(238 84% 67%);
+  --chart-1: hsl(238 84% 67%);
+  --chart-2: hsl(24 80% 55%);
+  --chart-3: hsl(220 15% 16%);
+  --chart-4: hsl(38 92% 50%);
+  --chart-5: hsl(0 72% 51%);
+  --sidebar: hsl(0 0% 100%);
+  --sidebar-foreground: hsl(220 15% 16%);
+  --sidebar-primary: hsl(238 84% 67%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(238 84% 67%);
+  --sidebar-accent-foreground: hsl(0 0% 100%);
+  --sidebar-border: hsl(220 10% 92%);
+  --sidebar-ring: hsl(238 84% 67%);
+  --shadow-elevated: 0 1px 2px oklch(0.2 0.02 250 / 0.06), 0 8px 24px -12px oklch(0.2 0.02 250 / 0.12);
+}
+
+.dark {
+  --background: hsl(220 15% 8%);
+  --foreground: hsl(40 10% 95%);
+  --surface: hsl(220 15% 8%);
+  --card: hsl(220 15% 11%);
+  --card-foreground: hsl(40 10% 95%);
+  --popover: hsl(220 15% 11%);
+  --popover-foreground: hsl(40 10% 95%);
+  --primary: hsl(238 84% 67%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(220 12% 16%);
+  --secondary-foreground: hsl(40 10% 95%);
+  --muted: hsl(220 12% 16%);
+  --muted-foreground: hsl(40 5% 55%);
+  --accent: hsl(24 80% 55%);
+  --accent-foreground: hsl(220 15% 8%);
+  --destructive: hsl(0 62% 50%);
+  --destructive-foreground: hsl(40 10% 98%);
+  --success: hsl(238 84% 67%);
+  --success-foreground: hsl(0 0% 100%);
+  --warning: hsl(38 92% 50%);
+  --warning-foreground: hsl(0 0% 100%);
+  --border: hsl(220 10% 20%);
+  --input: hsl(220 10% 20%);
+  --ring: hsl(238 84% 67%);
+  --chart-1: hsl(238 84% 67%);
+  --chart-2: hsl(24 80% 55%);
+  --chart-3: hsl(40 10% 95%);
+  --chart-4: hsl(38 92% 50%);
+  --chart-5: hsl(0 62% 50%);
+  --sidebar: hsl(220 15% 8%);
+  --sidebar-foreground: hsl(40 10% 95%);
+  --sidebar-primary: hsl(238 84% 67%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(238 84% 67%);
+  --sidebar-accent-foreground: hsl(220 15% 8%);
+  --sidebar-border: hsl(220 10% 20%);
+  --sidebar-ring: hsl(238 84% 67%);
+  --shadow-elevated: 0 1px 2px oklch(0 0 0 / 0.4), 0 12px 32px -16px oklch(0 0 0 / 0.6);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+@utility grid-backdrop {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--color-border) 60%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--color-border) 60%, transparent) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+}
+
+@utility glow-primary {
+  box-shadow: 0 0 0 1px color-mix(in oklab, var(--color-primary) 30%, transparent),
+    0 18px 60px -24px color-mix(in oklab, var(--color-primary) 55%, transparent);
+}

@@ -1,0 +1,36 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AnshulParate2004", email = "anshulnparate@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "alembic>=1.13.0",
+    "asyncpg>=0.29.0",
+    "fastapi[standard]>=0.115.0",
+    "ipykernel>=6.29.0",
+    "langchain>=0.2.0",
+    "litellm>=1.40.0",
+    "nbclient>=0.10.0",
+    "papermill>=2.5.0",
+    "passlib[bcrypt]>=1.7.4",
+    "psycopg2-binary>=2.9.9",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.2.0",
+    "python-dotenv>=1.0.1",
+    "python-jose[cryptography]>=3.3.0",
+    "python-multipart>=0.0.9",
+    "sqlalchemy>=2.0.30",
+    "uvicorn>=0.30.0",
+]
+
+[project.scripts]
+backend = "backend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
