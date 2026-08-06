@@ -1,14 +1,9 @@
 import json
 import sys
 import os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-try:
-    from Backend.generate_all_20_detailed import problems_raw
-except ImportError:
-    # If import fails due to path, we will just read the file and extract it via AST or regex.
-    pass
-
 import ast
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def extract_problems_raw(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -20,17 +15,20 @@ def extract_problems_raw(filepath):
                     return ast.literal_eval(node.value)
     return []
 
-problems_raw = extract_problems_raw(os.path.join("..", "Backend", "generate_all_20_detailed.py"))
+backend_script = os.path.join("..", "Backend", "generate_all_20_detailed.py")
+problems_raw = extract_problems_raw(backend_script)
 
 ts_problems = []
 for p in problems_raw:
     ts_problems.append({
         "id": p["number"],
         "domain": "generative-ai",
+        "company": p.get("company", "Tech Enterprise"),
+        "role": p.get("role", "AI Engineering Intern"),
         "title": p["title"],
         "industry": p["industry"],
         "problem_statement": p["problem_statement"],
-        "difficulty": "Intermediate" if "intermediate" in p.get("difficulty", "intermediate").lower() else "Advanced",
+        "difficulty": "Intermediate",
         "solved": False,
         "tags": p["tools"],
         "estimatedTime": "2 hrs",
@@ -54,6 +52,8 @@ export interface Dataset {{
 export interface Problem {{
   id: string;
   domain: string;
+  company: string;
+  role: string;
   title: string;
   industry: string;
   problem_statement: string;
@@ -84,4 +84,4 @@ export const problemsByDomain = (domain: string) =>
 with open("src/data/problems.ts", "w", encoding="utf-8") as f:
     f.write(ts_content)
 
-print("Updated problems.ts with 20 problems!")
+print(f"Successfully updated Frontend src/data/problems.ts with {len(ts_problems)} company micro-internship problems!")

@@ -120,6 +120,18 @@ function ProblemPage() {
 
       <h1 className="mt-4 text-3xl font-semibold leading-tight">{problem.title}</h1>
 
+      <div className="mt-3 flex flex-wrap items-center gap-2 text-sm font-medium">
+        <span className="rounded-md border border-primary/20 bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary">
+          {problem.company || "Tech Enterprise"}
+        </span>
+        {problem.role && (
+          <>
+            <span className="text-muted-foreground/60">•</span>
+            <span className="text-muted-foreground">{problem.role}</span>
+          </>
+        )}
+      </div>
+
       <div className="mt-8 space-y-5">
         <Section title="Problem Statement">
           <p className="text-foreground/90">{problem.problem_statement}</p>

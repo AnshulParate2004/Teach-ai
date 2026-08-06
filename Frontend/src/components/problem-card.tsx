@@ -25,6 +25,16 @@ export function ProblemCard({ problem }: { problem: Problem }) {
         )}
       </div>
 
+      <div className="flex items-center gap-1.5 text-xs text-primary font-medium">
+        <span>{problem.company || "Tech Enterprise"}</span>
+        {problem.role && (
+          <>
+            <span className="text-muted-foreground/60">•</span>
+            <span className="text-muted-foreground font-normal">{problem.role}</span>
+          </>
+        )}
+      </div>
+
       <h3 className="text-[15px] font-semibold leading-snug transition-colors group-hover:text-primary">
         {problem.title}
       </h3>
