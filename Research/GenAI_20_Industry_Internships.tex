@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[utf8]{utf8}
+\usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \usepackage{xcolor}
@@ -8,6 +8,8 @@
 \usepackage{titlesec}
 \usepackage{amsmath}
 \usepackage{tcolorbox}
+\usepackage{array}
+\usepackage{tabularx}
 
 \definecolor{primary}{RGB}{30, 64, 175}
 \definecolor{secondary}{RGB}{15, 118, 110}
@@ -56,7 +58,9 @@ This document outlines 20 hands-on micro-internship modules designed to bridge t
 \begin{table}[h!]
 \centering
 \small
-\begin{tabular}{@{}clll@{}}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{} c >{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{3.8cm} >{\raggedright\arraybackslash}X @{}}
 \toprule
 \textbf{\#} & \textbf{Target Company \& Sector} & \textbf{Internship Role Title} & \textbf{Core Technology Scope} \\ \midrule
 1 & GlobalTech Solutions (IT Services) & Localization AI Intern & LCEL Chains, Translation Pipelines \\
@@ -79,7 +83,7 @@ This document outlines 20 hands-on micro-internship modules designed to bridge t
 18 & SkyWay Travel (Tourism Tech) & TypeScript MCP Developer & Node.js/TypeScript Weather MCP Server \\
 19 & PriceWatch Retail (Market Intel) & Web Intelligence Agent Intern & Serper API Web Scraping Agent \\
 20 & OmniInsurance (Enterprise Insurance) & Enterprise Agent Architect & Nested Subgraph Architecture \\ \bottomrule
-\end{tabular}
+\end{tabularx}
 \caption{Overview of 20 Company Micro-Internships and Technical Focus Areas}
 \end{table}
 
