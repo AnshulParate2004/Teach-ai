@@ -93,28 +93,43 @@ This document outlines 20 hands-on micro-internship modules designed to bridge t
 
 % Module 1
 \begin{tcolorbox}[title={Module 1: LCEL Chain Building for Automated Localization}]
-\textbf{Company:} GlobalTech Solutions (IT Services \& Consulting) \\
-\textbf{Role:} Localization AI Engineering Intern \\
-\textbf{Industry Context \& Update:} Global IT service leaders need automated localization pipelines to parse technical documentation, generate structured bullet points, and convert them across global offshore languages without manual overhead.
+\subsection*{1. Title Objective}
+\textbf{Localization AI Engineering Intern}: Complete work that simulates life on the job. Gain insights into leveraging LangChain as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build a multi-stage LangChain Expression Language (LCEL) chain that takes a complex technical topic (e.g., "Kubernetes Autoscaling"), extracts 3 factual summary points in English, and translates those points into target regional languages (e.g., French or Japanese) in a unified pipeable workflow.
+\subsection*{2. About the Business}
+\textbf{Company:} GlobalTech Solutions (IT Services \& Consulting)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Master LCEL composition using the pipe operator (\texttt{|}).
-    \item Utilize \texttt{ChatPromptTemplate} for dynamic multi-stage prompts.
-    \item Implement \texttt{StrOutputParser} for seamless data transformations.
-\end{itemize}
+GlobalTech Solutions is a global leader in IT Services \& Consulting, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at GlobalTech Solutions. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangChain.
+
+The programme will show you what kind of problems are solved at GlobalTech Solutions on a day-to-day basis. Specifically, global it service leaders need automated localization pipelines to parse technical documentation, generate structured bullet points, and convert them across global offshore languages without manual overhead. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@globaltech.com}{microinternships@globaltech.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangChain
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build a multi-stage LangChain Expression Language (LCEL) chain that takes a complex technical topic (e.g., "Kubernetes Autoscaling"), extracts 3 factual summary points in English, and translates those points into target regional languages (e.g., French or Japanese) in a unified pipeable workflow.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Construct a 3-stage chain (\texttt{Topic} $\rightarrow$ \texttt{Fact Generation} $\rightarrow$ \texttt{Translation}).
     \item Execute end-to-end runs across 3 distinct technical topics.
     \item Submit a working Jupyter Notebook (\texttt{chain.ipynb}) and a brief architecture explanation.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Master LCEL composition using the pipe operator (\texttt{|}).
+    \item Utilize \texttt{ChatPromptTemplate} for dynamic multi-stage prompts.
+    \item Implement \texttt{StrOutputParser} for seamless data transformations.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item What does LCEL stand for and why is it preferred over legacy legacy chain classes?
     \item Explain the difference between \texttt{RunnableSequence} and explicit \texttt{|} syntax.
@@ -126,28 +141,43 @@ Build a multi-stage LangChain Expression Language (LCEL) chain that takes a comp
 
 % Module 2
 \begin{tcolorbox}[title={Module 2: Structured Product Catalog Ingestion}]
-\textbf{Company:} ShopVerse Marketplace (Retail \& E-Commerce) \\
-\textbf{Role:} Catalog AI Automation Intern \\
-\textbf{Industry Context \& Update:} E-Commerce platforms process millions of unstructured product descriptions submitted by third-party sellers. Production catalog databases mandate strict, type-safe JSON formats.
+\subsection*{1. Title Objective}
+\textbf{Catalog AI Automation Intern}: Complete work that simulates life on the job. Gain insights into leveraging Pydantic as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Design a LangChain pipeline using Pydantic models to convert unstructured paragraph descriptions into validated JSON schema entries containing attributes such as \texttt{title}, \texttt{category}, \texttt{price\_tier}, and key summary features.
+\subsection*{2. About the Business}
+\textbf{Company:} ShopVerse Marketplace (Retail \& E-Commerce)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Enforce structured LLM output using Pydantic \texttt{BaseModel}.
-    \item Leverage \texttt{.with\_structured_output()} for schema binding.
-    \item Handle validation errors and missing attributes gracefully.
-\end{itemize}
+ShopVerse Marketplace is a global leader in Retail \& E-Commerce, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at ShopVerse Marketplace. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangChain, Pydantic.
+
+The programme will show you what kind of problems are solved at ShopVerse Marketplace on a day-to-day basis. Specifically, e-commerce platforms process millions of unstructured product descriptions submitted by third-party sellers. production catalog databases mandate strict, type-safe json formats. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@shopverse.com}{microinternships@shopverse.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangChain, Pydantic
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Design a LangChain pipeline using Pydantic models to convert unstructured paragraph descriptions into validated JSON schema entries containing attributes such as \texttt{title}, \texttt{category}, \texttt{price\_tier}, and key summary features.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Define a Pydantic schema with appropriate field validations.
     \item Process 3 raw seller product descriptions into JSON catalog objects.
     \item Submit notebook (\texttt{structured\_catalog.ipynb}) and generated JSON outputs.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Enforce structured LLM output using Pydantic \texttt{BaseModel}.
+    \item Leverage \texttt{.with\_structured_output()} for schema binding.
+    \item Handle validation errors and missing attributes gracefully.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why is Pydantic structured output superior to asking LLMs to "return valid JSON" in prompt text?
     \item How does LangChain handle schema mismatch or parsing exceptions during structured output calls?
@@ -158,27 +188,42 @@ Design a LangChain pipeline using Pydantic models to convert unstructured paragr
 
 % Module 3
 \begin{tcolorbox}[title={Module 3: Parallel Claims Assessment \& Conditional Routing}]
-\textbf{Company:} ShieldCover Insurance (InsurTech) \\
-\textbf{Role:} Claims Workflow Automation Intern \\
-\textbf{Industry Context \& Update:} InsurTech leaders accelerate claims processing by executing damage evaluation and fraud detection concurrently, followed by automated triage routing.
+\subsection*{1. Title Objective}
+\textbf{Claims Workflow Automation Intern}: Complete work that simulates life on the job. Gain insights into leveraging LLMs as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build a dual-chain system using \texttt{RunnableParallel} for concurrent damage assessment and fraud-risk calculation, combined with \texttt{RunnableBranch} to route claims conditionally to either "Auto-Approve" or "Manual Audit".
+\subsection*{2. About the Business}
+\textbf{Company:} ShieldCover Insurance (InsurTech)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Execute concurrent LLM calls with \texttt{RunnableParallel}.
-    \item Implement conditional logic routing using \texttt{RunnableBranch}.
-\end{itemize}
+ShieldCover Insurance is a global leader in InsurTech, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at ShieldCover Insurance. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs.
+
+The programme will show you what kind of problems are solved at ShieldCover Insurance on a day-to-day basis. Specifically, insurtech leaders accelerate claims processing by executing damage evaluation and fraud detection concurrently, followed by automated triage routing. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@shieldcover.com}{microinternships@shieldcover.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build a dual-chain system using \texttt{RunnableParallel} for concurrent damage assessment and fraud-risk calculation, combined with \texttt{RunnableBranch} to route claims conditionally to either "Auto-Approve" or "Manual Audit".
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Construct a parallel analysis execution node.
     \item Implement conditional routing logic based on risk score thresholds.
     \item Submit notebook (\texttt{parallel\_claims.ipynb}) demonstrating both auto-approval and manual-review branches.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Execute concurrent LLM calls with \texttt{RunnableParallel}.
+    \item Implement conditional logic routing using \texttt{RunnableBranch}.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item When should developers select parallel execution over sequential chaining?
     \item How does \texttt{RunnableBranch} evaluate condition predicates to determine route selection?
@@ -189,28 +234,43 @@ Build a dual-chain system using \texttt{RunnableParallel} for concurrent damage 
 
 % Module 4
 \begin{tcolorbox}[title={Module 4: Clinical Protocol RAG Pipeline with ChromaDB}]
-\textbf{Company:} MedCare Health Systems (Healthcare \& Clinical QA) \\
-\textbf{Role:} Clinical RAG Systems Engineer Intern \\
-\textbf{Industry Context \& Update:} Hospital networks require context-grounded AI search over proprietary clinical guidelines to eliminate hallucination in medical queries and enable auditability with citations.
+\subsection*{1. Title Objective}
+\textbf{Clinical RAG Systems Engineer Intern}: Complete work that simulates life on the job. Gain insights into leveraging Vector Databases as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Develop a Retrieval-Augmented Generation (RAG) system utilizing ChromaDB vector store to answer clinical questions grounded exclusively in internal guideline PDFs, highlighting exact source citations.
+\subsection*{2. About the Business}
+\textbf{Company:} MedCare Health Systems (Healthcare \& Clinical QA)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Implement text document chunking and vector embeddings.
-    \item Build vector similarity retrieval workflows using ChromaDB.
-    \item Construct context-injected prompt chains to guarantee factual grounding.
-\end{itemize}
+MedCare Health Systems is a global leader in Healthcare \& Clinical QA, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at MedCare Health Systems. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, ChromaDB, Vector Databases.
+
+The programme will show you what kind of problems are solved at MedCare Health Systems on a day-to-day basis. Specifically, hospital networks require context-grounded ai search over proprietary clinical guidelines to eliminate hallucination in medical queries and enable auditability with citations. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@medcare.com}{microinternships@medcare.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, ChromaDB, Vector Databases
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Develop a Retrieval-Augmented Generation (RAG) system utilizing ChromaDB vector store to answer clinical questions grounded exclusively in internal guideline PDFs, highlighting exact source citations.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Ingest and chunk a sample clinical protocol document.
     \item Query ChromaDB for top-k matching passages and return grounded answers with citations.
     \item Submit notebook (\texttt{clinical\_rag.ipynb}) and 3 sample Q\&A outputs with citations.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Implement text document chunking and vector embeddings.
+    \item Build vector similarity retrieval workflows using ChromaDB.
+    \item Construct context-injected prompt chains to guarantee factual grounding.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why is RAG preferred over model fine-tuning for dynamic clinical protocol search?
     \item What role does cosine similarity distance play during vector store retrieval?
@@ -221,27 +281,42 @@ Develop a Retrieval-Augmented Generation (RAG) system utilizing ChromaDB vector 
 
 % Module 5
 \begin{tcolorbox}[title={Module 5: Metadata-Filtered Legal Precedent Retrieval}]
-\textbf{Company:} LexisClause Legal Partners (Legal Tech) \\
-\textbf{Role:} Legal Knowledge Systems Intern \\
-\textbf{Industry Context \& Update:} Law firms manage vast legal databases spanning jurisdictions, courts, and filing years. Pure semantic search often returns irrelevant precedents from incorrect legal jurisdictions.
+\subsection*{1. Title Objective}
+\textbf{Legal Knowledge Systems Intern}: Complete work that simulates life on the job. Gain insights into leveraging LLMs as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Extend a RAG pipeline by tagging document chunks with metadata (\texttt{jurisdiction}, \texttt{court}, \texttt{year}) and performing metadata-filtered vector retrieval to restrict searches strictly to relevant legal domains.
+\subsection*{2. About the Business}
+\textbf{Company:} LexisClause Legal Partners (Legal Tech)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Embed documents with structured metadata dictionaries.
-    \item Perform exact-match metadata filtering in vector searches.
-\end{itemize}
+LexisClause Legal Partners is a global leader in Legal Tech, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at LexisClause Legal Partners. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs.
+
+The programme will show you what kind of problems are solved at LexisClause Legal Partners on a day-to-day basis. Specifically, law firms manage vast legal databases spanning jurisdictions, courts, and filing years. pure semantic search often returns irrelevant precedents from incorrect legal jurisdictions. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@lexisclause.com}{microinternships@lexisclause.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Extend a RAG pipeline by tagging document chunks with metadata (\texttt{jurisdiction}, \texttt{court}, \texttt{year}) and performing metadata-filtered vector retrieval to restrict searches strictly to relevant legal domains.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Embed case law documents tagged with court and year metadata.
     \item Run comparative queries showing search results with vs. without metadata filtering.
     \item Submit notebook (\texttt{legal\_filtered\_rag.ipynb}) showing filtering accuracy.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Embed documents with structured metadata dictionaries.
+    \item Perform exact-match metadata filtering in vector searches.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why does pure semantic search fail when searching multi-jurisdiction legal archives?
     \item Describe how vector databases execute metadata filter predicate evaluation.
@@ -252,27 +327,42 @@ Extend a RAG pipeline by tagging document chunks with metadata (\texttt{jurisdic
 
 % Module 6
 \begin{tcolorbox}[title={Module 6: Banking Chatbot with Persistent Memory (LangGraph)}]
-\textbf{Company:} Vertex National Bank (Banking \& FinTech) \\
-\textbf{Role:} Conversational AI Systems Intern \\
-\textbf{Industry Context \& Update:} Financial customer support bots must recall multi-turn loan details across user sessions. LangGraph state graphs with durable SQLite checkpointing ensure state persistence.
+\subsection*{1. Title Objective}
+\textbf{Conversational AI Systems Intern}: Complete work that simulates life on the job. Gain insights into leveraging LangGraph as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Implement a stateful banking support chatbot using LangGraph \texttt{StateGraph} and \texttt{SqliteSaver} checkpointing that persists loan application memory across script restarts and user disconnects.
+\subsection*{2. About the Business}
+\textbf{Company:} Vertex National Bank (Banking \& FinTech)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Understand stateful graph architectures in LangGraph.
-    \item Implement durable session memory using SQLite checkpointers.
-\end{itemize}
+Vertex National Bank is a global leader in Banking \& FinTech, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at Vertex National Bank. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangGraph.
+
+The programme will show you what kind of problems are solved at Vertex National Bank on a day-to-day basis. Specifically, financial customer support bots must recall multi-turn loan details across user sessions. langgraph state graphs with durable sqlite checkpointing ensure state persistence. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@vertex.com}{microinternships@vertex.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangGraph
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Implement a stateful banking support chatbot using LangGraph \texttt{StateGraph} and \texttt{SqliteSaver} checkpointing that persists loan application memory across script restarts and user disconnects.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Design state schema tracking message history and user account state.
     \item Demonstrate thread state persistence by closing and restarting the application session.
     \item Submit notebook (\texttt{persistent\_banking\_bot.ipynb}) and memory recall trace.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Understand stateful graph architectures in LangGraph.
+    \item Implement durable session memory using SQLite checkpointers.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item What is a checkpoint in LangGraph and how does it differ from in-memory arrays?
     \item How are thread IDs utilized to isolate separate customer support conversations?
@@ -283,27 +373,42 @@ Implement a stateful banking support chatbot using LangGraph \texttt{StateGraph}
 
 % Module 7
 \begin{tcolorbox}[title={Module 7: ReAct Shipment Tracking Agent from Scratch}]
-\textbf{Company:} OmniRoute Logistics (Supply Chain \& Freight) \\
-\textbf{Role:} Agentic Workflow Engineer Intern \\
-\textbf{Industry Context \& Update:} Freight dispatchers require autonomous agents capable of reasoning step-by-step and calling external live APIs (tracking, delay monitoring, ETA computation).
+\subsection*{1. Title Objective}
+\textbf{Agentic Workflow Engineer Intern}: Complete work that simulates life on the job. Gain insights into leveraging LangGraph as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build a ReAct (Reason + Act) agent loop from scratch using LangGraph that alternates between reasoning steps, tool invocation (mock shipment API), and observation processing until answering user tracking queries.
+\subsection*{2. About the Business}
+\textbf{Company:} OmniRoute Logistics (Supply Chain \& Freight)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Implement the fundamental ReAct cycle (Thought $\rightarrow$ Action $\rightarrow$ Observation).
-    \item Connect custom Python functions as tools within an agent graph.
-\end{itemize}
+OmniRoute Logistics is a global leader in Supply Chain \& Freight, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at OmniRoute Logistics. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangGraph.
+
+The programme will show you what kind of problems are solved at OmniRoute Logistics on a day-to-day basis. Specifically, freight dispatchers require autonomous agents capable of reasoning step-by-step and calling external live apis (tracking, delay monitoring, eta computation). This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@omniroute.com}{microinternships@omniroute.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangGraph
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build a ReAct (Reason + Act) agent loop from scratch using LangGraph that alternates between reasoning steps, tool invocation (mock shipment API), and observation processing until answering user tracking queries.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Define reasoning nodes, tool calling nodes, and conditional execution edges.
     \item Test with multi-step freight tracking questions requiring external API queries.
     \item Submit notebook (\texttt{react\_agent.ipynb}) and execution trace log.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Implement the fundamental ReAct cycle (Thought $\rightarrow$ Action $\rightarrow$ Observation).
+    \item Connect custom Python functions as tools within an agent graph.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Name the 3 phases of the ReAct execution loop.
     \item Why is the observation phase critical before the agent takes its next reasoning step?
@@ -314,27 +419,42 @@ Build a ReAct (Reason + Act) agent loop from scratch using LangGraph that altern
 
 % Module 8
 \begin{tcolorbox}[title={Module 8: Reflexion Agent Self-Critique Advisory Loop}]
-\textbf{Company:} Apex Strategy Consulting (Management Advisory) \\
-\textbf{Role:} AI Strategy Advisory Intern \\
-\textbf{Industry Context \& Update:} Top-tier management consultancies automate draft deliverable quality control using self-reflection patterns (Reflexion), iteratively critiquing and polishing strategy recommendations.
+\subsection*{1. Title Objective}
+\textbf{AI Strategy Advisory Intern}: Complete work that simulates life on the job. Gain insights into leveraging LangGraph as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Construct a two-node LangGraph loop (Responder \& Reviser) with max-iteration control that drafts a market entry brief, evaluates its own output against advisory standards, and refines the draft iteratively.
+\subsection*{2. About the Business}
+\textbf{Company:} Apex Strategy Consulting (Management Advisory)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Implement self-reflection and iterative critique patterns in LLM graphs.
-    \item Apply bounded iteration control guards to prevent infinite loop execution.
-\end{itemize}
+Apex Strategy Consulting is a global leader in Management Advisory, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at Apex Strategy Consulting. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangGraph.
+
+The programme will show you what kind of problems are solved at Apex Strategy Consulting on a day-to-day basis. Specifically, top-tier management consultancies automate draft deliverable quality control using self-reflection patterns (reflexion), iteratively critiquing and polishing strategy recommendations. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@apex.com}{microinternships@apex.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangGraph
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Construct a two-node LangGraph loop (Responder \& Reviser) with max-iteration control that drafts a market entry brief, evaluates its own output against advisory standards, and refines the draft iteratively.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Build a responder node and critique/reviser node loop.
     \item Log each iteration's draft and self-critique score.
     \item Submit notebook (\texttt{reflexion\_consulting.ipynb}) showing at least 2 critique-revision cycles.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Implement self-reflection and iterative critique patterns in LLM graphs.
+    \item Apply bounded iteration control guards to prevent infinite loop execution.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item What risks exist if a self-critique loop lacks a \texttt{MAX\_ITERATIONS} limit?
     \item How does automated self-critique differ from human-in-the-loop validation?
@@ -345,27 +465,42 @@ Construct a two-node LangGraph loop (Responder \& Reviser) with max-iteration co
 
 % Module 9
 \begin{tcolorbox}[title={Module 9: Supervisor Multi-Agent System for Plant Operations}]
-\textbf{Company:} Apex Dynamics Industrial (Smart Manufacturing) \\
-\textbf{Role:} Multi-Agent Systems Intern \\
-\textbf{Industry Context \& Update:} Modern industrial manufacturing plants deploy hierarchical multi-agent teams where a Supervisor routes plant breakdown inquiries to specialist agents (Searcher, Log Coder, Validator).
+\subsection*{1. Title Objective}
+\textbf{Multi-Agent Systems Intern}: Complete work that simulates life on the job. Gain insights into leveraging LangGraph as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Construct a hierarchical multi-agent supervisor network in LangGraph where a central Supervisor orchestrates specialized worker agents (Research Agent, Python REPL Log Analyzer, Quality Validator Agent).
+\subsection*{2. About the Business}
+\textbf{Company:} Apex Dynamics Industrial (Smart Manufacturing)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Build multi-agent orchestration graphs with dynamic routing.
-    \item Enforce schema-validated task delegation across specialized sub-agents.
-\end{itemize}
+Apex Dynamics Industrial is a global leader in Smart Manufacturing, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at Apex Dynamics Industrial. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangGraph.
+
+The programme will show you what kind of problems are solved at Apex Dynamics Industrial on a day-to-day basis. Specifically, modern industrial manufacturing plants deploy hierarchical multi-agent teams where a supervisor routes plant breakdown inquiries to specialist agents (searcher, log coder, validator). This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@apex.com}{microinternships@apex.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangGraph
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Construct a hierarchical multi-agent supervisor network in LangGraph where a central Supervisor orchestrates specialized worker agents (Research Agent, Python REPL Log Analyzer, Quality Validator Agent).
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Implement Supervisor, Coder, Researcher, and Validator nodes.
     \item Route a mixed query ("Research breakdown causes on Line 3 and analyze sensor logs") end-to-end.
     \item Submit notebook (\texttt{supervisor\_multiagent.ipynb}) and architecture diagram.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Build multi-agent orchestration graphs with dynamic routing.
+    \item Enforce schema-validated task delegation across specialized sub-agents.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why choose a supervisor-worker architecture over a single large monolithic prompt?
     \item What quality failures does the Validator node protect against?
@@ -376,27 +511,42 @@ Construct a hierarchical multi-agent supervisor network in LangGraph where a cen
 
 % Module 10
 \begin{tcolorbox}[title={Module 10: Human-in-the-Loop Trade Approval Workflow}]
-\textbf{Company:} QuantCapital Trading (Financial Services) \\
-\textbf{Role:} AI Risk \& Governance Intern \\
-\textbf{Industry Context \& Update:} Autonomous financial trading execution requires mandatory human sign-off checkpoints (HITL) before submitting high-value stock trades or capital transfers.
+\subsection*{1. Title Objective}
+\textbf{AI Risk \& Governance Intern}: Complete work that simulates life on the job. Gain insights into leveraging LangGraph as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build a LangGraph workflow incorporating \texttt{interrupt()} checkpoints that prepares stock order payloads, halts graph execution for human review, and resumes or halts execution based on manual approval.
+\subsection*{2. About the Business}
+\textbf{Company:} QuantCapital Trading (Financial Services)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Implement Human-in-the-Loop (HITL) interrupt and resume patterns in LangGraph.
-    \item Ensure regulatory compliance in automated execution systems.
-\end{itemize}
+QuantCapital Trading is a global leader in Financial Services, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at QuantCapital Trading. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangGraph.
+
+The programme will show you what kind of problems are solved at QuantCapital Trading on a day-to-day basis. Specifically, autonomous financial trading execution requires mandatory human sign-off checkpoints (hitl) before submitting high-value stock trades or capital transfers. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@quantcapital.com}{microinternships@quantcapital.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangGraph
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build a LangGraph workflow incorporating \texttt{interrupt()} checkpoints that prepares stock order payloads, halts graph execution for human review, and resumes or halts execution based on manual approval.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Build trade preparation graph with an explicit interrupt state node.
     \item Execute two test scenarios: one approved by human input and one rejected.
     \item Submit notebook (\texttt{hitl\_trade\_approval.ipynb}) and interactive run logs.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Implement Human-in-the-Loop (HITL) interrupt and resume patterns in LangGraph.
+    \item Ensure regulatory compliance in automated execution systems.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why is state machine interruption preferred over blocking \texttt{input()} calls in web applications?
     \item How does LangGraph maintain state during interrupted execution sessions?
@@ -407,27 +557,42 @@ Build a LangGraph workflow incorporating \texttt{interrupt()} checkpoints that p
 
 % Module 11
 \begin{tcolorbox}[title={Module 11: Text Chunking Benchmark for Medical Device Manuals}]
-\textbf{Company:} BioMedix Devices (Medical Equipment) \\
-\textbf{Role:} RAG Evaluation \& Benchmarking Intern \\
-\textbf{Industry Context \& Update:} Technical support for medical devices demands high precision when searching Instructions for Use (IFU) manuals. The choice of chunking strategy directly impacts retrieval recall and safety.
+\subsection*{1. Title Objective}
+\textbf{RAG Evaluation \& Benchmarking Intern}: Complete work that simulates life on the job. Gain insights into leveraging LangChain as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Implement and systematically compare 4 text chunking strategies (Fixed-Size, Recursive Character, Sliding Window, and Semantic Chunking) on a complex medical device manual, evaluating downstream QA precision.
+\subsection*{2. About the Business}
+\textbf{Company:} BioMedix Devices (Medical Equipment)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Implement advanced text splitting techniques in LangChain.
-    \item Evaluate vector retrieval recall and precision across chunking strategies.
-\end{itemize}
+BioMedix Devices is a global leader in Medical Equipment, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at BioMedix Devices. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangChain.
+
+The programme will show you what kind of problems are solved at BioMedix Devices on a day-to-day basis. Specifically, technical support for medical devices demands high precision when searching instructions for use (ifu) manuals. the choice of chunking strategy directly impacts retrieval recall and safety. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@biomedix.com}{microinternships@biomedix.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangChain
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Implement and systematically compare 4 text chunking strategies (Fixed-Size, Recursive Character, Sliding Window, and Semantic Chunking) on a complex medical device manual, evaluating downstream QA precision.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Process a sample device manual using 4 distinct chunking splitters.
     \item Run 5 benchmark queries across all 4 vector indexes and compare accuracy.
     \item Submit notebook (\texttt{chunking\_benchmark.ipynb}) and comparative analysis report.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Implement advanced text splitting techniques in LangChain.
+    \item Evaluate vector retrieval recall and precision across chunking strategies.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why does semantic chunking often outperform fixed-character splitting for technical manuals?
     \item Trade-offs between small chunk sizes (high precision) and large chunk sizes (high context)?
@@ -438,27 +603,42 @@ Implement and systematically compare 4 text chunking strategies (Fixed-Size, Rec
 
 % Module 12
 \begin{tcolorbox}[title={Module 12: Custom MCP Server for Telecom Configuration Management}]
-\textbf{Company:} TelcoNet Systems (Telecommunications) \\
-\textbf{Role:} MCP Protocol Developer Intern \\
-\textbf{Industry Context \& Update:} Telecom Network Operations Centers (NOCs) leverage the open Model Context Protocol (MCP) standard to safely expose configuration file operations to AI models via stdio transport.
+\subsection*{1. Title Objective}
+\textbf{MCP Protocol Developer Intern}: Complete work that simulates life on the job. Gain insights into leveraging Model Context Protocol (MCP) as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build a Model Context Protocol (MCP) server in Python using the official MCP SDK exposing tool endpoints (\texttt{read\_file}, \texttt{write\_file}, \texttt{find\_replace}, \texttt{list\_dir}) scoped to network router configs.
+\subsection*{2. About the Business}
+\textbf{Company:} TelcoNet Systems (Telecommunications)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Understand Model Context Protocol architecture (Server, Client, Host).
-    \item Build stdio-based tool servers using decorators and JSON-RPC over stdio.
-\end{itemize}
+TelcoNet Systems is a global leader in Telecommunications, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at TelcoNet Systems. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, Model Context Protocol (MCP).
+
+The programme will show you what kind of problems are solved at TelcoNet Systems on a day-to-day basis. Specifically, telecom network operations centers (nocs) leverage the open model context protocol (mcp) standard to safely expose configuration file operations to ai models via stdio transport. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@telconet.com}{microinternships@telconet.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, Model Context Protocol (MCP)
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build a Model Context Protocol (MCP) server in Python using the official MCP SDK exposing tool endpoints (\texttt{read\_file}, \texttt{write\_file}, \texttt{find\_replace}, \texttt{list\_dir}) scoped to network router configs.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Create an MCP server exposing file tools scoped to a configuration folder.
     \item Connect an MCP client (or Claude Desktop) and test tool calls.
     \item Submit server code (\texttt{mcp\_file\_server.py}) and client interaction log.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Understand Model Context Protocol architecture (Server, Client, Host).
+    \item Build stdio-based tool servers using decorators and JSON-RPC over stdio.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item What structural problems does the open MCP standard solve compared to custom tool calling APIs?
     \item How does stdio transport work in local MCP server environments?
@@ -469,27 +649,42 @@ Build a Model Context Protocol (MCP) server in Python using the official MCP SDK
 
 % Module 13
 \begin{tcolorbox}[title={Module 13: Full-Stack Vehicle Diagnostic App with FastAPI + Gemini + MCP}]
-\textbf{Company:} DriveTech Motors (Automotive Services) \\
-\textbf{Role:} Full-Stack GenAI Intern \\
-\textbf{Industry Context \& Update:} Modern automotive diagnostic centers connect dealership REST backends with LLM reasoning engines and MCP servers to query vehicle telemetry data seamlessly.
+\subsection*{1. Title Objective}
+\textbf{Full-Stack GenAI Intern}: Complete work that simulates life on the job. Gain insights into leveraging Gemini / DeepSeek as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build a full-stack REST service in FastAPI where a \texttt{/query} endpoint receives vehicle complaints, invokes a Gemini LLM client, connects to an MCP diagnostic server tool, and returns structured diagnosis data.
+\subsection*{2. About the Business}
+\textbf{Company:} DriveTech Motors (Automotive Services)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Integrate FastAPI, Gemini LLM SDK, and Model Context Protocol (MCP) clients.
-    \item Manage async lifespans and CORS middleware in production backend APIs.
-\end{itemize}
+DriveTech Motors is a global leader in Automotive Services, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at DriveTech Motors. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, Model Context Protocol (MCP), FastAPI, Gemini / DeepSeek.
+
+The programme will show you what kind of problems are solved at DriveTech Motors on a day-to-day basis. Specifically, modern automotive diagnostic centers connect dealership rest backends with llm reasoning engines and mcp servers to query vehicle telemetry data seamlessly. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@drivetech.com}{microinternships@drivetech.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, Model Context Protocol (MCP), FastAPI, Gemini / DeepSeek
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build a full-stack REST service in FastAPI where a \texttt{/query} endpoint receives vehicle complaints, invokes a Gemini LLM client, connects to an MCP diagnostic server tool, and returns structured diagnosis data.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Implement FastAPI backend connecting MCP vehicle diagnostic tool server.
     \item Expose \texttt{POST /query} and \texttt{GET /tools} endpoints.
     \item Submit API backend code and Postman/curl call logs.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Integrate FastAPI, Gemini LLM SDK, and Model Context Protocol (MCP) clients.
+    \item Manage async lifespans and CORS middleware in production backend APIs.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Trace request flow: \texttt{Frontend} $\rightarrow$ \texttt{FastAPI} $\rightarrow$ \texttt{MCP Client} $\rightarrow$ \texttt{MCP Server} $\rightarrow$ \texttt{LLM}.
     \item Why is asynchronous context management essential for MCP client-server lifecycles?
@@ -500,27 +695,42 @@ Build a full-stack REST service in FastAPI where a \texttt{/query} endpoint rece
 
 % Module 14
 \begin{tcolorbox}[title={Module 14: Personalization Engine with Mem0 Hybrid Memory}]
-\textbf{Company:} WanderLust Global (Tourism \& Hospitality) \\
-\textbf{Role:} Personalization AI Intern \\
-\textbf{Industry Context \& Update:} Next-generation travel concierge bots combine short-term conversational context with long-term vector memory (Mem0) to recall persistent user preferences (e.g. seating, dietary needs, hotel tier).
+\subsection*{1. Title Objective}
+\textbf{Personalization AI Intern}: Complete work that simulates life on the job. Gain insights into leveraging Mem0 as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Develop a hybrid memory travel chatbot using Mem0 and a vector database that automatically extracts, stores, and retrieves traveler preferences across distinct user sessions.
+\subsection*{2. About the Business}
+\textbf{Company:} WanderLust Global (Tourism \& Hospitality)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Implement long-term memory extraction and vector indexing using Mem0.
-    \item Combine long-term retrieved memory with active short-term prompt context.
-\end{itemize}
+WanderLust Global is a global leader in Tourism \& Hospitality, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at WanderLust Global. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, Mem0.
+
+The programme will show you what kind of problems are solved at WanderLust Global on a day-to-day basis. Specifically, next-generation travel concierge bots combine short-term conversational context with long-term vector memory (mem0) to recall persistent user preferences (e.g. seating, dietary needs, hotel tier). This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@wanderlust.com}{microinternships@wanderlust.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, Mem0
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Develop a hybrid memory travel chatbot using Mem0 and a vector database that automatically extracts, stores, and retrieves traveler preferences across distinct user sessions.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Configure Mem0 memory store with a vector store backend.
     \item Demonstrate preference retention across two separated user chat sessions.
     \item Submit notebook (\texttt{mem0\_travel\_concierge.ipynb}) and memory retrieval log.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Implement long-term memory extraction and vector indexing using Mem0.
+    \item Combine long-term retrieved memory with active short-term prompt context.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item How does hybrid memory differ from passing sliding-window chat history?
     \item Why is vector search preferred over traditional key-value stores for long-term agent memory?
@@ -531,27 +741,42 @@ Develop a hybrid memory travel chatbot using Mem0 and a vector database that aut
 
 % Module 15
 \begin{tcolorbox}[title={Module 15: Quantitative Math Reasoning Agent with JSON Output}]
-\textbf{Company:} AeroSpace Dynamics (Aerospace & Flight Operations) \\
-\textbf{Role:} Flight Operations AI Intern \\
-\textbf{Industry Context \& Update:} Flight operations teams require strict, auditable quantitative calculations (fuel burn rate, payload balance, climb gradient) using reasoning models (DeepSeek-R1 / Gemini 2.0 Thinking) with structured JSON output.
+\subsection*{1. Title Objective}
+\textbf{Flight Operations AI Intern}: Complete work that simulates life on the job. Gain insights into leveraging Gemini / DeepSeek as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Develop a flight operations calculation agent using reasoning-focused models to solve complex multi-step physics/math word problems, enforcing step-by-step JSON outputs for audit logs.
+\subsection*{2. About the Business}
+\textbf{Company:} AeroSpace Dynamics (Aerospace & Flight Operations)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Utilize reasoning-distilled models for quantitative problem solving.
-    \item Enforce structured JSON output containing explicit step-by-step reasoning arrays.
-\end{itemize}
+AeroSpace Dynamics is a global leader in Aerospace & Flight Operations, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at AeroSpace Dynamics. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, Gemini / DeepSeek.
+
+The programme will show you what kind of problems are solved at AeroSpace Dynamics on a day-to-day basis. Specifically, flight operations teams require strict, auditable quantitative calculations (fuel burn rate, payload balance, climb gradient) using reasoning models (deepseek-r1 / gemini 2.0 thinking) with structured json output. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@aerospace.com}{microinternships@aerospace.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, Gemini / DeepSeek
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Develop a flight operations calculation agent using reasoning-focused models to solve complex multi-step physics/math word problems, enforcing step-by-step JSON outputs for audit logs.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Design prompt requiring structured math reasoning in valid JSON.
     \item Evaluate on 5 flight-ops calculation problems and save output JSON files.
     \item Submit notebook (\texttt{aerospace\_math\_agent.ipynb}) and generated JSON logs.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Utilize reasoning-distilled models for quantitative problem solving.
+    \item Enforce structured JSON output containing explicit step-by-step reasoning arrays.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why are reasoning-distilled models better suited for multi-step math problems than standard chat models?
     \item How should applications handle cases where reasoning models output invalid JSON?
@@ -562,27 +787,42 @@ Develop a flight operations calculation agent using reasoning-focused models to 
 
 % Module 16
 \begin{tcolorbox}[title={Module 16: Dynamic Prompt Templating \& Dual-LLM Benchmarking}]
-\textbf{Company:} FlavorCraft Foods (Food \& Beverage R\&D) \\
-\textbf{Role:} Prompt Engineering Intern \\
-\textbf{Industry Context \& Update:} Consumer food R\&D teams evaluate competing LLM models (e.g. Gemini 1.5 vs Groq Llama-3.3) side-by-side using dynamic prompt templates to compare recipe formulation outputs.
+\subsection*{1. Title Objective}
+\textbf{Prompt Engineering Intern}: Complete work that simulates life on the job. Gain insights into leveraging Gemini / DeepSeek as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build a dual-LLM comparison dashboard that formats a single dynamic prompt template and dispatches concurrent queries to two distinct LLM providers, rendering side-by-side outputs.
+\subsection*{2. About the Business}
+\textbf{Company:} FlavorCraft Foods (Food \& Beverage R\&D)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Design reusable system and human message prompt templates.
-    \item Benchmark output quality across distinct LLM model backends.
-\end{itemize}
+FlavorCraft Foods is a global leader in Food \& Beverage R\&D, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at FlavorCraft Foods. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, Gemini / DeepSeek.
+
+The programme will show you what kind of problems are solved at FlavorCraft Foods on a day-to-day basis. Specifically, consumer food r\&d teams evaluate competing llm models (e.g. gemini 1.5 vs groq llama-3.3) side-by-side using dynamic prompt templates to compare recipe formulation outputs. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@flavorcraft.com}{microinternships@flavorcraft.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, Gemini / DeepSeek
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build a dual-LLM comparison dashboard that formats a single dynamic prompt template and dispatches concurrent queries to two distinct LLM providers, rendering side-by-side outputs.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Construct a shared \texttt{ChatPromptTemplate} with dynamic slots.
     \item Execute concurrent model calls to Gemini and Groq/Llama endpoints.
     \item Submit notebook (\texttt{dual\_llm\_comparison.ipynb}) showing side-by-side transcripts.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Design reusable system and human message prompt templates.
+    \item Benchmark output quality across distinct LLM model backends.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why is decoupling prompt templates from LLM execution logic considered an engineering best practice?
     \item What architectural factors cause variance between model responses given identical prompt inputs?
@@ -593,27 +833,42 @@ Build a dual-LLM comparison dashboard that formats a single dynamic prompt templ
 
 % Module 17
 \begin{tcolorbox}[title={Module 17: Cloud-Native Chat Persistence with Firebase Firestore}]
-\textbf{Company:} QuickBite QSR (Quick Service Restaurants) \\
-\textbf{Role:} Cloud Conversational AI Intern \\
-\textbf{Industry Context \& Update:} Fast-food chains require cloud-persisted chat sessions across mobile apps and self-service kiosks using scalable NoSQL databases like Google Cloud Firebase Firestore.
+\subsection*{1. Title Objective}
+\textbf{Cloud Conversational AI Intern}: Complete work that simulates life on the job. Gain insights into leveraging Firebase Firestore as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build an ordering assistant chatbot that saves and retrieves conversation history to/from Firebase Firestore NoSQL collections, allowing users to resume orders across devices seamlessly.
+\subsection*{2. About the Business}
+\textbf{Company:} QuickBite QSR (Quick Service Restaurants)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Integrate cloud NoSQL databases (Firestore) for conversation persistence.
-    \item Structure conversational state and history in document-oriented collections.
-\end{itemize}
+QuickBite QSR is a global leader in Quick Service Restaurants, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at QuickBite QSR. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, Firebase Firestore.
+
+The programme will show you what kind of problems are solved at QuickBite QSR on a day-to-day basis. Specifically, fast-food chains require cloud-persisted chat sessions across mobile apps and self-service kiosks using scalable nosql databases like google cloud firebase firestore. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@quickbite.com}{microinternships@quickbite.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, Firebase Firestore
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build an ordering assistant chatbot that saves and retrieves conversation history to/from Firebase Firestore NoSQL collections, allowing users to resume orders across devices seamlessly.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Configure Firebase admin SDK and Firestore collection schemas.
     \item Test closing and reopening sessions, verifying chat history reload from Firestore.
     \item Submit notebook (\texttt{firebase\_qsr\_chat.ipynb}) and Firestore database console screenshot.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Integrate cloud NoSQL databases (Firestore) for conversation persistence.
+    \item Structure conversational state and history in document-oriented collections.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why choose cloud NoSQL stores (Firestore) over embedded local databases (SQLite) for mobile applications?
     \item Describe your proposed Firestore document schema for user chat sessions.
@@ -624,27 +879,42 @@ Build an ordering assistant chatbot that saves and retrieves conversation histor
 
 % Module 18
 \begin{tcolorbox}[title={Module 18: TypeScript MCP Weather Server for Node.js}]
-\textbf{Company:} SkyWay Travel (Tourism Tech) \\
-\textbf{Role:} TypeScript \& Node.js AI Developer Intern \\
-\textbf{Industry Context \& Update:} Modern Node.js web applications leverage the TypeScript Model Context Protocol SDK and Zod validation schemas to build robust MCP tool servers for client models.
+\subsection*{1. Title Objective}
+\textbf{TypeScript \& Node.js AI Developer Intern}: Complete work that simulates life on the job. Gain insights into leveraging TypeScript as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build a Model Context Protocol server in TypeScript/Node.js using \texttt{@modelcontextprotocol/sdk} and \texttt{Zod} that exposes a \texttt{get\_weather\_by\_city} tool over stdio transport.
+\subsection*{2. About the Business}
+\textbf{Company:} SkyWay Travel (Tourism Tech)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Implement MCP servers in TypeScript/Node.js ecosystems.
-    \item Enforce runtime input validation using Zod schemas for tool parameters.
-\end{itemize}
+SkyWay Travel is a global leader in Tourism Tech, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at SkyWay Travel. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, Model Context Protocol (MCP), Node.js, TypeScript.
+
+The programme will show you what kind of problems are solved at SkyWay Travel on a day-to-day basis. Specifically, modern node.js web applications leverage the typescript model context protocol sdk and zod validation schemas to build robust mcp tool servers for client models. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@skyway.com}{microinternships@skyway.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, Model Context Protocol (MCP), Node.js, TypeScript
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build a Model Context Protocol server in TypeScript/Node.js using \texttt{@modelcontextprotocol/sdk} and \texttt{Zod} that exposes a \texttt{get\_weather\_by\_city} tool over stdio transport.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Create TypeScript MCP project with tool handlers and Zod validation schemas.
     \item Verify stdio tool invocation from an MCP client host.
     \item Submit TypeScript server codebase and execution log.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Implement MCP servers in TypeScript/Node.js ecosystems.
+    \item Enforce runtime input validation using Zod schemas for tool parameters.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why is runtime schema validation (Zod) essential for tool inputs in MCP servers?
     \item How does stdio transport differ from HTTP SSE transport in MCP implementations?
@@ -655,27 +925,42 @@ Build a Model Context Protocol server in TypeScript/Node.js using \texttt{@model
 
 % Module 19
 \begin{tcolorbox}[title={Module 19: Competitor Price Monitoring Agent with Serper API}]
-\textbf{Company:} PriceWatch Retail (Market Intelligence) \\
-\textbf{Role:} Market Intelligence AI Intern \\
-\textbf{Industry Context \& Update:} E-commerce analytics teams automate price tracking by chaining search APIs (Serper API), HTML scraper tools (BeautifulSoup), and LLM summarization chains.
+\subsection*{1. Title Objective}
+\textbf{Market Intelligence AI Intern}: Complete work that simulates life on the job. Gain insights into leveraging Serper API as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Build an automated research agent that takes a pricing query (e.g., "latest discount trends on wireless earbuds"), searches the web via Serper API, scrapes top result pages, and generates a structured competitive report.
+\subsection*{2. About the Business}
+\textbf{Company:} PriceWatch Retail (Market Intelligence)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Combine Search APIs, web scraping, and LLM text processing into an agent.
-    \item Handle unstructured web content extraction and source citation compilation.
-\end{itemize}
+PriceWatch Retail is a global leader in Market Intelligence, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at PriceWatch Retail. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, Serper API.
+
+The programme will show you what kind of problems are solved at PriceWatch Retail on a day-to-day basis. Specifically, e-commerce analytics teams automate price tracking by chaining search apis (serper api), html scraper tools (beautifulsoup), and llm summarization chains. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@pricewatch.com}{microinternships@pricewatch.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, Serper API
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Build an automated research agent that takes a pricing query (e.g., "latest discount trends on wireless earbuds"), searches the web via Serper API, scrapes top result pages, and generates a structured competitive report.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Construct research pipeline querying Serper API and scraping top URLs.
     \item Synthesize multi-source information into a formatted report with source links.
     \item Submit notebook (\texttt{market\_research\_agent.ipynb}) and sample research output report.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Combine Search APIs, web scraping, and LLM text processing into an agent.
+    \item Handle unstructured web content extraction and source citation compilation.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item Why is a structured Search API preferred over directly scraping search engine result pages?
     \item What legal and technical challenges arise when scraping arbitrary web pages?
@@ -686,27 +971,42 @@ Build an automated research agent that takes a pricing query (e.g., "latest disc
 
 % Module 20
 \begin{tcolorbox}[title={Module 20: Nested Subgraph Multi-Agent Architecture for Enterprise Claims}]
-\textbf{Company:} OmniInsurance Group (Enterprise Insurance) \\
-\textbf{Role:} Enterprise Agent Architect Intern \\
-\textbf{Industry Context \& Update:} Enterprise platforms manage complex workflows by nesting specialized multi-node subgraphs (e.g. damage assessment sub-workflow) inside outer supervisor graphs.
+\subsection*{1. Title Objective}
+\textbf{Enterprise Agent Architect Intern}: Complete work that simulates life on the job. Gain insights into leveraging LangGraph as a tool for making informed business decisions.
 
-\subsection*{Problem Statement}
-Architect a two-level LangGraph system where an outer supervisor graph routes high-level claims processing, invoking a compiled multi-node damage-assessment subgraph as a single modular node.
+\subsection*{2. About the Business}
+\textbf{Company:} OmniInsurance Group (Enterprise Insurance)
 
-\subsection*{Key Learning Outcomes}
-\begin{itemize}[noitemsep]
-    \item Compose complex modular agent architectures using nested LangGraph subgraphs.
-    \item Manage hierarchical state passing and parent-child state synchronization.
-\end{itemize}
+OmniInsurance Group is a global leader in Enterprise Insurance, operating across multiple regions with a mission to innovate and deliver long-term stakeholder value. With enterprise-scale operations, the company employs thousands of professionals and is widely recognized as a market leader in its sector.
 
-\subsection*{Tasks \& Expected Deliverables}
+This job simulation is with the specialized AI and Engineering division at OmniInsurance Group. You will gain insight into how our passionate multi-disciplinary experts solve some of the most complex business problems using cutting-edge solutions, such as Python, Generative AI, LLMs, LangGraph.
+
+The programme will show you what kind of problems are solved at OmniInsurance Group on a day-to-day basis. Specifically, enterprise platforms manage complex workflows by nesting specialized multi-node subgraphs (e.g. damage assessment sub-workflow) inside outer supervisor graphs. This module will attempt to emulate the real-world engineering challenges you will face in production.
+
+If you would like to connect with our team to find out more information, please email \href{mailto:microinternships@omniinsurance.com}{microinternships@omniinsurance.com}.
+
+\subsection*{3. Tools \& Technology Stack}
+\textbf{Technologies:} Python, Generative AI, LLMs, LangGraph
+
+\subsection*{4. Tasks \& Objectives}
+\textbf{Technical Problem Statement:} Architect a two-level LangGraph system where an outer supervisor graph routes high-level claims processing, invoking a compiled multi-node damage-assessment subgraph as a single modular node.
+
+\textbf{Timeline:} 3-4 hours, Self-paced \\
+\textbf{Deliverables:}
 \begin{enumerate}[noitemsep]
     \item Build inner damage-assessment subgraph (Research $\rightarrow$ Estimate $\rightarrow$ Summarize).
     \item Wrap subgraph and mount as a node inside an outer supervisor graph.
     \item Submit notebook (\texttt{nested\_subgraph\_claims.ipynb}) and complete state log.
 \end{enumerate}
 
-\subsection*{Knowledge Evaluation}
+\subsection*{5. Primary Evaluation Criteria}
+\textbf{Key Learning Outcomes:}
+\begin{itemize}[noitemsep]
+    \item Compose complex modular agent architectures using nested LangGraph subgraphs.
+    \item Manage hierarchical state passing and parent-child state synchronization.
+\end{itemize}
+
+\textbf{Knowledge Evaluation:}
 \begin{enumerate}[noitemsep]
     \item What architectural advantages does nesting subgraphs offer over expanding a single giant graph?
     \item How is state isolated and communicated between outer graphs and inner subgraphs in LangGraph?
