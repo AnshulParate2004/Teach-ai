@@ -132,9 +132,13 @@ function mapSubmission(s: any, problemTitle: string, problemNumber?: string): Su
 export async function createSubmission(input: {
   problemId: string;
   file: File;
+  quizScore?: number;
 }): Promise<Submission> {
   const formData = new FormData();
   formData.append("file", input.file);
+  if (input.quizScore !== undefined) {
+    formData.append("quiz_score", input.quizScore.toString());
+  }
   
   const s = await apiFetch(`/submissions?problem_id=${input.problemId}`, {
     method: "POST",

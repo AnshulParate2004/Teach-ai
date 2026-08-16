@@ -64,7 +64,7 @@ function ProblemPage() {
     if (!file) return;
     setSubmitting(true);
     try {
-      const sub = await createSubmission({ problemId: problem.id, file });
+      const sub = await createSubmission({ problemId: problem.id, file, quizScore: testSubmitted ? testScore : 0 });
       toast.success("Notebook uploaded", { description: "Grading pipeline started." });
       navigate({ to: "/submissions/$id", params: { id: sub.id } });
     } catch (err: any) {
@@ -123,8 +123,6 @@ function ProblemPage() {
               <div className="mb-8 flex flex-wrap items-center gap-4 text-sm font-medium text-muted-foreground">
                 <span className="flex items-center gap-1"><Clock className="size-4"/> Self-paced</span>
                 <span className="flex items-center gap-1"><Clock className="size-4"/> {problem.estimatedTime}</span>
-                <span className="flex items-center gap-1"><CheckCircle className="size-4"/> No grades</span>
-                <span className="flex items-center gap-1"><CheckCircle className="size-4"/> No assessments</span>
                 <DifficultyBadge level={problem.difficulty} />
               </div>
 
@@ -177,23 +175,7 @@ function ProblemPage() {
                 </div>
               )}
 
-              {/* ROI Stats */}
-              {problem.roi_stats?.length > 0 && (
-                <div className="mb-12">
-                  <div className="mb-8 text-center">
-                    <h2 className="text-2xl font-bold text-foreground mb-2">Quantifiable value for your institution</h2>
-                    <p className="text-sm text-muted-foreground max-w-xl mx-auto">The {problem.title} boosts productivity, consistency, and success rates through intelligent automation.</p>
-                  </div>
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
-                    {problem.roi_stats.map((stat) => (
-                      <div key={stat.value + stat.desc} className="rounded-2xl border border-border bg-card p-6">
-                        <div className="text-4xl font-bold text-primary mb-2">{stat.value}</div>
-                        <p className="text-xs text-muted-foreground leading-relaxed">{stat.desc}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+
 
               {/* Outcomes Grid */}
               {problem.outcomes?.length > 0 && (

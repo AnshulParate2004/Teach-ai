@@ -11,8 +11,8 @@ from app.services.grading import grade_notebook
 
 logger = logging.getLogger(__name__)
 
-async def grade_submission(submission_id: uuid.UUID):
-    logger.info(f"Background worker started for submission {submission_id}")
+async def grade_submission(submission_id: uuid.UUID, quiz_score: int = 0):
+    logger.info(f"Background worker started for submission {submission_id} with quiz score {quiz_score}")
     
     async with AsyncSessionLocal() as db:
         # Fetch submission and related problem
@@ -46,12 +46,29 @@ async def grade_submission(submission_id: uuid.UUID):
                 execution_log=execution_log
             )
             
+            task_score = grade_json.get("total_score", 0)
+            task_max = grade_json.get("max_score", 100)
+            
+            # Apply 60/40 split
+            task_pct = task_score / task_max if task_max > 0 else 0
+            quiz_pct = quiz_score / 10.0
+            
+            final_total = (task_pct * 0.60 + quiz_pct * 0.40) * 100
+            
+            criteria = grade_json.get("criteria", [])
+            criteria.append({
+                "name": "Knowledge Assessment (Quiz)",
+                "score": quiz_score * 10,
+                "max": 100,
+                "comment": f"Scored {quiz_score} out of 10 on the Knowledge Assessment."
+            })
+            
             # Save grade
             grade = Grade(
                 submission_id=submission.id,
-                total_score=grade_json.get("total_score", 0),
-                max_score=grade_json.get("max_score", 100),
-                criteria_breakdown=grade_json.get("criteria", []),
+                total_score=final_total,
+                max_score=100,
+                criteria_breakdown=criteria,
                 ai_feedback=grade_json.get("overall_feedback", ""),
                 execution_log=execution_log
             )

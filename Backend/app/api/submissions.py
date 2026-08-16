@@ -33,11 +33,14 @@ async def list_submissions(
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, BackgroundTasks, Form
+
 @router.post("", response_model=SubmissionResponse)
 async def create_submission(
     problem_id: str,
     background_tasks: BackgroundTasks,
     file: UploadFile = File(...),
+    quiz_score: int = Form(default=0),
     current_user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db)
 ):
@@ -80,8 +83,8 @@ async def create_submission(
     submission_loaded = result.scalars().first()
 
     # Kick off background job
-    # We pass the submission id to the background worker
-    background_tasks.add_task(grade_submission, submission_loaded.id)
+    # We pass the submission id and quiz_score to the background worker
+    background_tasks.add_task(grade_submission, submission_loaded.id, quiz_score)
 
     return submission_loaded
 
