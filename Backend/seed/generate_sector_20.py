@@ -40,7 +40,7 @@ problems_raw = [{'number': '1',
             'product team. Create a demo showcasing the agent’s functionalities and explain its design choices. **Student Assignment:** Develop a '
             'short presentation and record a demo of the agent performing key tasks, showcasing its memory, goal-setting, and instructional '
             'capabilities. Highlight responsible AI features. **Deliverable:** - Presentation slides (5-10 slides) covering agent design, features, '
-            'and responsible AI considerations. - A video demo (3-5 minutes) showing the agent in action. — ## 3'],
+            'and responsible AI considerations.'],
   'submission_instructions': [],
   'knowledge_test': [],
   'learn': ['Analyze Design & UI/UX workflows to identify Agentic AI opportunities',
