@@ -66,6 +66,18 @@ function ProblemPage() {
   const [testScore, setTestScore] = useState(0);
   const navigate = useNavigate();
 
+  const baseSkills = problem.learn && problem.learn.length > 0 ? problem.learn : [
+    "Industry context and workflow mapping",
+    "Data extraction and insight generation",
+    "Professional deliverable creation"
+  ];
+  
+  const technicalSkills = problem.tags 
+    ? problem.tags.filter(t => t !== "SkillForge AI Mentor") 
+    : ["Prompt engineering and AI integration"];
+    
+  const allSkills = [...baseSkills, ...technicalSkills];
+
   const submit = async () => {
     if (!file) return;
     setSubmitting(true);
@@ -190,7 +202,7 @@ function ProblemPage() {
                   <h2 className="text-xl font-bold">Skills you will learn and practice</h2>
                 </div>
                 <div className="bg-muted/30 p-5 rounded-xl border">
-                  <List items={problem.learn && problem.learn.length > 0 ? problem.learn : ["Industry context and workflow mapping", "Data extraction and insight generation", "Prompt engineering and AI integration", "Professional deliverable creation"]} />
+                  <List items={allSkills} />
                 </div>
               </div>
             </div>
