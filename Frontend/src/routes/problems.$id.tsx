@@ -1,6 +1,6 @@
 import { createFileRoute, notFound, Link, useNavigate, redirect } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowLeft, Loader2, Target, CheckCircle, Star, BookOpen, PenTool, ShieldCheck, ClipboardCheck, Award } from "lucide-react";
+import { ArrowLeft, Loader2, Target, CheckCircle, Star, BookOpen, PenTool, ShieldCheck, ClipboardCheck, Award, PlayCircle } from "lucide-react";
 import { toast } from "sonner";
 import { getProblem, type Problem } from "@/data/problems";
 import { DifficultyBadge } from "@/components/badges";
