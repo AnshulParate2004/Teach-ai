@@ -7,8 +7,8 @@ import { useState } from "react";
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Top 20 Virtual Internship Portfolio — Skillzza" },
-      { name: "description", content: "Explore the Top 20 Virtual Internships by Skillzza." },
+      { title: "Top 20 Virtual Internship Portfolio — SkillForge" },
+      { name: "description", content: "Explore the Top 20 Virtual Internships by SkillForge." },
     ],
   }),
   component: PortfolioPage,
@@ -32,7 +32,7 @@ function PortfolioPage() {
   return (
     <div className="mx-auto max-w-7xl px-5 py-12">
       <div className="mb-8">
-        <h1 className="text-4xl font-bold tracking-tight mb-2">Skillzza — Top 20 Virtual Internship Portfolio</h1>
+        <h1 className="text-4xl font-bold tracking-tight mb-2">SkillForge — Top 20 Virtual Internship Portfolio</h1>
         <p className="text-muted-foreground text-lg">Browse our highly curated list of 20 industry-aligned Generative AI simulations.</p>
       </div>
 

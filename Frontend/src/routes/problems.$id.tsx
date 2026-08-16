@@ -98,7 +98,7 @@ function ProblemPage() {
       </Link>
 
       <div className="mb-10 p-8 rounded-2xl bg-card border shadow-sm">
-        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-3">Skillzza Virtual Internship</p>
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-3">SkillForge Virtual Internship</p>
         <h1 className="text-3xl md:text-5xl font-bold text-foreground tracking-tight mb-5">{problem.title}</h1>
         <div className="flex flex-wrap items-center gap-4 text-sm font-medium text-muted-foreground mb-6">
           <span className="flex items-center gap-1"><strong>Role:</strong> {problem.role}</span>
@@ -167,7 +167,7 @@ function ProblemPage() {
                 )}
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{problem.problem_statement}</ReactMarkdown>
                 
-                <p className="mt-6 italic text-muted-foreground">If you would like to connect with the {problem.company} team to find out more information please email <a href={`mailto:microinternships@skillzza.com`} className="text-primary hover:underline">microinternships@skillzza.com</a></p>
+                <p className="mt-6 italic text-muted-foreground">If you would like to connect with the {problem.company} team to find out more information please email <a href={`mailto:microinternships@skillforge.com`} className="text-primary hover:underline">microinternships@skillforge.com</a></p>
               </div>
             </div>
 
@@ -350,7 +350,7 @@ function ProblemPage() {
               
               <div className="grid sm:grid-cols-2 gap-8">
                 <div className="space-y-4">
-                  <h3 className="font-semibold text-lg">Skillzza Verified Virtual Internship</h3>
+                  <h3 className="font-semibold text-lg">SkillForge Verified Virtual Internship</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Once you submit, our AI Mentor performs a detailed verification of your dataset analysis, calculations, methodology, and insights.
                   </p>

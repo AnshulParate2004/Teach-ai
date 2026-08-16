@@ -53,7 +53,7 @@ export const problems: Problem[] = [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
       "LangGraph / LangChain",
-      "Skillzza AI Mentor"
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -63,7 +63,7 @@ export const problems: Problem[] = [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
       "LangGraph / LangChain",
-      "Skillzza AI Mentor"
+      "SkillForge AI Mentor"
     ],
     "steps": [
       "**Task 1:** Understand: **Scenario:** You are tasked with designing an AI agent for a productivity app. The agent will assist users in scheduling meetings, tracking tasks, and answering queries. **Student Assignment:** Research and define the core functionalities of the agent. Create a user persona and list potential use cases for the agent. **Deliverable:** - A document outlining the agent\u2019s purpose, target audience, and core functionali- ties. - A list of 5-7 use cases based on the user persona.",
@@ -147,7 +147,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -157,7 +157,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -297,7 +297,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -314,7 +314,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -406,7 +406,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -423,7 +423,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -515,7 +515,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -525,7 +525,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [],
@@ -603,7 +603,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -613,7 +613,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [],
@@ -691,7 +691,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -701,7 +701,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [],
@@ -779,7 +779,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -796,7 +796,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -888,7 +888,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -898,7 +898,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [],
@@ -976,7 +976,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -986,7 +986,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [],
@@ -1064,7 +1064,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -1074,7 +1074,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [],
@@ -1152,7 +1152,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -1169,7 +1169,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -1261,7 +1261,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -1271,7 +1271,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [],
@@ -1350,7 +1350,7 @@ export const problems: Problem[] = [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
       "LangGraph / LangChain",
-      "Skillzza AI Mentor"
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1360,7 +1360,7 @@ export const problems: Problem[] = [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
       "LangGraph / LangChain",
-      "Skillzza AI Mentor"
+      "SkillForge AI Mentor"
     ],
     "steps": [
       "**Task 1:** Understand - Analyzing Customer Queries: #### **Scenario:** You\u2019ve been provided with a dataset containing historical customer interaction logs. Your first step is to analyze the dataset, identify com- monly asked questions, and categorize them into themes (e.g., billing, technical support, account man- agement). #### **Student Assignment:** - Load the dataset and perform exploratory analysis to understand customer query patterns. - Identify the top 10 FAQs based on frequency. - Categorize FAQs into logical groups. #### **Deliverable:** Submit a report containing: 1. Visualizations showing the distribution of query types. 2. A list of top 10 FAQs and their respective categories.",
@@ -1444,7 +1444,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -1454,7 +1454,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -1539,7 +1539,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -1549,7 +1549,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -1634,7 +1634,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -1651,7 +1651,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -1743,7 +1743,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -1760,7 +1760,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -1885,7 +1885,7 @@ export const problems: Problem[] = [
     "tags": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "estimatedTime": "2 hrs",
@@ -1895,7 +1895,7 @@ export const problems: Problem[] = [
     "tools": [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
-      "Skillzza AI Mentor",
+      "SkillForge AI Mentor",
       "Generative AI APIs (Groq/OpenAI)"
     ],
     "steps": [
@@ -1981,7 +1981,7 @@ export const problems: Problem[] = [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
       "LangGraph / LangChain",
-      "Skillzza AI Mentor"
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1998,7 +1998,7 @@ export const problems: Problem[] = [
       "Python / Jupyter Notebooks",
       "ChatGPT / Claude (Prompting)",
       "LangGraph / LangChain",
-      "Skillzza AI Mentor"
+      "SkillForge AI Mentor"
     ],
     "steps": [
       "**Task 1:** Understand the Problem: \n\n**Scenario** A government services portal receives 10,000+ citizen complaints every month. These complaints vary from potholes and waste management to utility bill disputes. Your first step is to understand the dataset and problem statement. 52\n\n\n**Student Assignment** 1. Explore a provided dataset containing complaints with fields: - \u2018Complaint ID\u2018: Unique identifier. - \u2018Citizen Name\u2018: Name of complainant. - \u2018Complaint Text\u2018: The full description of the complaint. - \u2018Department\u2018: Department responsible for resolution (e.g., Waste Management, Public Works). - \u2018Urgency\u2018: Low, Medium, High. - \u2018Status\u2018: Resolved, Pending, Escalated. 2. Analyze the dataset for patterns, such as the most common complaint types and departments with the highest complaint volumes.\n\n\n**Deliverable** Submit a short report (300 words) with: - Key patterns in the dataset. - Suggestions for how AI can reduce backlog and improve response times.",
