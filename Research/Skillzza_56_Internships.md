@@ -1,0 +1,15165 @@
+# Skillzza — 56 Virtual Internships Portfolio
+
+## 5. AI Agent Designer – Build Your First Agent
+
+# Virtual Internship Track: AI Agent Designer – Build Your First Agent
+
+---
+
+## 1. What is this Job Simulation All About?
+
+**Scenario:**  
+As an AI Agent Designer, you are tasked with creating an intelligent virtual assistant capable of helping users navigate complex tasks efficiently. From understanding user goals to integrating memory and evaluating performance, your mission is to design an AI agent that balances functionality, usability, and ethical considerations. Imagine working on a groundbreaking AI product for a global tech company that aims to revolutionize customer service, productivity, and personal assistance.
+
+**Mission:**  
+Your mission is to design, build, and test an AI agent equipped with conversational capabilities, memory retention, and a goal-oriented problem-solving approach. The agent should be able to understand user intent, recall relevant information, and deliver solutions effectively. You will also focus on responsible AI practices, ensuring that your agent meets ethical standards while offering high usability.
+
+**Final Challenge:**  
+You will present your fully-functional AI agent prototype to a simulated product team. Your agent should demonstrate its ability to understand user goals, retrieve stored memories, and execute tasks with high precision while adhering to responsible AI guidelines. Your solution will be evaluated on technical accuracy, innovation, and ethical compliance.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge:**  
+  Learn the principles of Agentic AI, including conversational design, goal-setting frameworks, and memory integration. Understand the challenges and opportunities in designing autonomous and semi-autonomous AI agents.
+
+- **Analytics:**  
+  Develop a structured approach to analyze user interaction patterns, optimize agent workflows, and evaluate performance metrics.
+
+- **AI Skills:**  
+  Gain hands-on experience in designing agent architectures, integrating memory systems, and leveraging large language models (LLMs) to create intelligent conversational agents.
+
+---
+
+## 3. What Are the Prerequisites?
+
+- **Recommended Background:**  
+  A basic understanding of Python programming, AI concepts, and conversational design. Prior experience with APIs and working with large language models (LLMs) is recommended but not mandatory.
+
+- **Tools:**  
+  Access to Python, OpenAI API, LangChain library, and vector database tools like Pinecone or Weaviate.
+
+- **Prerequisite Skill Check:**  
+  - Write a Python script for basic chatbot functionality.  
+  - Create an API call to OpenAI’s GPT model.  
+  - Demonstrate familiarity with JSON parsing.
+
+---
+
+## 4. What Tools Will You Learn?
+
+- **Core Tools:**  
+  - **OpenAI API**: For natural language understanding and task execution.  
+  - **LangChain**: To build memory and chaining logic for the agent.  
+  - **Pinecone**: For vector-based memory storage and retrieval.
+
+- **Advanced Track:**  
+  - **Responsible AI frameworks**: Learn to design ethical constraints for AI agents.  
+  - **Evaluation Metrics**: Understand user satisfaction scoring and conversational flow optimization.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand**
+**Scenario:**  
+You are tasked with designing an AI agent for a productivity app. The agent will assist users in scheduling meetings, tracking tasks, and answering queries.
+
+**Student Assignment:**  
+Research and define the core functionalities of the agent. Create a user persona and list potential use cases for the agent.
+
+**Deliverable:**  
+- A document outlining the agent's purpose, target audience, and core functionalities.  
+- A list of 5-7 use cases based on the user persona.
+
+---
+
+### **Task 2: Data/Setup**
+**Scenario:**  
+To enable memory and goal-oriented behavior, you need to set up the foundational architecture of the AI agent. This includes preparing the environment and connecting to the OpenAI API.
+
+**Student Assignment:**  
+Set up Python, install necessary libraries (OpenAI, LangChain), and connect to the GPT model. Design a basic agent skeleton with input/output flow.
+
+**Deliverable:**  
+- Python script with API setup and a basic agent scaffold.  
+- Screenshot of the agent successfully generating sample responses.
+
+---
+
+### **Task 3: Build/Execute**
+**Scenario:**  
+You will now integrate memory functionality so the agent can retain and recall user information across sessions. Add goal-setting logic to allow the agent to guide users toward task completion.
+
+**Student Assignment:**  
+Use LangChain to implement memory and goal-setting modules. Train the agent to store user preferences and recall them in future interactions. Test the agent's ability to track goals across conversations.
+
+**Deliverable:**  
+- Python script with memory integration and goal-setting logic.  
+- A set of test cases demonstrating that the agent can recall memory and guide users to complete tasks.
+
+---
+
+### **Task 4: GenAI/Explanation**
+**Scenario:**  
+Users often need step-by-step instructions for complex processes. Add a generative layer to the agent for explaining multi-step tasks clearly.
+
+**Student Assignment:**  
+Integrate OpenAI's GPT capabilities to enable the agent to generate step-by-step instructions for tasks such as scheduling a meeting or organizing a to-do list.
+
+**Deliverable:**  
+- Python script demonstrating generative capabilities for step-by-step instructions.  
+- A test log showing the agent successfully explaining three distinct workflows.
+
+---
+
+### **Task 5: Audit/Responsible AI**
+**Scenario:**  
+You must ensure the agent adheres to responsible AI practices. This includes avoiding biased responses, ensuring user data privacy, and providing disclaimers for ambiguous answers.
+
+**Student Assignment:**  
+Implement filters to detect and manage biased or inappropriate responses. Add user consent mechanisms for data storage and integrate disclaimers for uncertain outputs.
+
+**Deliverable:**  
+- Python script with responsible AI features implemented.  
+- A document outlining responsible AI measures and testing results.
+
+---
+
+### **Task 6: Present Recommendation**
+**Scenario:**  
+Your agent is ready for deployment, but you need to present its capabilities to the product team. Create a demo showcasing the agent's functionalities and explain its design choices.
+
+**Student Assignment:**  
+Develop a short presentation and record a demo of the agent performing key tasks, showcasing its memory, goal-setting, and instructional capabilities. Highlight responsible AI features.
+
+**Deliverable:**  
+- Presentation slides (5-10 slides) covering agent design, features, and responsible AI considerations.  
+- A video demo (3-5 minutes) showing the agent in action.
+
+---
+
+## 6. MCQs Post Task Completion
+
+**1. What is the primary role of memory in an AI agent?**
+A) To store data for future use  
+B) To process user inputs  
+C) To improve hardware performance  
+D) To generate random responses  
+**Correct Answer:** A  
+
+**2. Which library is used for memory integration in this internship?**  
+A) TensorFlow  
+B) PyTorch  
+C) LangChain  
+D) NumPy  
+**Correct Answer:** C  
+
+**3. What does the term 'Agentic AI' refer to?**  
+A) AI designed for entertainment purposes  
+B) AI capable of autonomous goal-directed behavior  
+C) AI with no user interaction  
+D) AI designed for data analysis only  
+**Correct Answer:** B  
+
+**4. Which tool is used for vector-based memory retrieval?**  
+A) Matplotlib  
+B) Pinecone  
+C) Pandas  
+D) Scikit-learn  
+**Correct Answer:** B  
+
+**5. What is the purpose of responsible AI practices?**  
+A) To optimize algorithm performance  
+B) To ensure ethical and unbiased AI behavior  
+C) To reduce computational costs  
+D) To maximize data collection  
+**Correct Answer:** B  
+
+**6. Which of the following is an example of a user goal for an AI agent in this internship?**  
+A) Playing video games  
+B) Scheduling a meeting  
+C) Writing code in C++  
+D) Watching movies  
+**Correct Answer:** B  
+
+**7. What is the first step in setting up the AI agent environment?**  
+A) Designing the user interface  
+B) Installing Python and required libraries  
+C) Writing test cases  
+D) Conducting a market analysis  
+**Correct Answer:** B  
+
+**8. Which of these is NOT a core functionality of the agent in this internship?**  
+A) Scheduling meetings  
+B) Tracking tasks  
+C) Playing music  
+D) Generating step-by-step instructions  
+**Correct Answer:** C  
+
+**9. What is the purpose of adding disclaimers to an AI agent?**  
+A) To make interactions humorous  
+B) To warn users about potential inaccuracies  
+C) To improve response time  
+D) To enhance memory storage  
+**Correct Answer:** B  
+
+**10. Which API is central to enabling natural language understanding for the agent?**  
+A) Google Maps API  
+B) OpenAI API  
+C) Twitter API  
+D) Spotify API  
+**Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts:**  
+For each task:  
+1. Code files (Python scripts)  
+2. Documentation (design decisions, responsible AI measures)  
+3. Screenshots of the agent in action  
+4. Video demo showcasing agent functionalities  
+5. Presentation slides (PDF format)
+
+### **Grading Rubric:**  
+- **Functionality (40%)**: Does the agent meet the specified requirements?  
+- **Innovation (20%)**: Are the solutions creative and effective?  
+- **Responsible AI (20%)**: Are ethical guidelines followed?  
+- **Presentation (20%)**: Is the demo clear and professional?
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful completion and verification of all tasks, you will earn the **AI Agent Designer – Build Your First Agent** certificate.  
+
+### **Certificate Details:**  
+- **Certificate Name:** AI Agent Designer – Build Your First Agent  
+- **Issued By:** Skillzza Virtual Internship Program  
+- **Level:** Intermediate  
+- **Duration:** 4 hours  
+- **Employability Score Example:** 92/100  
+  - **Technical Skills:** 40/40  
+  - **Problem Solving:** 18/20  
+  - **Responsible AI Compliance:** 18/20  
+  - **Presentation:** 16/20  
+
+---
+
+## 7. AI Research Analyst – Research a New Market
+
+# AI Research Analyst – Research a New Market
+
+## 1. What is this Job Simulation All About?
+
+**Scenario:**  
+You have just been hired as an AI Research Analyst by a leading AI consulting firm. Your first assignment is to research a new market ripe for AI adoption. The firm is exploring opportunities to expand its AI offerings into industries that have traditionally relied on manual processes but could benefit from automation and data-driven decision-making. As part of your role, you will leverage AI tools to collect, analyze, and validate information and provide actionable recommendations to guide the firm's market entry strategy.
+
+**Mission:**  
+Conduct a detailed market research analysis using AI-powered tools. Your goal is to identify emerging trends, key players, challenges, and opportunities in the selected market. You will validate your data sources using responsible AI principles and synthesize your findings into actionable insights for decision-makers.
+
+**Final Challenge:**  
+Prepare a professional research report and presentation summarizing your findings. Your report should highlight the market potential, risks, and an AI-driven opportunity roadmap that will help your firm make informed investment and expansion decisions.
+
+---
+
+## 2. What Will You Learn?
+
+**Domain Knowledge:**  
+- Fundamentals of market research analysis  
+- Key industries and trends for AI adoption  
+- Validation strategies for research data  
+
+**Analytics Skills:**  
+- Extracting actionable insights from unstructured data  
+- Identifying patterns and opportunities in market data  
+- Using AI tools for competitive analysis  
+
+**AI Skills:**  
+- Leveraging AI-powered web scraping for data collection  
+- Applying natural language processing (NLP) for trend analysis  
+- Ensuring ethical AI practices in research  
+
+---
+
+## 3. What Are the Prerequisites?
+
+**Recommended Background:**  
+- Basic understanding of AI concepts and applications  
+- Familiarity with market research methodologies  
+- Intermediate-level proficiency in data analysis  
+
+**Tools Needed:**  
+- Google Sheets/Excel for data organization  
+- ChatGPT or similar AI tools for content generation  
+- Python (optional) for advanced web scraping and analysis  
+
+**Prerequisite Skill Check:**  
+Before starting, ensure you can:  
+- Navigate AI tools like ChatGPT or Bard effectively  
+- Perform basic trend analysis using structured data  
+- Identify credible sources and validate them  
+
+---
+
+## 4. What Tools Will You Learn?
+
+**Core Tools:**  
+- ChatGPT (or similar generative AI tools) for research and trend summarization  
+- Google Sheets for data organization  
+- Google Scholar for academic research validation  
+
+**Advanced Track:**  
+- Python libraries (BeautifulSoup, Pandas) for web scraping and data analysis  
+- NLP tools (spaCy, NLTK) for extracting insights from text  
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand the Scope of Research**  
+**Scenario:**  
+Your manager has provided a vague request: "Find out how AI can transform the logistics industry." You need to refine the research scope to make it actionable.  
+
+**Student Assignment:**  
+- Break down the research question into sub-questions (e.g., "What are current pain points in logistics that AI can address?").  
+- Research current AI applications in logistics using Google Scholar and ChatGPT.  
+- Identify specific areas (e.g., route optimization, inventory management) for deeper research.  
+
+**Deliverable:**  
+Submit a refined research scope document (1 page) outlining sub-questions, focus areas, and the rationale for choosing logistics as the target industry.  
+
+---
+
+### **Task 2: Data Collection and Setup**  
+**Scenario:**  
+You need reliable data to perform your analysis. Collect information from primary (official reports, industry statistics) and secondary (blogs, AI forums) sources.  
+
+**Student Assignment:**  
+- Use AI-powered web scraping tools (or manually search) to collect recent data on logistics trends and challenges.  
+- Organize the data into categories (e.g., pain points, solutions, emerging technologies).  
+- Ensure sources are credible by cross-checking for bias and accuracy.  
+
+**Deliverable:**  
+Submit a structured dataset (Google Sheets or Excel) with at least 20 data points categorized and validated for your analysis.  
+
+---
+
+### **Task 3: Build Insights Using AI Tools**  
+**Scenario:**  
+You now have raw data and need to uncover trends and actionable insights. Leverage AI tools to synthesize information.  
+
+**Student Assignment:**  
+- Use ChatGPT to summarize industry trends and challenges based on your data.  
+- Apply NLP techniques to identify recurring terms and themes in textual data.  
+- Highlight correlations between AI adoption and efficiency gains in logistics.  
+
+**Deliverable:**  
+Submit a concise insights report (2 pages) summarizing trends, challenges, and opportunities derived from the analysis.  
+
+---
+
+### **Task 4: GenAI-Powered Explanation**  
+**Scenario:**  
+You need to explain complex findings to non-experts. Use generative AI tools to craft an engaging summary.  
+
+**Student Assignment:**  
+- In ChatGPT, generate a simplified explanation of your insights for stakeholders unfamiliar with AI.  
+- Create a visual representation (infographic) that showcases key points using tools like Canva or Google Slides.  
+
+**Deliverable:**  
+Submit a one-page stakeholder-friendly summary and a visual infographic explaining your research findings.  
+
+---
+
+### **Task 5: Audit and Responsible AI Practices**  
+**Scenario:**  
+Your firm emphasizes responsible AI use. Ensure your research adheres to ethical standards and avoids biased data.  
+
+**Student Assignment:**  
+- Review your data sources for potential bias or misinformation.  
+- Write a short audit report detailing how you ensured ethical AI practices throughout your research.  
+- Identify any gaps or risks in your findings.  
+
+**Deliverable:**  
+Submit a one-page Responsible AI Audit Report summarizing your validation process and ethical considerations.  
+
+---
+
+### **Task 6: Present Your Recommendation**  
+**Scenario:**  
+The firm’s leadership team needs your recommendation on whether logistics is a viable market for AI expansion. Prepare and pitch your proposal.  
+
+**Student Assignment:**  
+- Combine all your findings into a professional presentation.  
+- Include key insights, visualizations, risks, and actionable recommendations.  
+- Record a 5-minute video pitch summarizing your proposal.  
+
+**Deliverable:**  
+Submit a presentation deck (PDF or PPT) and a video recording of your pitch.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **Question 1:**  
+Which of the following is the correct definition of market research?  
+A. Selling products directly to consumers  
+B. Collecting and analyzing market data to identify trends  
+C. Predicting stock prices using AI algorithms  
+D. Building AI models for customer segmentation  
+**Correct Answer:** B  
+
+### **Question 2:**  
+What is one key benefit of using AI for market research?  
+A. AI guarantees 100% accurate results  
+B. AI eliminates the need for human validation  
+C. AI can process large datasets quickly and identify trends  
+D. AI replaces traditional business strategies entirely  
+**Correct Answer:** C  
+
+### **Question 3:**  
+Which tool is best suited for summarizing textual data trends?  
+A. Canva  
+B. ChatGPT  
+C. BeautifulSoup  
+D. Excel  
+**Correct Answer:** B  
+
+### **Question 4:**  
+What is a responsible AI practice in market research?  
+A. Using biased data for faster results  
+B. Validating sources to ensure credibility  
+C. Ignoring ethical considerations to meet deadlines  
+D. Automating all decision-making without oversight  
+**Correct Answer:** B  
+
+### **Question 5:**  
+Which AI technique helps identify recurring themes in textual data?  
+A. Image classification  
+B. Natural Language Processing (NLP)  
+C. Regression analysis  
+D. Time-series analysis  
+**Correct Answer:** B  
+
+### **Question 6:**  
+What does an AI audit typically involve?  
+A. Deleting all collected data  
+B. Ensuring ethical data collection and validation  
+C. Using AI to replace human oversight  
+D. Automating report generation  
+**Correct Answer:** B  
+
+### **Question 7:**  
+What should be included in a stakeholder-friendly summary?  
+A. Technical jargon and complex formulas  
+B. Simplified explanations with visuals  
+C. Confidential company data  
+D. Exhaustive details without context  
+**Correct Answer:** B  
+
+### **Question 8:**  
+Why is source validation important in research?  
+A. To reduce the time spent on analysis  
+B. To ensure the data is accurate and unbiased  
+C. To avoid using AI tools  
+D. To increase the complexity of the report  
+**Correct Answer:** B  
+
+### **Question 9:**  
+Which of the following tools can be used for creating infographics?  
+A. Excel  
+B. Canva  
+C. BeautifulSoup  
+D. PyTorch  
+**Correct Answer:** B  
+
+### **Question 10:**  
+What is the primary purpose of market research?  
+A. To replace human workers with AI  
+B. To expand into new markets based on data-driven insights  
+C. To create advertisements for products  
+D. To analyze customer complaints only  
+**Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+**Submission Artifacts:**  
+- Refined research scope document  
+- Structured dataset (Google Sheets/Excel)  
+- Insights report (2 pages)  
+- Stakeholder-friendly summary and infographic  
+- Responsible AI Audit Report  
+- Final presentation deck and video pitch  
+
+**Grading Rubric:**  
+- Clarity of research scope (20%)  
+- Completeness and accuracy of dataset (20%)  
+- Depth of insights in the report (20%)  
+- Creativity and clarity in infographic and summary (20%)  
+- Quality of presentation and pitch (20%)  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful submission and review, you will earn the **"AI Research Analyst – Market Insights" Certificate**.  
+
+**Certificate Details:**  
+- Recognition as an AI Research Analyst Virtual Intern  
+- Verified competency in market research and AI tools  
+- Employability Score: 85/100  
+
+This certificate can be showcased on your professional LinkedIn profile and resume to demonstrate your expertise in AI-driven market research and analysis.
+
+---
+
+## 9. GenAI Prompt Engineer – Enterprise Prompt Lab
+
+# Virtual Internship Track: GenAI Prompt Engineer – Enterprise Prompt Lab
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+In today’s enterprise landscape, organizations are leveraging Generative AI (GenAI) to automate tasks, enhance productivity, and generate structured outputs. As a **GenAI Prompt Engineer**, you will play a pivotal role in designing, testing, and optimizing AI prompts to ensure accurate, reliable, and structured responses tailored to business needs. The challenge lies in crafting prompts that minimize hallucinations (AI-generated inaccuracies), maximize productivity, and align with enterprise requirements.
+
+### **Mission**
+Your mission is to design, evaluate, and refine prompts for a GenAI system that processes enterprise data to generate **structured outputs** like summaries, data classifications, or decision-support recommendations. You will optimize prompts to reduce hallucinations and ensure outputs are accurate, actionable, and contextually relevant.
+
+### **Final Challenge**
+By the end of this simulation, you will deliver a polished **Prompt Engineering Playbook** for an enterprise GenAI model, including structured examples, evaluation metrics, and strategies for reducing hallucinations. Your playbook will be reviewed by industry experts to assess your readiness for real-world enterprise projects.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Fundamentals of Generative AI and Prompt Engineering.
+- Enterprise use cases for GenAI, including structured data generation and decision-support systems.
+- Strategies for hallucination reduction in GenAI outputs.
+  
+### **Analytics**
+- Techniques for evaluating GenAI outputs (precision, recall, and relevance).
+- Metrics for assessing hallucinations and structured output consistency.
+
+### **AI Skills**
+- Designing and optimizing prompt patterns for structured outputs.
+- Incorporating context, constraints, and formatting into prompts.
+- Using feedback loops to improve prompt accuracy.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Basic understanding of AI and Natural Language Processing (NLP).
+- Familiarity with enterprise workflows and structured data (e.g., tabular data, summaries).
+- Logical reasoning and analytical skills.
+
+### **Tools**
+- Access to GenAI platforms like OpenAI GPT, Anthropic Claude, or Google Bard.
+- Familiarity with text editors and prompt engineering tools (e.g., AI Playground, LangChain frameworks).
+
+### **Prerequisite Skill Check**
+Answer the following:
+1. What is Prompt Engineering, and how does it influence GenAI output accuracy?
+2. Explain the importance of "context" in crafting prompts for enterprise use cases.
+3. Which metrics can be used to evaluate the reliability of GenAI outputs?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **OpenAI GPT-4**: Primary platform for crafting and testing prompts.
+- **LangChain Framework**: For chaining prompts and integrating structured workflows.
+- **Enterprise AI Playground**: A sandbox for testing AI outputs against enterprise datasets.
+
+### **Advanced Track**
+- **Prompt Debugging Tools**: Tools to analyze prompt failures and hallucinations.
+- **AI Evaluation Dashboards**: Platforms for scoring AI outputs based on enterprise KPIs.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Role of Prompts**
+#### **Scenario**
+You have been hired by an enterprise that manages a large volume of customer service tickets. They want to use GenAI to classify tickets by issue type (e.g., billing, technical, feedback) and generate summaries for faster resolution.
+
+#### **Student Assignment**
+Research prompt engineering fundamentals. Learn how prompt structures (context, constraints, and examples) influence GenAI outputs. Study enterprise-centric use cases, focusing on structured data generation.
+
+#### **Deliverable**
+Submit a **1-page report** summarizing:
+- Key principles of prompt engineering.
+- How structured prompts can benefit enterprise workflows.
+- Examples of prompt patterns for structured outputs.
+
+---
+
+### **Task 2: Dataset Setup and Prompt Design**
+#### **Scenario**
+You’ve been provided with a sample dataset containing customer service tickets with columns like `Ticket ID`, `Issue Description`, and `Customer Priority`. Your goal is to design initial prompts to classify these tickets by issue type and summarize them.
+
+#### **Student Assignment**
+- Analyze the provided dataset structure.
+- Design 3 initial prompts:
+  1. Classify tickets into predefined categories.
+  2. Generate concise summaries of ticket issues.
+  3. Identify high-priority customer concerns.
+  
+#### **Deliverable**
+Submit a **document with your 3 prompts**, their intended outputs, and reasoning for their design.
+
+---
+
+### **Task 3: Build and Execute Prompts**
+#### **Scenario**
+Run your initial prompts on a GenAI platform (e.g., OpenAI GPT-4) and analyze the outputs. Refine your prompts iteratively to improve classification accuracy and summary quality.
+
+#### **Student Assignment**
+- Test your prompts using the sample customer ticket dataset.
+- Adjust context, constraints, or examples to improve outputs.
+- Document the iterative refinements made to each prompt.
+
+#### **Deliverable**
+Submit:
+1. **Initial outputs** from GenAI.
+2. **Refined prompts** and their improved outputs.
+3. A **brief explanation** of changes made and their impact.
+
+---
+
+### **Task 4: Analyze Hallucinations and Explain GenAI Behavior**
+#### **Scenario**
+Some GenAI outputs contain errors (e.g., misclassifications, irrelevant summaries). Your task is to identify and explain these hallucinations, then adjust your prompts to minimize such errors.
+
+#### **Student Assignment**
+- Analyze common hallucinations in the outputs (e.g., incorrect ticket classifications).
+- Adjust prompts to reduce errors (e.g., add constraints or improve examples).
+- Explain the behavior behind the hallucinations (e.g., ambiguous wording, lack of context).
+
+#### **Deliverable**
+Submit a **hallucination analysis report** with:
+- Examples of errors.
+- Adjusted prompts to reduce hallucinations.
+- Explanations of GenAI behavior causing errors.
+
+---
+
+### **Task 5: Audit for Responsible AI**
+#### **Scenario**
+Ensure your prompts and outputs adhere to Responsible AI principles, including fairness, transparency, and accuracy. Avoid biases in ticket classifications and summaries.
+
+#### **Student Assignment**
+- Perform a bias audit on GenAI outputs (e.g., verify fair classification across all categories).
+- Document steps taken to ensure transparency and accuracy in prompts.
+- Suggest improvements to align with Responsible AI principles.
+
+#### **Deliverable**
+Submit a **Responsible AI checklist** covering:
+- Bias detection results.
+- Transparency steps taken.
+- Suggestions for ethical improvements.
+
+---
+
+### **Task 6: Present Your Final Prompt Engineering Playbook**
+#### **Scenario**
+Compile your refined prompts, evaluation metrics, and Responsible AI findings into a **Prompt Engineering Playbook**. This will serve as a reusable resource for the enterprise.
+
+#### **Student Assignment**
+- Summarize your prompt design process and key insights.
+- Include examples of refined prompts and outputs.
+- Provide actionable strategies for minimizing hallucinations and ensuring Responsible AI compliance.
+
+#### **Deliverable**
+Submit your **Prompt Engineering Playbook** (5-10 pages) with:
+- Overview of prompt design principles.
+- Tested and refined prompts.
+- Evaluation metrics and Responsible AI strategies.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. What is the primary goal of prompt engineering in enterprise use cases?
+   - A. Generate creative content.
+   - B. Optimize AI outputs for structured and accurate responses.
+   - C. Replace human decision-making.
+   - D. Reduce AI training time.
+   - **Answer**: B
+
+2. Which of the following is an example of a hallucination in GenAI outputs?
+   - A. Correctly summarizing a ticket issue.
+   - B. Generating irrelevant details not present in the dataset.
+   - C. Categorizing tickets accurately.
+   - D. Providing concise summaries.
+   - **Answer**: B
+
+3. How can context improve prompt accuracy?
+   - A. By making prompts more ambiguous.
+   - B. By providing additional details relevant to the task.
+   - C. By removing constraints.
+   - D. By shortening the prompt.
+   - **Answer**: B
+
+4. What tool can be used for chaining prompts in structured workflows?
+   - A. LangChain Framework
+   - B. OpenAI Playground
+   - C. Google Sheets
+   - D. Excel Macros
+   - **Answer**: A
+
+5. What is the purpose of Responsible AI auditing?
+   - A. Increase the speed of AI outputs.
+   - B. Detect hallucinations in AI results.
+   - C. Ensure fairness, transparency, and accuracy in AI outputs.
+   - D. Train AI models faster.
+   - **Answer**: C
+
+6. Which metric is most relevant for evaluating structured GenAI outputs?
+   - A. Speed of response.
+   - B. Precision and relevance.
+   - C. Dataset size.
+   - D. Number of tokens in prompts.
+   - **Answer**: B
+
+7. How can biases in GenAI outputs be minimized?
+   - A. By removing all constraints in prompts.
+   - B. By auditing outputs for fairness and accuracy.
+   - C. By allowing the AI to hallucinate freely.
+   - D. By making prompts overly generic.
+   - **Answer**: B
+
+8. What is a key benefit of adding constraints in prompts?
+   - A. It slows down processing speed.
+   - B. It reduces hallucinations and improves task focus.
+   - C. It increases the number of tokens used.
+   - D. It makes outputs more creative.
+   - **Answer**: B
+
+9. Which prompt strategy helps reduce hallucination errors?
+   - A. Using ambiguous wording.
+   - B. Incorporating clear constraints and examples.
+   - C. Ignoring feedback loops.
+   - D. Using generic prompts.
+   - **Answer**: B
+
+10. What is a Prompt Engineering Playbook?
+    - A. A collection of AI models.
+    - B. A guide for designing, testing, and refining prompts.
+    - C. A dataset for GenAI training.
+    - D. A manual for coding AI algorithms.
+    - **Answer**: B
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- Task 1: 1-page report on prompt engineering fundamentals.
+- Task 2: 3 initial prompts and their intended outputs.
+- Task 3: Refined prompts, outputs, and explanation of improvements.
+- Task 4: Hallucination analysis report.
+- Task 5: Responsible AI checklist.
+- Task 6: Final Prompt Engineering Playbook.
+
+### **Grading Rubric**
+- Understanding of prompt engineering principles: **20%**
+- Creativity and relevance of prompt designs: **25%**
+- Quality of refined outputs: **20%**
+- Hallucination analysis and Responsible AI audit: **15%**
+- Final Playbook presentation and insights: **20%**
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful completion and verification of all tasks, you will earn the **GenAI Prompt Engineer – Enterprise Prompt Lab Certification**. This certificate signifies your ability to design, refine, and audit prompts for Generative AI systems in enterprise environments.
+
+### **Employability Score Example**
+Your performance in this simulation will contribute to your **Employability Score** on Skillzza, calculated as:
+- **Prompt Design Expertise**: 90/100
+- **GenAI Analytics Skills**: 85/100
+- **Responsible AI Practices**: 95/100
+- **Overall Employability Score**: 90/100
+
+Stand out as a certified **GenAI Prompt Engineer** and showcase your skills to potential employers!
+
+---
+
+## 11. Data Analyst – Turn Sales Data into Decisions
+
+# Virtual Internship: Data Analyst – Turn Sales Data into Decisions
+
+## 1. What is this Job Simulation All About?
+
+### Scenario  
+You’ve just been hired as a **Data Analyst** for a retail company that specializes in selling consumer electronics. The company is grappling with growing sales data across multiple regions and product categories but lacks insights into key performance metrics like revenue growth, customer segmentation, and product performance. Your role is to analyze raw sales data, clean it, derive actionable insights, and present recommendations to the management team for improving sales strategies.
+
+### Mission  
+Your mission is to transform messy, unstructured sales data into clean datasets, calculate KPIs (key performance indicators) to measure business performance, and apply advanced segmentation techniques to identify high-value customers. By the end of this internship, you will create a report with clear recommendations that the management team can use to make data-driven decisions.
+
+### Final Challenge  
+In the final task, you will compile your findings into a presentation for the executive team. You will use both visualizations and narrative storytelling to explain sales trends, customer behavior, and actionable recommendations.
+
+---
+
+## 2. What Will You Learn?
+
+### Domain Knowledge  
+- **Sales Analytics**: Understand sales data structures, analyze trends, and identify opportunities for revenue growth.  
+- **Customer Segmentation**: Learn to segment customers using behavioral and demographic data to drive targeted strategies.  
+
+### Analytics Skills  
+- **KPIs**: Learn to calculate and interpret key sales performance indicators such as revenue, average order value (AOV), and churn rate.  
+- **Data Cleaning**: Master techniques to clean and preprocess messy datasets for accurate analysis.  
+- **Segmentation Analysis**: Apply clustering techniques and filters to segment customers effectively.  
+
+### AI Skills  
+- **Visualization Tools**: Use AI-powered dashboards to create compelling visual stories.  
+- **Automated Insights**: Learn to leverage AI-based tools to generate instant analysis and recommendations.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### Recommended Background  
+- Knowledge of basic statistics (mean, median, mode, standard deviation).  
+- Familiarity with Excel or Google Sheets.  
+- Some experience with Python or data visualization tools (e.g., Tableau, Power BI).  
+- Understanding of business concepts like revenue, profit margins, and customer lifetime value (CLV).
+
+### Tools  
+- Excel/Google Sheets  
+- Python (Pandas, Matplotlib, or Seaborn)  
+- Tableau or Power BI for visualization  
+
+### Prerequisite Skill Check  
+Before starting, you should be able to:  
+- Perform basic operations in Excel (sort, filter, pivot tables).  
+- Write Python code to load and manipulate data using libraries like Pandas.  
+- Create a simple bar chart or line chart in Tableau/Power BI.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### Core Tools  
+- **Excel/Google Sheets**: For data cleaning and initial analysis.  
+- **Python**: For advanced analysis and segmentation using Pandas.  
+- **Tableau/Power BI**: For creating visualization dashboards.
+
+### Advanced Track  
+- **Jupyter Notebooks**: For combining code, insights, and documentation.  
+- **SQL**: For querying large datasets.  
+- **Machine Learning Clustering**: Use Python’s Scikit-learn for customer segmentation models.
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand the Sales Dataset**  
+#### Scenario  
+You’ve been handed a raw sales dataset from the company’s CRM system. The dataset contains fields such as Order ID, Product Category, Purchase Date, Customer ID, Region, Quantity Sold, Revenue, and Discount Applied. Unfortunately, the data has missing values and inconsistencies.  
+
+#### Student Assignment  
+- Explore the raw dataset and identify key fields relevant for analysis.  
+- Document challenges in the dataset, such as missing values, duplicate entries, and inconsistent formatting.  
+
+#### Deliverable  
+- Submit your exploratory data analysis summary (a brief document or spreadsheet) highlighting key patterns and challenges in the dataset.  
+
+---
+
+### **Task 2: Data Cleaning and Setup**  
+#### Scenario  
+Before diving into deeper analysis, you need to clean the data to ensure accuracy. The management relies on precise insights, and errors in the dataset could mislead their decision-making.  
+
+#### Student Assignment  
+- Remove duplicate entries and handle missing values.  
+- Standardize column names and formats (e.g., date formats, currency).  
+- Validate the cleaned dataset by spot-checking for errors.  
+
+#### Deliverable  
+- Submit a cleaned dataset (CSV file) with a brief document explaining the cleaning steps and decisions.  
+
+---
+
+### **Task 3: Calculate Key Performance Indicators (KPIs)**  
+#### Scenario  
+Management has requested a summary of sales performance based on key metrics. They need insights into total revenue, profit margin, average order value (AOV), and customer retention rate to evaluate current strategies.  
+
+#### Student Assignment  
+- Use Python or Excel to calculate:  
+  - Total Revenue  
+  - Average Order Value (Revenue / Number of Orders)  
+  - Monthly Revenue Growth (%)  
+  - Customer Retention Rate (returning customers over total customers)  
+- Visualize the trends using line charts or bar charts.  
+
+#### Deliverable  
+- Submit a spreadsheet or Python script with calculated KPIs.  
+- Include visualizations showing trends over time.  
+
+---
+
+### **Task 4: Segment Customers Using Behavioral Data**  
+#### Scenario  
+The marketing team wants to launch targeted campaigns but doesn’t know which customers to prioritize. You need to segment the customers based on their purchase behavior, such as frequency (number of purchases), recency (time since last purchase), and monetary value (total revenue contributed).  
+
+#### Student Assignment  
+- Apply RFM (Recency, Frequency, Monetary) analysis using Python or Excel.  
+- Create 3-5 customer segments (e.g., High-value customers, New customers, At-risk customers).  
+- Visualize the segments using scatter plots or bar charts.  
+
+#### Deliverable  
+- Submit the segmented dataset (CSV file) with clear labels for each segment.  
+- Include a chart summarizing the segmentation insights.  
+
+---
+
+### **Task 5: Evaluate Recommendations Using Responsible Analytics**  
+#### Scenario  
+The management team wants to ensure that your recommendations are fair and ethical. They are concerned about biases in the segmentation or KPI analysis that may disproportionately affect certain regions or customer groups.  
+
+#### Student Assignment  
+- Audit your analysis for potential biases (e.g., over-prioritizing one region or product category).  
+- Suggest adjustments to the segmentation or KPI calculations to ensure fairness.  
+
+#### Deliverable  
+- Submit an audit report highlighting potential biases and steps taken to address them.  
+
+---
+
+### **Task 6: Present Recommendations to Management**  
+#### Scenario  
+You are required to compile your findings and present actionable recommendations to the executive team. Your presentation should include visualizations, key insights, and suggested strategies for improving sales.  
+
+#### Student Assignment  
+- Create a slide deck summarizing:  
+  - Key findings from the KPI analysis.  
+  - Customer segmentation results.  
+  - Recommendations for improving sales strategies (e.g., targeted campaigns, product focus, regional strategies).  
+- Practice delivering a concise, data-driven presentation.  
+
+#### Deliverable  
+- Submit your slide deck (PDF or PowerPoint).  
+- Record a short video (3–5 minutes) presenting your findings.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+1. **Which of the following is NOT a key performance indicator in sales analytics?**  
+   A. Total Revenue  
+   B. Customer Satisfaction Score  
+   C. Average Order Value  
+   D. Monthly Revenue Growth  
+   **Answer:** B  
+
+2. **What is the purpose of RFM analysis?**  
+   A. To calculate profit margins  
+   B. To segment customers based on behaviors  
+   C. To clean data  
+   D. To visualize revenue growth  
+   **Answer:** B  
+
+3. **What does the 'Frequency' metric in RFM analysis measure?**  
+   A. Time since the customer’s last purchase  
+   B. Total revenue generated by the customer  
+   C. Number of purchases made by the customer  
+   D. Discount applied to customer purchases  
+   **Answer:** C  
+
+4. **Which Python library is commonly used for data manipulation and cleaning?**  
+   A. Matplotlib  
+   B. Pandas  
+   C. Seaborn  
+   D. Numpy  
+   **Answer:** B  
+
+5. **What is the formula for Average Order Value (AOV)?**  
+   A. Total Revenue / Number of Orders  
+   B. Total Revenue / Total Customers  
+   C. Total Revenue / Quantity Sold  
+   D. Total Revenue - Total Cost  
+   **Answer:** A  
+
+6. **Which visualization type is best suited for showing trends over time?**  
+   A. Scatter Plot  
+   B. Bar Chart  
+   C. Line Chart  
+   D. Pie Chart  
+   **Answer:** C  
+
+7. **What is the primary purpose of data cleaning?**  
+   A. To create visualizations  
+   B. To remove errors and inconsistencies  
+   C. To segment customers  
+   D. To calculate KPIs  
+   **Answer:** B  
+
+8. **What does 'Customer Retention Rate' measure?**  
+   A. Number of new customers acquired  
+   B. Percentage of returning customers over total customers  
+   C. Total revenue generated by returning customers  
+   D. Average time between purchases  
+   **Answer:** B  
+
+9. **Which tool is ideal for creating interactive dashboards?**  
+   A. Excel  
+   B. Python  
+   C. Tableau  
+   D. Jupyter Notebook  
+   **Answer:** C  
+
+10. **What should be done if you identify biases in your analysis?**  
+    A. Ignore them as long as the output looks correct  
+    B. Adjust the methodology to ensure fairness  
+    C. Focus only on high-value customers  
+    D. Remove the biased segment from the analysis  
+    **Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### Submission Artifacts  
+- Cleaned dataset (CSV file).  
+- Calculated KPIs (Excel file or Python script).  
+- Segmented customer dataset with labels (CSV file).  
+- Audit report (PDF).  
+- Presentation slide deck (PDF or PowerPoint).  
+- Video recording (link or file).  
+
+### Grading Rubric  
+- **Exploratory Data Analysis (15%)**: Identification of key patterns and challenges.  
+- **Data Cleaning (20%)**: Completeness and accuracy of the cleaned dataset.  
+- **KPIs Calculation (20%)**: Correctness and insights derived from KPIs.  
+- **Customer Segmentation (20%)**: Quality of segments and visualizations.  
+- **Audit Report (10%)**: Thoughtfulness in identifying and addressing biases.  
+- **Presentation (15%)**: Clarity, storytelling, and actionable recommendations.
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+### Certificate Details  
+Upon successful completion and verification, you will receive a **Certificate of Completion** for the virtual internship: *Data Analyst – Turn Sales Data into Decisions*.  
+
+### Employability Score Example  
+Your performance will be evaluated and scored based on:  
+- **Technical Skills (40%)**: Proficiency in tools (Excel, Python, Tableau) and methods.  
+- **Critical Thinking (30%)**: Ability to derive insights and solve problems effectively.  
+- **Communication (30%)**: Presentation and reporting skills.  
+
+This score can be shared with potential employers as a testament to your skills and readiness for a Data Analyst role.
+
+---
+
+## 12. Business Intelligence Analyst – Build a Management Dashboard
+
+# Business Intelligence Analyst – Build a Management Dashboard
+
+---
+
+### 1. What is this Job Simulation All About?
+
+**Scenario:**  
+Imagine you are a Business Intelligence (BI) Analyst working for a mid-sized retail company, "RetailVantage." The company is struggling to obtain actionable insights from its data and has asked you to create an interactive management dashboard to monitor sales performance, customer acquisition, and product trends. Your role involves understanding business requirements, designing key performance indicators (KPIs), and building a dashboard that empowers decision-making at the executive level.
+
+**Mission:**  
+Your mission is to leverage BI tools to transform raw data into meaningful insights. You will define the right KPIs, design an intuitive dashboard, and present actionable recommendations to the company's leadership.
+
+**Final Challenge:**  
+Deliver a fully operational management dashboard that tracks sales metrics, customer behavior, and product trends. Provide a detailed report explaining how the dashboard supports strategic decisions.
+
+---
+
+### 2. What Will You Learn?
+
+**Domain Knowledge:**  
+- Fundamentals of Business Intelligence and data visualization.  
+- Understanding KPIs and their alignment with business goals.  
+- Retail industry-specific metrics (e.g., revenue, customer lifetime value, product performance).  
+
+**Analytics Skills:**  
+- Data cleaning and preparation for BI workflows.  
+- Identifying trends and patterns in sales and customer data.  
+
+**BI Tool Skills:**  
+- Building interactive dashboards in BI tools (e.g., Power BI or Tableau).  
+- Designing user-friendly visuals for executive reporting.  
+
+---
+
+### 3. What Are the Prerequisites?
+
+**Recommended Background:**  
+- Basic knowledge of data analysis and visualization principles.  
+- Familiarity with Excel and/or data manipulation tools.  
+- Understanding of business metrics and performance tracking.
+
+**Tools Required:**  
+- Tableau or Power BI (access required).  
+- Dataset provided as a CSV file.  
+
+**Prerequisite Skill Check:**  
+Can you:  
+1. Interpret simple data tables and calculate basic metrics (e.g., averages, percentages)?  
+2. Create a simple chart (e.g., bar chart or line graph) in Excel or another tool?  
+3. Understand the concept of KPIs and their importance in decision-making?  
+
+---
+
+### 4. What Tools Will You Learn?
+
+**Core Tools:**  
+- **Power BI or Tableau**: Create data connections, transform datasets, and build dashboards.  
+- **Excel**: Perform initial data exploration and cleaning.  
+
+**Advanced Track:**  
+- **DAX (Data Analysis Expressions)** in Power BI for advanced calculations.  
+- **Dashboard Design Principles**: Best practices for intuitive and effective visuals.  
+
+---
+
+### 5. Tasks to be Performed
+
+#### **Task 1: Understand Business Requirements**  
+**Scenario:**  
+You attend a virtual meeting with RetailVantage’s management team to gather requirements for the dashboard. The team wants to track revenue growth, customer acquisition, and product sales trends.
+
+**Student Assignment:**  
+- Identify the key KPIs discussed during the meeting.  
+- Document the business goals and metrics that will shape the dashboard design.  
+
+**Deliverable:**  
+A Business Requirements Document (BRD) with:  
+1. A list of KPIs (e.g., monthly revenue growth, customer retention rate).  
+2. A summary of the goals (e.g., improve product sales visibility).  
+
+---
+
+#### **Task 2: Prepare and Analyze the Data**  
+**Scenario:**  
+You receive a dataset from the IT team containing customer details, sales transactions, and product information. The data needs cleaning and preparation before dashboard development.
+
+**Student Assignment:**  
+- Load the dataset into Excel or Power BI.  
+- Perform basic cleaning (e.g., remove duplicates, handle missing values).  
+- Calculate summary metrics (e.g., total revenue, average order value).  
+
+**Deliverable:**  
+A cleaned dataset and a summary report of key statistics (e.g., total revenue, number of customers).  
+
+---
+
+#### **Task 3: Build the Dashboard**  
+**Scenario:**  
+Using Tableau or Power BI, you start designing the dashboard based on the identified KPIs and cleaned dataset.
+
+**Student Assignment:**  
+- Create visuals for each KPI (e.g., revenue trends, customer acquisition rate).  
+- Arrange the visuals into a single interactive dashboard.  
+- Add filters for executive drill-down (e.g., filter by region, product category).  
+
+**Deliverable:**  
+A fully functional management dashboard file (.twb or .pbix).  
+
+---
+
+#### **Task 4: Generate Insights Using GenAI**  
+**Scenario:**  
+The dashboard is ready, but RetailVantage's management wants actionable insights. You use AI tools (e.g., ChatGPT or Power BI Insights) to analyze trends and predict future sales.
+
+**Student Assignment:**  
+- Run AI-powered analytics to identify patterns (e.g., peak sales seasons, top-performing products).  
+- Document three actionable insights based on the data.  
+
+**Deliverable:**  
+A report containing AI-driven insights with supporting visuals from the dashboard.  
+
+---
+
+#### **Task 5: Audit for Responsible BI Practices**  
+**Scenario:**  
+The management team is concerned about data privacy and ethical use of customer data in the dashboard.
+
+**Student Assignment:**  
+- Review the dashboard and dataset for compliance with data privacy standards.  
+- Suggest improvements to ensure ethical BI practices (e.g., anonymizing customer info).  
+
+**Deliverable:**  
+A Responsible BI Audit Report with recommendations for compliance improvements.  
+
+---
+
+#### **Task 6: Present Recommendations**  
+**Scenario:**  
+You are invited to present the dashboard to RetailVantage’s leadership team. Focus on how the dashboard supports strategic goals.
+
+**Student Assignment:**  
+- Prepare a 5-minute presentation explaining the dashboard’s features and insights.  
+- Include recommendations for improving sales and customer retention based on data.  
+
+**Deliverable:**  
+Presentation slides (.pptx or .pdf) and a recorded video/voiceover explaining the dashboard.  
+
+---
+
+### 6. MCQs Post Task Completion
+
+1. What is the primary purpose of a management dashboard?  
+   - A. Conducting in-depth statistical analysis  
+   - B. Displaying KPIs to support decision-making  
+   - C. Automating data cleaning processes  
+   - D. Replacing ERP systems  
+   **Answer:** B  
+
+2. Which metric would best measure customer acquisition success?  
+   - A. Average order value  
+   - B. Customer retention rate  
+   - C. New customer count  
+   - D. Revenue per transaction  
+   **Answer:** C  
+
+3. What is a key principle of dashboard design?  
+   - A. Use as many colors as possible  
+   - B. Focus on aesthetics over functionality  
+   - C. Ensure data is actionable and easy to interpret  
+   - D. Add complex visualizations to impress users  
+   **Answer:** C  
+
+4. What is the role of filters in a dashboard?  
+   - A. To clean the dataset  
+   - B. To allow users to drill down into specific data subsets  
+   - C. To automate data analysis  
+   - D. To replace KPIs  
+   **Answer:** B  
+
+5. What type of chart is best for visualizing trends over time?  
+   - A. Pie chart  
+   - B. Bar chart  
+   - C. Line chart  
+   - D. Scatter plot  
+   **Answer:** C  
+
+6. Why is data cleaning important before dashboard development?  
+   - A. It speeds up the dashboard loading time  
+   - B. It ensures accuracy and reliability of insights  
+   - C. It improves visual appeal of the dashboard  
+   - D. It eliminates redundant KPIs  
+   **Answer:** B  
+
+7. Which BI tool allows advanced calculations using DAX?  
+   - A. Tableau  
+   - B. Power BI  
+   - C. Excel  
+   - D. Google Data Studio  
+   **Answer:** B  
+
+8. What does KPI stand for?  
+   - A. Key Performance Indicator  
+   - B. Knowledge Process Integration  
+   - C. Key Product Insight  
+   - D. Knowledge Productivity Index  
+   **Answer:** A  
+
+9. Which ethical practice should be followed in BI?  
+   - A. Sharing all customer data publicly  
+   - B. Anonymizing sensitive customer details  
+   - C. Ignoring data privacy regulations  
+   - D. Maximizing data collection without consent  
+   **Answer:** B  
+
+10. What insight can AI tools like Power BI Insights provide?  
+   - A. Predictive trends based on historical data  
+   - B. Automated dashboard design  
+   - C. Real-time customer feedback  
+   - D. Data cleaning recommendations  
+   **Answer:** A  
+
+---
+
+### 7. Submit Your Completed Task
+
+**Submission Artifacts:**  
+- Business Requirements Document (.docx or .pdf)  
+- Cleaned dataset (.csv or .xlsx)  
+- Management dashboard file (.twb or .pbix)  
+- AI insights report (.docx or .pdf)  
+- Responsible BI Audit Report (.docx or .pdf)  
+- Presentation slides (.pptx or .pdf)  
+
+**Grading Rubric:**  
+- **Completeness (40%)**: All deliverables submitted and meet requirements.  
+- **Accuracy (30%)**: Dashboard metrics and insights align with business goals.  
+- **Presentation (20%)**: Clarity and professionalism of slides and video.  
+- **Ethical Standards (10%)**: Demonstration of responsible BI practices.  
+
+---
+
+### 8. Earn Certificate Post Verification
+
+**Certificate Details:**  
+Upon successful completion and review of your submissions, you will receive a "Certified Business Intelligence Analyst" certificate from Skillzza.  
+
+**Employability Score Example:**  
+- **Technical Skill Score:** 85/100  
+- **Business Insight Score:** 90/100  
+- **Presentation Score:** 88/100  
+Final Employability Score: **88/100**
+
+---
+
+---
+
+## 13. Data Visualisation Specialist – Tell a Story with Data
+
+# Virtual Internship Track: Data Visualization Specialist – Tell a Story with Data
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+In today's data-driven world, raw data often fails to communicate insights effectively to decision-makers. As a Data Visualization Specialist, your job is to transform complex datasets into compelling visuals that tell a clear and actionable story. Whether you're presenting to a business client, a management team, or a public audience, your ability to analyze data and craft impactful visual narratives can drive meaningful decisions.
+
+### **Mission**
+Your mission in this virtual internship is to take on the role of a Data Visualization Specialist for a fictional retail company, **TrendMart**, which is struggling to understand customer purchasing patterns. You will analyze a dataset containing 10,000+ rows of transaction data, identify key metrics, design a visually engaging dashboard, and present your findings in a story format to stakeholders.
+
+### **Final Challenge**
+By the end of this simulation, you will present a fully interactive dashboard that visually explains customer behavior trends, product sales performance, and seasonal purchase patterns. You will also deliver a concise narrative explaining how your visualizations support decision-making.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Fundamentals of data storytelling and narrative building.
+- Understanding KPIs and metrics relevant to retail analytics.
+- Dashboard design principles for business use cases.
+
+### **Analytics Skills**
+- Techniques for data cleaning and preparation for visual analysis.
+- Choosing the correct visualization type (bar charts, heatmaps, scatter plots, etc.) based on data context.
+- Identifying patterns, anomalies, and actionable insights in datasets.
+
+### **AI Skills**
+- Integration of AI-based data visualization tools for automated insights.
+- Leveraging AI to enhance storytelling (e.g., NLP for summarizing trends).
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Basic understanding of data analysis (e.g., filtering, aggregation).
+- Familiarity with visualization tools like Tableau, Power BI, or Python libraries (Matplotlib, Seaborn).
+- Knowledge of storytelling principles in business communication.
+
+### **Tools You'll Need**
+- Access to a spreadsheet editor (Excel/Google Sheets).
+- A data visualization tool (Tableau Public or Power BI Desktop recommended).
+- Python environment (optional for advanced track).
+
+### **Prerequisite Skill Check**
+Before beginning, ensure you can:
+- Load and clean a dataset (e.g., handling missing values or duplicates).
+- Create at least one basic chart (bar chart, line chart, etc.) in your tool of choice.
+- Understand basic retail KPIs such as revenue, conversion rates, and customer retention.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **Tableau Public**: Beginner-friendly dashboard creation.
+- **Power BI Desktop**: Advanced interactivity and storytelling.
+- **Google Sheets/Excel**: Data cleaning and preprocessing.
+
+### **Advanced Track**
+- **Python Libraries**: Matplotlib, Seaborn, and Plotly for programmatic visualization.
+- **Generative AI Tools**: ChatGPT or Tableau AI for automated insight generation.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand**
+#### Scenario:
+TrendMart has provided you with a dataset containing transaction-level details, customer demographics, and product categories. The management team is unsure which metrics to focus on and needs your help to identify actionable insights.
+
+#### Student Assignment:
+- Review the dataset fields, which include:
+  - `Transaction_ID`, `Customer_ID`, `Age`, `Gender`, `Region`, `Product_Category`, `Purchase_Amount`, `Purchase_Date`.
+- Identify potential KPIs such as total revenue, average order value (AOV), product popularity, and seasonal trends.
+
+#### Deliverable:
+Submit a one-page document outlining:
+- Key KPIs to focus on.
+- The rationale behind your selection.
+- Any assumptions made about the dataset.
+
+---
+
+### **Task 2: Data/Setup**
+#### Scenario:
+TrendMart’s dataset has inconsistencies, including missing values and duplicate entries. Before creating visuals, you need to clean and structure the data to ensure reliable analysis.
+
+#### Student Assignment:
+- Perform data cleaning:
+  - Remove duplicates.
+  - Handle missing values (e.g., imputing median values for `Age`).
+  - Format `Purchase_Date` into a standard date format.
+- Create meaningful groupings (e.g., aggregate revenue by product categories and regions).
+
+#### Deliverable:
+Submit the cleaned dataset (in Excel or CSV format) and a summary of the cleaning steps performed.
+
+---
+
+### **Task 3: Build/Execute**
+#### Scenario:
+The cleaned dataset is ready, and you need to choose appropriate visualizations to represent the KPIs identified earlier. TrendMart’s management requests a dashboard that can display:
+- Regional revenue distribution.
+- Top 5 product categories by sales.
+- Seasonal revenue trends (monthly).
+
+#### Student Assignment:
+- Design an interactive dashboard using Tableau Public or Power BI.
+- Ensure the dashboard includes:
+  - A bar chart for top product categories.
+  - A line chart for monthly trends.
+  - A heatmap for regional revenue distribution.
+
+#### Deliverable:
+Submit the dashboard file and screenshots of key charts, along with a brief explanation of your design choices.
+
+---
+
+### **Task 4: GenAI/Explanation**
+#### Scenario:
+TrendMart’s leadership team wants an automated summary of customer purchasing patterns to save time during presentations. Use generative AI tools to generate a narrative based on your dashboard insights.
+
+#### Student Assignment:
+- Input the cleaned dataset or dashboard insights into an AI tool (e.g., ChatGPT or Tableau AI).
+- Generate a text-based summary, including:
+  - Key trends (e.g., “Revenue peaked during December due to holiday sales”).
+  - Anomalies (e.g., “Product Category X showed unusually high sales in Region Y”).
+
+#### Deliverable:
+Submit the AI-generated narrative and refine it into a concise 300-word summary suitable for a presentation.
+
+---
+
+### **Task 5: Audit/Responsible AI**
+#### Scenario:
+Data visualizations can unintentionally mislead viewers if not presented responsibly. Your task is to audit your dashboard for potential bias or misrepresentation.
+
+#### Student Assignment:
+- Check for:
+  - Cherry-picking (e.g., excluding low-performing regions or products).
+  - Misleading scales or axes in charts.
+  - Overcomplicated visuals that may confuse viewers.
+- Make corrections where necessary.
+
+#### Deliverable:
+Submit a 1-page audit report explaining:
+- Potential biases identified.
+- Changes made to improve ethical visualization.
+
+---
+
+### **Task 6: Present Recommendation**
+#### Scenario:
+TrendMart’s management team is ready to see your findings. Present your dashboard and explain the insights through storytelling.
+
+#### Student Assignment:
+- Prepare a 5-minute video or slide deck presentation that:
+  - Highlights the key KPIs and trends.
+  - Explains the visuals in the dashboard.
+  - Recommends actionable business decisions (e.g., “Focus marketing efforts on Region X during Q4”).
+
+#### Deliverable:
+Submit the presentation file (video link or slide deck) and a short summary of your recommendations.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. Which chart type is best suited for showing seasonal revenue trends?
+   - A. Bar Chart  
+   - B. Line Chart  
+   - C. Pie Chart  
+   - D. Scatter Plot  
+   **Answer: B**
+
+2. What does AOV stand for in retail analytics?  
+   - A. Average Order Volume  
+   - B. Annual Order Value  
+   - C. Average Order Value  
+   - D. Aggregate Order Value  
+   **Answer: C**
+
+3. Which field is most critical for identifying regional revenue distribution?  
+   - A. Product_Category  
+   - B. Region  
+   - C. Purchase_Date  
+   - D. Customer_ID  
+   **Answer: B**
+
+4. What is the primary purpose of a heatmap?  
+   - A. To show trends over time  
+   - B. To highlight density or intensity of values  
+   - C. To compare categorical data  
+   - D. To display relationships between two variables  
+   **Answer: B**
+
+5. If a chart uses a misleading scale, it could lead to:  
+   - A. Faster decision-making  
+   - B. Misinterpretation of data  
+   - C. Improved storytelling  
+   - D. Enhanced dashboard interactivity  
+   **Answer: B**
+
+6. Which tool is most beginner-friendly for creating dashboards?  
+   - A. Tableau Public  
+   - B. Python Matplotlib  
+   - C. Power BI Desktop  
+   - D. Excel  
+   **Answer: A**
+
+7. What is the purpose of a KPI audit in data visualization?  
+   - A. To add more metrics to the dashboard  
+   - B. To ensure ethical and accurate representation of data  
+   - C. To simplify the dashboard design  
+   - D. To identify missing values in the dataset  
+   **Answer: B**
+
+8. Generative AI tools in this internship are used for:  
+   - A. Cleaning the dataset  
+   - B. Creating visualizations  
+   - C. Automating insight generation  
+   - D. Designing dashboards  
+   **Answer: C**
+
+9. What file format is most commonly used for sharing cleaned datasets?  
+   - A. TXT  
+   - B. CSV  
+   - C. PDF  
+   - D. PNG  
+   **Answer: B**
+
+10. What should you avoid in storytelling with data?  
+    - A. Simplifying insights  
+    - B. Highlighting anomalies  
+    - C. Using complex jargon  
+    - D. Providing actionable recommendations  
+    **Answer: C**
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- Task 1: KPI document  
+- Task 2: Cleaned dataset (Excel or CSV)  
+- Task 3: Dashboard file/screenshots and explanation  
+- Task 4: AI-generated narrative summary  
+- Task 5: Audit report  
+- Task 6: Presentation file/video  
+
+### **Grading Rubric**
+- Accuracy of analysis: 25%  
+- Creativity in visual design: 20%  
+- Ethical considerations: 15%  
+- Clarity of storytelling: 20%  
+- Quality of deliverables: 20%
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details**
+Upon successful completion and verification of all tasks, you will earn the **Skillzza Certified Data Visualization Specialist** certificate.
+
+### **Employability Score Example**
+Your performance will also be evaluated to provide an employability score based on:
+- Analytical Thinking: 90/100  
+- Visualization Design: 85/100  
+- Storytelling Skills: 80/100  
+- Ethical Awareness: 95/100  
+**Final Employability Score: 88/100**
+
+--- 
+
+Ready to transform data into stories that drive impact? Dive in and start your internship journey!
+
+---
+
+## 15. Predictive Analytics Analyst – Forecast Business Demand
+
+# Predictive Analytics Analyst – Forecast Business Demand
+
+## 1. What is this Job Simulation All About?
+
+**Scenario:**  
+You are hired as a Predictive Analytics Analyst by a retail company struggling with demand forecasting. They often face stockouts or overstock issues due to poor planning, which affects both revenue and customer satisfaction. Your role is to analyze historical sales data, identify demand patterns, and build a predictive model for accurate demand forecasting.
+
+**Mission:**  
+Your mission is to leverage predictive analytics and machine learning techniques to forecast business demand for the next quarter. By identifying trends and contributing actionable insights, you will help the company optimize inventory levels, improve customer experience, and reduce costs.
+
+**Final Challenge:**  
+Deliver a business-ready solution that includes a demand forecast model, its evaluation metrics, and a presentation of actionable recommendations for the company's inventory planning team.
+
+---
+
+## 2. What Will You Learn?
+
+**Domain Knowledge:**  
+- The principles of demand forecasting in retail.
+- Key factors influencing business demand (seasonality, trends, promotions, external events).
+- Real-world applications of predictive analytics in inventory optimization.
+
+**Analytics Skills:**  
+- Data preprocessing and feature engineering techniques for demand forecasting.
+- Statistical methods to identify anomalies and patterns in time-series data.
+- Evaluation metrics for forecasting models (RMSE, MAE, MAPE).
+
+**AI Skills:**  
+- Build machine learning models for forecasting (ARIMA, XGBoost, or LSTM).
+- Automate feature selection and hyperparameter tuning.
+- Interpret model outputs for actionable decision-making.
+
+---
+
+## 3. What Are the Prerequisites?
+
+**Recommended Background:**  
+- Intermediate-level knowledge of Python programming.
+- Understanding of basic statistics and data visualization.
+- Familiarity with machine learning algorithms.
+
+**Tools Required:**  
+- Python (with Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn).
+- Jupyter Notebook or Google Colab.
+- Optional: Tableau or Power BI for visualization.
+
+**Prerequisite Skill Check:**  
+- Can you load and preprocess a dataset in Python?  
+- Do you understand how regression models work?  
+- Are you familiar with time-series data structures?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### Core Tools:  
+- **Python Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.  
+- **Forecasting Models:** ARIMA, XGBoost, Random Forest.  
+- **Visualization:** Plotly, Tableau (optional).
+
+### Advanced Track:  
+- **Deep Learning:** LSTM for time-series forecasting.  
+- **AutoML:** Tools like H2O AutoML or Google Vertex AI for automated model selection.  
+- **Responsible AI:** Bias detection and model fairness evaluation.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Business Context**  
+**Scenario:**  
+You are given historical sales data from the past three years for a retail company. This dataset includes daily sales, product categories, promotions, and external factors like holidays. Your first step is to understand the industry-specific factors that influence demand and define the forecasting problem clearly.  
+
+**Student Assignment:**  
+- Explore the dataset fields such as `date`, `sales`, `product_category`, `promotion`, `holiday_flag`.
+- Identify key demand influencers like seasonality, trends, and external events.  
+- Create a written summary of the forecasting problem.  
+
+**Deliverable:**  
+Submit a one-page document summarizing the dataset structure, key factors affecting demand, and the problem statement.
+
+---
+
+### **Task 2: Data Preparation and Setup**  
+**Scenario:**  
+Raw data often has missing values, outliers, or inconsistencies that can affect model performance. Your next step is to clean and preprocess the data for analysis.  
+
+**Student Assignment:**  
+- Handle missing values in `sales` using interpolation or other techniques.  
+- Remove or impute outliers in the dataset.  
+- Engineer new features like `weekday`, `month`, and `season` from the `date` field.  
+- Split the data into training and test sets (80%-20%).  
+
+**Deliverable:**  
+Submit a clean dataset (.csv) with engineered features and a short report explaining the preprocessing steps.
+
+---
+
+### **Task 3: Build and Execute Forecasting Models**  
+**Scenario:**  
+You will now build predictive models for demand forecasting using machine learning algorithms. Compare traditional methods like ARIMA with advanced techniques like XGBoost or Random Forest.  
+
+**Student Assignment:**  
+- Train three different forecasting models: ARIMA, Random Forest, and XGBoost.  
+- Evaluate each model using metrics like RMSE, MAE, and MAPE.  
+- Document the hyperparameter settings for each model.  
+
+**Deliverable:**  
+Submit the trained model files and a performance comparison table of the three models.
+
+---
+
+### **Task 4: Explain Model Decisions with GenAI**  
+**Scenario:**  
+Management needs to understand how your model predicts demand. Use generative AI tools to summarize insights from feature importance and model outputs.  
+
+**Student Assignment:**  
+- Use tools like ChatGPT or LIME to generate explainable insights from the model outputs.  
+- Identify key features driving demand predictions (e.g., holidays, promotions).  
+- Create a summary of insights for non-technical stakeholders.  
+
+**Deliverable:**  
+Submit a one-page document explaining model predictions in layman’s terms, including visualizations.
+
+---
+
+### **Task 5: Audit for Responsible AI**  
+**Scenario:**  
+Your forecasting model must be unbiased and fair. Conduct a Responsible AI audit to ensure that predictions are not skewed by factors like product category or promotion bias.  
+
+**Student Assignment:**  
+- Analyze prediction bias across different product categories.  
+- Check if external factors like promotions disproportionately affect predictions.  
+- Suggest steps for mitigating bias (e.g., reweighting training samples).  
+
+**Deliverable:**  
+Submit a Responsible AI audit report highlighting bias findings and mitigation strategies.
+
+---
+
+### **Task 6: Present Forecast and Business Recommendations**  
+**Scenario:**  
+You are ready to present your findings and recommendations to the inventory planning team. Prepare actionable insights from your demand forecast to drive business decisions.  
+
+**Student Assignment:**  
+- Create a dashboard or presentation summarizing demand forecasts per product category and time period.  
+- Recommend inventory adjustments based on forecasted demand.  
+- Include an executive summary highlighting cost-saving opportunities.  
+
+**Deliverable:**  
+Submit a presentation (PDF or PPT) and an optional Tableau dashboard file.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. Which metric is best for evaluating the accuracy of a demand forecasting model?  
+   A. R-squared  
+   B. RMSE  
+   C. Precision  
+   D. F1-Score  
+   **Correct Answer:** B  
+
+2. Which feature is most likely to capture seasonality in demand forecasting?  
+   A. Promotion  
+   B. Month  
+   C. Product Category  
+   D. Sales  
+   **Correct Answer:** B  
+
+3. What is the primary purpose of feature engineering in predictive analytics?  
+   A. Improve data visualization  
+   B. Reduce dataset size  
+   C. Extract meaningful patterns for better predictions  
+   D. Automate model selection  
+   **Correct Answer:** C  
+
+4. Which algorithm is typically used for time-series forecasting?  
+   A. ARIMA  
+   B. K-Means  
+   C. Naive Bayes  
+   D. Logistic Regression  
+   **Correct Answer:** A  
+
+5. What does RMSE stand for?  
+   A. Relative Mean Squared Error  
+   B. Root Mean Squared Error  
+   C. Recursive Mean Squared Error  
+   D. Regression Mean Squared Error  
+   **Correct Answer:** B  
+
+6. What is the role of hyperparameter tuning in machine learning?  
+   A. To clean the dataset  
+   B. To optimize model performance  
+   C. To improve data visualization  
+   D. To reduce overfitting  
+   **Correct Answer:** B  
+
+7. Which Python library is best suited for feature importance visualization?  
+   A. NumPy  
+   B. Matplotlib  
+   C. Seaborn  
+   D. Plotly  
+   **Correct Answer:** C  
+
+8. What is the purpose of Responsible AI audits?  
+   A. To improve model accuracy  
+   B. To detect and mitigate biases in predictions  
+   C. To enhance data preprocessing  
+   D. To automate feature selection  
+   **Correct Answer:** B  
+
+9. Which technique is most appropriate for handling missing values in time-series data?  
+   A. Dropping rows with missing values  
+   B. Using interpolation techniques  
+   C. Filling with zeros  
+   D. Imputing with the mean  
+   **Correct Answer:** B  
+
+10. What is the main advantage of using XGBoost for demand forecasting?  
+   A. Simplicity  
+   B. Speed and accuracy in handling large datasets  
+   C. Requires less data preprocessing  
+   D. Suitable for feature extraction  
+   **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task
+
+**Submission Artifacts:**  
+- Task 1: Problem statement summary document.  
+- Task 2: Clean dataset (.csv) and preprocessing report.  
+- Task 3: Model files and performance comparison table.  
+- Task 4: Model explanation document and visualizations.  
+- Task 5: Responsible AI audit report.  
+- Task 6: Presentation slides and optional dashboard file.
+
+**Grading Rubric:**  
+- **Completeness:** All deliverables submitted (40%).  
+- **Accuracy:** Forecasting model performance and insights (30%).  
+- **Clarity:** Quality of explanations and visualizations (20%).  
+- **Creativity:** Business recommendations and Responsible AI strategies (10%).
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful completion and verification of your submissions, you will earn a **Predictive Analytics Analyst – Forecast Business Demand Certificate**.  
+
+**Employability Score Example:**  
+- **Technical Proficiency:** 9/10  
+- **Business Acumen:** 8/10  
+- **AI Skills:** 9/10  
+- **Responsible AI Awareness:** 8/10  
+
+This certificate will showcase your expertise in predictive analytics and business forecasting, making you a strong candidate for roles in retail analytics, demand planning, or AI-driven decision-making.
+
+---
+
+## 16. Data Scientist – Customer Churn Prediction
+
+# Data Scientist – Customer Churn Prediction
+
+## 1. What is this Job Simulation All About?
+
+**Scenario:**  
+Customer churn is one of the most pressing challenges faced by subscription-based businesses, SaaS companies, and service providers. Losing customers not only impacts revenue but also increases acquisition costs for new customers to replace them. As a Data Scientist specializing in churn prediction, you will help businesses identify customers at risk of leaving and provide actionable insights to improve retention.
+
+**Mission:**  
+Your mission is to develop a predictive model that identifies customers likely to churn using a dataset containing customer demographics, usage patterns, and service feedback. You will explore churn drivers, validate predictions, and propose a retention strategy based on actionable insights.
+
+**Final Challenge:**  
+Deliver a detailed analytical report including your churn prediction model, key drivers analysis, and a retention strategy that a business can implement to reduce churn rates by at least 15%.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge:**  
+  Understand customer churn behavior, common metrics (e.g., churn rate, retention rate), and strategies to improve retention.  
+- **Analytics:**  
+  Data cleaning, exploratory data analysis (EDA), feature engineering, and statistical interpretation of model results.  
+- **AI Skills:**  
+  Build and validate machine learning models for classification tasks (e.g., logistic regression, random forest, XGBoost). Gain experience with Responsible AI practices such as bias detection and explainability.
+
+---
+
+## 3. What Are the Prerequisites?
+
+- **Recommended Background:**  
+  Intermediate to advanced knowledge of Python, machine learning concepts, and statistics. Familiarity with customer-centric business models is a plus.  
+- **Tools:**  
+  Python, Jupyter Notebook, Pandas, Scikit-learn, Matplotlib/Seaborn, SHAP (for explainability).  
+- **Prerequisite Skill Check:**  
+  - Can you perform basic data cleaning and preprocessing using Python libraries?  
+  - Are you comfortable building classification models using logistic regression or decision trees?  
+  - Do you understand concepts like accuracy, precision, recall, and F1-score?  
+
+---
+
+## 4. What Tools Will You Learn?
+
+- **Core Tools:**  
+  - Python for data manipulation and modeling  
+  - Scikit-learn for machine learning implementation  
+  - Matplotlib/Seaborn for visualization  
+- **Advanced Track:**  
+  - SHAP (SHapley Additive exPlanations) for interpreting model predictions  
+  - Hyperparameter tuning with GridSearchCV  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Problem**
+**Scenario:**  
+You are hired by a subscription-based video streaming company experiencing increased customer churn. Your manager has provided a dataset containing customer profiles, subscription details, usage patterns, and churn labels. You need to start by understanding the problem and defining the business objectives.
+
+**Student Assignment:**  
+- Define the business problem: What does churn mean in this context, and why is it important?  
+- Explore the dataset structure: Identify key features, null values, and overall data quality.  
+- Document initial hypotheses about churn drivers based on domain knowledge (e.g., high service usage might reduce churn).  
+
+**Deliverable:**  
+Submit a 1-2 page report explaining the business problem, dataset overview, and initial hypotheses about churn factors.  
+
+---
+
+### **Task 2: Data Preparation and Exploratory Data Analysis**
+**Scenario:**  
+Before building the model, you need to clean the dataset and perform exploratory data analysis to uncover trends and outliers.
+
+**Student Assignment:**  
+1. Handle missing values (imputation or removal).  
+2. Perform feature engineering to create new variables such as "average monthly usage."  
+3. Conduct exploratory data analysis (EDA) using statistical summaries and visualizations (e.g., histograms, box plots, correlation heatmaps).  
+
+**Deliverable:**  
+Submit a Jupyter Notebook containing cleaned data, visualizations, and a summary of insights from EDA.  
+
+---
+
+### **Task 3: Build Churn Prediction Model**
+**Scenario:**  
+Now that the data is clean, you need to build a machine learning classification model to predict churn. You aim to optimize predictive accuracy while balancing bias and variance.
+
+**Student Assignment:**  
+1. Split the dataset into training and testing subsets.  
+2. Train models like logistic regression, random forest, and XGBoost.  
+3. Evaluate model performance using metrics such as accuracy, precision, recall, and F1-score.  
+4. Select the best-performing model and justify your choice.  
+
+**Deliverable:**  
+Submit a Jupyter Notebook detailing the models, evaluation metrics, and your selection rationale. Include visualizations of model performance (e.g., ROC curves).  
+
+---
+
+### **Task 4: Explain Predictions Using GenAI Tools**
+**Scenario:**  
+Your manager wants to understand why certain customers are predicted to churn. Use SHAP to explain the predictions and identify key drivers of churn.  
+
+**Student Assignment:**  
+1. Apply SHAP to analyze feature importance for individual predictions.  
+2. Create visualizations to highlight the most significant features influencing churn.  
+3. Write a brief explanation of the results and insights.  
+
+**Deliverable:**  
+Submit SHAP visualizations and a 1-page report summarizing the key churn drivers revealed by your analysis.  
+
+---
+
+### **Task 5: Audit Model for Responsible AI**
+**Scenario:**  
+Your client wants assurance that your model is fair and unbiased. Audit the model for potential bias based on customer demographics (e.g., age, gender, location).
+
+**Student Assignment:**  
+1. Analyze discrepancies in prediction rates across demographic groups.  
+2. Use fairness metrics like demographic parity and equalized odds to evaluate bias.  
+3. Adjust the model or provide recommendations to mitigate bias if present.  
+
+**Deliverable:**  
+Submit a Jupyter Notebook with fairness analysis results and a 1-page report detailing your findings and recommendations.  
+
+---
+
+### **Task 6: Present Retention Strategy**
+**Scenario:**  
+Your manager is impressed with your model and insights but wants a clear retention strategy based on your findings. Propose actionable steps the business can take to reduce churn.
+
+**Student Assignment:**  
+1. Summarize key churn drivers and customer segments most at risk.  
+2. Recommend retention strategies (e.g., personalized offers, improved customer support, loyalty programs).  
+3. Create a presentation slide deck to communicate findings and strategies effectively.  
+
+**Deliverable:**  
+Submit a 5-slide presentation summarizing your analytics, insights, and retention strategy.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. What is customer churn?  
+   A. The process of acquiring new customers  
+   B. A measure of customers who stop using a product/service  
+   C. The rate at which customers upgrade their plans  
+   D. Customer satisfaction score  
+   **Correct Answer:** B  
+
+2. Which of the following is NOT a common churn driver?  
+   A. Poor customer support  
+   B. High product usage  
+   C. Pricing issues  
+   D. Competitor influence  
+   **Correct Answer:** B  
+
+3. What does SHAP help with in machine learning?  
+   A. Data cleaning  
+   B. Explaining model predictions  
+   C. Reducing model bias  
+   D. Improving accuracy  
+   **Correct Answer:** B  
+
+4. Which metric measures the proportion of true positive predictions among all positive predictions?  
+   A. Recall  
+   B. Precision  
+   C. Accuracy  
+   D. F1-score  
+   **Correct Answer:** B  
+
+5. What is demographic parity in Responsible AI?  
+   A. Ensuring predictions are 100% accurate  
+   B. Equal opportunity for all demographic groups  
+   C. Model fairness across demographic groups  
+   D. Using SHAP for feature importance  
+   **Correct Answer:** C  
+
+6. Which machine learning model is generally more interpretable?  
+   A. Neural networks  
+   B. Logistic regression  
+   C. XGBoost  
+   D. Support vector machines  
+   **Correct Answer:** B  
+
+7. Which visualization is best for understanding correlation between numerical features?  
+   A. Histogram  
+   B. Scatter plot  
+   C. Correlation heatmap  
+   D. Pie chart  
+   **Correct Answer:** C  
+
+8. What does F1-score measure?  
+   A. Precision only  
+   B. Recall only  
+   C. The harmonic mean of precision and recall  
+   D. Model accuracy  
+   **Correct Answer:** C  
+
+9. What preprocessing step is essential for missing values?  
+   A. Removing all rows with missing values  
+   B. Imputation or removal based on data context  
+   C. Ignoring missing values  
+   D. Normalization  
+   **Correct Answer:** B  
+
+10. Which of these is an example of a retention strategy?  
+    A. Reducing product prices for all customers  
+    B. Personalized offers for at-risk customers  
+    C. Increasing marketing spend on new customers  
+    D. Ignoring churn predictions  
+    **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task
+
+**Submission Artifacts:**  
+- Task 1: Business problem and initial hypothesis report  
+- Task 2: Jupyter Notebook with EDA results  
+- Task 3: Jupyter Notebook with model development and evaluation summary  
+- Task 4: SHAP visualizations and churn driver report  
+- Task 5: Jupyter Notebook with fairness analysis and bias mitigation recommendations  
+- Task 6: 5-slide presentation with retention strategy and insights  
+
+**Grading Rubric:**  
+- Accuracy of insights (20%)  
+- Data preparation quality (20%)  
+- Model performance (20%)  
+- Explainability and Responsible AI analysis (20%)  
+- Presentation clarity and actionable retention strategy (20%)  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful completion and verification of your tasks, you will earn the **Skillzza Certificate in Advanced Data Science – Customer Churn Prediction**.  
+
+**Employability Score Example:**  
+- Data Cleaning and EDA: 90%  
+- Machine Learning Model Accuracy: 85%  
+- Responsible AI Practices: 95%  
+- Presentation and Communication: 88%  
+- Overall Score: 89.5%  
+
+This certificate will enhance your employability in roles such as **Data Scientist**, **AI Analyst**, and **Customer Insights Specialist**.
+
+---
+
+## 17. Fraud Analytics Analyst – Detect Suspicious Transactions
+
+# Fraud Analytics Analyst – Detect Suspicious Transactions
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+Financial institutions face growing threats from fraudulent activities, including identity theft, money laundering, and transaction tampering. As a Fraud Analytics Analyst, you will step into the shoes of a specialist tasked with detecting suspicious activity within transaction datasets and designing fraud detection mechanisms using AI-powered tools and analytics frameworks.
+
+### **Mission**  
+Your mission is to analyze transaction data, uncover patterns of fraudulent behavior, and build a fraud detection model capable of identifying anomalies. You will also define fraud rules, audit the AI system for fairness, and present actionable recommendations to reduce fraud risks.
+
+### **Final Challenge**  
+At the end of this track, you will submit a detailed fraud investigation report, complete with AI-generated insights, fraud rule recommendations, and ethical considerations for the deployed system.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Key concepts in fraud analytics: transaction monitoring, anomaly detection, fraud patterns  
+- Regulatory compliance in BFSI (e.g., AML, KYC guidelines)  
+- Fraud scoring systems and rule-based detection mechanisms  
+
+### **Analytics Skills**  
+- Exploratory Data Analysis (EDA) for financial datasets  
+- Statistical approaches for anomaly detection (e.g., z-scores, clustering)  
+- Fraud metrics: precision, recall, F1-score  
+
+### **AI Skills**  
+- Designing and training AI-based anomaly detection models  
+- Using pre-trained GenAI systems to explain fraud predictions  
+- Auditing AI systems for fairness and bias  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Basic understanding of BFSI sector workflows  
+- Intermediate knowledge of Python programming and data analysis  
+- Familiarity with AI/ML concepts  
+
+### **Tools Required**  
+- Python (Jupyter Notebook or IDE)  
+- Pandas, NumPy, Matplotlib/Seaborn (for EDA)  
+- Scikit-learn or PyTorch/TensorFlow (for anomaly detection models)  
+- GenAI tools like ChatGPT or HuggingFace for explanations  
+
+### **Prerequisite Skill Check**  
+- Can you clean and preprocess financial datasets?  
+- Are you familiar with clustering algorithms (e.g., k-means)?  
+- Can you interpret confusion matrices for fraud detection models?  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- Python libraries: Pandas, NumPy, Matplotlib/Seaborn  
+- Scikit-learn for supervised and unsupervised learning models  
+- GenAI tools for model explanations (ChatGPT, HuggingFace)  
+
+### **Advanced Track**  
+- AutoML frameworks for anomaly detection (e.g., H2O.ai, DataRobot)  
+- Fraud-specific analytics platforms (e.g., SAS Fraud Management, Actimize)  
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand Fraud Analytics in BFSI**  
+#### **Scenario**  
+A bank has flagged a dataset containing transactional data for potential fraud. You are required to understand fraud patterns, regulatory requirements, and common techniques used in fraud detection.  
+
+#### **Student Assignment**  
+- Review the dataset fields and understand their significance (e.g., transaction amount, account balance, merchant category).  
+- Research common fraud techniques like phishing, synthetic identity fraud, and transaction tampering.  
+- Explore fraud metrics like True Positive Rate and False Positive Rate.  
+
+#### **Deliverable**  
+A summary report (500 words) detailing:  
+- Types of fraud in BFSI  
+- Key dataset fields relevant to fraud detection  
+- Fraud detection challenges in AI systems  
+
+---
+
+### **Task 2: Dataset Preprocessing and Setup**  
+#### **Scenario**  
+You’ve been provided with a raw transaction dataset containing fields like `Transaction_ID`, `Account_ID`, `Transaction_Amount`, `Merchant_Category`, `Transaction_Timestamp`, and `Fraud_Flag`. Your task is to preprocess the dataset for analysis.  
+
+#### **Student Assignment**  
+- Handle missing values and outliers in the dataset.  
+- Convert timestamps into features such as `Hour_of_Day` and `Day_of_Week`.  
+- Normalize numerical fields like `Transaction_Amount`.  
+- Visualize transaction patterns using heatmaps and histograms.  
+
+#### **Deliverable**  
+A cleaned and preprocessed dataset (CSV format) along with a Jupyter Notebook showing EDA results.  
+
+---
+
+### **Task 3: Build an Anomaly Detection Model**  
+#### **Scenario**  
+Using the preprocessed dataset, you need to build an AI model to identify anomalous transactions that could indicate fraud.  
+
+#### **Student Assignment**  
+- Use clustering algorithms (e.g., k-means or DBSCAN) for unsupervised anomaly detection.  
+- Train a supervised learning model (e.g., Random Forest or XGBoost) using `Fraud_Flag` as a target variable.  
+- Evaluate model performance using metrics like precision, recall, and F1-score.  
+
+#### **Deliverable**  
+A trained anomaly detection model and a summary report containing:  
+- Model architecture and parameters  
+- Performance metrics and confusion matrix  
+
+---
+
+### **Task 4: Use GenAI to Explain Fraud Predictions**  
+#### **Scenario**  
+Your fraud detection model flagged 200 transactions as suspicious. The bank’s compliance team requires explanations for why these transactions were flagged.  
+
+#### **Student Assignment**  
+- Use a GenAI tool (e.g., ChatGPT) to generate explanations for flagged transactions based on their features.  
+- Identify patterns in flagged transactions (e.g., high transaction amounts at odd hours).  
+- Summarize findings into an actionable report for non-technical stakeholders.  
+
+#### **Deliverable**  
+A transaction explanation report (PDF format) containing:  
+- Top 5 fraud patterns observed  
+- GenAI-generated explanations for flagged transactions  
+
+---
+
+### **Task 5: Audit the AI System for Responsible Fraud Detection**  
+#### **Scenario**  
+The bank is concerned about potential biases in the fraud detection model, especially regarding merchant categories and transaction amounts.  
+
+#### **Student Assignment**  
+- Analyze the model for biased predictions (e.g., disproportionately flagging certain merchant categories).  
+- Use statistical tests to check for fairness across demographic fields (if available, e.g., `Account_Holder_Age`).  
+- Recommend strategies to mitigate bias and improve fairness.  
+
+#### **Deliverable**  
+An AI audit report (PDF format) containing:  
+- Bias analysis results  
+- Recommendations for ethical AI deployment  
+
+---
+
+### **Task 6: Present Fraud Risk Mitigation Recommendations**  
+#### **Scenario**  
+Your final task is to present actionable recommendations to reduce fraud risks based on your analysis and model findings.  
+
+#### **Student Assignment**  
+- Summarize findings from previous tasks into a cohesive presentation.  
+- Highlight fraud prevention strategies (e.g., real-time monitoring, rule-based interventions).  
+- Provide recommendations for improving the fraud detection model.  
+
+#### **Deliverable**  
+A presentation slide deck (10-15 slides) covering:  
+- Fraud trends and findings from the dataset  
+- Model insights and fraud rules  
+- Risk mitigation strategies  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+1. **Which metric is most important for fraud detection models?**  
+   A. Accuracy  
+   B. Precision  
+   C. F1-score  
+   D. Recall  
+   **Correct Answer:** C  
+
+2. **What does clustering help achieve in fraud detection?**  
+   A. Predict fraud flags  
+   B. Identify groups of similar transactions  
+   C. Visualize transaction timelines  
+   D. Normalize data fields  
+   **Correct Answer:** B  
+
+3. **Which feature is critical for detecting time-based fraud patterns?**  
+   A. Transaction_Amount  
+   B. Day_of_Week  
+   C. Account_ID  
+   D. Merchant_Category  
+   **Correct Answer:** B  
+
+4. **What is the purpose of GenAI in fraud analytics?**  
+   A. Train anomaly detection models  
+   B. Explain flagged transactions  
+   C. Normalize datasets  
+   D. Visualize fraud patterns  
+   **Correct Answer:** B  
+
+5. **Which algorithm is commonly used for unsupervised anomaly detection?**  
+   A. Random Forest  
+   B. k-means clustering  
+   C. Logistic Regression  
+   D. Gradient Boosting  
+   **Correct Answer:** B  
+
+6. **What does the `Fraud_Flag` field represent in the dataset?**  
+   A. Account balance  
+   B. Transaction category  
+   C. Indicator of fraud status  
+   D. Timestamp of transaction  
+   **Correct Answer:** C  
+
+7. **Which visualization is best for identifying transaction amounts over time?**  
+   A. Pie chart  
+   B. Line graph  
+   C. Heatmap  
+   D. Scatter plot  
+   **Correct Answer:** B  
+
+8. **What is a key drawback of bias in fraud detection models?**  
+   A. Increased prediction speed  
+   B. Reduced accuracy for fraudulent transactions  
+   C. Ethical and regulatory concerns  
+   D. Higher precision scores  
+   **Correct Answer:** C  
+
+9. **Which regulatory guideline is relevant for fraud detection systems?**  
+   A. GDPR  
+   B. AML/KYC  
+   C. HIPAA  
+   D. ISO 9001  
+   **Correct Answer:** B  
+
+10. **What is the main goal of auditing AI systems for fraud detection?**  
+   A. Increase dataset size  
+   B. Ensure fairness and transparency  
+   C. Improve processing speed  
+   D. Optimize model hyperparameters  
+   **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Task 1: Fraud Analytics Summary Report (PDF)  
+- Task 2: Preprocessed Dataset (CSV) + EDA Notebook  
+- Task 3: Anomaly Detection Model + Evaluation Report (Notebook + PDF)  
+- Task 4: GenAI Transaction Explanation Report (PDF)  
+- Task 5: AI Audit Report (PDF)  
+- Task 6: Presentation Slide Deck (PPT/PDF)  
+
+### **Grading Rubric**  
+- **Accuracy:** Fraud detection model performance (20%)  
+- **Clarity:** Quality of explanations and audits (20%)  
+- **Insights:** Fraud patterns and recommendations (20%)  
+- **Technical Depth:** Preprocessing and model design (20%)  
+- **Presentation:** Quality of the final slide deck (20%)  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+### **Certificate Details**  
+Upon successful completion and verification of all submitted tasks, you will earn the **Skillzza Advanced Fraud Analytics Analyst Certificate**.  
+
+### **Employability Score Example**  
+- **Technical Skills:** 90/100  
+- **Analytical Thinking:** 85/100  
+- **AI Proficiency:** 88/100  
+- **Presentation Skills:** 80/100  
+- **Total Employability Score:** 86/100  
+
+Boost your employability in BFSI fraud analytics roles!  
+
+---
+
+## 19. Data Quality Analyst – Clean a Messy Enterprise Dataset
+
+# Data Quality Analyst – Clean a Messy Enterprise Dataset
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+In the fast-paced world of enterprise data management, businesses rely on clean, accurate, and complete datasets to drive strategy. Imagine you're part of the Data Governance team at a large retail company. You've been handed a massive dataset containing customer purchase records, but it's riddled with inconsistencies: duplicates, missing values, and formatting issues. Your mission is to clean the dataset and provide actionable insights to improve its quality score.
+
+### **Mission**  
+Your goal is to analyze, clean, and enhance the quality of a messy enterprise dataset, ensuring it meets industry standards for data integrity. You'll perform profiling and validation, clean anomalies, deduplicate records, handle missing data, and calculate a final quality score. By the end, you’ll present recommendations to stakeholders on how clean data can improve business operations.
+
+### **Final Challenge**  
+Deliver a cleaned dataset with a detailed report explaining the data issues resolved, your methodology, and the resulting quality score. Additionally, provide strategic insights on how maintaining clean data can benefit enterprise-level decision-making.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge**  
+  Understand the principles of data quality, including completeness, accuracy, consistency, and timeliness. Learn the importance of clean data in enterprise operations across industries like retail, finance, and healthcare.  
+
+- **Analytics Skills**  
+  Master profiling techniques to detect duplicates, missing values, and inconsistencies. Develop insights into common data cleaning practices such as deduplication strategies, validation rules, and handling missing or erroneous entries.
+
+- **AI & Automation Skills**  
+  Learn how to use AI-powered tools for automated data profiling and anomaly detection, enabling faster and more efficient data cleaning processes.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+Ideal for intermediate-level learners with foundational knowledge in data analytics, statistics, and database management. Familiarity with spreadsheet tools and basic programming concepts is recommended.
+
+### **Tools Required**  
+- Microsoft Excel or Google Sheets  
+- Python (Pandas library)  
+- OpenRefine or Trifacta (optional for advanced cleaning tasks)  
+
+### **Prerequisite Skill Check**  
+Before starting, you should be able to:  
+- Use Excel functions like VLOOKUP, Pivot Tables, and Conditional Formatting.  
+- Write basic Python code for data manipulation using Pandas.  
+- Understand the concept of duplicates, missing values, and data validation.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Microsoft Excel**: For data profiling, filtering, and cleaning.  
+- **Python (Pandas)**: For programmatically handling data cleaning operations.  
+
+### **Advanced Track**  
+- **OpenRefine**: A tool for advanced data cleaning tasks like clustering and reconciling.  
+- **AI-Powered Profiling**: Learn about automated data quality assessment tools like Talend and Trifacta.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand**  
+#### **Scenario:**  
+You've just received a messy dataset containing customer purchase records for the last quarter. Before diving into cleaning, you need to understand the structure and identify key data issues.
+
+#### **Student Assignment:**  
+Perform initial data profiling to identify duplicates, missing values, and inconsistencies. Create a summary report highlighting the major quality issues in the dataset.
+
+#### **Deliverable:**  
+A document summarizing:  
+- Key columns and their data types.  
+- Percentage of duplicates and missing values per column.  
+- Any obvious formatting issues (e.g., inconsistent date formats).
+
+---
+
+### **Task 2: Data/Setup**  
+#### **Scenario:**  
+Now that you’ve identified the issues, it’s time to prepare the workspace and tools for cleaning. You'll load the messy dataset into Excel and Python and set up the cleaning pipeline.
+
+#### **Student Assignment:**  
+- Import the dataset into Excel and Python.  
+- Set up the environment for cleaning tasks (e.g., install Pandas if needed).  
+- Save the dataset in a format ready for cleaning (e.g., CSV).  
+
+#### **Deliverable:**  
+Submit:  
+1. Screenshot of the dataset loaded in Excel and Python.  
+2. A brief report describing your setup process.
+
+---
+
+### **Task 3: Build/Execute**  
+#### **Scenario:**  
+It’s time to clean the dataset! You’ll handle duplicates, missing values, and apply validation rules to ensure data accuracy.  
+
+#### **Student Assignment:**  
+- Deduplicate the dataset using both Excel (Remove Duplicates) and Python (drop_duplicates in Pandas).  
+- Handle missing values by imputing or removing incomplete rows.  
+- Apply validation rules to standardize inconsistent formats (e.g., date formats, phone numbers).  
+
+#### **Deliverable:**  
+Submit the cleaned dataset with:  
+1. Before and after statistics for duplicates and missing values.  
+2. A list of validation rules applied.
+
+---
+
+### **Task 4: GenAI/Explanation**  
+#### **Scenario:**  
+Use Generative AI tools to explain data quality metrics to non-technical stakeholders. Simulate the use of AI-powered profiling tools to generate insights.
+
+#### **Student Assignment:**  
+- Use ChatGPT or similar tools to generate a plain-English explanation of the cleaning process and its impact on data quality.  
+- Create a summary of key metrics (e.g., % of duplicate records removed, % of missing values handled) for stakeholders.  
+
+#### **Deliverable:**  
+Submit:  
+1. AI-generated explanation of data cleaning results.  
+2. A stakeholder-friendly summary of metrics.
+
+---
+
+### **Task 5: Audit/Responsible AI**  
+#### **Scenario:**  
+Ensuring data cleaning complies with ethical guidelines is crucial. Evaluate the cleaned dataset for fairness and audit your cleaning decisions.  
+
+#### **Student Assignment:**  
+- Audit the dataset for biases introduced during cleaning (e.g., removing rows based on incomplete demographic data).  
+- Validate that no critical information was lost during deduplication or missing value handling.  
+
+#### **Deliverable:**  
+Submit an audit report covering:  
+1. Bias detected (if any) and mitigation strategies.  
+2. Validation of dataset integrity.
+
+---
+
+### **Task 6: Present Recommendation**  
+#### **Scenario:**  
+Your cleaned dataset is ready, but stakeholders need actionable insights. Prepare a final report and presentation summarizing your work and recommendations for maintaining data quality in the future.
+
+#### **Student Assignment:**  
+- Create a presentation summarizing the cleaning process, data quality improvement, and insights gained.  
+- Propose strategies for ensuring continuous data quality in enterprise operations.
+
+#### **Deliverable:**  
+Submit:  
+1. Final cleaned dataset (.csv or .xlsx).  
+2. Presentation slides (PDF or PowerPoint).
+
+---
+
+## 6. MCQs Post Task Completion
+
+### **Question Set**  
+1. What is the first step in data profiling?  
+   A. Deduplication  
+   B. Validation  
+   C. Identifying data issues  
+   D. Imputation  
+   **Correct Answer:** C  
+
+2. Which Python library is most commonly used for data manipulation?  
+   A. NumPy  
+   B. Matplotlib  
+   C. Pandas  
+   D. SciPy  
+   **Correct Answer:** C  
+
+3. What Excel feature helps remove duplicate entries?  
+   A. Data Validation  
+   B. Pivot Tables  
+   C. Remove Duplicates  
+   D. Conditional Formatting  
+   **Correct Answer:** C  
+
+4. When handling missing values, which method is NOT recommended?  
+   A. Imputation  
+   B. Arbitrary removal of rows  
+   C. Keeping them as they are  
+   D. Using median substitution  
+   **Correct Answer:** B  
+
+5. Which tool is best for advanced data cleaning tasks like clustering?  
+   A. OpenRefine  
+   B. Python  
+   C. Excel  
+   D. Tableau  
+   **Correct Answer:** A  
+
+6. What metric represents the percentage of duplicate records in a dataset?  
+   A. Completeness  
+   B. Accuracy  
+   C. Consistency  
+   D. Redundancy  
+   **Correct Answer:** D  
+
+7. What is a common method for auditing cleaned datasets?  
+   A. Generating a summary report  
+   B. Adding more duplicates  
+   C. Removing all rows with missing values  
+   D. Ignoring the audit process  
+   **Correct Answer:** A  
+
+8. Why is data validation important?  
+   A. To make data visually appealing  
+   B. To ensure data conforms to specific rules  
+   C. To remove duplicates  
+   D. To add missing values  
+   **Correct Answer:** B  
+
+9. What is the purpose of calculating a data quality score?  
+   A. To rank the best employees  
+   B. To measure the integrity and usability of a dataset  
+   C. To increase the number of rows  
+   D. To delete unnecessary columns  
+   **Correct Answer:** B  
+
+10. How can AI tools assist in data cleaning?  
+   A. By automating repetitive tasks and generating insights  
+   B. By collecting more data  
+   C. By eliminating the need for human intervention  
+   D. By designing presentations  
+   **Correct Answer:** A  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**  
+- Cleaned dataset (.csv or .xlsx).  
+- Quality audit report (PDF/Word).  
+- Presentation summarizing insights and recommendations (PDF or PowerPoint).  
+- AI-generated explanations and metrics summary.
+
+### **Grading Rubric**  
+| **Criteria**               | **Excellent (5)** | **Good (4)** | **Average (3)** | **Needs Improvement (2)** | **Fail (1)** |
+|----------------------------|-------------------|--------------|-----------------|---------------------------|--------------|
+| **Data Cleaning Quality**  | All issues resolved; dataset fully clean | Most issues resolved; minor errors | Some issues resolved | Major issues left unresolved | No significant progress made |
+| **Audit Report Accuracy**  | Comprehensive and insightful | Well-written but lacks depth | Covers basics; lacks clarity | Superficial audit | No audit submitted |
+| **Presentation**           | Clear and actionable recommendations | Good summary; minor gaps | Basic explanation; lacks detail | Vague recommendations | No presentation submitted |
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful completion and verification of your submission, you will earn the **Skillzza Certified Data Quality Analyst** certificate. This certification demonstrates your ability to profile, clean, and audit messy datasets, ensuring high levels of data quality for enterprise applications.
+
+### **Employability Score Example**  
+- **Data Profiling & Analytics:** 85%  
+- **Technical Execution (Excel & Python):** 90%  
+- **Audit & Responsible AI Skills:** 80%  
+- **Communication & Presentation:** 88%  
+
+Your total employability score will be calculated based on these metrics, giving you valuable insights into your job readiness as a Data Quality Analyst.
+
+---
+
+## 21. AI Healthcare Analyst – Hospital Operations Optimisation
+
+# Virtual Internship: AI Healthcare Analyst – Hospital Operations Optimisation  
+
+---
+
+## 1. What is this Job Simulation All About?  
+
+**Scenario:**  
+Hospitals are complex systems with numerous moving parts — from patient care to staff scheduling to inventory management. As an AI Healthcare Analyst, your mission is to analyze operational bottlenecks and propose AI-driven solutions to optimize hospital performance. In this simulation, you will work with real-world hospital data to identify inefficiencies, leverage predictive analytics, and recommend interventions to improve patient care and operational efficiency.
+
+**Mission:**  
+Your mission is to use AI tools to analyze hospital operations, uncover bottlenecks, and evaluate opportunities for automation or optimization. You will identify areas where AI solutions can streamline processes such as patient flow, staff allocation, and equipment utilization. Your recommendations will aim to enhance hospital efficiency while adhering to ethical AI principles.  
+
+**Final Challenge:**  
+The culmination of this internship will require you to present a comprehensive "AI Intervention Plan" to the hospital's leadership team. Your report will include detailed analysis, AI-driven recommendations, and an implementation roadmap to address the identified bottlenecks.  
+
+---
+
+## 2. What Will You Learn?  
+
+- **Domain Knowledge:**  
+  - Fundamentals of hospital operations and supply chain management.  
+  - Common bottlenecks in healthcare systems and their impact on patient care.  
+  - Ethical considerations in implementing AI in healthcare environments.  
+
+- **Analytics Skills:**  
+  - Data cleaning and exploratory analysis for hospital datasets.  
+  - Bottleneck identification using metrics like Average Patient Wait Time, Bed Occupancy Rate, and Staff Utilization Rate.  
+  - Predictive modeling for patient admission trends and resource usage.  
+
+- **AI Skills:**  
+  - Introduction to AI tools for healthcare optimization.  
+  - Using machine learning algorithms to predict patient flow and optimize staffing schedules.  
+  - Responsible AI practices to ensure privacy and compliance with healthcare regulations.  
+
+---
+
+## 3. What Are the Prerequisites?  
+
+- **Recommended Background:**  
+  - Familiarity with healthcare operations or healthcare management is helpful but not mandatory.  
+  - Intermediate knowledge of Python, Excel, and data visualization techniques.  
+  - Basic understanding of machine learning concepts.  
+
+- **Tools Required:**  
+  - Python programming environment (Jupyter Notebook/Colab).  
+  - Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.  
+  - Access to Skillzza's proprietary healthcare dataset and analytics platform.  
+
+- **Prerequisite Skill Check:**  
+  1. Can you perform basic exploratory data analysis (EDA)?  
+  2. Are you familiar with supervised machine learning algorithms like decision trees or regression?  
+  3. Do you have knowledge of healthcare metrics such as patient wait times or bed turnover rates?  
+
+---
+
+## 4. What Tools Will You Learn?  
+
+- **Core Tools:**  
+  - Python (Pandas, NumPy, Scikit-learn).  
+  - Data visualization tools: Matplotlib, Seaborn.  
+  - Healthcare AI-specific tools: Skillzza HealthAI Analytics Platform.  
+
+- **Advanced Track:**  
+  - Predictive modeling for patient flow optimization.  
+  - Root cause analysis of operational bottlenecks using AI.  
+  - AI governance frameworks for Responsible AI in healthcare.  
+
+---
+
+## 5. Tasks to Be Performed  
+
+### **Task 1: Understand – Explore Hospital Operations**  
+**Scenario:**  
+You are newly hired as an AI Healthcare Analyst at Greenfield Hospital, a medium-sized hospital facing operational challenges. The management has provided you with key performance metrics from the last fiscal year, including patient admission data, bed occupancy rates, staff schedules, and equipment downtime.  
+
+**Student Assignment:**  
+- Review the dataset provided on hospital operations.  
+- Study key metrics like Average Patient Wait Time, Bed Occupancy Rate, Equipment Utilization Rate, and Staff-to-Patient Ratio.  
+- Create a summary report identifying potential bottlenecks in hospital operations.  
+
+**Deliverable:**  
+A one-page summary document detailing three operational areas that may have bottlenecks and why they are critical to address.  
+
+---  
+
+### **Task 2: Data/Setup – Clean and Prepare Data**  
+**Scenario:**  
+The hospital's dataset includes raw data on patient admission logs, staff schedules, and equipment usage. Some data points contain missing values and inconsistencies. Before moving forward, you need to clean and preprocess the data for analytical modeling.  
+
+**Student Assignment:**  
+- Use Python (Pandas and NumPy) to clean the dataset.  
+- Handle missing values using imputation techniques (mean/mode/median).  
+- Normalize data to ensure consistency across metrics (e.g., standardizing Bed Occupancy Rates as percentages).  
+- Visualize key trends using Matplotlib or Seaborn.  
+
+**Deliverable:**  
+A cleaned dataset (.csv file) and a Jupyter Notebook showing data preprocessing steps with accompanying visualizations.  
+
+---  
+
+### **Task 3: Build/Execute – Bottleneck Analysis**  
+**Scenario:**  
+Using the cleaned dataset, you are tasked with identifying the top three bottlenecks affecting Greenfield Hospital's operations. Apply analytics techniques to measure inefficiencies and quantify their impact on patient care and resource utilization.  
+
+**Student Assignment:**  
+- Calculate metrics such as Average Patient Wait Time, Equipment Downtime Rate, and Staff Utilization Rate.  
+- Use data visualization to highlight patterns and trends.  
+- Write a detailed analysis explaining the top three bottlenecks and their operational impact.  
+
+**Deliverable:**  
+A PDF report with visualizations and explanations of the top three bottlenecks, including quantifiable metrics such as percentage increases in patient wait times.  
+
+---  
+
+### **Task 4: GenAI/Explanation – AI Opportunities**  
+**Scenario:**  
+After identifying bottlenecks, you must propose AI-driven solutions to address these challenges. For example, predictive modeling for patient admission trends or AI-based scheduling tools for staff.  
+
+**Student Assignment:**  
+- Use Python and Scikit-learn to build a predictive model for patient admission trends.  
+- Write a GenAI-generated explanation (using Skillzza GenAI Assistant) to describe how the proposed solutions work.  
+- Justify the applicability of AI solutions using data from your bottleneck analysis.  
+
+**Deliverable:**  
+A Jupyter Notebook with your AI model and a 500-word explanation (generated with GenAI tools) describing how AI can solve the identified bottlenecks.  
+
+---  
+
+### **Task 5: Audit/Responsible AI – Ethical Considerations**  
+**Scenario:**  
+AI solutions in healthcare must adhere to strict ethical guidelines. You are tasked with auditing your proposed solutions to ensure compliance with privacy laws like HIPAA and addressing potential biases in your AI models.  
+
+**Student Assignment:**  
+- Conduct a bias audit of your predictive model (e.g., check for bias based on age, gender, or socioeconomic status).  
+- Identify potential risks to patient privacy and propose mitigation strategies.  
+- Create a Responsible AI checklist for hospital operations optimization.  
+
+**Deliverable:**  
+An Ethical Audit Report (PDF) including bias analysis results, privacy considerations, and a Responsible AI checklist.  
+
+---  
+
+### **Task 6: Present Recommendation – AI Intervention Plan**  
+**Scenario:**  
+You will present your findings and recommendations to the hospital's leadership team. Your goal is to persuade them to adopt AI solutions to improve operations, while addressing ethical and operational challenges.  
+
+**Student Assignment:**  
+- Prepare a 5-minute presentation summarizing the identified bottlenecks, AI-driven solutions, and implementation roadmap.  
+- Include visual aids such as graphs, predictive model results, and Responsible AI considerations.  
+
+**Deliverable:**  
+- A PowerPoint presentation (5-7 slides).  
+- A 2-page executive summary document summarizing your recommendations.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **1. Which metric is used to identify delays in patient care?**  
+A. Bed Occupancy Rate  
+B. Average Patient Wait Time  
+C. Equipment Downtime Rate  
+D. Staff-to-Patient Ratio  
+**Correct Answer:** B  
+
+### **2. What is the primary purpose of data normalization in healthcare datasets?**  
+A. To remove missing values  
+B. To standardize metrics for comparison  
+C. To visualize trends in data  
+D. To improve AI model accuracy  
+**Correct Answer:** B  
+
+### **3. Which Python library is commonly used for data preprocessing?**  
+A. NumPy  
+B. Matplotlib  
+C. Seaborn  
+D. Pandas  
+**Correct Answer:** D  
+
+### **4. What does HIPAA regulate in healthcare AI solutions?**  
+A. Bias in AI models  
+B. Patient privacy and data security  
+C. Staff scheduling practices  
+D. Hospital revenue management  
+**Correct Answer:** B  
+
+### **5. Which AI technique is suitable for predicting patient admission trends?**  
+A. Clustering  
+B. Regression  
+C. Random Forest  
+D. Dimensionality Reduction  
+**Correct Answer:** B  
+
+### **6. What is the primary goal of conducting a bias audit in AI models?**  
+A. To improve prediction accuracy  
+B. To identify and mitigate discrimination risks  
+C. To enhance visualization clarity  
+D. To optimize data preprocessing  
+**Correct Answer:** B  
+
+### **7. What is an example of a bottleneck in hospital operations?**  
+A. High staff utilization rates  
+B. Low equipment downtime  
+C. Excessive patient waiting times  
+D. High bed turnover rates  
+**Correct Answer:** C  
+
+### **8. Which visualization type is best for analyzing patient flow trends?**  
+A. Bar Chart  
+B. Line Graph  
+C. Scatter Plot  
+D. Pie Chart  
+**Correct Answer:** B  
+
+### **9. What is the purpose of a Responsible AI checklist?**  
+A. To ensure compliance with ethical guidelines  
+B. To improve AI model efficiency  
+C. To increase hospital revenue  
+D. To automate patient care  
+**Correct Answer:** A  
+
+### **10. What is the key deliverable for Task 6?**  
+A. Cleaned dataset and Jupyter Notebook  
+B. Executive summary and presentation slides  
+C. Bottleneck analysis report  
+D. Ethical audit report  
+**Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+**Submission Artifacts:**  
+- Task 1: Summary document (.pdf).  
+- Task 2: Cleaned dataset (.csv) and Jupyter Notebook.  
+- Task 3: Bottleneck analysis report (.pdf).  
+- Task 4: AI model notebook (.ipynb) and GenAI explanation (.pdf).  
+- Task 5: Ethical Audit Report (.pdf).  
+- Task 6: Presentation slides (.pptx) and executive summary (.pdf).  
+
+**Grading Rubric:**  
+- **Data Analysis:** Clear identification of bottlenecks with supporting metrics (20%).  
+- **AI Implementation:** Accuracy and relevance of predictive model (25%).  
+- **Visualization:** Quality and clarity of graphs/charts (15%).  
+- **Ethical Considerations:** Comprehensive bias audit and Responsible AI checklist (20%).  
+- **Presentation:** Persuasive and professional communication (20%).  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful completion of all tasks, your submission will be reviewed by an industry expert. You will receive:  
+- **Certificate of Achievement:** "Certified AI Healthcare Analyst – Hospital Operations Optimisation."  
+- **Employability Score:** Based on task performance, with metrics such as:  
+  - **Data Analysis Skills:** 85%  
+  - **AI Modeling Skills:** 90%  
+  - **Responsible AI Practices:** 95%  
+  - **Presentation Skills:** 80%  
+
+This certificate demonstrates your expertise in healthcare operations optimization using AI and prepares you for roles like Healthcare Data Analyst or AI Consultant in the healthcare domain.  
+
+---  
+
+**Ready to embark on your journey as an AI Healthcare Analyst? Let's optimize the future of hospital operations together!**  
+
+---
+
+## 23. AI Healthcare – Medical Appointment No-Show Predictor
+
+# AI Healthcare – Medical Appointment No-Show Predictor
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+In healthcare systems, missed medical appointments (commonly referred to as "no-shows") contribute to inefficiencies, wasted resources, and delayed care for patients. Healthcare organizations are increasingly leveraging AI to predict which patients are likely to skip appointments and proactively intervene to reduce no-show rates.  
+
+As an **AI Healthcare Analyst**, you will be tasked with developing and deploying a machine learning model to predict medical appointment no-shows using historical appointment data. Using your insights, you'll segment patients by risk level and propose intervention strategies to improve attendance rates.  
+
+### **Mission**  
+Your mission is to analyze medical appointment data, build an AI-powered no-show predictor model, and deliver actionable recommendations to reduce no-show rates through segmentation and intervention strategies.  
+
+### **Final Challenge**  
+At the end of this simulation, you will present a comprehensive report to stakeholders that includes:  
+1. Predictive model performance metrics.  
+2. Patient segmentation based on no-show risk levels.  
+3. Evidence-based recommendations for reducing no-shows.  
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Understand the impact of no-shows on healthcare systems and patient outcomes.  
+- Learn how AI can assist in healthcare resource optimization and patient behavior prediction.  
+
+### **Analytics Skills**  
+- Exploratory Data Analysis (EDA) for healthcare appointment data.  
+- Advanced segmentation techniques for patient risk profiling.  
+- Metrics for evaluating predictive models in healthcare settings (e.g., sensitivity, specificity).  
+
+### **AI Skills**  
+- Build and train predictive models using real-world healthcare data.  
+- Apply feature engineering techniques such as encoding categorical variables and handling imbalanced datasets.  
+- Deploy responsible AI practices to minimize bias and ensure ethical recommendations.  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Intermediate understanding of machine learning algorithms.  
+- Basic knowledge of healthcare systems and common challenges.  
+- Familiarity with Python programming and data analysis libraries (e.g., Pandas, NumPy, Scikit-Learn).  
+
+### **Tools**  
+- Python (Jupyter Notebook or IDE).  
+- Libraries: Pandas, Matplotlib, Seaborn, Scikit-Learn, Imbalanced-learn.  
+- Dataset: Historical medical appointment records with fields like `PatientID`, `Age`, `Gender`, `AppointmentDate`, `NoShow` (Yes/No), `HealthCondition`, and `SMS_Reminder`.  
+
+### **Prerequisite Skill Check**  
+Before beginning, ensure you can:  
+- Perform basic data wrangling and visualization in Python.  
+- Train and evaluate classification models (e.g., Logistic Regression, Random Forest).  
+- Understand the concept of class imbalance and techniques to address it.  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- Pandas for data preprocessing and manipulation.  
+- Seaborn/Matplotlib for healthcare data visualization.  
+- Scikit-Learn for building and evaluating machine learning models.  
+
+### **Advanced Track**  
+For those seeking extra challenges:  
+- Imbalanced-learn for handling class imbalance via techniques like SMOTE.  
+- Advanced segmentation techniques (e.g., clustering algorithms).  
+- Explainable AI methods such as SHAP or LIME to interpret predictions.  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand – Analyze the Problem and Dataset**  
+#### **Scenario**  
+You’ve just joined a healthcare analytics team tasked with reducing no-shows for medical appointments. Your first step is to understand the scope of the problem and analyze the provided dataset.  
+
+#### **Student Assignment**  
+- Analyze the impact of no-shows on healthcare efficiency (research online).  
+- Load the provided appointment dataset and perform an initial review of its fields, data types, and missing values.  
+- Summarize the key trends in no-show rates (e.g., by gender, age, and health condition).  
+
+#### **Deliverable**  
+Submit a report containing:  
+- Key insights about no-show trends (graphs and tables).  
+- Summary of missing values and potential data quality issues.  
+
+---
+
+### **Task 2: Data/Setup – Preprocess and Prepare the Dataset**  
+#### **Scenario**  
+The dataset needs to be cleaned and prepared for predictive modeling. You’ll handle missing values, encode categorical variables, and address class imbalance.  
+
+#### **Student Assignment**  
+- Handle missing values using appropriate imputation techniques.  
+- Encode categorical variables like `Gender` and `HealthCondition`.  
+- Address class imbalance in the `NoShow` field using techniques such as oversampling or undersampling.  
+
+#### **Deliverable**  
+Submit a clean and preprocessed dataset ready for modeling. Include a summary of preprocessing steps taken.  
+
+---
+
+### **Task 3: Build/Execute – Train and Evaluate the No-Show Predictor**  
+#### **Scenario**  
+Using the preprocessed dataset, you’ll train a classification model to predict whether a patient is likely to no-show an appointment.  
+
+#### **Student Assignment**  
+- Split the dataset into training and testing sets (e.g., 80/20 split).  
+- Train at least two models (e.g., Logistic Regression, Random Forest).  
+- Evaluate model performance using metrics such as accuracy, precision, recall, and F1-score.  
+
+#### **Deliverable**  
+Submit a summary comparing the performance of different models. Include code snippets and visualizations of key metrics (e.g., confusion matrix).  
+
+---
+
+### **Task 4: GenAI/Explanation – Interpret Predictions**  
+#### **Scenario**  
+Stakeholders need to understand the factors influencing no-show predictions to trust the model's recommendations. You’ll use explainable AI techniques to interpret predictions.  
+
+#### **Student Assignment**  
+- Choose one model and explain its predictions using SHAP or LIME.  
+- Identify which features contribute most to the likelihood of a no-show (e.g., age, SMS reminder).  
+
+#### **Deliverable**  
+Submit a document with feature importance graphs and written explanations of model predictions.  
+
+---
+
+### **Task 5: Audit/Responsible AI – Ensure Ethical Deployment**  
+#### **Scenario**  
+AI models in healthcare must adhere to ethical principles. You are tasked with auditing the no-show predictor for biases.  
+
+#### **Student Assignment**  
+- Analyze model predictions for potential biases (e.g., gender or age bias).  
+- Propose strategies to mitigate any identified biases (e.g., reweighting samples or adding fairness constraints).  
+
+#### **Deliverable**  
+Submit an audit report on model fairness and proposed mitigation strategies.  
+
+---
+
+### **Task 6: Present Recommendation – Segment Patients and Propose Interventions**  
+#### **Scenario**  
+Based on your predictions, segment patients by no-show risk levels (e.g., high, medium, low). Develop actionable strategies to reduce no-shows for each segment.  
+
+#### **Student Assignment**  
+- Use segmentation techniques to group patients by risk levels.  
+- Propose intervention strategies for each segment (e.g., SMS reminders, telehealth options for high-risk patients).  
+
+#### **Deliverable**  
+Submit a stakeholder presentation with:  
+- Patient segmentation visualizations.  
+- Intervention strategies tailored to each risk group.  
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. What is the primary goal of the no-show predictor model?  
+   A. Reduce clinic operational costs  
+   B. Increase patient satisfaction  
+   C. Predict patient behavior and improve attendance rates  
+   D. Develop new healthcare services  
+   **Correct Answer**: C  
+
+2. Which preprocessing technique is most suitable for handling missing values in the dataset?  
+   A. Drop rows with missing values  
+   B. Replace missing values with the mean/median  
+   C. Replace missing values with zero  
+   D. No preprocessing needed  
+   **Correct Answer**: B  
+
+3. What is the main challenge associated with the `NoShow` field?  
+   A. High cardinality  
+   B. Class imbalance  
+   C. Incorrect data types  
+   D. Duplicate values  
+   **Correct Answer**: B  
+
+4. Which metric is most relevant for evaluating the performance of the no-show predictor?  
+   A. Mean Absolute Error  
+   B. Recall  
+   C. Adjusted R2  
+   D. Silhouette Score  
+   **Correct Answer**: B  
+
+5. Which library is commonly used for explainable AI techniques like SHAP?  
+   A. Pandas  
+   B. Scikit-Learn  
+   C. Matplotlib  
+   D. SHAP  
+   **Correct Answer**: D  
+
+6. What is SMOTE primarily used for?  
+   A. Encoding categorical variables  
+   B. Visualizing clusters  
+   C. Handling class imbalance  
+   D. Performing dimensionality reduction  
+   **Correct Answer**: C  
+
+7. Which intervention strategy is most suitable for high-risk patients who might no-show?  
+   A. Sending SMS reminders  
+   B. Offering telehealth appointments  
+   C. Reducing appointment wait times  
+   D. Increasing appointment fees  
+   **Correct Answer**: B  
+
+8. What type of data visualization is most effective for identifying trends in patient no-show rates?  
+   A. Scatter plot  
+   B. Bar chart  
+   C. Heatmap  
+   D. Pie chart  
+   **Correct Answer**: C  
+
+9. What is the purpose of patient segmentation in this context?  
+   A. Predict appointment durations  
+   B. Group patients by similar conditions  
+   C. Tailor intervention strategies to reduce no-shows  
+   D. Calculate clinic revenue  
+   **Correct Answer**: C  
+
+10. What ethical principle must be considered when deploying the no-show predictor?  
+   A. Avoiding overfitting the model  
+   B. Ensuring fairness across patient demographics  
+   C. Maximizing model accuracy  
+   D. Minimizing computational cost  
+   **Correct Answer**: B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**  
+For each task, you will submit:  
+1. Task 1: Insights report with visualizations.  
+2. Task 2: Preprocessed dataset and summary of cleaning steps.  
+3. Task 3: Model comparison report with metrics and visualizations.  
+4. Task 4: Explainable AI report with feature importance graphs.  
+5. Task 5: Model audit report on fairness and ethical considerations.  
+6. Task 6: Stakeholder presentation with segmentation and interventions.  
+
+### **Grading Rubric**  
+- **Completeness**: Does the submission include all required components?  
+- **Accuracy**: Are insights, models, and metrics correctly calculated?  
+- **Clarity**: Are visualizations and explanations easy to understand?  
+- **Innovation**: Are intervention strategies creative and actionable?  
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details**  
+Upon successful completion and verification of all tasks, you will earn a **Certificate of Excellence in AI Healthcare Analytics**.  
+
+### **Employability Score Example**  
+Your performance in this simulation will contribute to an **Employability Score**, broken down as follows:  
+- Technical Skills (40%)  
+- Problem Solving (30%)  
+- Communication (20%)  
+- Ethical Awareness (10%)  
+
+Stand out to employers in the healthcare AI industry!  
+
+---
+
+## 25. AI Pharma Analyst – Drug Discovery Intelligence
+
+# AI Pharma Analyst – Drug Discovery Intelligence
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+In the rapidly evolving pharmaceutical industry, artificial intelligence is revolutionizing drug discovery and development. As an **AI Pharma Analyst**, you will work on analyzing complex biological datasets, identifying drug targets, and leveraging AI tools to prioritize drug candidates effectively. Your mission is to simulate the role of an advanced AI researcher working in a pharmaceutical company to facilitate faster and more accurate drug discovery.
+
+### **Mission**
+Your virtual internship revolves around helping a biotech company identify promising drug targets for treating a rare neurodegenerative disease. Using AI-powered tools, you will extract insights from large-scale datasets, analyze genomic research, and prioritize drug candidates based on efficacy and safety predictions.
+
+### **Final Challenge**
+At the end of the internship, you will deliver a comprehensive report detailing your findings, methods, and AI-driven prioritization of drug candidates, along with actionable recommendations for the next stages of research.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Fundamentals of drug discovery pipelines (target identification, validation, and candidate prioritization).
+- Biological datasets (genomic, proteomic, and biochemical data).
+- Literature mining techniques for scientific research.
+
+### **Analytics**
+- Statistical methods for analyzing clinical and experimental datasets.
+- Evaluating the reliability and quality of biological data.
+- Drug efficacy and toxicity predictions using AI models.
+
+### **AI Skills**
+- Using AI for target identification and drug candidate filtering.
+- Employing GenAI models for literature synthesis and hypothesis generation.
+- Responsible AI practices in healthcare and pharma.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- **Education**: Advanced-level knowledge in biotechnology, pharmacy, bioinformatics, or related fields.
+- **Skills**: Familiarity with Python, data analysis, and basic machine learning concepts.
+
+### **Tools Required**
+- Access to Python environment (e.g., Jupyter Notebook).
+- Pharma-specific datasets (provided during the simulation).
+- Libraries: Pandas, SciPy, TensorFlow/PyTorch, PubMed APIs.
+
+### **Prerequisite Skill Check**
+- Demonstrate basic understanding of machine learning algorithms.
+- Show familiarity with biological datasets (e.g., genomic sequences, protein structures).
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- Python libraries: Pandas, NumPy, SciPy (data processing and analysis).
+- GenAI platforms: GPT-based literature synthesis tools.
+- PubMed API: Extracting and analyzing scientific literature.
+
+### **Advanced Track**
+- TensorFlow/PyTorch: AI model development for drug target prediction.
+- Specialized bioinformatics tools: BLAST, PyMOL, and Biopython.
+- Responsible AI frameworks for healthcare (FairML, Explainable AI).
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Drug Discovery Pipeline**
+#### **Scenario**
+You are tasked with understanding how AI fits into the modern drug discovery pipeline, including target identification, validation, and candidate prioritization.
+
+#### **Student Assignment**
+- Research the stages of drug discovery.
+- Study how AI techniques like deep learning and NLP are used in pharma research.
+- Review the provided case study explaining AI-assisted drug discovery.
+
+#### **Deliverable**
+A one-page summary explaining the role of AI in drug discovery with references to the case study provided.
+
+---
+
+### **Task 2: Explore the Dataset and Set Up Your Environment**
+#### **Scenario**
+You have received a dataset containing genomic sequences, proteomic profiles, and experimental drug data. Your first step is to understand the structure of the data and set up your analysis environment.
+
+#### **Student Assignment**
+- Load and explore the dataset provided (CSV format).
+- Identify key fields such as gene names, protein structures, efficacy scores, and toxicity data.
+- Set up your Python environment with necessary libraries.
+
+#### **Deliverable**
+A Python notebook with exploratory data analysis (EDA), including summary statistics, missing value handling, and visualizations.
+
+---
+
+### **Task 3: Build AI Models for Target Identification**
+#### **Scenario**
+Using the dataset, your next task is to create predictive models to identify drug targets that are most likely to be effective against the neurodegenerative disease.
+
+#### **Student Assignment**
+- Preprocess the data and prepare it for model training.
+- Train AI models (e.g., random forest, deep learning) to predict potential drug targets.
+- Evaluate model performance using metrics like accuracy, precision, and recall.
+
+#### **Deliverable**
+Python scripts and trained model files, along with an evaluation report containing key model metrics.
+
+---
+
+### **Task 4: Use GenAI for Literature Mining and Hypothesis Generation**
+#### **Scenario**
+To complement your AI model findings, use generative AI tools to mine scientific literature and generate hypotheses about the identified drug targets.
+
+#### **Student Assignment**
+- Use PubMed API or a GPT-based tool to extract insights related to the disease and potential targets.
+- Summarize relevant research papers and identify gaps in existing studies.
+- Generate hypotheses for further experimental validation.
+
+#### **Deliverable**
+A document summarizing literature findings and hypotheses generated using GenAI tools.
+
+---
+
+### **Task 5: Audit Your AI Model for Responsible Use**
+#### **Scenario**
+To ensure ethical use of AI in drug discovery, you must audit your model for biases and explainability.
+
+#### **Student Assignment**
+- Analyze your model using SHAP or LIME to understand feature importance.
+- Check for biases in predictions (e.g., against specific genomic profiles).
+- Propose strategies to improve the fairness and reliability of the model.
+
+#### **Deliverable**
+A report detailing your model audit findings and proposed improvements.
+
+---
+
+### **Task 6: Present Your Recommendations**
+#### **Scenario**
+As the final step, you will present your findings to the biotech company’s research team, including your AI-driven prioritization of drug candidates.
+
+#### **Student Assignment**
+- Synthesize your findings into a concise slide deck.
+- Provide actionable recommendations based on your analysis and AI model results.
+- Highlight the most promising drug candidates for further development.
+
+#### **Deliverable**
+A PDF slide deck (6–8 slides) summarizing key findings, methods, and recommendations.
+
+---
+
+## 6. MCQs Post Task Completion
+
+### **Question 1**: What is the primary role of AI in drug discovery?
+A. Automating clinical trials  
+B. Predicting drug pricing  
+C. Identifying drug targets and prioritizing candidates  
+D. Manufacturing pharmaceutical products  
+**Correct Answer**: C  
+
+### **Question 2**: Which Python library is commonly used for data preprocessing?  
+A. TensorFlow  
+B. Pandas  
+C. PyTorch  
+D. OpenCV  
+**Correct Answer**: B  
+
+### **Question 3**: What does SHAP help with in AI models?  
+A. Model training  
+B. Feature explainability  
+C. Hyperparameter tuning  
+D. Literature mining  
+**Correct Answer**: B  
+
+### **Question 4**: What does PubMed API allow you to do?  
+A. Train AI models  
+B. Extract scientific literature  
+C. Visualize genomic data  
+D. Simulate drug efficacy  
+**Correct Answer**: B  
+
+### **Question 5**: Which metric is most useful for evaluating drug toxicity predictions?  
+A. Precision  
+B. Recall  
+C. ROC-AUC  
+D. Sensitivity  
+**Correct Answer**: D  
+
+### **Question 6**: What does GenAI assist with in this simulation?  
+A. Drug synthesis  
+B. Literature mining and hypothesis generation  
+C. Model auditing  
+D. Data visualization  
+**Correct Answer**: B  
+
+### **Question 7**: Which tool is best suited for visualizing protein structures?  
+A. Pandas  
+B. PyMOL  
+C. TensorFlow  
+D. Biopython  
+**Correct Answer**: B  
+
+### **Question 8**: Which type of bias is critical to check in AI models for drug discovery?  
+A. Gender bias  
+B. Genomic bias  
+C. Age bias  
+D. Regional bias  
+**Correct Answer**: B  
+
+### **Question 9**: What is the purpose of exploratory data analysis?  
+A. Training AI models  
+B. Understanding data structure and trends  
+C. Debugging Python scripts  
+D. Conducting literature reviews  
+**Correct Answer**: B  
+
+### **Question 10**: What is the primary deliverable in Task 6?  
+A. Python notebook  
+B. Model audit report  
+C. Slide deck with recommendations  
+D. Literature summary  
+**Correct Answer**: C  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+1. Python notebooks (Tasks 2 & 3).
+2. Literature summary document (Task 4).
+3. Model audit report (Task 5).
+4. Final slide deck (Task 6).
+
+### **Grading Rubric**
+- **Accuracy of AI Models**: 30%
+- **Depth of Literature Analysis**: 25%
+- **Quality of Recommendations**: 25%
+- **Responsible AI Audit**: 20%
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Once your submission is verified, you will earn a **Certificate of Completion** for the AI Pharma Analyst Virtual Internship track. This certificate will highlight your expertise in:
+- AI-driven drug discovery and candidate prioritization.
+- Literature mining and hypothesis generation.
+- Responsible AI practices in healthcare.
+
+### **Employability Score Example**
+- **AI Skills**: 85/100  
+- **Domain Knowledge**: 90/100  
+- **Responsible AI Practices**: 88/100  
+- **Overall Score**: 88%  
+
+You’ll be ready to apply for roles such as AI Pharma Analyst, Bioinformatics Specialist, and Drug Discovery Researcher!
+
+---
+
+## 29. Manufacturing Data Analyst – Quality Defect Detection
+
+# Manufacturing Data Analyst – Quality Defect Detection
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+You have been hired as a Manufacturing Data Analyst at a global consumer goods company that produces high-volume products such as electronics, appliances, and tools. Your job is to analyze production data to identify recurring quality defects, quantify their impact, and recommend corrective actions to improve manufacturing processes.
+
+### **Mission**  
+Your mission is to work with raw production data, uncover patterns in quality defects, and use data-driven techniques to prioritize issues using Pareto principles. By leveraging analytical tools and techniques, you will help the organization reduce defects, enhance product reliability, and save costs.
+
+### **Final Challenge**  
+For the final challenge, you will present a comprehensive report summarizing your findings. This report will include defect trends, Pareto analysis, and actionable recommendations for process improvement based on data insights.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Understanding manufacturing processes and the role of quality control.  
+- Root cause analysis and defect prioritization using Pareto principles.  
+- Key performance indicators (KPIs) in a manufacturing setup, such as defect rate, yield, and cost of quality.
+
+### **Analytics Skills**  
+- Exploratory data analysis (EDA) for production datasets.  
+- Statistical techniques for identifying recurring patterns in defects.  
+- Visualization techniques to communicate insights effectively.
+
+### **AI Skills**  
+- Introductory exposure to AI-driven anomaly detection in manufacturing.  
+- Using AI tools to identify defect clusters and predict future occurrences.  
+- Responsible AI practices for ethical and unbiased analysis.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Basic knowledge of manufacturing processes.  
+- Familiarity with data analysis concepts, such as working with datasets and basic statistics.  
+- Comfortable using spreadsheet tools like Microsoft Excel or Google Sheets.
+
+### **Tools**  
+- Python (recommended but not mandatory).  
+- Visualization tools like Tableau or Excel.  
+- Dataset analysis platforms like Pandas library or Jupyter Notebook.
+
+### **Prerequisite Skill Check**  
+- Can you calculate basic statistics (mean, median, mode) from a dataset?  
+- Are you familiar with creating simple visualizations (e.g., bar charts, line graphs)?  
+- Do you understand how to filter and group data in spreadsheets or programming tools?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Microsoft Excel/Google Sheets**: For initial data exploration and analysis.  
+- **Python with Pandas**: For advanced data cleaning and manipulation.  
+- **Matplotlib/Seaborn**: For generating high-quality visualizations.
+
+### **Advanced Track Tools**  
+- **Tableau or Power BI**: For creating dashboard visualizations.  
+- **Scikit-learn**: For implementing basic AI-powered defect prediction models.  
+- **Explainable AI (XAI)**: For interpreting model outputs responsibly.
+
+---
+
+## 5. Tasks to Be Performed
+
+### **Task 1: Understand the Scenario**  
+#### **Scenario**  
+Your team has noticed an increasing number of customer complaints due to product defects. The production team suspects specific issues in the manufacturing process but needs data-driven insights to confirm and prioritize issues.
+
+#### **Student Assignment**  
+- Review the provided dataset (`Production_Defect_Data.csv`), which includes fields such as `Product_ID`, `Batch_No`, `Defect_Type`, `Defect_Frequency`, `Production_Date`, and `Manufacturing_Line`.  
+- Familiarize yourself with the definitions of common defects in manufacturing (e.g., misalignment, surface scratches, incomplete assembly).  
+
+#### **Deliverable**  
+A 1-page summary of the dataset structure and key observations. Highlight any immediate insights or patterns you notice.
+
+---
+
+### **Task 2: Data Preparation and Setup**  
+#### **Scenario**  
+The production dataset contains inconsistencies such as missing values, outliers, and duplicate entries that may affect your analysis. You need to clean and preprocess the data for accurate defect detection.
+
+#### **Student Assignment**  
+- Handle missing values using imputation techniques (e.g., filling with mean/median values or removing rows).  
+- Remove duplicate entries.  
+- Identify and address outliers in the `Defect_Frequency` column using statistical methods such as interquartile range (IQR).  
+
+#### **Deliverable**  
+A cleaned dataset (`Cleaned_Production_Defect_Data.csv`) ready for analysis. Submit a short report explaining your preprocessing decisions.
+
+---
+
+### **Task 3: Build Pareto Analysis**  
+#### **Scenario**  
+Management wants to prioritize the defects based on their frequency and impact. You will use Pareto analysis (80/20 principle) to identify the top defects causing the majority of issues.
+
+#### **Student Assignment**  
+- Create a Pareto chart to visualize defect types and their cumulative impact.  
+- Use the cleaned dataset to calculate the percentage of defects contributed by each type and identify the "vital few" defects.  
+
+#### **Deliverable**  
+Submit a Pareto chart and a summary identifying the top defect types that contribute to 80% of the overall issues.
+
+---
+
+### **Task 4: Apply AI for Defect Clustering**  
+#### **Scenario**  
+Your team suspects that certain defects occur in clusters depending on specific manufacturing lines or production dates. You need to validate this hypothesis using clustering techniques.
+
+#### **Student Assignment**  
+- Use Python and Scikit-learn to implement a clustering algorithm (e.g., K-means) to group defects.  
+- Identify patterns in the clusters, such as specific manufacturing lines or time periods associated with higher defect rates.  
+
+#### **Deliverable**  
+Submit the clustering output (e.g., labeled dataset) and a visualization of defect clusters. Include a brief explanation of identified patterns.
+
+---
+
+### **Task 5: Audit Your Analysis for Responsible AI**  
+#### **Scenario**  
+Management is concerned about potential biases in your analysis. For instance, focusing on specific manufacturing lines might unfairly target certain teams without considering broader factors.
+
+#### **Student Assignment**  
+- Evaluate your analysis for biases (e.g., Are certain lines unfairly represented? Are smaller batches being disproportionately penalized?).  
+- Use Explainable AI tools to justify your clustering results and address any ethical concerns.
+
+#### **Deliverable**  
+Submit a 1-page audit report explaining how you ensured fairness and transparency in your analysis.
+
+---
+
+### **Task 6: Present Recommendations**  
+#### **Scenario**  
+You’ve completed your analysis and now need to present your findings to the leadership team. They expect a concise report with visuals, insights, and actionable recommendations for reducing defects.
+
+#### **Student Assignment**  
+- Compile your findings from previous tasks into a presentation/report.  
+- Include key visuals like the Pareto chart and clustering results.  
+- Provide 2-3 actionable recommendations for reducing defects based on your analysis.  
+
+#### **Deliverable**  
+A PowerPoint presentation or PDF report summarizing your findings, conclusions, and recommendations.
+
+---
+
+## 6. MCQs Post Task Completion
+
+### **Question 1**  
+Which manufacturing KPI measures the percentage of defective products in a production batch?  
+A. Yield Rate  
+B. Defect Rate  
+C. Production Efficiency  
+D. Cost per Unit  
+**Correct Answer**: B  
+
+### **Question 2**  
+What is the 80/20 principle in Pareto analysis?  
+A. 80% of problems are caused by 20% of the solutions.  
+B. 80% of the defects are caused by 20% of the defect types.  
+C. 80% of the costs come from 20% of the processes.  
+D. 80% of the resources are used in 20% of the production lines.  
+**Correct Answer**: B  
+
+### **Question 3**  
+What is the main purpose of exploratory data analysis (EDA)?  
+A. Model building  
+B. Data cleaning  
+C. Identifying patterns and trends  
+D. Deploying AI models  
+**Correct Answer**: C  
+
+### **Question 4**  
+Which technique is commonly used to remove extreme values from a dataset?  
+A. Data imputation  
+B. Interquartile Range (IQR)  
+C. Regression analysis  
+D. Clustering  
+**Correct Answer**: B  
+
+### **Question 5**  
+Which Python library is commonly used for data manipulation?  
+A. Matplotlib  
+B. Pandas  
+C. Scikit-learn  
+D. Keras  
+**Correct Answer**: B  
+
+### **Question 6**  
+What is the purpose of clustering in defect analysis?  
+A. To predict future defects  
+B. To group similar defects together  
+C. To calculate defect frequency  
+D. To remove duplicates  
+**Correct Answer**: B  
+
+### **Question 7**  
+Which visualization technique is most appropriate for Pareto analysis?  
+A. Line graph  
+B. Histogram  
+C. Pie chart  
+D. Bar chart with cumulative line  
+**Correct Answer**: D  
+
+### **Question 8**  
+What is the primary concern in Responsible AI practices?  
+A. Speed of analysis  
+B. Accuracy of predictions  
+C. Avoiding bias and ensuring fairness  
+D. Cost reduction  
+**Correct Answer**: C  
+
+### **Question 9**  
+What file format is commonly used to store cleaned datasets?  
+A. .docx  
+B. .csv  
+C. .pptx  
+D. .pdf  
+**Correct Answer**: B  
+
+### **Question 10**  
+Which clustering algorithm is most commonly used for grouping similar data points?  
+A. Decision Trees  
+B. K-means  
+C. Linear Regression  
+D. Random Forest  
+**Correct Answer**: B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**  
+For successful submission, ensure you provide the following:  
+1. **Task 1**: Dataset summary document (PDF or Word format).  
+2. **Task 2**: Cleaned dataset (`Cleaned_Production_Defect_Data.csv`) and preprocessing report.  
+3. **Task 3**: Pareto chart and summary document.  
+4. **Task 4**: Clustering output and visualization files.  
+5. **Task 5**: Responsible AI audit report (PDF or Word format).  
+6. **Task 6**: Final presentation/report (PowerPoint or PDF format).  
+
+### **Grading Rubric**  
+- **Data Understanding**: (10 points) Clear and concise summary of dataset structure and observations.  
+- **Data Preparation**: (20 points) Effective handling of missing values, duplicates, and outliers.  
+- **Pareto Analysis**: (20 points) Accurate chart and identification of key defect types.  
+- **Clustering Analysis**: (20 points) Logical clustering and meaningful insights.  
+- **Responsible AI Audit**: (15 points) Comprehensive and ethical analysis of biases.  
+- **Final Presentation**: (15 points) Professional-quality visuals and actionable recommendations.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details**  
+Upon successful completion of this virtual internship track, you will earn the **Manufacturing Data Analyst – Quality Defect Detection** certificate from Skillzza, showcasing your expertise in defect analysis, Pareto prioritization, and AI-driven clustering.
+
+### **Employability Score Example**  
+**Your Employability Score**: 87/100  
+- **Data Analysis Skills**: 25/30  
+- **Visualization Mastery**: 20/20  
+- **AI Techniques**: 20/20  
+- **Responsible AI Practices**: 12/15  
+- **Presentation Skills**: 10/15  
+
+Your certificate and score will be shareable on LinkedIn and will serve as a valuable addition to your professional portfolio.
+
+---
+
+## 30. AI Supply Chain Analyst – Demand & Inventory Prediction
+
+# AI Supply Chain Analyst – Demand & Inventory Prediction Virtual Internship Track
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+As global businesses navigate increasingly complex supply chain challenges, the role of AI in predicting demand and optimizing inventory has become crucial. In this virtual internship, you will step into the role of an AI Supply Chain Analyst at "OptiFlow Logistics," a leading supply chain solutions company specializing in AI-driven inventory management. Your mission is to analyze historical sales data, forecast future demand, and optimize inventory levels using advanced AI techniques.  
+
+### **Mission**  
+Your goal is to create an AI-powered system that accurately predicts product demand while minimizing inventory costs, reducing stockouts, and improving supply chain efficiency. The final challenge is to present a business case to leadership, showcasing how your solution can drive operational excellence and tangible business outcomes.  
+
+### **Final Challenge**  
+- Develop a predictive demand forecasting model using real-world supply chain data.  
+- Optimize inventory levels based on predictions and business constraints.  
+- Present an executive-level report highlighting the financial and operational impact of your solution.  
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Fundamentals of supply chain management and inventory optimization.  
+- Role of AI in transforming logistics and reducing inefficiencies.  
+- Demand forecasting techniques and their impact on business performance.  
+
+### **Analytics Skills**  
+- Exploratory Data Analysis (EDA) on supply chain datasets.  
+- Understanding seasonality, trends, and anomalies in historical demand data.  
+- Statistical and machine learning models for demand prediction.  
+
+### **AI Skills**  
+- Building and tuning predictive models for time series data.  
+- Using optimization algorithms to balance inventory levels and costs.  
+- Employing Responsible AI practices to ensure fairness and transparency.  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Intermediate Python programming experience.  
+- Basic knowledge of supply chain concepts and operations.  
+- Familiarity with machine learning libraries (e.g., scikit-learn, TensorFlow, or PyTorch).  
+
+### **Tools**  
+- Python (Anaconda or Google Colab recommended).  
+- Pandas, NumPy, scikit-learn, and Matplotlib/Seaborn for data analysis and visualization.  
+- TensorFlow or PyTorch for advanced AI modeling.  
+- OR-Tools or PuLP for optimization problems.  
+
+### **Prerequisite Skill Check**  
+- Can you perform basic data manipulation using Python libraries like Pandas?  
+- Do you understand how to create and evaluate machine learning models?  
+- Are you familiar with concepts like time series analysis or optimization algorithms?  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Python**: For data manipulation, analysis, and modeling.  
+- **Jupyter Notebook**: For documenting and presenting your workflow.  
+- **scikit-learn**: For building machine learning models.  
+- **Matplotlib/Seaborn**: For visualizing data trends and insights.  
+
+### **Advanced Track**  
+- **TensorFlow/PyTorch**: For neural network-based demand forecasting.  
+- **OR-Tools/PuLP**: For inventory optimization using linear programming.  
+- **Power BI/Tableau**: For creating professional dashboards to showcase results.  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Supply Chain Context**  
+
+#### **Scenario**  
+OptiFlow Logistics is experiencing issues with overstocking certain product categories while facing stockouts in others. The leadership team needs a detailed analysis of historical sales data to understand patterns and drivers of demand fluctuations.
+
+#### **Student Assignment**  
+- Study the provided dataset containing 3 years of demand history for 10 product categories.  
+- Identify seasonality, trends, and anomalies using visualizations and statistical techniques.  
+- Document key insights in a report.  
+
+#### **Deliverable**  
+- A detailed EDA report with visualizations highlighting patterns and anomalies.  
+
+---
+
+### **Task 2: Data Preparation and Setup**  
+
+#### **Scenario**  
+The raw dataset contains missing values, outliers, and inconsistent formats. Before building a forecasting model, you need to clean and preprocess the data to ensure accuracy.
+
+#### **Student Assignment**  
+- Handle missing values using imputation techniques (e.g., mean/median or forward fill).  
+- Remove outliers using statistical thresholds or visualization methods.  
+- Normalize numerical data and encode categorical fields.  
+
+#### **Deliverable**  
+- A clean, structured dataset ready for modeling.  
+
+---
+
+### **Task 3: Build and Execute the Demand Forecasting Model**  
+
+#### **Scenario**  
+Using the cleaned dataset, you will train an AI model to predict monthly demand for each product category over the next 12 months. Your model needs to account for seasonality and trends.
+
+#### **Student Assignment**  
+- Split the dataset into training and test sets.  
+- Build and train a time series forecasting model using ARIMA, Prophet, or LSTM.  
+- Evaluate model performance using metrics like MAPE (Mean Absolute Percentage Error) and RMSE (Root Mean Square Error).  
+
+#### **Deliverable**  
+- A trained and tested demand forecasting model with performance metrics.  
+
+---
+
+### **Task 4: Explain Insights Using Generative AI**  
+
+#### **Scenario**  
+The leadership team at OptiFlow Logistics wants to understand the model’s predictions and implications for their business. Use Generative AI tools to summarize findings in a clear and concise way.
+
+#### **Student Assignment**  
+- Use an AI tool like ChatGPT or Bard to generate a business summary of your model’s predictions.  
+- Include key insights on product categories with high or low demand and explain trends.  
+
+#### **Deliverable**  
+- A leadership-ready summary report generated using Generative AI.  
+
+---
+
+### **Task 5: Audit and Ensure Responsible AI Practices**  
+
+#### **Scenario**  
+Decision-making based on AI models can have ethical implications. You need to ensure your forecasting model is transparent, unbiased, and interpretable.
+
+#### **Student Assignment**  
+- Conduct a fairness audit of your model’s predictions across different product categories.  
+- Use SHAP (SHapley Additive exPlanations) or LIME to explain model decisions.  
+- Document areas for improvement in the model.  
+
+#### **Deliverable**  
+- A Responsible AI audit report with fairness metrics and interpretability analysis.  
+
+---
+
+### **Task 6: Present Your Business Case and Recommendations**  
+
+#### **Scenario**  
+You are presenting your solution to the leadership team. Showcase how your demand forecasting model and inventory optimization plan can drive cost savings and operational efficiency.
+
+#### **Student Assignment**  
+- Create a PowerPoint or dashboard summarizing your findings.  
+- Highlight the impact of your solution on reducing stockouts, minimizing overstock, and improving forecasting accuracy.  
+- Include financial projections supported by data.  
+
+#### **Deliverable**  
+- A visually compelling business case presentation or dashboard.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **Question 1**  
+Which of the following best describes seasonality in demand forecasting?  
+A. Random fluctuations in demand  
+B. Regular patterns that repeat over a specific time period  
+C. Irregular trends caused by external events  
+D. A sudden spike in demand  
+
+**Correct Answer:** B  
+
+### **Question 2**  
+What does RMSE measure in a forecasting model?  
+A. The average error in predictions  
+B. The variability of residuals  
+C. The square root of the average squared errors  
+D. The maximum error observed  
+
+**Correct Answer:** C  
+
+### **Question 3**  
+Which library is commonly used for handling time series data in Python?  
+A. scikit-learn  
+B. Pandas  
+C. TensorFlow  
+D. Matplotlib  
+
+**Correct Answer:** B  
+
+### **Question 4**  
+What is the main purpose of an inventory optimization algorithm?  
+A. Predict future sales trends  
+B. Minimize inventory-related costs while avoiding stockouts  
+C. Maximize product diversity in stock  
+D. Automate warehouse operations  
+
+**Correct Answer:** B  
+
+### **Question 5**  
+Which of the following techniques is most suitable for explaining model decisions?  
+A. Cross-validation  
+B. SHAP  
+C. One-hot encoding  
+D. Feature scaling  
+
+**Correct Answer:** B  
+
+### **Question 6**  
+What is a common metric to evaluate forecasting accuracy?  
+A. F1 score  
+B. Mean Absolute Percentage Error (MAPE)  
+C. Area Under the Curve (AUC)  
+D. Precision  
+
+**Correct Answer:** B  
+
+### **Question 7**  
+Why is data normalization important in predictive modeling?  
+A. It reduces overfitting.  
+B. It ensures all features are on the same scale.  
+C. It eliminates missing values.  
+D. It improves dataset size.  
+
+**Correct Answer:** B  
+
+### **Question 8**  
+Which optimization library is suitable for solving inventory management problems?  
+A. PuLP  
+B. BeautifulSoup  
+C. OpenCV  
+D. Flask  
+
+**Correct Answer:** A  
+
+### **Question 9**  
+What does SHAP analysis provide in AI models?  
+A. Visualizations of residuals  
+B. Interpretability by showing feature contributions  
+C. Optimal hyperparameter values  
+D. Data cleaning techniques  
+
+**Correct Answer:** B  
+
+### **Question 10**  
+Which AI model is specifically designed for time series forecasting?  
+A. Logistic Regression  
+B. LSTM (Long Short-Term Memory)  
+C. Random Forest  
+D. k-Means Clustering  
+
+**Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Task 1: EDA report (PDF/Notebook with visualizations).  
+- Task 2: Cleaned dataset (CSV file).  
+- Task 3: Forecasting model code and performance metrics (Notebook and screenshots).  
+- Task 4: AI-generated summary report (PDF/Word document).  
+- Task 5: Responsible AI audit report (PDF).  
+- Task 6: Presentation or dashboard (PowerPoint/Tableau workbook).  
+
+### **Grading Rubric**  
+- **Accuracy (40%)**: Forecasting model performance metrics (MAPE < 15%, RMSE).  
+- **Completeness (30%)**: Submission of all required artifacts.  
+- **Clarity (20%)**: Quality of documentation, visualizations, and presentation.  
+- **Responsible AI (10%)**: Ethical considerations and interpretability analysis.  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful completion and verification, you will receive:  
+- **Certificate Title**: AI Supply Chain Analyst – Demand & Inventory Prediction  
+- **Skillzza Employability Score**:  
+  - **Domain Knowledge**: 90%  
+  - **Analytics Skills**: 85%  
+  - **AI Proficiency**: 88%  
+  - **Responsible AI Practices**: 95%  
+
+Leverage this certificate to showcase your expertise in supply chain AI on LinkedIn, your resume, or during job interviews!
+
+---
+
+## 31. Computer Vision Engineer – Factory Quality Inspector
+
+# Computer Vision Engineer – Factory Quality Inspector
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+Imagine you are working as a Computer Vision Engineer for a high-tech manufacturing company specializing in the production of industrial parts. The company aims to improve its quality inspection process by automating defect detection using computer vision. Traditional manual inspection is both time-consuming and prone to errors, leading to inconsistent product quality that impacts customer satisfaction. Your role is critical in designing, deploying, and optimizing an AI-powered defect classification system.  
+
+### **Mission**  
+Your mission is to create a defect classification model that can accurately identify faulty parts from factory images, integrate this model into a workflow, and design an inspection dashboard for real-time monitoring. You will also ensure the AI system adheres to responsible AI practices, including accuracy, fairness, and transparency.  
+
+### **Final Challenge**  
+By the end of this simulation, you will present your defect classification pipeline and an interactive dashboard to factory stakeholders. Your deliverable should demonstrate how the AI system improves accuracy, reduces costs, and integrates seamlessly into the factory workflow.  
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Fundamentals of computer vision applied to manufacturing.  
+- Defect detection methods in factories (scratches, dents, misalignments).  
+- Role of AI in quality control and industrial automation.  
+
+### **Analytics Skills**  
+- Analyzing defect patterns from image datasets.  
+- Evaluating model performance using metrics like precision, recall, and F1 score.  
+- Optimizing workflows for real-time image processing.  
+
+### **AI Skills**  
+- Preprocessing factory images (cropping, normalization, augmentation).  
+- Training a defect classification model using transfer learning.  
+- Building and deploying a dashboard for real-time monitoring of predictions.  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Knowledge of basic Python programming.  
+- Familiarity with deep learning frameworks like TensorFlow or PyTorch.  
+- Understanding of computer vision concepts like image preprocessing and convolutional neural networks.  
+
+### **Tools**  
+- Python 3.8+  
+- OpenCV  
+- TensorFlow/Keras or PyTorch  
+- Streamlit or Dash for dashboard creation  
+
+### **Prerequisite Skill Check**  
+1. Can you preprocess an image dataset (resize, normalize, augment)?  
+2. Are you comfortable training a deep learning model using a pre-trained architecture (e.g., ResNet)?  
+3. Have you worked with visualization tools like Matplotlib or Seaborn for model evaluation?  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- OpenCV for image preprocessing.  
+- TensorFlow/Keras or PyTorch for model development.  
+- Streamlit for dashboard creation.  
+
+### **Advanced Track**  
+- Explainable AI tools like SHAP or LIME for interpreting model decisions.  
+- Deployment frameworks like Docker for scalable AI delivery.  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Problem Domain**  
+#### **Scenario**  
+Your factory manager has provided you with a dataset of images containing industrial parts marked as "defective" or "non-defective." The defects include scratches, dents, and misalignments. Your first task is to analyze the dataset and understand the patterns that differentiate defective from non-defective parts.  
+
+#### **Student Assignment**  
+1. Explore the dataset (CSV file with image paths and labels).  
+2. Visualize the sample images of defective and non-defective parts.  
+3. Identify unique challenges in detecting defects (e.g., small scratches, varied lighting conditions).  
+
+#### **Deliverable**  
+A short report (1-2 pages) summarizing your observations about the dataset, including key challenges and visual samples of defects.  
+
+---
+
+### **Task 2: Preprocess the Dataset**  
+#### **Scenario**  
+Factory images often have inconsistent lighting, variable angles, and noise. To train an accurate model, you need to preprocess the dataset by resizing, normalizing, and augmenting the images.  
+
+#### **Student Assignment**  
+1. Resize all images to a standard input size (e.g., 224x224 pixels).  
+2. Normalize pixel values to a range of 0-1.  
+3. Apply data augmentation techniques: rotation, flipping, and brightness adjustment.  
+
+#### **Deliverable**  
+A Python script that preprocesses the dataset and outputs a set of augmented images ready for model training.  
+
+---
+
+### **Task 3: Build and Train the Defect Classification Model**  
+#### **Scenario**  
+Using transfer learning, you will train a convolutional neural network (CNN) to classify images as defective or non-defective. You aim for a minimum accuracy of 90% on the test set.  
+
+#### **Student Assignment**  
+1. Select a pre-trained model (e.g., ResNet50, MobileNet).  
+2. Fine-tune the model with your preprocessed dataset.  
+3. Evaluate the model using metrics like precision, recall, and F1 score.  
+
+#### **Deliverable**  
+A Jupyter Notebook with the trained model, performance metrics, and sample predictions.  
+
+---
+
+### **Task 4: Explain Model Predictions with GenAI Tools**  
+#### **Scenario**  
+To maintain transparency, you need to explain why your model is classifying certain parts as defective or non-defective. This will help factory staff understand and trust the AI system.  
+
+#### **Student Assignment**  
+1. Use SHAP or LIME to analyze the predictions made by your model.  
+2. Visualize the regions of the image that contributed to the defect classification.  
+3. Write a brief explanation of the results for stakeholders.  
+
+#### **Deliverable**  
+A set of visual explanations (heatmaps) showing defect regions and a summary document explaining the model’s decision-making process.  
+
+---
+
+### **Task 5: Audit the Model for Responsible AI Practices**  
+#### **Scenario**  
+The factory’s leadership wants to ensure the AI system is fair and unbiased. You need to audit the model for potential biases (e.g., bias against certain defect types) and retrain if necessary.  
+
+#### **Student Assignment**  
+1. Analyze the model’s performance across all defect categories.  
+2. Identify any bias in predictions (e.g., higher recall for scratches but lower for dents).  
+3. Retrain the model or adjust hyperparameters to address bias.  
+
+#### **Deliverable**  
+An audit report detailing the bias analysis and steps taken to mitigate it. Include updated performance metrics.  
+
+---
+
+### **Task 6: Present Your Recommendation**  
+#### **Scenario**  
+You are tasked with presenting the defect classification system and an interactive dashboard to factory stakeholders. The dashboard should show real-time predictions and model performance metrics.  
+
+#### **Student Assignment**  
+1. Create a Streamlit dashboard showing sample predictions, confidence scores, and overall model metrics.  
+2. Prepare a brief presentation (5-10 slides) summarizing your work, including dataset challenges, model performance, and dashboard functionality.  
+
+#### **Deliverable**  
+A Streamlit dashboard URL and a presentation file (PDF or PPT).  
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **Which of the following is NOT a common defect type in factory images?**  
+   A. Scratches  
+   B. Dents  
+   C. Misalignments  
+   D. Shadows  
+   **Correct Answer:** D  
+
+2. **What is the primary purpose of data augmentation in image preprocessing?**  
+   A. Improve model architecture  
+   B. Increase dataset size and diversity  
+   C. Reduce model complexity  
+   D. Improve explainability  
+   **Correct Answer:** B  
+
+3. **Which pre-trained model is commonly used for transfer learning in image classification?**  
+   A. ResNet50  
+   B. GPT-3  
+   C. YOLOv4  
+   D. BERT  
+   **Correct Answer:** A  
+
+4. **What does SHAP explain in AI models?**  
+   A. Training speed  
+   B. Feature importance  
+   C. Pixel normalization  
+   D. Model architecture  
+   **Correct Answer:** B  
+
+5. **Which metric is most useful for evaluating imbalanced datasets?**  
+   A. Accuracy  
+   B. Recall  
+   C. Learning rate  
+   D. Epochs  
+   **Correct Answer:** B  
+
+6. **What is the recommended input size for most pre-trained CNN models?**  
+   A. 128x128 pixels  
+   B. 224x224 pixels  
+   C. 512x512 pixels  
+   D. 1024x1024 pixels  
+   **Correct Answer:** B  
+
+7. **Which framework is used for creating interactive dashboards in Python?**  
+   A. Matplotlib  
+   B. Streamlit  
+   C. OpenCV  
+   D. TensorFlow  
+   **Correct Answer:** B  
+
+8. **What is the role of normalization in image preprocessing?**  
+   A. Reduce dataset size  
+   B. Standardize pixel values  
+   C. Increase training speed  
+   D. Change image resolution  
+   **Correct Answer:** B  
+
+9. **What does precision measure in a classification model?**  
+   A. True negatives  
+   B. True positives among predicted positives  
+   C. False positives among predicted negatives  
+   D. Model loss  
+   **Correct Answer:** B  
+
+10. **Which tool helps visualize model predictions for explainability?**  
+    A. SHAP  
+    B. TensorBoard  
+    C. OpenCV  
+    D. NumPy  
+    **Correct Answer:** A  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Task 1: Dataset analysis report (PDF).  
+- Task 2: Python script for preprocessing.  
+- Task 3: Jupyter Notebook with trained model and metrics.  
+- Task 4: Visual explanations and summary document.  
+- Task 5: Audit report with updated metrics.  
+- Task 6: Dashboard URL and presentation file.  
+
+### **Grading Rubric**  
+- **Dataset Understanding (10%)**: Clear identification of challenges and patterns.  
+- **Preprocessing (20%)**: Quality of preprocessing script and augmented data.  
+- **Model Performance (30%)**: Accuracy, recall, and F1 score.  
+- **Explainability (15%)**: Quality of visual explanations and stakeholder summary.  
+- **Responsible AI (15%)**: Thorough bias analysis and remediation steps.  
+- **Presentation (10%)**: Clarity and completeness of dashboard and slides.  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+### **Certificate Details**  
+Upon successful completion and verification of all tasks, you will earn the **"Advanced Computer Vision Engineer – Factory Quality Inspector"** certificate.  
+
+### **Employability Score Example**  
+- **AI Skills (40%)**: Expertise in defect classification and transfer learning.  
+- **Domain Knowledge (30%)**: Understanding of quality inspection workflows.  
+- **Analytics (20%)**: Ability to evaluate and optimize model metrics.  
+- **Communication (10%)**: Effective presentation and dashboard creation.  
+
+Total Score: **95/100**  
+
+
+---
+
+## 32. AI Agriculture Analyst – Crop Health Intelligence
+
+# AI Agriculture Analyst – Crop Health Intelligence
+
+## 1. **What is this Job Simulation All About?**
+
+### **Scenario**  
+Global agriculture faces challenges such as pest infestations, unpredictable weather, and soil degradation, resulting in reduced crop yield. As an AI Agriculture Analyst, your mission is to leverage artificial intelligence to analyze crop health data, predict risks, and provide actionable insights for farmers. You will work with satellite imagery, IoT sensor data, and weather datasets to develop an AI-driven intelligence model.
+
+### **Mission**  
+Your mission is to build a Crop Health Intelligence System using AI technologies. You will analyze real-world agricultural datasets to identify risks (e.g., pest growth zones, nutrient deficiencies, drought stress), generate recommendations, and prepare advisory reports for farmers, enabling them to act promptly to save their crops and improve yields.
+
+### **Final Challenge**  
+Develop a complete farmer advisory report powered by AI insights. Provide actionable recommendations based on data-driven findings, including preventative measures, intervention strategies, and yield optimization techniques.
+
+---
+
+## 2. **What Will You Learn?**
+
+### **Domain Knowledge**  
+- Fundamentals of AgriTech and precision farming.  
+- Crop health indicators: pest risks, soil quality, and climatic stress.  
+- Agricultural data formats: satellite imagery, IoT sensor readings, weather predictions.  
+
+### **Analytics Skills**  
+- Exploratory Data Analysis (EDA) for crop datasets.  
+- Risk identification and pattern recognition in agricultural data.  
+- Data visualization to communicate findings effectively.  
+
+### **AI Skills**  
+- Building AI models for classification and prediction (e.g., pest infestation or drought risk).  
+- Understanding explainable AI (XAI) for transparent decision-making.  
+- Responsible AI practices for agricultural use cases.  
+
+---
+
+## 3. **What Are the Prerequisites?**
+
+### **Recommended Background**  
+- Basic knowledge of agriculture or environmental science.  
+- Intermediate Python programming experience.  
+- Familiarity with machine learning fundamentals (e.g., regression, classification).  
+
+### **Tools Required**  
+- Python IDE (e.g., Jupyter Notebook, Google Colab).  
+- Libraries: Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow/Keras.  
+- Access to agricultural datasets (provided during the simulation).  
+
+### **Prerequisite Skill Check**  
+Before beginning the internship, students should be able to:  
+- Write Python scripts to clean and analyze datasets.  
+- Build simple machine learning models using Scikit-learn or TensorFlow.  
+- Create visualizations using Matplotlib or Seaborn.  
+
+---
+
+## 4. **What Tools Will You Learn?**
+
+### **Core Tools**  
+- **Python**: Data manipulation and analysis.  
+- **Scikit-learn**: Supervised machine learning techniques for risk prediction.  
+- **Matplotlib & Seaborn**: Data visualization to identify trends in crop health.  
+
+### **Advanced Track**  
+- **TensorFlow/Keras**: Neural networks for complex pattern recognition.  
+- **SHAP Library**: Explainable AI for transparency in recommendations.  
+- **QGIS**: Geospatial data visualization and mapping.  
+
+---
+
+## 5. **Tasks to be Performed**
+
+### **Task 1: Understand the Problem – Crop Health Analysis**  
+#### **Scenario**  
+A group of farmers from a drought-prone region has provided crop health and environmental datasets, including satellite imagery, soil quality metrics, and weather forecasts. You need to understand the indicators of crop health and the risks involved.  
+
+#### **Student Assignment**  
+- Research key factors affecting crop health (e.g., pests, climate, soil nutrients).  
+- Explore the provided dataset fields: `Crop_ID`, `Region`, `Soil_Moisture`, `Temperature`, `Humidity`, `Pest_Infestation`, `Yield`.  
+- Identify relationships between environmental factors and crop health.  
+
+#### **Deliverable**  
+Submit a summary document (PDF or Word) explaining crop health indicators and their relevance to risk prediction. Include visualizations of trends (e.g., temperature vs yield).
+
+---
+
+### **Task 2: Data Preparation and Setup**  
+#### **Scenario**  
+The provided datasets contain missing values, outliers, and redundant fields. To ensure accurate AI model predictions, you need to clean and preprocess the data.  
+
+#### **Student Assignment**  
+- Identify and handle missing values using imputation techniques.  
+- Remove irrelevant fields and detect outliers.  
+- Normalize numerical fields (e.g., `Soil_Moisture`, `Temperature`).  
+
+#### **Deliverable**  
+Submit a cleaned dataset (CSV file) along with a Python notebook showcasing data preprocessing steps.
+
+---
+
+### **Task 3: Build the AI Model – Risk Prediction**  
+#### **Scenario**  
+Using the cleaned dataset, it’s time to build an AI model that predicts crop health risks such as pest infestations or drought stress.  
+
+#### **Student Assignment**  
+- Split the dataset into training and testing sets.  
+- Implement a classification model (e.g., Decision Tree or Random Forest) to predict `Pest_Infestation` risk.  
+- Evaluate model accuracy using metrics like precision, recall, and F1-score.  
+
+#### **Deliverable**  
+Submit your trained model code and a report on the model's performance (e.g., confusion matrix, key metrics).
+
+---
+
+### **Task 4: Explainable AI – Why Did the Model Predict This?**  
+#### **Scenario**  
+Farmers need to understand why certain risks are predicted. You must use Explainable AI (XAI) techniques to make model predictions transparent.  
+
+#### **Student Assignment**  
+- Use the SHAP library to explain your AI model’s predictions.  
+- Generate visual explanations for why specific predictions (e.g., pest infestation or drought stress) were made.  
+
+#### **Deliverable**  
+Submit SHAP plots for key predictions and a brief report explaining their relevance to farmers.
+
+---
+
+### **Task 5: Audit for Responsible AI**  
+#### **Scenario**  
+AI models can unintentionally favor certain crops or regions, leading to biased outcomes. You must audit your model for fairness and ensure responsible AI practices are followed.  
+
+#### **Student Assignment**  
+- Check for biases in predictions across regions (`Region` field).  
+- Create a fairness report highlighting any disparities and propose solutions (e.g., retraining with balanced data).  
+
+#### **Deliverable**  
+Submit a fairness audit report (PDF) with actionable recommendations for bias mitigation.
+
+---
+
+### **Task 6: Present AI Recommendations to Farmers**  
+#### **Scenario**  
+Based on your AI findings, prepare an advisory report for farmers. This report should include preventative measures, intervention strategies, and yield optimization techniques tailored to their crop health risks.  
+
+#### **Student Assignment**  
+- Summarize key insights from your model’s predictions.  
+- Provide actionable recommendations (e.g., irrigation schedules, pest control techniques).  
+- Create a visually appealing farmer advisory report.  
+
+#### **Deliverable**  
+Submit a farmer advisory report (PDF or PowerPoint) incorporating AI-driven insights and recommendations.
+
+---
+
+## 6. **MCQs Post Task Completion**
+
+1. **Which of the following is NOT a typical indicator of crop health?**  
+   A. Soil Moisture  
+   B. Pest Infestation  
+   C. Temperature  
+   D. Internet Speed  
+   **Correct Answer**: D  
+
+2. **What is the purpose of normalizing numerical fields during data preprocessing?**  
+   A. To increase dataset size  
+   B. To standardize values for better model performance  
+   C. To remove irrelevant columns  
+   D. To add missing data  
+   **Correct Answer**: B  
+
+3. **Which machine learning algorithm is most suitable for classification tasks like predicting pest infestation?**  
+   A. Linear Regression  
+   B. Random Forest  
+   C. K-Means Clustering  
+   D. Principal Component Analysis  
+   **Correct Answer**: B  
+
+4. **What does SHAP stand for in Explainable AI?**  
+   A. Statistical Hypothesis Analysis Program  
+   B. Shapley Additive Explanations  
+   C. Shared AI Predictions  
+   D. Simplified Heatmap Analytics Plot  
+   **Correct Answer**: B  
+
+5. **Why is auditing for fairness important in AI models?**  
+   A. To improve computational efficiency  
+   B. To uncover biases and ensure equitable outcomes  
+   C. To simplify decision trees  
+   D. To create adversarial attacks  
+   **Correct Answer**: B  
+
+6. **What metric is best to evaluate classification model performance for imbalanced datasets?**  
+   A. Accuracy  
+   B. F1 Score  
+   C. Mean Absolute Error  
+   D. R2 Score  
+   **Correct Answer**: B  
+
+7. **Which of the following tools is primarily used for geospatial data visualization?**  
+   A. Matplotlib  
+   B. Seaborn  
+   C. QGIS  
+   D. TensorFlow  
+   **Correct Answer**: C  
+
+8. **What is the primary goal of using Explainable AI in agriculture?**  
+   A. To increase AI model complexity  
+   B. To simplify data preprocessing  
+   C. To make AI predictions understandable for farmers  
+   D. To improve hardware compatibility  
+   **Correct Answer**: C  
+
+9. **What does a confusion matrix in classification models represent?**  
+   A. The difference between prediction and actual values  
+   B. The precision of predictions over time  
+   C. A summary of true positives, false positives, true negatives, and false negatives  
+   D. The accuracy of regression models  
+   **Correct Answer**: C  
+
+10. **Which of the following is a potential bias in agricultural AI models?**  
+    A. Overfitting to training data  
+    B. Favoring certain crops or regions in predictions  
+    C. Using normalized data  
+    D. High recall score  
+    **Correct Answer**: B  
+
+---
+
+## 7. **Submit Your Completed Task**
+
+### **Submission Artifacts**  
+- Task 1: Crop health indicators summary (PDF/Word).  
+- Task 2: Cleaned dataset (CSV) and Python notebook for preprocessing.  
+- Task 3: Trained model code and performance evaluation report.  
+- Task 4: SHAP plots and explanation report.  
+- Task 5: Fairness audit report (PDF).  
+- Task 6: Farmer advisory report (PDF/PowerPoint).  
+
+### **Grading Rubric**  
+- **Accuracy (30%)**: Quality of AI model predictions and evaluation metrics.  
+- **Transparency (25%)**: Clarity of SHAP explanations and fairness audit.  
+- **Actionability (25%)**: Practicality and relevance of farmer recommendations.  
+- **Presentation (20%)**: Visual appeal and communication quality of reports.  
+
+---
+
+## 8. **Earn Certificate Post Verification**
+
+Upon successful completion and verification of all tasks, you will earn the **AI Agriculture Analyst – Crop Health Intelligence** certificate.  
+
+### **Certificate Details**  
+- **Title**: AI Agriculture Analyst  
+- **Level**: Intermediate  
+- **Domain**: AgriTech  
+- **Employability Score Example**:  
+  - **Technical Skills**: 90/100  
+  - **Problem Solving**: 85/100  
+  - **Communication**: 80/100  
+  - **Ethics and Responsibility**: 88/100  
+
+---
+
+## 33. Precision Agriculture Analyst – Smart Irrigation
+
+# Precision Agriculture Analyst – Smart Irrigation
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+The world is facing increasing challenges with water scarcity and food security, driving the need for smarter agricultural practices. As a Precision Agriculture Analyst specializing in Smart Irrigation, you will work to optimize water usage for crop fields by leveraging weather, soil, and crop data. Your goal is to design predictive models to estimate water demand and create efficient irrigation plans that minimize waste while maximizing crop yield.
+
+### **Mission**  
+Your mission in this simulation is to analyze data from sensors and weather stations to develop an AI-driven irrigation system. You will create a predictive model for water demand based on environmental factors and crop requirements, ensure the system is scalable and responsible, and present your findings to stakeholders in the agricultural sector.
+
+### **Final Challenge**  
+Build a predictive model that forecasts water demand for a given crop field based on historical weather, soil moisture, and crop data. Use this model to create a smart irrigation plan, ensuring sustainable water use while maximizing agricultural yield. Present your solution along with key analytics and insights to hypothetical investors and stakeholders.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Principles of precision agriculture and sustainable irrigation practices.
+- Understanding the impact of weather, soil, and crop characteristics on water demand.
+- Techniques to balance agricultural yield with resource conservation.
+
+### **Analytics**
+- Data preprocessing for agricultural datasets (e.g., soil moisture, weather conditions).
+- Exploratory data analysis to uncover insights into crop water needs.
+- Building and validating predictive models for water demand.
+
+### **AI Skills**
+- Training regression and time-series forecasting models for environmental data.
+- Using AI to simulate irrigation scenarios and optimize decision-making.
+- Implementing Responsible AI practices to ensure transparency and fairness in agricultural technology.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Strong interest in agricultural technology and sustainability.
+- Basic knowledge of data science concepts, including regression and time-series analysis.
+- Familiarity with Python and machine learning libraries like Scikit-learn or TensorFlow.
+
+### **Tools**
+- Python (Jupyter Notebook)
+- Pandas, NumPy, Matplotlib, Scikit-learn
+- Weather APIs (e.g., OpenWeatherMap)
+- Soil moisture datasets or simulators
+
+### **Prerequisite Skill Check**
+Before starting this simulation, you should be able to:
+- Load and preprocess CSV datasets.
+- Build a simple regression model in Python.
+- Perform exploratory data analysis with visualizations.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **Python**: For data analysis and model development.
+- **Scikit-learn**: Building and evaluating predictive models.
+- **Matplotlib/Seaborn**: Visualization of environmental data trends.
+- **Weather APIs**: Extracting real-time weather data.
+- **Excel/Google Sheets**: Organizing irrigation schedules.
+
+### **Advanced Track**
+- **TensorFlow/Keras**: Building advanced neural networks for predictive modeling.
+- **Dash/Streamlit**: Creating interactive dashboards for irrigation monitoring.
+- **GeoPandas**: Visualizing geographical irrigation zones and field data.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Problem**
+#### **Scenario**  
+You are hired by an AgriTech company to optimize water usage for a wheat field in a semi-arid region. The region frequently experiences unpredictable weather patterns, and soil moisture levels vary significantly across the field.
+
+#### **Student Assignment**  
+- Research the principles of precision agriculture and smart irrigation systems.
+- Study the provided dataset containing historical weather, soil moisture, and crop yield data.
+- Identify key factors that influence water demand for wheat crops.
+
+#### **Deliverable**  
+Submit a 500-word report summarizing:
+- Key factors affecting water usage in agriculture.
+- The role of predictive modeling in smart irrigation systems.
+- Initial insights from the dataset.
+
+---
+
+### **Task 2: Preprocess Data and Set Up Environment**
+#### **Scenario**  
+You receive raw sensor data from soil moisture monitors and weather stations. However, the data contains missing values, outliers, and inconsistencies that need to be cleaned before analysis.
+
+#### **Student Assignment**  
+- Import the provided dataset into a Jupyter Notebook.
+- Perform data cleaning: handle missing values, remove outliers, and standardize units (e.g., temperature in °C, rainfall in mm).
+- Conduct exploratory data analysis (EDA) and visualize key trends in the data.
+
+#### **Deliverable**  
+Submit an annotated Jupyter Notebook containing:
+- Cleaned dataset.
+- Summary statistics for key variables.
+- Visualizations (e.g., histograms, scatter plots, and time-series graphs).
+
+---
+
+### **Task 3: Build Predictive Water Demand Model**
+#### **Scenario**  
+Using the cleaned data, you will build a predictive model to estimate daily water demand for the wheat field based on weather and soil conditions.
+
+#### **Student Assignment**  
+- Split the dataset into training and testing sets.
+- Train a regression model (e.g., Random Forest or Gradient Boosting) to predict daily water demand.
+- Evaluate model performance using metrics like RMSE and R².
+
+#### **Deliverable**  
+Submit a Python script and report containing:
+- Model training code.
+- Evaluation metrics (e.g., RMSE, R²).
+- Insights into the model’s feature importance and accuracy.
+
+---
+
+### **Task 4: Use Generative AI for Explanation**
+#### **Scenario**  
+Your team needs to explain the predictive model to non-technical stakeholders. Use Generative AI tools to create accessible explanations and visualizations.
+
+#### **Student Assignment**  
+- Use a Generative AI tool (e.g., ChatGPT or Jasper) to summarize the methodology and results of your predictive model.
+- Create visualizations to explain how weather and soil factors influence water demand.
+- Generate a brief video script explaining the smart irrigation solution.
+
+#### **Deliverable**  
+Submit:
+- A 300-word text explanation generated by AI.
+- Two visualizations explaining the model.
+- A 2-minute video script for stakeholder presentation.
+
+---
+
+### **Task 5: Audit for Responsible AI Practices**
+#### **Scenario**  
+Your irrigation system might be deployed across diverse agricultural regions. Conduct an audit to ensure the predictive model is fair, unbiased, and adaptable to different crops and climates.
+
+#### **Student Assignment**  
+- Test the model on a new dataset containing data for a cornfield.
+- Check for bias or underperformance in certain environmental conditions.
+- Propose adjustments or improvements to ensure the model’s fairness.
+
+#### **Deliverable**  
+Submit a report containing:
+- Bias audit results (e.g., performance comparison across datasets).
+- Proposed improvements for model adaptability and fairness.
+- Justification for Responsible AI practices in agriculture.
+
+---
+
+### **Task 6: Present Recommendation**
+#### **Scenario**  
+You are presenting your irrigation solution to a panel of investors and agricultural experts. They need a clear understanding of the technology, its benefits, and its impact on sustainability.
+
+#### **Student Assignment**  
+- Create a presentation summarizing your work, including challenges, methodology, results, and recommendations.
+- Include visuals (e.g., charts, graphs, and images) to support your arguments.
+- Highlight the economic and environmental benefits of the smart irrigation system.
+
+#### **Deliverable**  
+Submit:
+- A PowerPoint/Google Slides presentation (10 slides max).
+- A video recording of your presentation (3-5 minutes).
+- A written summary of key points (400 words).
+
+---
+
+## 6. MCQs Post Task Completion
+
+### **Question 1**  
+What is the primary goal of precision agriculture?  
+A. Increase labor productivity  
+B. Optimize resource usage and maximize crop yield  
+C. Minimize equipment costs  
+D. Reduce soil quality over time  
+**Correct Answer**: B  
+
+### **Question 2**  
+Which of the following is a common factor influencing crop water demand?  
+A. Soil acidity  
+B. Rainfall  
+C. Crop color  
+D. Temperature of irrigation water  
+**Correct Answer**: B  
+
+### **Question 3**  
+What is RMSE commonly used for?  
+A. Measuring classification accuracy  
+B. Evaluating regression model errors  
+C. Calculating soil moisture levels  
+D. Predicting weather patterns  
+**Correct Answer**: B  
+
+### **Question 4**  
+Which AI tool is best for generating natural language explanations of a model?  
+A. Scikit-learn  
+B. ChatGPT  
+C. TensorFlow  
+D. OpenWeatherMap API  
+**Correct Answer**: B  
+
+### **Question 5**  
+What does feature importance in a model indicate?  
+A. Model performance  
+B. The contribution of each variable to predictions  
+C. The number of missing values in the dataset  
+D. The time required for training  
+**Correct Answer**: B  
+
+### **Question 6**  
+How can bias in predictive models be mitigated?  
+A. By increasing the dataset size  
+B. By testing the model on diverse datasets  
+C. By focusing only on profitable crops  
+D. By ignoring performance metrics  
+**Correct Answer**: B  
+
+### **Question 7**  
+What is the role of soil moisture sensors in smart irrigation systems?  
+A. Measuring crop yield  
+B. Monitoring water levels in the soil  
+C. Predicting weather patterns  
+D. Controlling equipment costs  
+**Correct Answer**: B  
+
+### **Question 8**  
+Which visualization is best for showing the correlation between temperature and water demand?  
+A. Histogram  
+B. Bar chart  
+C. Scatter plot  
+D. Box plot  
+**Correct Answer**: C  
+
+### **Question 9**  
+What is Responsible AI in the context of agriculture?  
+A. Ensuring AI systems are profitable  
+B. Making AI systems fair and adaptable across regions  
+C. Using AI only for large-scale farms  
+D. Avoiding AI in drought-prone areas  
+**Correct Answer**: B  
+
+### **Question 10**  
+What is the main benefit of using predictive models for irrigation planning?  
+A. Reducing soil quality  
+B. Minimizing water waste  
+C. Increasing pesticide usage  
+D. Decreasing crop yield  
+**Correct Answer**: B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+For successful completion, submit the following:
+- Annotated Jupyter Notebooks for Tasks 2 and 3.
+- AI-generated text explanations and visualizations for Task 4.
+- Bias audit report for Task 5.
+- Presentation slides, video recording, and written summary for Task 6.
+
+### **Grading Rubric**
+- **60%**: Technical accuracy (data analysis, model performance, bias audit).  
+- **30%**: Communication skills (clarity of presentation, AI explanations).  
+- **10%**: Creativity and innovation (unique insights, sustainable recommendations).
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful verification of all submitted tasks, you will earn the **Skillzza Advanced Virtual Internship Certificate in Precision Agriculture – Smart Irrigation**.  
+
+### **Employability Score Example**  
+- **Domain Expertise**: 92/100  
+- **Technical Skills**: 88/100  
+- **Presentation Skills**: 85/100  
+- **Overall Employability Score**: 91/100  
+
+This certificate will validate your ability to analyze agricultural data, build predictive models, and design sustainable irrigation systems, making you industry-ready for roles in AgriTech.
+
+---
+
+## 35. Credit Analyst – AI Credit Risk Assessment
+
+# Credit Analyst – AI Credit Risk Assessment Virtual Internship Track
+
+## 1. What is this Job Simulation All About?
+
+### Scenario  
+As a Credit Analyst in a leading financial institution, your role is critical to ensuring responsible lending decisions. You are tasked with analyzing financial profiles, assessing credit risks using AI models, and making informed recommendations for loan approvals or denials. In this simulation, you will step into the shoes of a modern-day credit analyst, leveraging advanced AI tools to streamline and refine credit risk assessment processes.
+
+### Mission  
+Your mission is to utilize AI-powered techniques to develop a credit risk scoring engine, analyze borrower profiles, and provide transparent explanations for loan decisions. You will also ensure compliance with responsible AI practices and present your recommendations to the financial advisory board for final review.
+
+### Final Challenge  
+The final challenge involves creating an end-to-end credit risk assessment report for a real-world dataset, including:
+1. Financial profile analysis.
+2. AI-driven risk scoring with key metrics.
+3. Transparent explanation of risk scoring.
+4. Recommendations for credit approval or denial.
+5. A presentation to simulate board-level decision-making.
+
+---
+
+## 2. What Will You Learn?
+
+### Domain Knowledge  
+- Fundamentals of credit risk assessment and financial profile analysis.  
+- Banking regulations on responsible lending (e.g., Basel III guidelines).  
+- Risk classification criteria (low-risk, medium-risk, high-risk borrowers).
+
+### Analytics  
+- Data preprocessing for financial metrics such as income, debts, and credit history.  
+- Statistical methods to analyze borrower profiles.  
+- Risk threshold tuning based on historical data.
+
+### AI Skills  
+- Building and training AI models for credit scoring.  
+- Interpreting AI model outputs using explainability tools (e.g., SHAP values).  
+- Implementing responsible AI practices such as bias detection and fairness audits.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### Recommended Background  
+- Knowledge of financial concepts like credit scoring, debt-to-income ratios, and loan-to-value (LTV).  
+- Basic proficiency in Python and machine learning.  
+- Understanding of data visualization tools (e.g., Matplotlib, Seaborn).  
+
+### Tools  
+- Python (NumPy, Pandas, Scikit-learn, SHAP, Matplotlib).  
+- Jupyter Notebook or Google Colab.  
+- Dataset: Borrower financial profiles with fields like `Income`, `Debt`, `Credit_Score`, `Loan_Amount`, `Employment_Status`, etc.
+
+### Prerequisite Skill Check  
+You should be able to:  
+1. Understand AI algorithm basics (e.g., decision trees, logistic regression).  
+2. Write Python code for data analysis tasks.  
+3. Explain the concept of bias in machine learning models.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### Core Tools  
+- **Python Libraries:** Pandas, NumPy, Scikit-learn for data analysis and modeling.  
+- **Explainability Tools:** SHAP for interpreting AI model decisions.  
+- **Visualization:** Matplotlib and Seaborn for trend and risk analysis.  
+
+### Advanced Track  
+- **Model Evaluation:** ROC-AUC curves, precision-recall trade-offs.  
+- **Bias Detection:** Fairness indicators to ensure responsible AI.  
+- **Presentation Tools:** PowerPoint or Canva for clear communication of findings.
+
+---
+
+## 5. Tasks to be Performed  
+
+### Task 1: Understand  
+#### Scenario  
+You’ve just joined the credit risk team of a financial institution. To start, you need to familiarize yourself with the dataset provided and understand the key variables that influence credit risk scoring.  
+
+#### Student Assignment  
+- Explore the dataset fields, including `Income`, `Debt`, `Credit_Score`, `Loan_Amount`, `Employment_Status`, and `Loan_Status`.  
+- Identify missing values and outliers.  
+- Research the importance of each variable in credit scoring models.  
+
+#### Deliverable  
+A report summarizing:  
+1. Description of dataset fields.  
+2. Identified data issues like missing values or extreme outliers.  
+3. Key insights about important variables for risk scoring.
+
+---
+
+### Task 2: Data/Setup  
+#### Scenario  
+The financial institution requires you to preprocess the raw data for analysis. This includes handling missing values, encoding categorical variables, and scaling numerical values.  
+
+#### Student Assignment  
+- Impute missing values using appropriate techniques (e.g., median for numerical fields, mode for categorical fields).  
+- Perform one-hot encoding for `Employment_Status`.  
+- Scale `Income`, `Debt`, and `Loan_Amount` using MinMaxScaler.  
+
+#### Deliverable  
+A clean and preprocessed dataset ready for machine learning, saved as a `.csv` file.
+
+---
+
+### Task 3: Build/Execute  
+#### Scenario  
+Your team needs an AI model to predict credit risk based on borrower profiles. You are tasked with building a machine learning model to classify borrowers as `Low Risk`, `Medium Risk`, or `High Risk`.  
+
+#### Student Assignment  
+- Split the dataset into training and testing sets (80/20 split).  
+- Train a decision tree classifier for credit risk assessment.  
+- Evaluate model performance using accuracy, precision, recall, and F1 score metrics.  
+
+#### Deliverable  
+1. Trained decision tree model (`.pkl` file).  
+2. Model evaluation report including metrics results.  
+
+---
+
+### Task 4: GenAI/Explanation  
+#### Scenario  
+The financial institution wants to ensure that the credit scoring model provides transparent and explainable decisions. You are required to use SHAP to interpret the model’s outputs.  
+
+#### Student Assignment  
+- Use SHAP to explain which features contributed most to the model’s credit risk predictions.  
+- Generate SHAP visualizations for individual predictions (e.g., force plots).  
+- Identify any potential biases in the model’s decision-making process.  
+
+#### Deliverable  
+1. SHAP summary plot.  
+2. Force plot for at least three individual predictions.  
+3. Bias report highlighting potential concerns.
+
+---
+
+### Task 5: Audit/Responsible AI  
+#### Scenario  
+To comply with responsible AI practices, the institution requests a fairness audit of the model. You need to evaluate whether the model disproportionately impacts specific groups (e.g., based on employment status or income levels).  
+
+#### Student Assignment  
+- Identify if any demographic group (e.g., `Employment_Status`) is unfairly penalized by the AI model.  
+- Calculate metrics such as demographic parity and disparate impact ratio.  
+- Suggest any necessary adjustments to ensure fairness.  
+
+#### Deliverable  
+1. Fairness audit report with calculated metrics.  
+2. Recommendations for improving model fairness.
+
+---
+
+### Task 6: Present Recommendation  
+#### Scenario  
+The financial advisory board is reviewing your model’s outputs. Prepare a comprehensive credit risk assessment report and presentation to justify your loan recommendations.  
+
+#### Student Assignment  
+- Create a report summarizing the credit risk scoring methodology, results, and recommendations.  
+- Prepare a presentation to outline your findings with visuals (charts, plots, SHAP explanations).  
+- Simulate presenting your findings as if you were advising the board.  
+
+#### Deliverable  
+1. Credit risk assessment report (Word or PDF).  
+2. Slide deck with visuals (PowerPoint or PDF).  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+1. **Which variable is most critical for credit risk scoring?**  
+   - A. Loan_Amount  
+   - B. Credit_Score  
+   - C. Employment_Status  
+   - D. Income  
+   - **Correct Answer:** B  
+
+2. **What is the purpose of SHAP in AI models?**  
+   - A. Train the model.  
+   - B. Explain the model predictions.  
+   - C. Scale the data.  
+   - D. Encode categorical variables.  
+   - **Correct Answer:** B  
+
+3. **What is demographic parity?**  
+   - A. Ensuring all borrowers receive the same loan amount.  
+   - B. The fairness of predictions across demographic groups.  
+   - C. Calculating F1 scores.  
+   - D. Identifying outliers in data.  
+   - **Correct Answer:** B  
+
+4. **Which metric is used to measure model performance?**  
+   - A. SHAP values  
+   - B. Disparate impact ratio  
+   - C. Recall score  
+   - D. Fairness audit  
+   - **Correct Answer:** C  
+
+5. **What does MinMaxScaler do?**  
+   - A. Encodes categorical data.  
+   - B. Normalizes numerical data to a fixed range.  
+   - C. Removes missing values.  
+   - D. Splits the dataset.  
+   - **Correct Answer:** B  
+
+6. **Which file format is used to save preprocessed datasets?**  
+   - A. `.pkl`  
+   - B. `.csv`  
+   - C. `.txt`  
+   - D. `.json`  
+   - **Correct Answer:** B  
+
+7. **What is disparate impact ratio used for?**  
+   - A. Model evaluation.  
+   - B. Predicting loan amounts.  
+   - C. Fairness auditing.  
+   - D. Scaling numerical data.  
+   - **Correct Answer:** C  
+
+8. **Which machine learning algorithm was used in this internship?**  
+   - A. Logistic regression  
+   - B. Decision tree classifier  
+   - C. Random forest  
+   - D. Neural networks  
+   - **Correct Answer:** B  
+
+9. **What does the F1 score measure?**  
+   - A. Data scaling accuracy.  
+   - B. Model fairness.  
+   - C. Balance between precision and recall.  
+   - D. SHAP explanation depth.  
+   - **Correct Answer:** C  
+
+10. **What is a force plot in SHAP?**  
+    - A. A plot explaining individual predictions.  
+    - B. A plot summarizing dataset fields.  
+    - C. A plot for scaling data.  
+    - D. A plot for model training accuracy.  
+    - **Correct Answer:** A  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### Submission Artifacts  
+For each task, submit the following:  
+1. Task 1: Dataset exploration report.  
+2. Task 2: Preprocessed dataset (`.csv`).  
+3. Task 3: Model file (`.pkl`) and evaluation report.  
+4. Task 4: SHAP visualizations and bias report.  
+5. Task 5: Fairness audit report.  
+6. Task 6: Final credit risk assessment report and presentation.
+
+### Grading Rubric  
+- **Data Handling (20%)**: Completeness and accuracy of preprocessing.  
+- **Model Performance (20%)**: Quality of metrics achieved (e.g., F1 score).  
+- **Explainability (20%)**: Depth and clarity of SHAP interpretations.  
+- **Fairness Audit (20%)**: Thoroughness of analysis and recommendations.  
+- **Presentation (20%)**: Professionalism and clarity of communication.
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+### Certificate Details  
+Upon successful completion and verification of all tasks, you will receive:  
+- **Certificate Title:** Advanced Virtual Internship in AI Credit Risk Assessment.  
+- **Issuer:** Skillzza Virtual Internship Platform.  
+- **Credential ID:** Unique ID linked to your Skillzza profile.  
+
+### Employability Score Example  
+Your certificate will include an employability score based on:  
+- **Technical Proficiency:** Scored out of 40 (e.g., 35/40).  
+- **Domain Knowledge:** Scored out of 30 (e.g., 28/30).  
+- **Communication Skills:** Scored out of 30 (e.g., 25/30).  
+- **Total Score:** 88/100.  
+
+This score can be shared with employers to demonstrate your readiness for advanced roles in banking and AI-driven credit analysis.
+
+---
+
+## 36. Microfinance Analyst – AI Loan Eligibility Engine
+
+# Virtual Internship Track: Microfinance Analyst – AI Loan Eligibility Engine
+
+## 1. What is this Job Simulation All About?
+
+### Scenario
+Microfinance institutions play a critical role in providing financial access to underserved populations. However, traditional methods of assessing loan eligibility often exclude borrowers with limited credit histories. As a Microfinance Analyst specializing in AI-driven loan eligibility engines, you will help design a data-driven solution that leverages alternative signals (e.g., mobile usage, social behaviors, and spending patterns) to assess borrowers' risk profiles. 
+
+### Mission
+Your mission is to develop, audit, and deploy a loan eligibility engine powered by AI models. By integrating advanced analytics and responsible AI principles, you will innovate the microfinance process to support inclusive lending decisions while maintaining financial stability for the institution.
+
+### Final Challenge
+At the end of this simulation, you will present your AI-powered loan eligibility engine to a panel of stakeholders, showcasing insights derived from borrower data, your risk assessment model, and recommendations for ethical implementation.
+
+---
+
+## 2. What Will You Learn?
+
+### Domain Knowledge
+- Fundamentals of microfinance and inclusive lending practices.
+- Key indicators for borrower eligibility in underserved markets.
+- Ethical considerations in financial decision-making.
+
+### Analytics
+- Exploratory data analysis for borrower datasets.
+- Feature engineering with alternative signals such as mobile usage, transaction data, and social behaviors.
+- Model evaluation metrics (e.g., precision, recall, and F1-score).
+
+### AI Skills
+- Training and evaluating classification models (e.g., logistic regression, random forest, XGBoost).
+- Leveraging Generative AI for explaining loan decisions to non-expert stakeholders.
+- Implementing Responsible AI practices such as bias detection and fairness evaluation.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### Recommended Background
+- Basic understanding of machine learning concepts (classification, feature engineering).
+- Knowledge of Python for data analysis and modeling.
+- Familiarity with financial datasets and lending processes is an advantage.
+
+### Tools
+- Python (libraries: pandas, scikit-learn, matplotlib, SHAP).
+- Jupyter Notebook or Google Colab.
+- Dataset (provided: anonymized borrower data with alternative signals).
+
+### Prerequisite Skill Check
+Before starting, ensure you:
+- Know how to clean and preprocess datasets (e.g., handling missing values).
+- Can implement a basic machine learning model in Python.
+- Understand classification metrics like precision, recall, and F1-score.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### Core Tools
+- **Python Libraries:** pandas, numpy, scikit-learn, matplotlib.
+- **Data Visualization Tools:** seaborn, plotly.
+- **AI Explainability Frameworks:** SHAP (SHapley Additive Explanations).
+
+### Advanced Track (Optional)
+- **Model Optimization:** Hyperparameter tuning with GridSearchCV.
+- **Responsible AI Tools:** FairLearn for bias auditing.
+- **Deploying Models:** Streamlit for building a user-friendly web interface.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand – Microfinance Domain and Dataset Exploration**  
+#### Scenario:
+You are tasked with understanding the basics of microfinance lending and the dataset provided. The borrower dataset contains anonymized information, including demographics, mobile usage, spending patterns, and repayment history.
+
+#### Student Assignment:
+Review the provided dataset and documentation. Identify key features and their relevance to loan eligibility. Conduct exploratory data analysis (EDA) to uncover trends, correlations, and anomalies.
+
+#### Deliverable:
+- A Jupyter Notebook with EDA visualizations.
+- An insight summary of key trends and findings (300-500 words).
+
+---
+
+### **Task 2: Data/Setup – Preprocessing Borrower Data**  
+#### Scenario:
+The borrower dataset contains missing values, outliers, and categorical data that need to be cleaned and prepared for modeling.
+
+#### Student Assignment:
+Preprocess the dataset by:
+- Handling missing values and outliers.
+- Encoding categorical variables using one-hot encoding.
+- Scaling numerical features using MinMaxScaler.
+
+#### Deliverable:
+- A cleaned and preprocessed dataset (.csv or .xlsx format).
+- Documentation of the preprocessing steps.
+
+---
+
+### **Task 3: Build/Execute – Develop the Loan Eligibility Model**  
+#### Scenario:
+Using the preprocessed data, you will train a machine learning model to classify borrowers as eligible or ineligible for loans. Your focus will be on optimizing the model for fairness and accuracy.
+
+#### Student Assignment:
+- Split the data into train and test sets.
+- Train a classification model (e.g., logistic regression, random forest, or XGBoost).
+- Evaluate performance using precision, recall, and F1-score.
+
+#### Deliverable:
+- Python script for model training and evaluation.
+- A report comparing the performance of different models.
+
+---
+
+### **Task 4: GenAI/Explanation – Explain Loan Decisions Using Generative AI**  
+#### Scenario:
+Stakeholders in microfinance institutions need transparency into how the AI model makes decisions. You will use Generative AI tools to create clear, non-technical explanations for loan eligibility scores.
+
+#### Student Assignment:
+- Use SHAP to generate explanations for individual predictions.
+- Write a Generative AI prompt to create a draft of a client-facing explanation for a sample loan decision.
+
+#### Deliverable:
+- SHAP visualization for select borrowers.
+- Draft of client-facing explanation (200 words).
+
+---
+
+### **Task 5: Audit/Responsible AI – Bias Detection and Fairness Evaluation**  
+#### Scenario:
+Addressing bias in AI models is critical for ethical lending. You will audit the loan eligibility model for fairness across demographic groups (e.g., gender, income level).
+
+#### Student Assignment:
+- Use FairLearn or similar tools to evaluate bias in the model.
+- Suggest actionable steps to mitigate any detected bias.
+
+#### Deliverable:
+- Bias audit report with visualizations.
+- Recommendations for improving fairness.
+
+---
+
+### **Task 6: Present Recommendation – Stakeholder Presentation**  
+#### Scenario:
+Microfinance stakeholders are evaluating your AI engine. You need to present your findings, model performance, and ethical considerations.
+
+#### Student Assignment:
+- Create a 5-slide presentation summarizing your work:
+  - Problem overview.
+  - Key insights from the data.
+  - Model performance and fairness evaluation.
+  - Recommendations for implementation.
+- Deliver your presentation in a simulated stakeholder meeting.
+
+#### Deliverable:
+- Presentation deck (.ppt or .pdf format).
+- Script for presenting key points (300-500 words).
+
+---
+
+## 6. MCQs Post Task Completion
+
+### Question 1: Which of the following is considered an alternative signal for borrower eligibility?  
+A. Credit score  
+B. FICO report  
+C. Mobile usage data  
+D. Tax returns  
+**Correct Answer:** C
+
+### Question 2: What metric is most suitable for evaluating the fairness of a loan eligibility model?  
+A. Accuracy  
+B. Precision  
+C. Recall  
+D. Demographic parity  
+**Correct Answer:** D
+
+### Question 3: Which library is used for AI explainability with SHAP values?  
+A. scikit-learn  
+B. SHAP  
+C. matplotlib  
+D. pandas  
+**Correct Answer:** B
+
+### Question 4: What preprocessing step is used to handle categorical variables?  
+A. Scaling  
+B. One-hot encoding  
+C. Imputation  
+D. Normalization  
+**Correct Answer:** B
+
+### Question 5: What does the F1-score measure in classification models?  
+A. Model accuracy  
+B. Trade-off between precision and recall  
+C. Bias in the model  
+D. Feature importance  
+**Correct Answer:** B
+
+### Question 6: Which tool can be used to detect bias in AI models?  
+A. SHAP  
+B. FairLearn  
+C. GridSearchCV  
+D. seaborn  
+**Correct Answer:** B
+
+### Question 7: What is the purpose of scaling numerical features?  
+A. Remove outliers  
+B. Encode categorical data  
+C. Standardize feature ranges  
+D. Add missing values  
+**Correct Answer:** C
+
+### Question 8: Which visualization tool is best for creating heatmaps?  
+A. pandas  
+B. seaborn  
+C. scikit-learn  
+D. SHAP  
+**Correct Answer:** B
+
+### Question 9: What is the main ethical concern in AI-driven loan decision processes?  
+A. Accuracy  
+B. Bias against certain groups  
+C. Model performance  
+D. Scalability  
+**Correct Answer:** B
+
+### Question 10: What type of machine learning model is commonly used for classification tasks?  
+A. Linear regression  
+B. Random forest  
+C. K-means clustering  
+D. Principal component analysis  
+**Correct Answer:** B
+
+---
+
+## 7. Submit Your Completed Task
+
+### Submission Artifacts
+For each task, submit the following:
+1. **Task 1:** Jupyter Notebook and insight summary file (.doc or .pdf).
+2. **Task 2:** Preprocessed dataset and documentation (.csv and .pdf).
+3. **Task 3:** Python script for model training and evaluation (.py file).
+4. **Task 4:** SHAP visualizations and client-facing explanation draft (.png and .doc).
+5. **Task 5:** Bias audit report and recommendations (.pdf).
+6. **Task 6:** Presentation deck and script (.ppt/.pdf and .doc).
+
+### Grading Rubric
+- **Completeness:** Submission includes all required deliverables (50%).
+- **Technical Accuracy:** Models and analyses are correctly implemented (30%).  
+- **Clarity:** Reports and presentations are clear and well-structured (20%).
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful submission and verification of all tasks, you will receive:
+- **Certificate Title:** Certified Microfinance Analyst – AI Loan Eligibility Engine  
+- **Employability Score:** An evaluation score based on task performance (e.g., 85/100).  
+- **Credential Badge:** Shareable digital badge to showcase your certification on LinkedIn and resumes.
+
+---
+
+## 37. Investment Banking Analyst – Company Valuation Sprint
+
+# Investment Banking Analyst – Company Valuation Sprint
+
+---
+
+## 1. **What is this Job Simulation All About?**
+
+### **Scenario**  
+Imagine you are an Investment Banking Analyst working for a leading financial services firm. Your team has been tasked with preparing a valuation analysis for a mid-sized technology company looking to raise capital through an equity offering. The firm’s executives need detailed insights into the company’s valuation based on industry comparables, financial metrics, and market trends to help guide their investment decisions.
+
+### **Mission**  
+Your mission is to perform a comprehensive valuation analysis using real-world methodologies like Comparable Company Analysis (CCA) and Precedent Transaction Analysis (PTA). You will collect financial data, identify industry benchmarks, and create an Investment Memo summarizing your findings and recommendations.
+
+### **Final Challenge**  
+The final deliverable is a professional-grade Investment Memo that includes valuation metrics, comparable company analysis, and a clear recommendation for investment strategy, prepared as if it would be presented to the client’s leadership team.
+
+---
+
+## 2. **What Will You Learn?**
+
+### **Domain Knowledge**
+- Core principles of investment banking and corporate finance.
+- Understanding valuation techniques such as Comparable Company Analysis (CCA) and Precedent Transaction Analysis (PTA).
+- Key financial metrics: EBITDA, EV/EBITDA, P/E ratios, and others.
+
+### **Analytics**
+- Data cleaning and financial ratio analysis.
+- Benchmarking against industry peers.
+- Decision-making based on comparative financial data.
+
+### **Advanced Skills**
+- Application of Excel for financial modeling.
+- Professional-grade report writing for investment decisions.
+- Interpretation of valuation multiples and market trends.
+
+---
+
+## 3. **What Are the Prerequisites?**
+
+### **Recommended Background**
+- Finance, Economics, or Business Management students/professionals.
+- Familiarity with corporate finance concepts and basic accounting principles.
+
+### **Tools Required**
+- Microsoft Excel (mandatory).
+- Access to financial data platforms (e.g., Yahoo Finance, Bloomberg, or publicly available datasets).
+- Presentation software (e.g., PowerPoint or Google Slides).
+
+### **Prerequisite Skill Check**
+- Ability to calculate financial ratios (e.g., P/E ratio, EV/EBITDA).
+- Basic knowledge of company financial statements: balance sheets, income statements, and cash flow statements.
+- Fundamental understanding of valuation methodologies.
+
+---
+
+## 4. **What Tools Will You Learn?**
+
+### **Core Tools**
+- **Microsoft Excel**: Advanced usage for valuation modeling and data analysis.
+- **Investment Research Platforms**: Use of public financial datasets to access stock prices, financial metrics, and industry averages.
+- **PowerPoint/Google Slides**: Creating professional memos and recommendations.
+
+### **Advanced Track**
+- **Bloomberg Terminal Basics**: For candidates with access, explore high-level financial research tools.
+- **Python for Finance**: Optional introduction to automating financial analysis using Python libraries.
+
+---
+
+## 5. **Tasks to be Performed**
+
+### **Task 1: Understand the Company and Industry**
+#### **Scenario**  
+Your firm has been approached to evaluate TechNova Inc., a mid-sized technology company specializing in AI software solutions. You must first understand the company’s business model and the competitive landscape.
+
+#### **Student Assignment**  
+- Research TechNova’s business model, revenue streams, and growth trajectory.
+- Identify key industry trends affecting the AI software sector.
+- Review TechNova’s financial statements and summarize the company’s current standing.
+
+#### **Deliverable**  
+A one-page summary of TechNova’s business model, industry trends, and key financial metrics (e.g., revenue, EBITDA).
+
+---
+
+### **Task 2: Data Gathering and Setup**
+#### **Scenario**  
+To perform a valuation analysis, you need to gather data for comparable companies in TechNova’s sector. This includes identifying peers based on size, geography, and industry focus.
+
+#### **Student Assignment**  
+- Identify 5-7 comparable companies in the AI software sector using publicly available financial data.
+- Collect key financial metrics for these companies: revenue, EBITDA, net income, market capitalization, P/E ratio, and EV/EBITDA.
+
+#### **Deliverable**  
+Create an Excel spreadsheet listing the comparable companies with their financial metrics and valuation multiples.
+
+---
+
+### **Task 3: Build Valuation Models**
+#### **Scenario**  
+With the data prepared, you will perform Comparable Company Analysis (CCA) and Precedent Transaction Analysis (PTA) to determine TechNova’s valuation range.
+
+#### **Student Assignment**  
+- Calculate TechNova’s implied valuation based on the median and mean EV/EBITDA and P/E ratios of the comparable companies.
+- Perform Precedent Transaction Analysis by identifying recent M&A transactions in the AI sector and calculating valuation multiples.
+
+#### **Deliverable**  
+An Excel model showcasing valuation calculations for TechNova using both CCA and PTA methods.
+
+---
+
+### **Task 4: Explain Valuation Insights Using GenAI**
+#### **Scenario**  
+Clients often request simplified explanations of complex models. You are tasked with interpreting your valuation results using Generative AI tools to craft a clear narrative.
+
+#### **Student Assignment**  
+- Use ChatGPT or similar GenAI tools to generate a client-facing explanation of TechNova’s valuation.
+- Highlight key insights from the comparable company analysis and precedent transaction analysis.
+
+#### **Deliverable**  
+A 250-word client-friendly summary explaining TechNova’s valuation and the rationale behind it.
+
+---
+
+### **Task 5: Audit and Responsible Valuation**
+#### **Scenario**  
+Accuracy and integrity are critical in investment banking. You must audit your valuation for errors and ensure your recommendations align with ethical standards.
+
+#### **Student Assignment**  
+- Cross-check all calculations, ensuring no formula errors or data discrepancies.
+- Identify any assumptions made in your analysis and validate their reasonability.
+- Discuss potential risks in using comparable company analysis and precedent transaction methods.
+
+#### **Deliverable**  
+An audit report highlighting the checks performed, assumptions validated, and risk considerations.
+
+---
+
+### **Task 6: Present Your Recommendations**
+#### **Scenario**  
+You are presenting your findings to the firm’s senior leadership team. Your Investment Memo must clearly articulate your valuation analysis and provide actionable recommendations.
+
+#### **Student Assignment**  
+- Compile your analysis into a professional-grade Investment Memo.
+- Include an executive summary, valuation details, comparison charts, and a clear recommendation for TechNova.
+- Create a visually engaging presentation summarizing your findings.
+
+#### **Deliverable**  
+- A 3-5 page Investment Memo in PDF format.  
+- A PowerPoint/Google Slides deck with 5-7 slides summarizing your valuation analysis and recommendations.
+
+---
+
+## 6. **MCQs Post Task Completion**
+
+### **Question 1:** Which financial metric is most commonly used in Comparable Company Analysis?  
+**A)** Dividend Yield  
+**B)** EV/EBITDA  
+**C)** Debt-to-Equity Ratio  
+**D)** Gross Margin  
+**Correct Answer:** B) EV/EBITDA  
+
+### **Question 2:** What is the purpose of Precedent Transaction Analysis?  
+**A)** To predict a company’s future stock price.  
+**B)** To determine valuation multiples based on past M&A activity.  
+**C)** To calculate a company’s gross profit margin.  
+**D)** To assess a company’s debt capacity.  
+**Correct Answer:** B) To determine valuation multiples based on past M&A activity.  
+
+### **Question 3:** Which of the following is NOT part of a company’s financial statement?  
+**A)** Income Statement  
+**B)** Cash Flow Statement  
+**C)** Market Capitalization Report  
+**D)** Balance Sheet  
+**Correct Answer:** C) Market Capitalization Report  
+
+### **Question 4:** What does P/E ratio stand for?  
+**A)** Price-to-Earnings  
+**B)** Profit-to-Earnings  
+**C)** Price-to-Equity  
+**D)** Profit-to-Equity  
+**Correct Answer:** A) Price-to-Earnings  
+
+### **Question 5:** When auditing valuation models, which of the following is critical?  
+**A)** Checking for typos in the report.  
+**B)** Validating assumptions used in the analysis.  
+**C)** Ensuring charts are colorful.  
+**D)** Removing outliers from comparable company data.  
+**Correct Answer:** B) Validating assumptions used in the analysis.  
+
+### **Question 6:** What is the main advantage of using Generative AI in client communication?  
+**A)** It replaces valuation models.  
+**B)** It simplifies complex concepts for better understanding.  
+**C)** It automatically creates financial statements.  
+**D)** It conducts due diligence.  
+**Correct Answer:** B) It simplifies complex concepts for better understanding.  
+
+### **Question 7:** Which ratio is best used to assess a company’s profitability?  
+**A)** Current Ratio  
+**B)** EBITDA Margin  
+**C)** Debt-to-Equity Ratio  
+**D)** Asset Turnover Ratio  
+**Correct Answer:** B) EBITDA Margin  
+
+### **Question 8:** What does EV stand for in EV/EBITDA?  
+**A)** Equity Value  
+**B)** Enterprise Value  
+**C)** Earnings Value  
+**D)** Economic Value  
+**Correct Answer:** B) Enterprise Value  
+
+### **Question 9:** Comparable Company Analysis relies on:  
+**A)** Historical stock market trends.  
+**B)** Financial metrics of similar companies.  
+**C)** Proprietary trading algorithms.  
+**D)** Debt repayment schedules.  
+**Correct Answer:** B) Financial metrics of similar companies.  
+
+### **Question 10:** What is the primary risk of using Precedent Transaction Analysis?  
+**A)** It excludes smaller companies.  
+**B)** It may rely on outdated transaction data.  
+**C)** It ignores industry trends.  
+**D)** It requires the use of AI tools.  
+**Correct Answer:** B) It may rely on outdated transaction data.  
+
+---
+
+## 7. **Submit Your Completed Task**
+
+### **Submission Artifacts**
+- Task 1: Company and industry summary (PDF or Word file).  
+- Task 2: Excel sheet with comparable company data.  
+- Task 3: Valuation models (Excel file with formulas).  
+- Task 4: Client-friendly valuation summary (Word file).  
+- Task 5: Audit report (PDF or Word file).  
+- Task 6: Investment Memo (PDF) and Presentation slides (PPT or Google Slides).  
+
+### **Grading Rubric**  
+| Criteria                      | Weightage (%) |  
+|-------------------------------|---------------|  
+| Accuracy in Valuation Models  | 30%           |  
+| Quality of Analysis           | 25%           |  
+| Audit and Risk Assessment     | 20%           |  
+| Presentation Clarity          | 15%           |  
+| Creativity and Insights       | 10%           |  
+
+---
+
+## 8. **Earn Certificate Post Verification**
+
+Upon successful completion and verification of your tasks by our expert reviewers, you will receive the **Skillzza Investment Banking Analyst Certification**.
+
+### **Certificate Details**  
+- **Title:** Certified Investment Banking Analyst – Company Valuation Sprint  
+- **Level:** Advanced  
+- **Employability Score:** 82/100 (based on accuracy, communication, and financial modeling skills).  
+
+This certificate will demonstrate your proficiency in valuation analysis and practical investment banking workflows, making you a strong candidate for roles in investment banking, private equity, or corporate finance.
+
+---
+
+## 39. Financial Analyst – AI-Powered Financial Modelling
+
+# Financial Analyst – AI-Powered Financial Modelling Virtual Internship
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario:**  
+You are hired as a Financial Analyst at a fast-growing FinTech startup. The company wants to leverage AI for building dynamic financial models that can predict profitability under various scenarios. Your role is to analyze the company's financial statements, build AI-powered predictive models, and translate outputs into actionable insights for senior management.
+
+### **Mission:**  
+Your ultimate mission is to design, test, and deploy an AI-powered financial model that can forecast revenue, expenses, and profitability under different market conditions. You'll present your findings and recommendations to the management team to help drive strategic decisions.
+
+### **Final Challenge:**  
+Build a scenario-based financial model using AI, simulate revenue and expense forecasts under multiple conditions, and generate a management report with actionable insights.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge:**  
+- Fundamentals of financial statements (Income Statement, Balance Sheet, Cash Flow Statement).  
+- Key financial metrics such as revenue growth, EBITDA, and net profit margin.  
+- Scenario analysis for financial decision-making.  
+
+### **Analytics Skills:**  
+- Cleaning and structuring financial datasets for analysis.  
+- Identifying trends and anomalies in financial data.  
+- Creating predictive financial models to evaluate various scenarios.  
+
+### **AI Skills:**  
+- Using AI algorithms for regression and predictive modeling.  
+- Integrating generative AI tools for automating financial insights.  
+- Applying Responsible AI principles to ensure ethical financial modeling.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background:**  
+- Intermediate knowledge of finance, especially financial analysis.  
+- Familiarity with Python or Excel for data analysis.  
+- Basic understanding of AI concepts like regression and prediction models.
+
+### **Tools:**  
+- Python (NumPy, Pandas, Scikit-learn).  
+- Generative AI tools like ChatGPT or similar.  
+- Visualization tools such as Tableau or Matplotlib.
+
+### **Prerequisite Skill Check:**  
+1. Can you interpret an income statement and calculate EBITDA?  
+2. Are you familiar with predictive modeling concepts?  
+3. Do you know how to clean datasets in Python or Excel?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools:**  
+- **Python:** For financial data cleaning and predictive modeling.  
+- **Scikit-learn:** For AI-based regression analysis.  
+- **Excel:** For setting up initial financial models.  
+
+### **Advanced Track:**  
+- **Tableau:** For creating interactive financial dashboards.  
+- **Generative AI:** For summarizing insights and generating management-ready reports.
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand the Financial Fundamentals**  
+**Scenario:**  
+Your manager hands you a spreadsheet containing the company’s last three years of financial statements. You are asked to analyze the key metrics and trends to set the foundation for predictive modeling.  
+
+**Student Assignment:**  
+- Review the Income Statement, Balance Sheet, and Cash Flow Statement.  
+- Identify trends in revenue growth, operating expenses, and net profit margin.  
+- Highlight any anomalies or irregularities in the data.  
+
+**Deliverable:**  
+Submit a summary report highlighting 5 key financial trends and observations. Use graphs and charts for visualization.
+
+---
+
+### **Task 2: Prepare the Dataset for AI Modeling**  
+**Scenario:**  
+You are tasked with cleaning and structuring the financial data for AI analysis. The raw dataset contains missing values, duplicate entries, and inconsistent formatting.  
+
+**Student Assignment:**  
+- Clean the dataset to remove errors and handle missing values.  
+- Structure the dataset to ensure compatibility with AI tools.  
+- Extract key features (e.g., revenue, expenses, EBITDA) required for predictive modeling.  
+
+**Deliverable:**  
+Submit the cleaned, structured dataset along with a brief report describing the steps you took.
+
+---
+
+### **Task 3: Build and Execute AI-Powered Financial Model**  
+**Scenario:**  
+Using the cleaned dataset, you need to train a predictive model to forecast revenue and expenses for the next fiscal year.  
+
+**Student Assignment:**  
+- Use regression algorithms from Scikit-learn to build the model.  
+- Train the model with the historical financial data provided.  
+- Evaluate the model’s accuracy using metrics like RMSE (Root Mean Squared Error).  
+
+**Deliverable:**  
+Submit the Python code for the trained model and a summary of its performance metrics.
+
+---
+
+### **Task 4: Leverage Generative AI for Management Insights**  
+**Scenario:**  
+Once the AI model generates forecasts, the management team requires a concise report summarizing the insights. You will use Generative AI tools to automate the creation of this report.  
+
+**Student Assignment:**  
+- Input the model’s outputs into a Generative AI tool like ChatGPT.  
+- Generate a management-friendly summary that includes graphs, recommendations, and insights.  
+- Ensure the report is free of biases and aligns with Responsible AI principles.  
+
+**Deliverable:**  
+Submit the AI-generated management report in PDF format.
+
+---
+
+### **Task 5: Audit Model Performance and Responsible AI**  
+**Scenario:**  
+The management team raises concerns about the ethical implications and reliability of AI-driven forecasts. You are asked to audit the model for Responsible AI principles.  
+
+**Student Assignment:**  
+- Evaluate the model’s performance under different scenarios for bias and accuracy.  
+- Document any limitations or risks associated with the model.  
+- Suggest improvements for ensuring Responsible AI compliance.  
+
+**Deliverable:**  
+Submit an audit report summarizing biases, risks, and proposed improvements.
+
+---
+
+### **Task 6: Present Recommendations to Senior Management**  
+**Scenario:**  
+You need to deliver a virtual presentation summarizing key financial insights, the predictive model’s outputs, and actionable recommendations for management.  
+
+**Student Assignment:**  
+- Create a slide deck summarizing financial trends, predictive model insights, and scenario analysis.  
+- Record a 5-minute video explaining your recommendations to senior management.  
+
+**Deliverable:**  
+Submit the slide deck and video presentation.
+
+---
+
+## 6. MCQs Post Task Completion  
+
+1. Which financial statement provides information about the company’s profitability?  
+   - A. Balance Sheet  
+   - B. Income Statement  
+   - C. Cash Flow Statement  
+   - D. Statement of Shareholders’ Equity  
+   **Correct Answer:** B  
+
+2. What is the primary goal of regression analysis in financial modeling?  
+   - A. To calculate taxes  
+   - B. To forecast future financial outcomes  
+   - C. To clean financial data  
+   - D. To create dashboards  
+   **Correct Answer:** B  
+
+3. What does EBITDA stand for?  
+   - A. Earnings Before Income Tax and Budget Allocation  
+   - B. Earnings Before Interest, Taxes, Depreciation, and Amortization  
+   - C. Earnings Before Investments and Tax Benefits Allocation  
+   - D. Earnings Before Inventory and Tax Benefits  
+   **Correct Answer:** B  
+
+4. What is RMSE used for?  
+   - A. To measure data cleaning efficiency  
+   - B. To evaluate model accuracy  
+   - C. To calculate profit margins  
+   - D. To predict future expenses  
+   **Correct Answer:** B  
+
+5. Which Python library is commonly used for regression analysis?  
+   - A. NumPy  
+   - B. Pandas  
+   - C. Scikit-learn  
+   - D. Matplotlib  
+   **Correct Answer:** C  
+
+6. What is a key feature of Responsible AI?  
+   - A. High-speed processing  
+   - B. Ethical and unbiased decision-making  
+   - C. Cost reduction  
+   - D. Automation of manual tasks  
+   **Correct Answer:** B  
+
+7. Which metric helps assess a company’s operational efficiency?  
+   - A. Net Profit  
+   - B. Operating Margin  
+   - C. Revenue Growth  
+   - D. Return on Assets  
+   **Correct Answer:** B  
+
+8. What should you do if your AI model shows bias?  
+   - A. Ignore it  
+   - B. Document and address it  
+   - C. Increase the dataset size  
+   - D. Deploy the model anyway  
+   **Correct Answer:** B  
+
+9. Which tool is best for creating interactive dashboards?  
+   - A. Excel  
+   - B. Tableau  
+   - C. NumPy  
+   - D. Scikit-learn  
+   **Correct Answer:** B  
+
+10. Why is scenario analysis important in financial modeling?  
+    - A. To increase profits  
+    - B. To evaluate different market conditions  
+    - C. To reduce expenses  
+    - D. To automate reporting  
+    **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts:**  
+You will submit the following deliverables for verification:  
+1. Summary report from Task 1.  
+2. Cleaned and structured dataset from Task 2.  
+3. Python code and performance metrics from Task 3.  
+4. AI-generated management report from Task 4.  
+5. Audit report from Task 5.  
+6. Slide deck and video presentation from Task 6.  
+
+### **Grading Rubric:**  
+- **Accuracy of Insights (20%)**: Are the financial trends and observations correct?  
+- **Data Preparation (15%)**: Is the dataset clean and well-structured for AI modeling?  
+- **Model Performance (20%)**: How accurate and reliable is the predictive model?  
+- **Clarity of Report (15%)**: Is the management report concise and actionable?  
+- **Responsible AI Audit (20%)**: Are biases and risks clearly identified and addressed?  
+- **Presentation Quality (10%)**: Are insights communicated effectively?  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+### **Certificate Details:**  
+Upon successful completion and verification of your submitted tasks, you will earn the **Skillzza Financial Analyst – AI-Powered Financial Modelling Certificate**.  
+
+### **Employability Score Example:**  
+Your performance will be evaluated on a scale of 100.  
+- **90-100:** Expert Level – Strongly recommended for industry roles.  
+- **75-89:** Proficient Level – Suitable for entry-level positions.  
+- **50-74:** Beginner Level – Needs improvement; recommended for training.  
+
+This certificate will help showcase your proficiency in AI-powered financial modeling to prospective employers in the finance and FinTech sectors.  
+
+---
+
+## 40. Advisory Analyst – Business Turnaround Case
+
+# Advisory Analyst – Business Turnaround Case  
+**Domain:** Advisory  
+**Level:** Advanced  
+**Duration:** 6 Hours  
+
+---
+
+## 1. What is this Job Simulation All About?  
+
+### **Scenario:**  
+You are hired as an Advisory Analyst by a boutique consulting firm specializing in business turnarounds for struggling companies. Your client, **AlphaTech Solutions**, is a mid-sized technology company experiencing declining revenues, profitability, and employee morale. The CEO suspects operational inefficiencies, weak market strategy, and financial mismanagement are to blame. You are tasked with analyzing the situation and delivering actionable recommendations to turn the business around within six months.  
+
+### **Mission:**  
+Your mission is to:  
+1. Perform a deep dive into AlphaTech’s financial and operational data.  
+2. Identify root causes of declining performance using structured analysis.  
+3. Create a comprehensive turnaround plan focusing on operational efficiency, financial recovery, and strategic growth.  
+
+### **Final Challenge:**  
+Present your findings and recommendations to AlphaTech’s executive board as a structured turnaround roadmap document and a 10-slide presentation. Your solution will need to balance quick wins with long-term strategies while demonstrating an understanding of financial modeling, operational scalability, and strategic advisory.  
+
+---
+
+## 2. What Will You Learn?  
+
+### **Domain Knowledge:**  
+- Fundamentals of business turnarounds and restructuring.  
+- Operational efficiency strategies for mid-sized firms.  
+- Financial ratio analysis and scenario forecasting.  
+
+### **Analytics Skills:**  
+- Root cause analysis for business problems.  
+- Financial modeling techniques (profit margin analysis, cash flow forecasting).  
+- KPI benchmarking and performance tracking.  
+
+### **Advisory Skills:**  
+- Developing actionable turnaround strategies.  
+- Effective communication for executive stakeholders.  
+- Prioritizing initiatives based on ROI and feasibility.  
+
+---
+
+## 3. What Are the Prerequisites?  
+
+### **Recommended Background:**  
+- Knowledge of corporate finance, accounting basics, and business management.  
+- Familiarity with consulting frameworks like SWOT, PESTLE, and Porter’s Five Forces.  
+- Experience with spreadsheet tools (e.g., Excel) and presentation software (e.g., PowerPoint).  
+
+### **Tools Required:**  
+- Microsoft Excel or Google Sheets.  
+- Google Slides or PowerPoint.  
+- Access to AlphaTech Solutions data (provided in simulation).  
+
+### **Prerequisite Skill Check:**  
+Before starting, ensure you can:  
+1. Calculate basic financial ratios (e.g., gross profit margin, debt-to-equity ratio).  
+2. Set up pivot tables and charts in Excel.  
+3. Create structured slide decks for business presentations.  
+
+---
+
+## 4. What Tools Will You Learn?  
+
+### **Core Tools:**  
+1. **Excel/Sheets:** For financial analysis and operational benchmarking.  
+2. **PowerPoint/Slides:** For crafting turnaround strategy presentations.  
+3. **Root Cause Analysis Frameworks:** Ishikawa diagrams, 5 Whys technique.  
+
+### **Advanced Track:**  
+1. **Financial Forecasting Models:** Building scenarios to predict outcomes.  
+2. **KPI Dashboards:** Visualizing performance metrics.  
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand – Business Diagnostic**  
+#### **Scenario:**  
+The CEO of AlphaTech Solutions has provided you with an overview of the company’s challenges. You also have access to a dataset containing financial statements for the last three years, operational KPIs, and market reports.  
+
+#### **Student Assignment:**  
+- Review the company profile and the provided dataset.  
+- Identify key areas of concern from the initial diagnostic (e.g., declining profitability, high operating costs).  
+- Summarize challenges into three main categories: financial, operational, strategic.  
+
+#### **Deliverable:**  
+A one-page summary identifying the key areas of concern and challenges faced by AlphaTech Solutions.  
+
+---
+
+### **Task 2: Data/Setup – Financial and Operational Analysis**  
+#### **Scenario:**  
+You must analyze AlphaTech’s financial and operational data to uncover trends and anomalies. The dataset includes:  
+- Financial statements (Income Statement, Balance Sheet, Cash Flow).  
+- Operational KPIs (Customer acquisition cost, churn rate, productivity metrics).  
+
+#### **Student Assignment:**  
+- Calculate financial ratios: profitability, liquidity, and efficiency.  
+- Identify trends (e.g., declining gross margin, increasing operating expenses).  
+- Benchmark operational KPIs against industry standards.  
+
+#### **Deliverable:**  
+An Excel file or Google Sheet with calculated financial ratios, operational benchmarks, and trend insights.  
+
+---
+
+### **Task 3: Build/Execute – Root Cause Analysis**  
+#### **Scenario:**  
+Using your findings, you must perform a root cause analysis to pinpoint the underlying reasons for AlphaTech’s declining performance.  
+
+#### **Student Assignment:**  
+- Apply frameworks like Ishikawa diagrams or the 5 Whys technique to break down root causes.  
+- Categorize findings into controllable (e.g., internal operations) and uncontrollable (e.g., market trends) factors.  
+
+#### **Deliverable:**  
+A structured document or slide deck outlining:  
+1. The root causes.  
+2. The methodology used for identification.  
+
+---
+
+### **Task 4: GenAI/Explanation – Turnaround Strategy Planning**  
+#### **Scenario:**  
+AlphaTech’s CEO has requested a detailed turnaround strategy that includes quick wins and long-term initiatives. You need to draft this strategy.  
+
+#### **Student Assignment:**  
+- Use Generative AI tools (e.g., ChatGPT or Bard) to brainstorm innovative solutions.  
+- Create a three-phase turnaround plan: stabilize finances, optimize operations, and drive growth.  
+- Prioritize initiatives based on their ROI and implementation feasibility.  
+
+#### **Deliverable:**  
+A three-phase turnaround strategy document with a detailed explanation of each phase, including:  
+- Key actions.  
+- Required resources.  
+- Expected outcomes.  
+
+---
+
+### **Task 5: Audit/Responsible Advisory**  
+#### **Scenario:**  
+Your recommendations must align with ethical business practices and consider stakeholder impacts. The CEO has asked you to ensure your proposals are socially and environmentally responsible.  
+
+#### **Student Assignment:**  
+- Audit the turnaround plan for ethical considerations (e.g., employee layoffs, environmental sustainability).  
+- Modify recommendations to balance profitability with stakeholder well-being.  
+
+#### **Deliverable:**  
+An updated turnaround strategy document with a section on ethical considerations and adjustments.  
+
+---
+
+### **Task 6: Present Recommendation – Final Challenge**  
+#### **Scenario:**  
+You are presenting your turnaround proposal to AlphaTech’s executive board. The presentation must be concise, visually engaging, and persuasive.  
+
+#### **Student Assignment:**  
+- Create a 10-slide presentation summarizing your analysis, findings, and recommendations.  
+- Include data visualizations, ROI projections, and a clear implementation timeline.  
+
+#### **Deliverable:**  
+A presentation deck in PowerPoint or Google Slides format.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **Question 1:**  
+What is the primary goal of a business turnaround strategy?  
+A. Increase employee workload.  
+B. Stabilize and improve business performance.  
+C. Merge with competitors.  
+D. Expand operations internationally.  
+**Correct Answer:** B  
+
+### **Question 2:**  
+Which financial ratio helps measure a company’s liquidity?  
+A. Gross profit margin.  
+B. Debt-to-equity ratio.  
+C. Current ratio.  
+D. ROI.  
+**Correct Answer:** C  
+
+### **Question 3:**  
+What is the purpose of a root cause analysis?  
+A. To compare performance with competitors.  
+B. To identify underlying issues affecting business outcomes.  
+C. To design marketing campaigns.  
+D. To create financial projections.  
+**Correct Answer:** B  
+
+### **Question 4:**  
+Which framework categorizes external factors impacting a business?  
+A. SWOT Analysis.  
+B. PESTLE Analysis.  
+C. Ishikawa Diagram.  
+D. Porter’s Five Forces.  
+**Correct Answer:** B  
+
+### **Question 5:**  
+What is a quick win in a turnaround strategy?  
+A. A long-term growth initiative.  
+B. An action that delivers immediate, measurable benefits.  
+C. A high-cost operational change.  
+D. A market expansion plan.  
+**Correct Answer:** B  
+
+### **Question 6:**  
+What is the role of Generative AI in strategy planning?  
+A. Automating financial reports.  
+B. Brainstorming innovative solutions.  
+C. Replacing human analysts.  
+D. Calculating KPIs.  
+**Correct Answer:** B  
+
+### **Question 7:**  
+Which ethical consideration is important in a turnaround strategy?  
+A. Maximizing layoffs for cost savings.  
+B. Prioritizing shareholder returns only.  
+C. Balancing profitability with stakeholder well-being.  
+D. Ignoring environmental impacts.  
+**Correct Answer:** C  
+
+### **Question 8:**  
+What is an operational KPI to monitor productivity?  
+A. Customer churn rate.  
+B. Revenue growth rate.  
+C. Employee output per hour.  
+D. Gross profit margin.  
+**Correct Answer:** C  
+
+### **Question 9:**  
+How should recommendations be prioritized in a turnaround strategy?  
+A. Based on cost only.  
+B. Based on ROI and feasibility.  
+C. Based on executive preferences.  
+D. Based on competitor actions.  
+**Correct Answer:** B  
+
+### **Question 10:**  
+What is the final deliverable in this simulation?  
+A. A marketing strategy.  
+B. A financial audit report.  
+C. A turnaround roadmap and executive presentation.  
+D. A press release.  
+**Correct Answer:** C  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts:**  
+1. **Task 1:** Business diagnostic summary (PDF or Word document).  
+2. **Task 2:** Financial and operational analysis spreadsheet.  
+3. **Task 3:** Root cause analysis document or slides.  
+4. **Task 4:** Three-phase turnaround strategy plan (PDF or Word document).  
+5. **Task 5:** Ethical audit report (PDF or Word document).  
+6. **Task 6:** Final presentation deck (PowerPoint or Google Slides).  
+
+### **Grading Rubric:**  
+- **Diagnostic Accuracy:** Identification of key challenges (20%).  
+- **Financial Analysis:** Depth and correctness of calculations (20%).  
+- **Root Cause Analysis:** Structured and logical breakdown (20%).  
+- **Turnaround Strategy:** Feasibility and innovation (20%).  
+- **Presentation Quality:** Clarity, visuals, and persuasiveness (20%).  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+### **Certificate Details:**  
+Upon successful completion and verification of all tasks, you will earn the **Advisory Analyst – Business Turnaround Case Completion Certificate**.  
+
+### **Employability Score Example:**  
+- **Problem-Solving:** 9/10  
+- **Financial Analysis:** 8/10  
+- **Strategic Thinking:** 10/10  
+- **Communication Skills:** 9/10  
+- **Ethical Awareness:** 8/10  
+
+This certificate and employability score can be showcased on LinkedIn and your resume to demonstrate your capabilities in business advisory roles.  
+
+---  
+
+---
+
+## 41. Insurance AI Analyst – Claims Risk Prediction
+
+# Insurance AI Analyst – Claims Risk Prediction
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+The insurance industry is rapidly embracing AI to reduce fraud, predict risks, and improve claims management. Your role as an **Insurance AI Analyst** is to assess potential risks in claims, identify fraudulent patterns, and develop actionable insights to improve underwriting and claims processing. 
+
+You have been hired by **SecureSure Insurance**, a mid-sized insurance company that provides auto, health, and property insurance. The company faces challenges with rising claim frauds and wants to leverage AI to predict risk levels associated with incoming claims. Your mission is to analyze historical claims data, build a risk prediction model, and recommend actionable interventions to minimize fraud while ensuring claims are processed efficiently.
+
+### **Mission**
+- Use historical claims data to identify key risk factors.
+- Build an AI model to predict the risk score for new claims.
+- Provide actionable insights to reduce fraudulent claims and improve operations.
+
+### **Final Challenge**
+Design and present a comprehensive report that includes:
+- Analysis of risk patterns in the claims data.
+- A trained and evaluated risk prediction model.
+- A summary of interventions to reduce fraudulent claims and optimize claims processing.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Understand the insurance claims lifecycle and the role of risk prediction in claims management.
+- Learn about key risk indicators and how they affect claim processing and fraud detection.
+
+### **Analytics**
+- Perform exploratory data analysis (EDA) on claims datasets.
+- Extract meaningful patterns and summarize risk factors using statistical techniques.
+
+### **AI Skills**
+- Build machine learning models for claims risk prediction.
+- Incorporate explainable AI techniques to interpret model predictions.
+- Evaluate model performance and ensure responsible AI practices.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Basic understanding of insurance or finance domains.
+- Familiarity with machine learning concepts and Python programming.
+
+### **Tools**
+- Python (with libraries like Pandas, NumPy, Scikit-learn, Matplotlib, and SHAP).
+- Jupyter Notebook or Google Colab.
+- Access to cloud platforms (optional for advanced learners).
+
+### **Prerequisite Skill Check**
+- Are you comfortable with Python programming and data manipulation?
+- Have you worked with machine learning algorithms (e.g., logistic regression, decision trees)?
+- Do you have a basic understanding of statistical analysis and data visualization?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **Python Libraries**: Pandas, NumPy, Matplotlib, Scikit-learn.
+- **AI Explainability**: SHAP (SHapley Additive exPlanations).
+
+### **Advanced Track**
+- Cloud-based tools for AI model deployment (e.g., AWS, Azure ML, or Google AI Platform).
+- Automated Machine Learning with libraries like H2O.ai or Auto-sklearn.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Insurance Claims Scenario**
+#### **Scenario** 
+You’ve been onboarded as an Insurance AI Analyst. Your first task is to understand the problem statement and familiarize yourself with the claims data. SecureSure Insurance has provided a dataset containing historical claims information, some of which are labeled as fraudulent. 
+
+#### **Student Assignment**
+- Review the dataset fields, including policy details, claim amounts, claimant characteristics, and fraud indicators.
+- Identify any missing values, categorical fields, and numeric fields.
+- Document the problem statement and the project’s goals.
+
+#### **Deliverable**
+- A 1-2 page document summarizing:
+  - Key fields in the dataset.
+  - Challenges in claims risk prediction.
+  - Goals of your analysis.
+
+---
+
+### **Task 2: Prepare and Explore the Claims Data**
+#### **Scenario**
+The dataset has inconsistencies such as missing values, outliers, and mixed data types. Your task is to clean and preprocess the dataset and perform exploratory data analysis (EDA) to uncover trends and patterns.
+
+#### **Student Assignment**
+- Handle missing values using imputation techniques.
+- Encode categorical variables (e.g., One-Hot Encoding, Label Encoding).
+- Visualize key distributions (e.g., claims amount, ages, policy types) and correlations.
+- Identify any anomalies and key trends in fraudulent claims.
+
+#### **Deliverable**
+- A Jupyter Notebook with:
+  - Data cleaning and preprocessing steps.
+  - Visualizations of key data distributions.
+  - A summary of insights from the EDA.
+
+---
+
+### **Task 3: Build and Train the Risk Prediction Model**
+#### **Scenario**
+SecureSure Insurance wants you to develop a machine learning model to predict the risk of new claims. Claims with higher risk scores will undergo additional scrutiny for fraud detection.
+
+#### **Student Assignment**
+- Split the dataset into training and testing sets.
+- Train a machine learning model (e.g., Logistic Regression, Random Forest, or XGBoost) to predict claim risk.
+- Optimize the model using hyperparameter tuning.
+- Evaluate the model using metrics like accuracy, precision, recall, F1-score, and AUC-ROC.
+
+#### **Deliverable**
+- A trained and saved model file.
+- A Jupyter Notebook containing the model training and evaluation process.
+
+---
+
+### **Task 4: Apply Explainable AI for Risk Interpretation**
+#### **Scenario**
+The underwriting team at SecureSure Insurance has requested an explanation of how the AI model determines risk scores, so they can justify decisions to stakeholders and regulators.
+
+#### **Student Assignment**
+- Use the SHAP library to interpret the predictions of your risk model.
+- Identify the most important features influencing the risk scores.
+- Create a visualization (e.g., SHAP summary plot) to communicate top risk factors.
+
+#### **Deliverable**
+- A Jupyter Notebook with SHAP analysis and visualizations.
+- A brief report describing the top features and their impact on risk predictions.
+
+---
+
+### **Task 5: Audit Model Fairness and Ensure Responsible AI**
+#### **Scenario**
+To meet regulatory requirements and ensure fairness, SecureSure Insurance has asked you to audit the model for biases. For example, does the model unfairly assign higher risk scores based on gender or income levels?
+
+#### **Student Assignment**
+- Analyze the model’s predictions for potential biases across sensitive attributes (e.g., gender, age group, income).
+- Calculate fairness metrics such as Demographic Parity and Equal Opportunity Difference.
+- Suggest improvements to mitigate any detected biases.
+
+#### **Deliverable**
+- A Jupyter Notebook with:
+  - Fairness analysis and metrics.
+  - Suggestions for bias mitigation.
+
+---
+
+### **Task 6: Present Recommendations to Stakeholders**
+#### **Scenario**
+The leadership team at SecureSure Insurance will use your findings to make strategic decisions. Your job is to present your results, model performance, key risk factors, and recommendations for operational changes to reduce fraudulent claims.
+
+#### **Student Assignment**
+- Create a presentation summarizing:
+  - Key insights from EDA.
+  - Model performance and explainability results.
+  - Identified risk patterns and interventions to reduce fraud.
+- Include visualizations and key metrics to support your recommendations.
+
+#### **Deliverable**
+- A slide deck (e.g., PowerPoint, Google Slides) with:
+  - Key findings and visualizations.
+  - Model results and explainability insights.
+  - Recommendations for improving claims management.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary goal of a risk prediction model in insurance claims?**  
+   A) Increase the number of claims processed  
+   B) Predict the premium for a policy  
+   C) Assess the likelihood of claim approval  
+   D) Predict the likelihood of a claim being fraudulent  
+   **Answer:** D  
+
+2. **Which Python library is commonly used for data manipulation?**  
+   A) Scikit-learn  
+   B) NumPy  
+   C) Pandas  
+   D) SHAP  
+   **Answer:** C  
+
+3. **What does AUC-ROC measure in model evaluation?**  
+   A) The speed of the model  
+   B) The correlation between features  
+   C) The trade-off between true positive rate and false positive rate  
+   D) The amount of data the model can process  
+   **Answer:** C  
+
+4. **What is SHAP used for in machine learning?**  
+   A) Optimizing model hyperparameters  
+   B) Explaining feature importance in model predictions  
+   C) Visualizing data distributions  
+   D) Training machine learning models  
+   **Answer:** B  
+
+5. **Which of the following is a common technique for handling missing data?**  
+   A) Scaling  
+   B) One-Hot Encoding  
+   C) Imputation  
+   D) PCA  
+   **Answer:** C  
+
+6. **What is the purpose of fairness auditing in AI?**  
+   A) To increase model accuracy  
+   B) To detect and mitigate biases in the model  
+   C) To improve user interface design  
+   D) To automate decision-making  
+   **Answer:** B  
+
+7. **Which metric is best to evaluate a model when the dataset is imbalanced?**  
+   A) Accuracy  
+   B) Precision  
+   C) Recall  
+   D) F1-Score  
+   **Answer:** D  
+
+8. **What does one-hot encoding do?**  
+   A) Normalizes numerical data  
+   B) Converts categorical data into numeric binary vectors  
+   C) Removes duplicates from the dataset  
+   D) Identifies missing values  
+   **Answer:** B  
+
+9. **Which of the following is NOT a step in preprocessing claims data?**  
+   A) Encoding categorical variables  
+   B) Splitting data into training and testing sets  
+   C) Handling missing values  
+   D) Calculating SHAP values  
+   **Answer:** D  
+
+10. **What is Demographic Parity in the context of fairness?**  
+   A) Ensuring all features have equal importance  
+   B) Ensuring the model is equally accurate for all subgroups  
+   C) Ensuring the positive prediction rate is similar across groups  
+   D) Ensuring the training and testing data are balanced  
+   **Answer:** C  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- **Task 1**: Summary document (PDF or Word).  
+- **Task 2**: Jupyter Notebook with EDA and data preprocessing steps.  
+- **Task 3**: Trained model file and Jupyter Notebook with training and evaluation details.  
+- **Task 4**: Jupyter Notebook with SHAP analysis and a detailed report.  
+- **Task 5**: Jupyter Notebook with fairness audit and recommendations.  
+- **Task 6**: Slide deck with key insights, model performance, and recommendations.
+
+### **Grading Rubric**
+- **Data Understanding (10%)**: Clear problem statement and dataset understanding.  
+- **Data Preparation and EDA (20%)**: Clean dataset and meaningful insights.  
+- **Model Development (30%)**: Proper model selection, training, and evaluation.  
+- **Explainability (15%)**: Effective use of SHAP and feature interpretation.  
+- **Fairness Audit (10%)**: Identification of biases and actionable mitigation strategies.  
+- **Presentation (15%)**: Clear, concise, and actionable recommendations.  
+
+---
+
+## 8. Earn Certificate Post Verification
+
+After successful submission and verification of all tasks, you will earn the **"Insurance AI Analyst – Claims Risk Prediction"** certificate by Skillzza. This certificate validates your expertise in leveraging AI for risk prediction in the insurance domain.  
+
+### **Example Employability Score**
+- **Technical Expertise (40%)**: Proficiency in AI tools and techniques.  
+- **Business Understanding (30%)**: Ability to connect AI insights to business goals.  
+- **Communication Skills (20%)**: Effectiveness in presenting findings to stakeholders.  
+- **Problem Solving (10%)**: Ability to tackle complex data challenges.  
+
+
+
+---
+
+## 42. Insurance Fraud Analyst – Detect Suspicious Claims
+
+# Insurance Fraud Analyst – Detect Suspicious Claims
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+You are hired as an Insurance Fraud Analyst at an InsurTech company specializing in streamlining claims processing and fraud detection. Insurance fraud costs the industry billions annually, and your role is critical in helping insurers identify suspicious claims through advanced analytics and AI techniques. You’ll step into the shoes of a fraud investigator, working on raw claims data to build, refine, and interpret AI anomaly detection models that flag potentially fraudulent claims.
+
+### **Mission**  
+Your mission is to help the company detect fraudulent claims in its database using anomaly detection techniques and AI-driven insights. You will analyze patterns, identify red flags, and recommend investigative strategies to mitigate financial risks.
+
+### **Final Challenge**  
+By the end of this simulation, you will present an evidence-based report outlining the suspicious claims detected, the methodology used, and actionable recommendations for the investigation team. Your insights will contribute to the company’s fraud prevention strategy.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Fundamentals of insurance fraud and common fraud schemes (e.g., inflated claims, staged accidents).  
+- Key performance indicators (KPIs) in fraud detection for insurance.  
+- Industry regulations and ethical considerations for fraud investigations.  
+
+### **Analytics Skills**  
+- Exploratory data analysis on claims datasets.  
+- Statistical anomaly detection techniques (e.g., Z-score, IQR, clustering).  
+- Fraud indicator design and validation.  
+
+### **AI Skills**  
+- Applying machine learning models for anomaly detection (e.g., Isolation Forest, Autoencoder).  
+- Using Generative AI to explain fraud patterns.  
+- Responsible AI practices in fraud detection.  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Familiarity with insurance concepts and operations.  
+- Intermediate knowledge of Python and data analytics.  
+- Basic understanding of machine learning algorithms.  
+
+### **Tools**  
+- Python (NumPy, pandas, scikit-learn).  
+- Jupyter Notebook.  
+- Data visualization tools (e.g., Matplotlib, Seaborn).  
+- Access to Generative AI platforms for explanation tasks.  
+
+### **Prerequisite Skill Check**  
+- Ability to preprocess and clean datasets.  
+- Understanding of statistical concepts like mean, standard deviation, and outliers.  
+- Knowledge of AI model training and evaluation metrics (e.g., precision, recall, ROC-AUC).  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- Python libraries: Pandas, Scikit-learn, Matplotlib, Seaborn.  
+- Jupyter Notebook for workflow management.  
+- Basic SQL for querying claims data.  
+
+### **Advanced Track**  
+- Machine learning frameworks for anomaly detection (e.g., Isolation Forest, Autoencoder).  
+- Generative AI platforms for explaining fraud indicators (e.g., OpenAI GPT, Bard).  
+- Ethical AI tools for bias and fairness auditing.  
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand the Role and Data**  
+#### **Scenario**  
+The company's fraud detection team receives thousands of claims daily. Your first task is to familiarize yourself with the claims dataset and understand the key fraud indicators.  
+
+#### **Student Assignment**  
+- Review a sample insurance claims dataset containing fields such as `Claim_ID`, `Policy_Holder_Age`, `Incident_Date`, `Claim_Amount`, `Claim_Type`, and `Claim_Status`.  
+- Research common fraud schemes (e.g., duplicate claims, exaggerated damages).  
+- Summarize the role of AI and analytics in fraud detection.  
+
+#### **Deliverable**  
+Submit a 300-word summary explaining the dataset, fraud schemes, and the role of analytics in detecting suspicious claims.  
+
+---
+
+### **Task 2: Data Exploration and Setup**  
+#### **Scenario**  
+You need to prepare the dataset for analysis by cleaning, transforming, and exploring its features. This step ensures the data is ready for anomaly detection.  
+
+#### **Student Assignment**  
+- Clean the dataset by handling missing values and formatting inconsistencies.  
+- Perform exploratory data analysis (EDA) to identify patterns and potential fraud indicators (e.g., unusually high claim amounts).  
+- Visualize distributions and correlations using Matplotlib or Seaborn.  
+
+#### **Deliverable**  
+Submit a Jupyter Notebook containing clean data, EDA visualizations, and a short analysis of patterns or anomalies.  
+
+---
+
+### **Task 3: Build an Anomaly Detection Model**  
+#### **Scenario**  
+You’ll create an AI model to identify outliers in claims data that could indicate fraud. The goal is to leverage machine learning techniques to detect anomalies.  
+
+#### **Student Assignment**  
+- Split the dataset into training and testing sets.  
+- Train an anomaly detection model using Isolation Forest or an Autoencoder.  
+- Evaluate model performance using metrics like precision, recall, and ROC-AUC.  
+
+#### **Deliverable**  
+Submit your trained model and a report explaining the methodology, performance metrics, and initial findings.  
+
+---
+
+### **Task 4: Interpret Results Using Generative AI**  
+#### **Scenario**  
+Your team needs an explanation of why certain claims were flagged as suspicious by the model. You’ll use Generative AI to write a detailed and human-readable interpretation of the fraud indicators.  
+
+#### **Student Assignment**  
+- Use Generative AI platforms (e.g., ChatGPT) to explain why specific claims were flagged as anomalies.  
+- Translate technical outputs into non-technical language for stakeholders.  
+- Create example scenarios that show why certain claims might be fraudulent.  
+
+#### **Deliverable**  
+Submit a document containing Generative AI-generated explanations and real-world implications for flagged claims.  
+
+---
+
+### **Task 5: Audit for Responsible AI Practices**  
+#### **Scenario**  
+Your anomaly detection model must be fair and unbiased. Your task is to ensure responsible AI practices are adhered to by auditing the model for potential biases.  
+
+#### **Student Assignment**  
+- Analyze the flagged claims for demographic bias (e.g., age, gender, location).  
+- Adjust the model or dataset to minimize bias.  
+- Document any ethical concerns and propose solutions.  
+
+#### **Deliverable**  
+Submit a report outlining bias audit results, adjustments made, and recommendations for maintaining ethical AI practices.  
+
+---
+
+### **Task 6: Present Your Fraud Detection Report**  
+#### **Scenario**  
+Now that your fraud detection model is complete, you need to present your findings to the investigation team, including actionable recommendations.  
+
+#### **Student Assignment**  
+- Summarize your workflow from data exploration to model building and auditing.  
+- Present top suspicious claims and explain the reasoning behind the anomalies.  
+- Recommend next steps for investigating flagged claims.  
+
+#### **Deliverable**  
+Submit a slide deck (5-7 slides) including visuals, methodology, results, and recommendations.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+1. **What is a common indicator of fraud in insurance claims?**  
+   A. High claim amounts compared to policy coverage  
+   B. Frequent claims from the same policyholder  
+   C. Claims for past-dated incidents  
+   D. All of the above  
+   **Correct Answer:** D  
+
+2. **What is the purpose of anomaly detection in insurance fraud analysis?**  
+   A. To identify patterns of normal claims  
+   B. To flag claims that deviate significantly from normal patterns  
+   C. To ensure all claims are approved quickly  
+   D. To increase the number of claims processed  
+   **Correct Answer:** B  
+
+3. **Which machine learning model is commonly used for anomaly detection?**  
+   A. Random Forest  
+   B. Isolation Forest  
+   C. Logistic Regression  
+   D. Decision Tree  
+   **Correct Answer:** B  
+
+4. **What is the ROC-AUC metric used for?**  
+   A. To measure the accuracy of a model  
+   B. To evaluate the trade-off between true positives and false positives  
+   C. To determine the number of clusters in a dataset  
+   D. To identify missing data in the dataset  
+   **Correct Answer:** B  
+
+5. **Which field in an insurance dataset is most likely to indicate fraud?**  
+   A. Policy_Holder_Age  
+   B. Incident_Date  
+   C. Claim_Amount  
+   D. Claim_Type  
+   **Correct Answer:** C  
+
+6. **What is the role of Generative AI in fraud detection?**  
+   A. To clean the dataset  
+   B. To explain fraud indicators to non-technical stakeholders  
+   C. To train anomaly detection models  
+   D. To calculate precision and recall metrics  
+   **Correct Answer:** B  
+
+7. **What is the main ethical concern in insurance fraud detection using AI?**  
+   A. Overfitting of machine learning models  
+   B. Demographic bias in flagged claims  
+   C. Slow computational performance  
+   D. Lack of data visualization  
+   **Correct Answer:** B  
+
+8. **Which visualization technique is best for analyzing claim amount distribution?**  
+   A. Line chart  
+   B. Scatterplot  
+   C. Histogram  
+   D. Pie chart  
+   **Correct Answer:** C  
+
+9. **What does Z-score measure in anomaly detection?**  
+   A. The mean value of claims data  
+   B. The standard deviation of a feature  
+   C. How far a data point is from the mean in terms of standard deviations  
+   D. The correlation between two features  
+   **Correct Answer:** C  
+
+10. **What is the primary goal of Responsible AI auditing?**  
+    A. To improve model accuracy  
+    B. To ensure the AI model operates ethically and fairly  
+    C. To detect anomalies in the data  
+    D. To increase the speed of processing claims  
+    **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+1. Jupyter Notebook containing cleaned data, EDA, and model training process.  
+2. Fraud indicators explanation document generated using Generative AI.  
+3. Bias audit report and recommendations.  
+4. Slide deck with visuals, results, and recommendations.  
+
+### **Grading Rubric**  
+- **Data Preparation & EDA (30%)**: Clean data quality, insightful visualizations, and thorough analysis.  
+- **Model Training & Evaluation (30%)**: Accurate and well-explained anomaly detection methodology with proper metrics.  
+- **Responsible AI Audit (20%)**: Identification of biases and actionable ethical recommendations.  
+- **Presentation (20%)**: Clear, professional, and impactful summary of findings and recommendations.  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful completion and verification of your submission, you will receive the **Insurance Fraud Analyst – Detect Suspicious Claims** certificate.  
+
+### **Certificate Details**  
+- **Title:** Certified Insurance Fraud Analyst  
+- **Domain:** InsurTech  
+- **Skill Level:** Intermediate  
+- **Key Skills Validated:** Data cleaning, EDA, anomaly detection, responsible AI, fraud investigation.  
+- **Employability Score Example:**  
+   - **Data Analytics:** 85%  
+   - **AI Applications:** 90%  
+   - **Ethical Compliance:** 80%  
+
+
+
+---
+
+## 43. InsurTech Product Analyst – Build AI Claims Assistant
+
+# InsurTech Product Analyst – Build AI Claims Assistant
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+You’ve been hired as a Product Analyst at an innovative InsurTech company aiming to revolutionize the claims process. Customers are frustrated with the lengthy and inefficient claims journey, leading to dissatisfaction and churn. The company has tasked you with analyzing the claims journey, identifying pain points, and designing an AI-powered Claims Assistant prototype that streamlines the experience while improving customer satisfaction.
+
+### **Mission**  
+Your mission is to deeply understand the claims process, identify bottlenecks and inefficiencies, and leverage AI tools to design a prototype solution. You will analyze claims data, train a chatbot model, define performance KPIs, and present your findings and recommendations to the company’s leadership team.
+
+### **Final Challenge**  
+At the end of this virtual internship, you will present an AI Claims Assistant prototype tailored to customer needs. You’ll justify your solution with data-driven insights, demonstrate the model’s functionality, and showcase how your solution addresses customer pain points while meeting organizational KPIs.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Fundamentals of insurance claims processes and workflows  
+- Common pain points in claims management and customer experience  
+- Trends in InsurTech and AI adoption in insurance  
+
+### **Analytics**  
+- Claims data analysis and visualization  
+- Identifying patterns and bottlenecks in customer journeys  
+- KPI design for customer experience and operational efficiency  
+
+### **AI Skills**  
+- Understanding AI chatbot frameworks for natural language processing (NLP)  
+- Training conversational AI models for customer service queries  
+- Designing responsible AI solutions for regulated industries  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Familiarity with insurance industry concepts (claims, policies, coverage types)  
+- Basic proficiency in data analysis tools (Excel, Python, or SQL)  
+- Understanding of AI/ML fundamentals, particularly NLP  
+
+### **Tools**  
+- Python (for data analysis and AI model development)  
+- OpenAI GPT API (for chatbot development)  
+- Tableau or Power BI (for data visualization)  
+
+### **Prerequisite Skill Check**  
+Before starting, ensure you can:  
+1. Perform basic data cleaning and exploration in Python.  
+2. Write simple SQL queries to extract and manipulate data.  
+3. Interpret KPIs and create dashboards using visualization tools.  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Python**: For data cleaning, exploration, and model training  
+- **OpenAI GPT API**: For building conversational AI models  
+- **Tableau**: For claims data visualization and reporting  
+
+### **Advanced Track**  
+- **LangChain Framework**: For integrating chatbots into workflows  
+- **Responsible AI Frameworks**: For bias detection and ethical AI practices  
+- **Entity Recognition Models**: For extracting structured information from unstructured claims data  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Insurance Claims Process**  
+#### **Scenario**  
+You’ve been provided with anonymized historical claims data and customer feedback reports. Your first task is to analyze the claims journey and identify critical pain points that reduce customer satisfaction.  
+
+#### **Student Assignment**  
+- Study the provided dataset and review customer feedback.  
+- Map the claims journey, highlighting steps such as filing, review, approval, and resolution.  
+- Identify bottlenecks and inefficiencies in the process (e.g., long approval times, lack of status updates).  
+
+#### **Deliverable**  
+- A visual claims journey map identifying pain points (e.g., delays, unclear communication).  
+- A summary document detailing customer pain points and their impact on satisfaction metrics.  
+
+---
+
+### **Task 2: Data Preprocessing and Setup**  
+#### **Scenario**  
+Now that you understand the claims journey, you need to clean and preprocess the raw claims data. This data will be used to train your AI Claims Assistant.  
+
+#### **Student Assignment**  
+- Use Python and Pandas to clean the dataset (handle missing values, standardize text fields, and remove duplicates).  
+- Identify key fields such as claim type, customer sentiment, and claim status for training the AI model.  
+
+#### **Deliverable**  
+- Cleaned and preprocessed dataset ready for analysis.  
+- A Jupyter Notebook with documented code and insights from data preprocessing.  
+
+---
+
+### **Task 3: Build Your AI Claims Assistant Prototype**  
+#### **Scenario**  
+Using the OpenAI GPT API, you will create a conversational AI prototype that can answer customer queries related to their claim status, coverage, and process. This chatbot will be the foundation for your AI Claims Assistant.  
+
+#### **Student Assignment**  
+- Train an AI chatbot using OpenAI GPT API to handle sample queries like:
+  - “What is the status of my claim?”  
+  - “How long will it take to process my claim?”  
+  - “What documents do I need to submit for my car insurance claim?”  
+- Test the chatbot with sample inputs and iteratively improve responses.  
+
+#### **Deliverable**  
+- Python script for the chatbot prototype.  
+- A document showcasing sample queries and chatbot responses.  
+
+---
+
+### **Task 4: Explain AI Functionality Using GenAI**  
+#### **Scenario**  
+Your stakeholders have requested a detailed explanation of how the AI Claims Assistant works. They want to ensure that the solution is user-friendly and compliant with industry regulations.  
+
+#### **Student Assignment**  
+- Use Generative AI tools like ChatGPT to generate a user-friendly explanation of the AI model’s functionality.  
+- Include details on data inputs, training process, response generation, and safeguards against misinformation.  
+
+#### **Deliverable**  
+- A comprehensive document explaining the AI Claims Assistant's design and functionality.  
+- A visual flowchart illustrating the chatbot’s operation.  
+
+---
+
+### **Task 5: Audit the AI Model for Responsible AI Practices**  
+#### **Scenario**  
+Before presenting your prototype, you must ensure that it meets ethical AI standards. Specifically, you need to verify that the model avoids bias and adheres to privacy guidelines.  
+
+#### **Student Assignment**  
+- Test the chatbot for potential biases (e.g., handling diverse customer queries).  
+- Review compliance with data privacy regulations such as GDPR.  
+- Propose solutions to address any identified ethical concerns.  
+
+#### **Deliverable**  
+- An audit report on the AI model’s compliance with Responsible AI practices.  
+- Recommendations for improving model fairness and transparency.  
+
+---
+
+### **Task 6: Present Your Recommendation**  
+#### **Scenario**  
+You are now ready to present your findings and prototype to the company’s leadership. Your presentation must include the claims journey analysis, AI prototype demonstration, and KPI improvements.  
+
+#### **Student Assignment**  
+- Create a slide deck summarizing the claims journey pain points, AI solution, and expected impact on KPIs.  
+- Provide a live demo or video demo of your AI Claims Assistant prototype.  
+- Justify your solution using data insights and industry benchmarks.  
+
+#### **Deliverable**  
+- Slide deck (5-7 slides).  
+- Video demo or live demo of AI Claims Assistant prototype.  
+- KPI comparison showing expected improvement in customer satisfaction and operational efficiency.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **1. What is a common pain point in the insurance claims journey?**  
+A. Fast resolution times  
+B. Lack of transparency during the process  
+C. Overcommunication with customers  
+D. Increased premiums  
+
+**Answer:** B  
+
+### **2. Which Python library is commonly used for data preprocessing?**  
+A. NumPy  
+B. Pandas  
+C. Matplotlib  
+D. Scikit-learn  
+
+**Answer:** B  
+
+### **3. What is one task the AI Claims Assistant can perform?**  
+A. Modify insurance policies  
+B. Provide claim status updates  
+C. Approve claims automatically  
+D. Calculate premiums  
+
+**Answer:** B  
+
+### **4. Which API is used for building the conversational AI in this internship?**  
+A. Google Maps API  
+B. OpenAI GPT API  
+C. Twitter API  
+D. Stripe API  
+
+**Answer:** B  
+
+### **5. What is the purpose of auditing AI models?**  
+A. To improve speed  
+B. To ensure responsible and ethical AI practices  
+C. To increase profitability  
+D. To enhance design aesthetics  
+
+**Answer:** B  
+
+### **6. What is GDPR primarily concerned with?**  
+A. Data visualization  
+B. Insurance policy management  
+C. Data privacy regulations  
+D. Financial audits  
+
+**Answer:** C  
+
+### **7. What is LangChain commonly used for?**  
+A. Creating dashboards  
+B. Integrating language models into applications  
+C. Designing user interfaces  
+D. Managing insurance policies  
+
+**Answer:** B  
+
+### **8. Which KPI is most relevant for measuring customer satisfaction in claims processing?**  
+A. Premium growth rate  
+B. Claims rejection rate  
+C. Turnaround time for resolution  
+D. Market share  
+
+**Answer:** C  
+
+### **9. What does NLP stand for in AI development?**  
+A. Neural Linguistic Programming  
+B. Natural Learning Process  
+C. Natural Language Processing  
+D. Neural Logical Parameters  
+
+**Answer:** C  
+
+### **10. What type of AI model is commonly used for chatbots?**  
+A. Convolutional Neural Networks (CNNs)  
+B. Recurrent Neural Networks (RNNs)  
+C. Transformer models  
+D. Decision trees  
+
+**Answer:** C  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Claims journey map and summary document (Task 1)  
+- Jupyter Notebook with cleaned dataset and insights (Task 2)  
+- Python script for chatbot prototype and sample outputs (Task 3)  
+- User-friendly explanation document and flowchart (Task 4)  
+- Responsible AI audit report (Task 5)  
+- Final presentation slide deck and prototype demo (Task 6)  
+
+### **Grading Rubric**  
+- **Claims Journey Analysis (20 points):** Depth of analysis and clarity of pain point identification.  
+- **Data Preprocessing (15 points):** Completeness and correctness of data cleaning.  
+- **AI Prototype (25 points):** Functionality, accuracy of responses, and creativity in design.  
+- **Explanation Document (15 points):** Clarity and completeness in explaining AI functionality.  
+- **Responsible AI Audit (15 points):** Thoroughness and actionable recommendations.  
+- **Presentation and Demo (10 points):** Quality of presentation and demonstration of the solution.  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful completion of this virtual internship, your submitted tasks will be reviewed for accuracy, creativity, and adherence to ethical AI practices. Once verified, you will receive an **InsurTech Product Analyst Certificate**, showcasing your expertise in using AI to innovate insurance claims processes.
+
+### **Employability Score Example**  
+- **Domain Knowledge:** 90/100  
+- **Technical Skills:** 85/100  
+- **Responsible AI Practices:** 95/100  
+- **Presentation & Communication:** 88/100  
+
+This certificate and employability score will enhance your resume, demonstrating your ability to solve real-world InsurTech challenges.  
+
+---
+
+## 46. Cybersecurity Analyst – Investigate a Security Incident
+
+# Cybersecurity Analyst – Investigate a Security Incident
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+You are a Cybersecurity Analyst at SecureTech Solutions, a mid-sized company that specializes in providing IT and security services to clients in various industries. One morning, your team receives an alert from the Security Information and Event Management (SIEM) system indicating unusual activity within the internal network. It appears that a potential breach has occurred, and you are assigned to investigate the situation.
+
+### **Mission**  
+Your mission is to investigate the security incident, identify the root cause, and provide a detailed report along with recommendations to prevent similar incidents in the future. You will work with logs, analyze traffic patterns, and apply your cybersecurity knowledge to ensure the organization’s systems remain secure.
+
+### **Final Challenge**  
+Your final challenge will be to present your findings in a well-structured incident report to your supervisor and suggest actionable recommendations to improve the organization’s security posture.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Fundamentals of cybersecurity incident investigation and response.  
+- Understanding network traffic, security alerts, and log analysis.  
+- Familiarity with common attack vectors such as phishing, malware, and brute force attacks.  
+
+### **Analytics**  
+- Detecting anomalies in network traffic and system logs.  
+- Identifying Indicators of Compromise (IoCs).  
+- Root cause analysis of security incidents.  
+
+### **AI and Security Tools**  
+- Using SIEM platforms for real-time monitoring and log analysis.  
+- Leveraging AI to identify patterns in security incidents.  
+- Applying responsible AI principles for cybersecurity recommendations.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Basic knowledge of networks, operating systems, and cybersecurity concepts.  
+- Familiarity with reading system and network logs.  
+- Experience using terminal commands and basic scripting (e.g., Python, Bash).  
+
+### **Tools**  
+- SIEM tools (e.g., Splunk, ELK Stack).  
+- Basic familiarity with Wireshark or any network packet analyzer.  
+- Spreadsheet software for data analysis (e.g., Excel, Google Sheets).  
+
+### **Prerequisite Skill Check**  
+1. Can you explain how firewalls and intrusion detection systems work?  
+2. Do you understand how to read and interpret logs from a server or application?  
+3. Are you familiar with basic cybersecurity attack types like phishing, DDoS, or brute force?  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Splunk**: Analyze logs and detect anomalies.  
+- **Wireshark**: Capture and analyze network traffic.  
+- **Kibana**: Visualize security events and patterns.  
+
+### **Advanced Track**  
+- Python scripting for automated log parsing and pattern detection.  
+- AI-based anomaly detection in cybersecurity (e.g., using TensorFlow or similar frameworks).  
+- Creating security dashboards in Kibana for ongoing monitoring.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Incident**  
+
+#### **Scenario**  
+Your manager has provided details of an alert from the SIEM system that flagged suspicious activity on the network. A user account attempted multiple failed logins in a short time, followed by successful access from an unknown IP address. This unusual behavior must be investigated.
+
+#### **Student Assignment**  
+1. Review the SIEM alert summary to understand the context of the incident.  
+2. Identify the affected user account and note the timestamps of the alert.  
+3. Outline potential causes of this activity (e.g., brute force attack, phishing).  
+
+#### **Deliverable**  
+A summary document (300-400 words) that includes:  
+- Description of the incident.  
+- Possible causes of the suspicious behavior.  
+- A list of questions or areas to investigate further.
+
+---
+
+### **Task 2: Analyze Logs and Set Up Investigation**  
+
+#### **Scenario**  
+Your manager has provided access to system and network logs during the time of the incident. You need to analyze these logs to identify potential Indicators of Compromise (IoCs).
+
+#### **Student Assignment**  
+1. Import the provided logs into Splunk or Kibana.  
+2. Analyze login attempts, IP addresses, and timestamps.  
+3. Filter logs to identify anomalies such as unusual login times or unknown IPs.  
+
+#### **Deliverable**  
+- A filtered log file highlighting anomalies (e.g., suspicious IPs, unusual timestamps).  
+- A brief explanation (150-200 words) of the anomalies identified and their potential significance.
+
+---
+
+### **Task 3: Investigate the Root Cause**  
+
+#### **Scenario**  
+After analyzing the logs, you notice that the suspicious IP address is associated with a known malware command-and-control server. Additionally, the user account was used to access sensitive files on the company server.
+
+#### **Student Assignment**  
+1. Use Wireshark to analyze the network packet capture (PCAP) file provided.  
+2. Identify the types of traffic originating from the suspicious IP.  
+3. Research the identified malware and describe its typical behavior.  
+
+#### **Deliverable**  
+- A list of key indicators from the PCAP analysis (e.g., protocols, payloads, IPs).  
+- A malware profile document (200–300 words) describing how it operates and its potential impact.
+
+---
+
+### **Task 4: Use AI to Identify Patterns**  
+
+#### **Scenario**  
+You decide to leverage AI for pattern recognition to determine if similar incidents have occurred in the past. Your team has access to a small dataset of past security incidents logged over the last year.
+
+#### **Student Assignment**  
+1. Use a Python-based AI tool (e.g., TensorFlow or pandas library) to analyze the historical incident dataset provided.  
+2. Identify patterns or trends (e.g., repeated attacks from the same IP range).  
+3. Visualize the results using a graph or chart.  
+
+#### **Deliverable**  
+- A Python script or notebook showing your analysis.  
+- A visualization (e.g., bar chart, heatmap) summarizing the identified patterns.
+
+---
+
+### **Task 5: Audit and Responsible AI**  
+
+#### **Scenario**  
+Your findings will be used to update the company's automated threat detection system. However, it's critical to ensure that the AI model does not produce biased or false-positive results.
+
+#### **Student Assignment**  
+1. Review the AI model's dataset and results for potential biases (e.g., flagging certain IP ranges disproportionately).  
+2. Suggest improvements to ensure the detection system is fair and accurate.  
+3. Document the ethical implications of using AI for cybersecurity.  
+
+#### **Deliverable**  
+- A short report (200–300 words) on potential biases in the AI model and steps for mitigation.  
+- Recommendations for improving the AI model’s accuracy and fairness.
+
+---
+
+### **Task 6: Present Your Recommendations**  
+
+#### **Scenario**  
+You are required to create a final incident report summarizing your investigation and recommendations. This report will be presented to the company’s security team for review.
+
+#### **Student Assignment**  
+1. Compile your findings, including the root cause, IoCs, and analysis results.  
+2. Provide actionable recommendations to prevent similar incidents in the future.  
+3. Create a presentation slide deck summarizing your report.  
+
+#### **Deliverable**  
+- A detailed incident report (600–800 words).  
+- A slide deck (5–7 slides) summarizing your findings and recommendations.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is an Indicator of Compromise (IoC)?**  
+   A. A list of authorized users.  
+   B. Evidence of a potential security breach.  
+   C. A tool used for encrypting data.  
+   D. A software patch for vulnerabilities.  
+   **Correct Answer**: B  
+
+2. **What does a SIEM system primarily do?**  
+   A. Encrypts sensitive data.  
+   B. Monitors and analyzes security alerts.  
+   C. Creates malware signatures.  
+   D. Tracks software licenses.  
+   **Correct Answer**: B  
+
+3. **Which protocol is commonly used for remote login?**  
+   A. HTTP  
+   B. SSH  
+   C. FTP  
+   D. SMTP  
+   **Correct Answer**: B  
+
+4. **What is the purpose of packet analysis in cybersecurity?**  
+   A. To encrypt network traffic.  
+   B. To analyze data packets for potential threats.  
+   C. To create network diagrams.  
+   D. To optimize network performance.  
+   **Correct Answer**: B  
+
+5. **Which type of attack involves sending massive amounts of traffic to overwhelm a server?**  
+   A. Man-in-the-middle attack  
+   B. Phishing attack  
+   C. DDoS attack  
+   D. SQL injection attack  
+   **Correct Answer**: C  
+
+6. **Which tool is best for analyzing network traffic?**  
+   A. Splunk  
+   B. Wireshark  
+   C. Excel  
+   D. TensorFlow  
+   **Correct Answer**: B  
+
+7. **What is a common sign of a brute force attack?**  
+   A. High CPU usage on a server.  
+   B. Multiple failed login attempts.  
+   C. Sudden server shutdown.  
+   D. Encrypted files.  
+   **Correct Answer**: B  
+
+8. **What does TCP stand for?**  
+   A. Transmission Control Protocol  
+   B. Transfer Communication Protocol  
+   C. Technology Communication Protocol  
+   D. Trusted Connection Protocol  
+   **Correct Answer**: A  
+
+9. **What is the primary goal of root cause analysis in cybersecurity?**  
+   A. To update firewall rules.  
+   B. To identify the origin of a security incident.  
+   C. To encrypt sensitive files.  
+   D. To improve server performance.  
+   **Correct Answer**: B  
+
+10. **What is one ethical consideration when using AI in cybersecurity?**  
+    A. Ensuring the AI detects 100% of threats.  
+    B. Avoiding bias in threat detection models.  
+    C. Automating all network activity.  
+    D. Encrypting all data in the system.  
+    **Correct Answer**: B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**  
+- Incident summary document.  
+- Filtered logs and anomaly analysis.  
+- Malware profile document.  
+- Python script/notebook and visualization.  
+- Responsible AI audit report.  
+- Final incident report and presentation deck.  
+
+### **Grading Rubric**  
+- Completeness of deliverables (40%).  
+- Accuracy of log and network analysis (25%).  
+- Quality of root cause analysis (20%).  
+- Ethical considerations in AI recommendations (10%).  
+- Presentation structure and clarity (5%).  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Once your submission is verified, you will receive a **Certificate of Completion: Cybersecurity Analyst – Investigate a Security Incident**.  
+
+### **Employability Score Example**  
+- **Technical Analysis**: 85%  
+- **Critical Thinking**: 90%  
+- **AI and Tools Proficiency**: 80%  
+- **Communication Skills**: 88%  
+
+Boost your resume and LinkedIn profile with your newly acquired skills and certificate!  
+
+---
+
+## 48. Cyber Threat Intelligence Analyst – Investigate an Attack
+
+# Cyber Threat Intelligence Analyst – Investigate an Attack
+
+## 1. What is this Job Simulation All About?
+
+In an increasingly digital world, cyber threats are evolving at an unprecedented pace. As a **Cyber Threat Intelligence (CTI) Analyst**, your job is to analyze, detect, and mitigate these threats, ensuring organizations remain secure against potential attacks. 
+
+In this virtual internship, you will step into the shoes of a CTI Analyst to investigate a simulated cyberattack. Using real-world tools and techniques, you will trace an attack from its initial indicators of compromise (IoCs) to uncover the attacker’s identity, motivations, and methods. Finally, you will recommend actionable mitigations to enhance organizational security.  
+
+### **Scenario**
+A multinational e-commerce company, **ShopSphere**, has reported unusual activity on its network. Several employees have flagged suspicious emails, and the IT team has identified data exfiltration attempts from their payment processing servers. ShopSphere has asked you to investigate the incident, analyze threat intelligence, and recommend a mitigation strategy.
+
+### **Mission**
+- Identify and analyze indicators of compromise (IoCs) from the attack.
+- Map the threats to the MITRE ATT&CK framework to uncover their place in the kill chain.
+- Investigate potential threat actors using open-source intelligence (OSINT) tools.
+- Develop a mitigation strategy to prevent future attacks.
+
+### **Final Challenge**
+Your investigation will culminate in a comprehensive Threat Intelligence Report. This report will include IoC analysis, threat actor profiling, attack chain mapping, and a set of actionable recommendations for improving ShopSphere’s cybersecurity defenses.
+
+---
+
+## 2. What Will You Learn?
+
+By completing this job simulation, you will gain:
+
+### **Domain Knowledge**
+- Understanding key concepts in cybersecurity, such as **Indicators of Compromise (IoCs)**, threat actors, and attack chains.
+- Familiarity with the **MITRE ATT&CK framework** and how it applies to real-world threat analysis.
+- Insights into the lifecycle of a cyberattack and defensive strategies.
+
+### **Analytics Skills**
+- Analyzing malicious payloads, phishing emails, and traffic logs to identify patterns.
+- Correlating threat intelligence to draw insights about attacker Tactics, Techniques, and Procedures (TTPs).
+
+### **Cybersecurity Tools**
+- Proficiency in using tools like **Malware Information Sharing Platform (MISP)**, **Wireshark**, and OSINT tools like **Shodan**.
+- Generating actionable intelligence from data and crafting executive-level reports.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- A foundational understanding of cybersecurity concepts, such as malware, phishing, and data breaches.
+- Familiarity with basic networking and protocols (e.g., HTTP, DNS, TCP/IP).
+- Experience with analyzing logs or datasets is a plus.
+
+### **Tools Needed**
+- Wireshark (network traffic analysis)
+- MISP (threat intelligence sharing)
+- Shodan (internet-facing devices search tool)
+- MITRE ATT&CK Navigator (online tool)
+- A text editor (e.g., VS Code, Sublime Text)
+
+### **Prerequisite Skill Check**
+- Can you identify suspicious network traffic from a packet capture file?
+- Do you understand the basics of how phishing email attacks work?
+- Are you familiar with threat actor profiling and TTPs?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **Wireshark**: For analyzing packet captures to identify malicious activities.
+- **Malware Information Sharing Platform (MISP)**: For IoC management and threat intelligence sharing.
+- **Shodan**: For investigating internet-exposed systems and services.
+- **MITRE ATT&CK Navigator**: For mapping threat actor activities and identifying defensive gaps.
+
+### **Advanced Track**
+- **Splunk** or **ELK Stack**: For advanced log analysis (optional).
+- **VirusTotal**: For malware analysis and threat intelligence lookup.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Incident**
+**Scenario**: ShopSphere’s IT team has provided you with a brief on the suspicious activity, including phishing emails received by employees and packet capture (PCAP) files from their network.  
+**Student Assignment**: 
+- Read the incident brief and familiarize yourself with the provided data, including email headers, PCAP files, and a list of anomalies flagged by the IT team.
+- Identify potential IoCs such as suspicious email addresses, IPs, or file hashes.  
+**Deliverable**: A list of at least 5 IoCs, including email addresses, IP addresses, or domain names, with a brief explanation of why each is suspicious.
+
+---
+
+### **Task 2: Prepare the Dataset for Analysis**
+**Scenario**: After identifying IoCs, you need to process and organize the data for deeper analysis. This involves examining phishing emails and decrypting network traffic.  
+**Student Assignment**:
+- Use Wireshark to analyze the provided PCAP files, filtering out irrelevant traffic and highlighting suspicious patterns.
+- Extract URLs and file hashes from phishing emails.  
+**Deliverable**: A cleaned dataset containing key IoCs, along with details (e.g., timestamps, source/destination IPs, and extracted URLs).
+
+---
+
+### **Task 3: Map Threats Using the MITRE ATT&CK Framework**
+**Scenario**: Now that you have IoCs, your next step is to analyze the tactics, techniques, and procedures (TTPs) used in the attack.  
+**Student Assignment**:  
+- Use the MITRE ATT&CK Navigator to map the IoCs to specific tactics and techniques.  
+- Identify where these techniques fit into the cyber kill chain (e.g., initial access, lateral movement, exfiltration).  
+**Deliverable**: A complete MITRE ATT&CK mapping for the attack, including identified techniques and their descriptions.
+
+---
+
+### **Task 4: Investigate the Threat Actor Using OSINT**
+**Scenario**: With insights into TTPs, you can now investigate potential threat actors behind the attack.  
+**Student Assignment**:  
+- Use Shodan to investigate IP addresses from the IoC list.  
+- Cross-reference IPs, hashes, and domains with MISP or VirusTotal to identify connections to known threat actors.  
+**Deliverable**: A threat actor profile, including name (if identifiable), known motivations, and prior activities.
+
+---
+
+### **Task 5: Audit and Responsible Cybersecurity Practices**
+**Scenario**: Before presenting your findings, ensure that your investigation adheres to ethical and responsible practices.  
+**Student Assignment**:  
+- Identify potential biases or gaps in your analysis (e.g., false positives, incomplete data).  
+- Verify that your proposed actions comply with cybersecurity laws and organizational policies.  
+**Deliverable**: A one-page Responsible Cybersecurity Checklist with potential issues and their resolutions.
+
+---
+
+### **Task 6: Present Your Findings and Recommendations**
+**Scenario**: As a final step, you will consolidate your findings into a report for ShopSphere’s executive team.  
+**Student Assignment**:  
+- Summarize the attack chain, threat actor profile, and key findings.  
+- Recommend at least three actionable mitigations to prevent similar attacks in the future.  
+**Deliverable**: A polished Threat Intelligence Report (PDF or PPT) with visuals (e.g., MITRE ATT&CK heatmap).
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary purpose of IoCs in threat intelligence?**  
+   A) To identify vulnerabilities in code  
+   B) To detect and track malicious activity  
+   C) To conduct penetration testing  
+   D) To create firewalls  
+   **Answer**: B  
+
+2. **Which tool is best suited for analyzing network traffic?**  
+   A) Shodan  
+   B) Wireshark  
+   C) MISP  
+   D) VirusTotal  
+   **Answer**: B  
+
+3. **What does the MITRE ATT&CK Framework primarily focus on?**  
+   A) Vulnerability scanning  
+   B) Mapping tactics, techniques, and procedures (TTPs)  
+   C) Malware reverse engineering  
+   D) Incident response timelines  
+   **Answer**: B  
+
+4. **Which phase of the cyber kill chain involves phishing emails?**  
+   A) Lateral Movement  
+   B) Reconnaissance  
+   C) Initial Access  
+   D) Exfiltration  
+   **Answer**: C  
+
+5. **What is Shodan typically used for?**  
+   A) Detecting phishing attacks  
+   B) Identifying internet-facing devices and services  
+   C) Analyzing malware behavior  
+   D) Creating sandbox environments  
+   **Answer**: B  
+
+6. **Which of the following is NOT an IoC?**  
+   A) Hash value  
+   B) IP address  
+   C) TTP  
+   D) Domain name  
+   **Answer**: C  
+
+7. **What is the output of Wireshark analysis?**  
+   A) Identified vulnerabilities  
+   B) Packet capture data  
+   C) Threat actor profiles  
+   D) Malware signatures  
+   **Answer**: B  
+
+8. **Which law governs responsible cybersecurity practices?**  
+   A) GDPR  
+   B) DMCA  
+   C) HIPAA  
+   D) PCI DSS  
+   **Answer**: A  
+
+9. **What should be the first step when analyzing a cyberattack?**  
+   A) Identifying vulnerable systems  
+   B) Mapping the attack chain  
+   C) Gathering IoCs  
+   D) Profiling the attacker  
+   **Answer**: C  
+
+10. **What is one key limitation of OSINT tools like Shodan?**  
+    A) They are expensive to use  
+    B) They only analyze encrypted traffic  
+    C) They provide incomplete or outdated data  
+    D) They require advanced coding skills  
+    **Answer**: C  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- Task 1: IoC List (Word or PDF format)  
+- Task 2: Cleaned Dataset (CSV or Excel format)  
+- Task 3: MITRE ATT&CK Mapping (PDF or screenshot)  
+- Task 4: Threat Actor Profile (Word or PDF format)  
+- Task 5: Responsible Cybersecurity Checklist (Word or PDF format)  
+- Task 6: Final Threat Intelligence Report (PDF or PPT format)
+
+### **Grading Rubric**
+- **Completeness**: All deliverables are submitted (30%)  
+- **Accuracy**: Correct identification and mapping of IoCs and TTPs (30%)  
+- **Clarity**: Report is well-structured and easy to understand (20%)  
+- **Actionability**: Recommendations are specific and feasible (20%)  
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful verification of your submissions, you will be awarded the **Cyber Threat Intelligence Analyst – Investigate an Attack** certificate. This certificate demonstrates your ability to analyze cyberattacks, profile threat actors, and recommend mitigations.  
+
+### **Employability Score Example**
+- Cybersecurity Fundamentals: 90/100  
+- Threat Intelligence Analysis: 85/100  
+- Responsible Cybersecurity Practices: 95/100  
+- Overall Score: **A**  
+
+Boost your resume with this verifiable certificate and showcase your skills to potential employers in the cybersecurity industry!
+
+---
+
+## 49. AI Security Engineer – Build an AI Red Team Test
+
+# AI Security Engineer – Build an AI Red Team Test
+
+---
+
+## What is this Job Simulation All About?
+
+### Scenario
+In the rapidly evolving domain of artificial intelligence, securing AI applications has become a critical priority. As an AI Security Engineer, your mission is to simulate real-world attack scenarios on AI systems, identify vulnerabilities, and propose robust countermeasures. You will play the role of a "Red Team" operator, tasked with testing the resilience of an AI system using adversarial techniques such as prompt injection, data poisoning, and model manipulation. 
+
+### Mission
+Your goal is to assess the security of a conversational AI model deployed by a fictitious fintech company, "SecureBank AI", which provides automated financial advice. You will identify vulnerabilities in the system, craft effective attack scenarios, and recommend mitigations to prevent exploitation. By the end of this simulation, you will develop a robust understanding of adversarial AI techniques and security hardening strategies.
+
+### Final Challenge
+Your final challenge will involve crafting a comprehensive attack scenario document, executing a simulated attack, and presenting a detailed mitigation strategy to SecureBank AI's leadership. You will also evaluate the effectiveness of your countermeasures using Responsible AI principles.
+
+---
+
+## What Will You Learn?
+
+### Domain Knowledge
+- Principles of AI security and adversarial machine learning.
+- Understanding prompt injection, data poisoning, and model inference attacks.
+- Strategies for designing defensible AI systems.
+
+### Analytics
+- Techniques for identifying AI system vulnerabilities.
+- Methods for crafting and executing adversarial scenarios.
+- Analyzing attack vectors and their impact on AI performance.
+
+### AI Skills
+- Hands-on experience with adversarial attacks on AI models.
+- Implementing mitigation techniques like input sanitization and model retraining.
+- Auditing AI systems for compliance with Responsible AI standards.
+
+---
+
+## What Are the Prerequisites?
+
+### Recommended Background
+- Knowledge of AI/ML fundamentals and natural language processing.
+- Understanding of cybersecurity concepts like threat modeling and attack vectors.
+- Basic programming skills in Python.
+
+### Tools
+- Familiarity with Python libraries such as TensorFlow, PyTorch, or Hugging Face.
+- Experience with Jupyter Notebooks and GitHub workflows.
+
+### Prerequisite Skill Check
+- Can you explain the concept of adversarial examples in AI?
+- Are you familiar with prompt engineering for large language models?
+- Do you know how to analyze a model’s outputs for inconsistencies?
+
+---
+
+## What Tools Will You Learn?
+
+### Core Tools
+- **OpenAI GPT and Hugging Face Transformers**: For testing and manipulating conversational AI models.
+- **Python Security Libraries** (e.g., `adversarial-robustness-toolbox`): For crafting and analyzing adversarial attacks.
+- **Jupyter Notebook**: For documenting attack scenarios and mitigation strategies.
+
+### Advanced Track
+- **AI Explainability Tools** (e.g., LIME, SHAP): For auditing AI behaviors.
+- **Secure Deployment Frameworks** (e.g., MLflow, TensorFlow Extended): For implementing mitigations.
+- **Threat Modeling Tools** (e.g., MITRE ATLAS): For structured security analysis.
+
+---
+
+## Tasks to be Performed
+
+### Task 1: Understand the AI System
+#### Scenario
+SecureBank AI has deployed a conversational AI model for financial advice. As a security engineer, your first task is to assess the system's architecture, functionalities, and potential entry points for adversarial attacks.
+
+#### Student Assignment
+- Review SecureBank AI's system documentation.
+- Identify key components of the AI system (e.g., input pipeline, model architecture, output generation).
+- List potential vulnerabilities, such as input manipulation or model inference.
+
+#### Deliverable
+Submit a report detailing the system's architecture and a list of 5-10 potential vulnerabilities.
+
+---
+
+### Task 2: Prepare the Attack Environment
+#### Scenario
+Before testing, you need to set up an environment to simulate and execute adversarial attacks. This includes accessing the SecureBank AI API and familiarizing yourself with its inputs and outputs.
+
+#### Student Assignment
+- Set up a Python environment with the required packages (`transformers`, `adversarial-robustness-toolbox`, etc.).
+- Access SecureBank AI's API key and test its endpoints using sample financial queries.
+- Document the data types, formats, and model behavior under normal conditions.
+
+#### Deliverable
+Submit a Jupyter Notebook containing:
+- API integration code.
+- Sample queries and responses.
+- Observations of normal model behavior.
+
+---
+
+### Task 3: Craft and Execute Adversarial Attacks
+#### Scenario
+Your next task is to design and execute two types of attacks on the system: **prompt injection** and **data poisoning**. These attacks will test the model's resilience against malicious inputs.
+
+#### Student Assignment
+- Design prompt injection attacks to manipulate the model's responses (e.g., bypassing financial advice restrictions).
+- Simulate data poisoning by injecting incorrect financial data into the input pipeline.
+- Evaluate the system's behavior post-attack.
+
+#### Deliverable
+Submit a detailed attack log, including:
+- Types of attacks executed.
+- Input examples used.
+- Observed vulnerabilities and model behavior post-attack.
+
+---
+
+### Task 4: Analyze and Explain Results Using GenAI
+#### Scenario
+You must now analyze the impact of your attacks on the AI system and explain why these vulnerabilities exist. Use generative AI tools to create a concise executive summary for non-technical stakeholders.
+
+#### Student Assignment
+- Use Python or AI explainability tools to analyze the model's post-attack outputs.
+- Summarize the key findings, including the root causes of vulnerabilities.
+- Use GPT-4 to generate a simplified executive summary in plain English.
+
+#### Deliverable
+Submit:
+- A technical analysis of attack results.
+- An executive summary (100-150 words) tailored for SecureBank AI's leadership.
+
+---
+
+### Task 5: Audit the System for Responsible AI Compliance
+#### Scenario
+SecureBank AI has a policy to adhere to Responsible AI principles. Your task is to audit the system using these principles and recommend improvements to address ethical risks.
+
+#### Student Assignment
+- Evaluate the system for bias, fairness, and explainability post-attack.
+- Identify areas where the system fails to meet Responsible AI standards.
+- Propose at least 3 actionable recommendations for improvement.
+
+#### Deliverable
+Submit an audit report outlining:
+- Key failures identified.
+- Recommendations for Responsible AI compliance.
+
+---
+
+### Task 6: Present Your Recommendations
+#### Scenario
+You are invited to present your findings and proposed mitigations to SecureBank AI’s executive team. Your presentation must clearly articulate the risks, attack scenarios, and mitigation plan.
+
+#### Student Assignment
+- Create a polished slide deck (5-7 slides) summarizing your findings.
+- Record a 5-minute video explaining the attack scenarios, results, and recommendations.
+- Include a high-level strategy for securing conversational AI models.
+
+#### Deliverable
+Submit:
+- Slide deck (PDF format).
+- Video presentation (MP4 format).
+- Finalized mitigation plan document.
+
+---
+
+## MCQs Post Task Completion
+
+1. **Which of the following describes prompt injection?**
+   - A) Forcing the model to generate adversarial samples.
+   - B) Inserting malicious inputs to manipulate model responses.  
+   - C) Modifying the model’s training data.  
+   - D) Overloading the model with excessive queries.  
+   - **Correct Answer: B**
+
+2. **What is the primary goal of data poisoning?**
+   - A) To overload the system with queries.
+   - B) To make the AI model unusable.  
+   - C) To corrupt the training data and degrade model performance.  
+   - D) To steal sensitive data from the model.  
+   - **Correct Answer: C**
+
+3. **Which tool is most suitable for analyzing AI model explainability?**
+   - A) TensorFlow Extended  
+   - B) LIME  
+   - C) GitHub  
+   - D) PyTorch  
+   - **Correct Answer: B**
+
+4. **What type of attack involves manipulating the model’s predictions via crafted queries?**
+   - A) Data poisoning  
+   - B) Model inversion  
+   - C) Prompt injection  
+   - D) Output filtering  
+   - **Correct Answer: C**
+
+5. **Which Python library is commonly used for adversarial attacks on AI models?**
+   - A) Numpy  
+   - B) Adversarial-Robustness-Toolbox  
+   - C) Scikit-learn  
+   - D) Pandas  
+   - **Correct Answer: B**
+
+6. **What is the first step in auditing an AI system for Responsible AI compliance?**
+   - A) Running adversarial attacks.  
+   - B) Identifying ethical risks and biases in the system.  
+   - C) Retraining the model with new data.  
+   - D) Evaluating the system’s accuracy metrics.  
+   - **Correct Answer: B**
+
+7. **What is a common mitigation strategy for prompt injection attacks?**
+   - A) Increasing the model size.  
+   - B) Input validation and sanitization.  
+   - C) Overfitting the model.  
+   - D) Reducing the dataset size.  
+   - **Correct Answer: B**
+
+8. **What is the role of a Red Team in AI security?**
+   - A) Debugging AI models.  
+   - B) Developing AI training datasets.  
+   - C) Simulating adversarial attacks to identify vulnerabilities.  
+   - D) Training AI models.  
+   - **Correct Answer: C**
+
+9. **Which of the following is NOT an adversarial AI attack?**
+   - A) Model inversion  
+   - B) Output obfuscation  
+   - C) Data poisoning  
+   - D) Prompt injection  
+   - **Correct Answer: B**
+
+10. **Why is Responsible AI important in securing AI systems?**
+    - A) It ensures compliance with legal regulations.  
+    - B) It eliminates all vulnerabilities in the AI system.  
+    - C) It ensures fairness, accountability, and transparency.  
+    - D) It reduces computation costs.  
+    - **Correct Answer: C**
+
+---
+
+## Submit Your Completed Task
+
+### Submission Artifacts
+- Task 1: System architecture and vulnerability report (PDF/Word document).
+- Task 2: Jupyter Notebook with API integration and observations.
+- Task 3: Attack log (PDF/Word document).
+- Task 4: Technical analysis and executive summary (PDF/Word document).
+- Task 5: Responsible AI audit report (PDF/Word document).
+- Task 6: Slide deck (PDF format) and video presentation (MP4 format).
+
+### Grading Rubric
+- **Completeness (40%)**: All components of the deliverable are present and accurate.
+- **Technical Depth (30%)**: Demonstrates a strong understanding of AI security principles and techniques.
+- **Clarity and Communication (20%)**: Outputs are well-documented, clearly articulated, and easy to understand.
+- **Creativity and Originality (10%)**: Innovative and thoughtful approaches to attack scenarios and mitigation strategies.
+
+---
+
+## Earn Certificate Post Verification
+
+Upon successful submission and verification of all tasks, you will be awarded the **AI Security Engineer – Red Team Testing Certification**. This certificate validates your skills in identifying and mitigating adversarial threats in AI systems. 
+
+### Employability Score Example
+- **AI Security Expertise**: 9/10  
+- **Technical Knowledge**: 8/10  
+- **Problem-Solving Skills**: 9/10  
+- **Communication Skills**: 8/10  
+- **Overall Employability Score**: 8.5/10
+
+---
+
+## 50. Cloud Security Analyst – Secure an AI Workload
+
+# Cloud Security Analyst – Secure an AI Workload
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+Organizations are increasingly deploying AI workloads in the cloud to leverage scalability, flexibility, and cost efficiency. As a Cloud Security Analyst, your role is to ensure these AI workloads are secure from potential threats, vulnerabilities, and compliance risks. You will work on securing a sensitive AI workload hosted on a public cloud platform, with a focus on architecture design, threat modeling, security controls, and providing actionable recommendations.
+
+### **Mission**
+Your mission is to design and implement a secure cloud architecture for an AI workload that processes sensitive customer data. You will identify vulnerabilities, apply security controls, and create a comprehensive security recommendation report for stakeholders. The goal is to ensure confidentiality, integrity, and availability of the AI workload while adhering to industry-best practices and compliance requirements.
+
+### **Final Challenge**
+By the end of this simulation, you will present a detailed security recommendation report to a simulated board of executives, explaining the security improvements implemented, trade-offs considered, and how the architecture aligns with compliance standards (e.g., GDPR, ISO 27001).
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Fundamentals of cloud security for AI workloads.
+- Threat modeling techniques for cloud-native applications.
+- Industry compliance frameworks (GDPR, ISO 27001, SOC 2).
+
+### **Analytics**
+- Analyzing cloud-based AI vulnerabilities and risks.
+- Evaluating the effectiveness of security controls.
+- Interpreting cloud monitoring data for threat detection.
+
+### **AI Skills**
+- Understanding AI workload architecture and sensitive data flow.
+- Applying security controls specific to AI models and inference pipelines.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Basic understanding of cloud platforms (AWS, Azure, GCP).
+- Familiarity with security concepts like IAM, encryption, and firewalls.
+- Knowledge of AI workloads (model hosting, training, inference).
+
+### **Tools**
+- Cloud environment (AWS, Azure, or GCP).
+- Threat modeling tools (e.g., Microsoft Threat Modeling Tool).
+- Security controls like Cloud IAM, VPC, Key Management Service (KMS).
+
+### **Prerequisite Skill Check**
+1. Describe how IAM policies work in AWS or GCP.
+2. Explain how encryption secures data in transit and at rest.
+3. Outline the architecture of a basic AI inference pipeline.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **AWS Security Hub (or Azure Security Center)**: For centralized security management.
+- **Cloud IAM (Identity and Access Management)**: Role-based access controls.
+- **Key Management Service (KMS)**: Encryption and key management.
+- **Cloud Monitoring Tools**: Detecting anomalies in AI workloads.
+
+### **Advanced Track**
+- **Threat Modeling Tools**: Identifying vulnerabilities and attack vectors.
+- **AI Model Security**: Implementing model-specific protections like adversarial defense.
+- **Compliance Checkers**: Using tools to assess GDPR and ISO 27001 compliance.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Cloud AI Workload**
+#### **Scenario**
+You are given a cloud-hosted AI model that processes customer financial data to predict credit scores. The workload consists of an inference pipeline deployed on a public cloud platform.
+
+#### **Student Assignment**
+- Study the architecture of the AI workload.
+- Identify sensitive data flows and critical components (e.g., API gateways, storage buckets).
+- Pinpoint areas where security risks may arise (e.g., data exposure, unauthorized access).
+
+#### **Deliverable**
+Submit a report mapping the sensitive data flow within the workload along with a list of potential security risks.
+
+---
+
+### **Task 2: Set Up the Environment**
+#### **Scenario**
+You need to configure the cloud environment to host the AI workload securely. The workload will be deployed using containers and connected to a storage bucket for data input.
+
+#### **Student Assignment**
+- Set up IAM roles and policies for secure access control.
+- Configure VPCs (Virtual Private Clouds) and subnets for isolating the workload.
+- Enable encryption for storage buckets and data in transit.
+
+#### **Deliverable**
+Submit screenshots of IAM configurations, VPC settings, and encryption setup.
+
+---
+
+### **Task 3: Build Threat Model**
+#### **Scenario**
+Use a threat modeling tool to identify vulnerabilities in the AI workload architecture.
+
+#### **Student Assignment**
+- Create a data flow diagram (DFD) for the workload.
+- Identify potential threats using STRIDE methodology (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege).
+- Suggest mitigations for each identified threat.
+
+#### **Deliverable**
+Submit the threat model diagram and a table listing threats with corresponding mitigations.
+
+---
+
+### **Task 4: Apply GenAI for Explanation**
+#### **Scenario**
+A junior stakeholder asks for an explanation of the security design in simple terms. Use a Generative AI tool to create an explanatory document summarizing the security measures.
+
+#### **Student Assignment**
+- Input the security architecture into a generative AI tool (e.g., ChatGPT or Bard).
+- Create a stakeholder-friendly document that explains the security measures in non-technical language.
+- Include analogies or visual aids.
+
+#### **Deliverable**
+Submit a 1-page stakeholder document explaining the security design in simple terms.
+
+---
+
+### **Task 5: Perform Security Audit**
+#### **Scenario**
+You need to ensure the implemented security controls align with industry standards (e.g., GDPR, ISO 27001).
+
+#### **Student Assignment**
+- Audit the environment using a compliance checker tool.
+- Identify gaps in compliance and propose solutions.
+- Test the effectiveness of encryption and IAM policies.
+
+#### **Deliverable**
+Submit a compliance audit report highlighting gaps and solutions.
+
+---
+
+### **Task 6: Present Security Recommendations**
+#### **Scenario**
+You are presenting your findings to the board of executives. They need to understand the security improvements, trade-offs, and compliance alignment.
+
+#### **Student Assignment**
+- Create a presentation summarizing the architecture, threat model, applied controls, and compliance results.
+- Highlight trade-offs (e.g., performance vs. security) and recommendations for future improvements.
+
+#### **Deliverable**
+Submit a PowerPoint presentation with speaker notes.
+
+---
+
+## 6. MCQs Post Task Completion
+
+### **Question 1**
+What does STRIDE stand for in threat modeling?  
+A. Security, Testing, Risk, Identification, Defense, Evaluation  
+B. Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege  
+C. Systematic, Testing, Risk, Information, Defense, Encryption  
+D. Security, Threat, Risk, Identification, Data, Evaluation  
+**Answer:** B  
+
+### **Question 2**
+What is the primary function of a VPC in cloud security?  
+A. Encrypt sensitive data.  
+B. Isolate workloads within a private network.  
+C. Provide centralized security monitoring.  
+D. Store customer financial data securely.  
+**Answer:** B  
+
+### **Question 3**
+Which compliance framework focuses on protecting customer data in Europe?  
+A. ISO 27001  
+B. SOC 2  
+C. GDPR  
+D. PCI DSS  
+**Answer:** C  
+
+### **Question 4**
+What tool is recommended for creating threat models?  
+A. AWS IAM  
+B. Microsoft Threat Modeling Tool  
+C. KMS  
+D. Cloud Security Scanner  
+**Answer:** B  
+
+### **Question 5**
+Which encryption type protects data in transit?  
+A. AES-256  
+B. SSL/TLS  
+C. RSA  
+D. SHA-256  
+**Answer:** B  
+
+### **Question 6**
+When auditing IAM policies, what key aspect should be checked?  
+A. Data redundancy levels.  
+B. Role-based access control.  
+C. Network latency.  
+D. API Gateway configuration.  
+**Answer:** B  
+
+### **Question 7**
+What is the role of a compliance checker tool?  
+A. Detect anomalies in AI workloads.  
+B. Validate encryption algorithms.  
+C. Assess alignment with compliance standards.  
+D. Monitor network traffic patterns.  
+**Answer:** C  
+
+### **Question 8**
+Which security control ensures only authorized users can access sensitive data?  
+A. Firewall rules  
+B. IAM policies  
+C. VPC configuration  
+D. Data encryption  
+**Answer:** B  
+
+### **Question 9**
+What is the primary purpose of monitoring tools in the cloud?  
+A. Conduct compliance audits.  
+B. Detect security threats and anomalies.  
+C. Manage encryption keys.  
+D. Generate threat models.  
+**Answer:** B  
+
+### **Question 10**
+Which trade-off is often considered in cloud security?  
+A. Usability vs. Scalability  
+B. Performance vs. Security  
+C. Cost vs. Redundancy  
+D. Accessibility vs. Encryption  
+**Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- Task 1: Sensitive data flow report.  
+- Task 2: Screenshots of IAM, VPC, and encryption setup.  
+- Task 3: Threat model diagram and mitigation table.  
+- Task 4: Stakeholder-friendly explanation document.  
+- Task 5: Compliance audit report.  
+- Task 6: Final presentation with speaker notes.
+
+### **Grading Rubric**
+- **Accuracy (40%)**: Correct identification of risks, threats, and mitigations.  
+- **Clarity (30%)**: Clear documentation and explanation.  
+- **Completeness (20%)**: All tasks performed with sufficient detail.  
+- **Presentation (10%)**: Professional quality of submitted artifacts.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details**
+Upon successful completion and verification of all tasks, you will earn the **Cloud Security Analyst - AI Workload Certificate**.  
+
+### **Employability Score Example**
+Your employability score will reflect your performance across the following metrics:  
+- **Threat Modeling (90%)**  
+- **Security Architecture (85%)**  
+- **Compliance Knowledge (80%)**  
+- **Stakeholder Communication (95%)**  
+
+---
+
+## 55. AI Developer – Build a RAG Application
+
+# AI Developer – Build a RAG Application
+
+## 1. What is this Job Simulation All About?
+
+### Scenario  
+You have been hired as an AI Developer at a cutting-edge technology company specializing in generative AI applications. Your team has been tasked with building a Retrieval-Augmented Generation (RAG) application for a client in the legal domain. The application will enable lawyers to query large legal document datasets and instantly retrieve relevant information, powered by generative AI capabilities.  
+
+### Mission  
+Your mission is to design, implement, and deploy a working prototype of the RAG system. This involves chunking legal documents, generating embeddings, implementing a retrieval mechanism, integrating a generative AI model for answering questions, and evaluating the quality of generated answers.  
+
+### Final Challenge  
+At the end of the internship, you will present your RAG application prototype to stakeholders. You will demonstrate its functionality, explain the underlying AI architecture, and showcase how effectively it retrieves and generates answers to complex legal queries.  
+
+---
+
+## 2. What Will You Learn?
+
+### Domain Knowledge  
+- Fundamentals of RAG systems and their applications in legal and other industries.  
+- Key considerations in handling domain-specific knowledge, like legal documents.  
+- Best practices for managing large-scale document datasets.  
+
+### Analytics  
+- Chunking techniques for long documents.  
+- Embedding generation and vector similarity matching.  
+- Performance evaluation of retrieval and generative models.  
+
+### AI Skills  
+- Working with pre-trained language models for embedding generation (e.g., OpenAI, Hugging Face).  
+- Implementing retrieval mechanisms like FAISS or Pinecone.  
+- Integrating generative AI models for natural language answers (e.g., GPT-4).  
+- Fine-tuning and evaluating model outputs for domain-specific applications.  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### Recommended Background  
+- Intermediate-to-advanced Python programming skills.  
+- Basic understanding of natural language processing (NLP).  
+- Familiarity with vector embeddings and similarity search.  
+
+### Tools  
+- Python environment (Jupyter Notebook preferred).  
+- Access to OpenAI API or Hugging Face Transformers library.  
+- FAISS library or a vector database like Pinecone.  
+
+### Prerequisite Skill Check  
+Before starting, you should be able to:  
+1. Write Python scripts for data preprocessing.  
+2. Use pre-trained language models for NLP tasks.  
+3. Understand how embeddings and cosine similarity work.  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### Core Tools  
+- OpenAI GPT-4 API  
+- Hugging Face Transformers  
+- FAISS (Facebook AI Similarity Search)  
+- Pinecone (Vector database)  
+
+### Advanced Track  
+- LangChain for chaining LLMs with retrieval mechanisms.  
+- Streamlit for building a user-friendly interface.  
+- Evaluation frameworks for answer quality analysis.  
+
+---
+
+## 5. Tasks to be Performed
+
+### Task 1: Understand  
+#### Scenario  
+Your client is a legal firm with thousands of case files, contracts, and regulatory documents. They need a system that allows lawyers to query this dataset and retrieve concise, accurate answers to legal questions. You are tasked to understand the architecture and requirements of a RAG system.  
+
+#### Student Assignment  
+- Research and document how RAG systems work, including the retrieval and generation pipeline.  
+- Identify key challenges in building a RAG system for domain-specific applications like legal documents.  
+
+#### Deliverable  
+Submit a 1-page technical document explaining the architecture of a RAG system and challenges specific to the legal domain.  
+
+---
+
+### Task 2: Data/Setup  
+#### Scenario  
+You have been provided with a dataset containing legal documents in PDF format. Your first step is to preprocess these documents for analysis.  
+
+#### Student Assignment  
+- Extract text from the provided PDFs using PyPDF2 or a similar library.  
+- Implement a chunking algorithm to split large documents into smaller, contextually coherent chunks (e.g., paragraphs or sections).  
+
+#### Deliverable  
+Submit a Jupyter Notebook containing the code for text extraction and document chunking, along with a summary of how many chunks were created per document.  
+
+---
+
+### Task 3: Build/Execute  
+#### Scenario  
+To enable retrieval, the chunks need to be converted into vector embeddings. You must generate embeddings using a pre-trained model and store them in a vector database.  
+
+#### Student Assignment  
+- Use a pre-trained model like OpenAI's text-embedding-ada-002 or Hugging Face's Sentence Transformers to generate embeddings for the document chunks.  
+- Store the embeddings in FAISS or Pinecone and implement a retrieval mechanism to fetch relevant chunks based on cosine similarity.  
+
+#### Deliverable  
+Submit the code for embedding generation and retrieval, along with a sample query and its retrieved document chunks.  
+
+---
+
+### Task 4: GenAI/Explanation  
+#### Scenario  
+Once retrieval is operational, integrate a generative AI model (e.g., GPT-4) to provide concise answers based on the retrieved chunks.  
+
+#### Student Assignment  
+- Design a pipeline that passes the retrieved chunks as context to the generative AI model.  
+- Fine-tune the prompts for the generative model to ensure that answers are accurate, domain-specific, and well-structured.  
+
+#### Deliverable  
+Submit the code for the generative pipeline along with sample queries and their generated answers.  
+
+---
+
+### Task 5: Audit/Responsible AI  
+#### Scenario  
+The client emphasizes ethical and responsible AI usage, particularly in the legal domain where accuracy is critical. You are tasked with auditing the system for biases and inaccuracies.  
+
+#### Student Assignment  
+- Evaluate the accuracy of generated answers by comparing them to human-curated answers.  
+- Document any instances of hallucination or biased outputs.  
+- Propose strategies for mitigating these issues.  
+
+#### Deliverable  
+Submit an audit report highlighting the system’s performance, any identified issues, and proposed solutions.  
+
+---
+
+### Task 6: Present Recommendation  
+#### Scenario  
+You are now ready to present your RAG system prototype to the client. Explain how the system works, its benefits, and address any concerns raised during testing.  
+
+#### Student Assignment  
+- Prepare a presentation that includes the system architecture, sample outputs, and performance metrics.  
+- Include explanations of how you ensured responsible AI practices.  
+
+#### Deliverable  
+Submit a slide deck (PowerPoint or PDF) with at least 8 slides covering the above points.  
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary purpose of chunking documents in a RAG application?**  
+   A. To reduce the size of the dataset.  
+   B. To make documents easier to embed into vectors.  
+   C. To remove irrelevant sections from documents.  
+   D. To improve the quality of generative responses.  
+   **Answer:** B  
+
+2. **Which metric is most commonly used to measure similarity between vector embeddings?**  
+   A. Euclidean distance  
+   B. Cosine similarity  
+   C. Manhattan distance  
+   D. Pearson correlation  
+   **Answer:** B  
+
+3. **Which library is commonly used for vector similarity search in RAG systems?**  
+   A. NLTK  
+   B. TensorFlow  
+   C. FAISS  
+   D. Keras  
+   **Answer:** C  
+
+4. **What is the role of generative AI in a RAG system?**  
+   A. Storing document embeddings.  
+   B. Converting queries into embeddings.  
+   C. Generating answers based on retrieved context.  
+   D. Splitting documents into chunks.  
+   **Answer:** C  
+
+5. **Which of the following is NOT a challenge in building a RAG system for the legal domain?**  
+   A. Handling large document sizes.  
+   B. Ensuring retrieval speed is optimized.  
+   C. Managing multimedia data.  
+   D. Mitigating hallucinations in generative answers.  
+   **Answer:** C  
+
+6. **What is the advantage of using Pinecone over FAISS for vector storage?**  
+   A. Pinecone is open-source.  
+   B. Pinecone provides cloud-based scalability.  
+   C. Pinecone supports image data natively.  
+   D. Pinecone does not require embeddings.  
+   **Answer:** B  
+
+7. **What is a common issue with generative AI models like GPT-4 in the legal domain?**  
+   A. Slow response times.  
+   B. Hallucination of inaccurate facts.  
+   C. Difficulty in generating embeddings.  
+   D. Inability to handle large datasets.  
+   **Answer:** B  
+
+8. **What type of pre-trained model is typically used for embedding generation in RAG systems?**  
+   A. Image classification models  
+   B. Sequence-to-sequence models  
+   C. Sentence embedding models  
+   D. Reinforcement learning models  
+   **Answer:** C  
+
+9. **Which ethical consideration is most relevant to RAG systems in the legal domain?**  
+   A. Avoiding illegal data collection.  
+   B. Preventing hallucination and misinformation.  
+   C. Ensuring high computation speeds.  
+   D. Reducing storage costs.  
+   **Answer:** B  
+
+10. **What does "retrieval-augmented generation" refer to?**  
+    A. A method to generate embeddings.  
+    B. A pipeline combining information retrieval and language generation.  
+    C. A tool for database management.  
+    D. A way to compress large documents.  
+    **Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### Submission Artifacts  
+- Task 1: Technical document (PDF).  
+- Task 2: Jupyter Notebook for data preprocessing and chunking.  
+- Task 3: Code for embeddings and retrieval mechanism.  
+- Task 4: Code for generative pipeline and sample queries/answers.  
+- Task 5: Audit report (PDF).  
+- Task 6: Presentation slide deck (PowerPoint or PDF).  
+
+### Grading Rubric  
+1. **Technical Understanding (15%)**: Clear grasp of RAG architecture and domain-specific challenges.  
+2. **Data Preparation (15%)**: Efficient chunking and text extraction with proper documentation.  
+3. **Technical Implementation (30%)**: Functional embedding generation, retrieval, and generative pipeline.  
+4. **Responsible AI Practices (20%)**: Comprehensive audit report with actionable mitigation strategies.  
+5. **Presentation (20%)**: Clear, concise demonstration of prototype functionality and insights.  
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful completion and verification of your submissions, you will receive a **Skillzza Advanced Virtual Internship Certificate** for the role of **AI Developer – Build a RAG Application**.  
+
+### Example Employability Score  
+Your final score will be calculated based on the grading rubric. For example:  
+- **Technical Understanding**: 14/15  
+- **Data Preparation**: 13/15  
+- **Technical Implementation**: 27/30  
+- **Responsible AI Practices**: 18/20  
+- **Presentation**: 19/20  
+**Final Score**: 91/100  
+
+Your certificate will highlight your expertise in creating real-world RAG systems and showcase your ability to work on advanced generative AI projects for domain-specific applications.  
+
+---
+
+## 56. LangChain Developer – Build an Enterprise AI Workflow
+
+# LangChain Developer – Build an Enterprise AI Workflow
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+You’ve been hired as a **LangChain Developer** by a leading AI consulting firm. Your task is to design and implement a cutting-edge **enterprise AI workflow** using **LangChain** to streamline customer support processes for a large e-commerce company. The company aims to use generative AI to provide intelligent responses to customer queries, fetch relevant product details, and escalate complex issues to human agents while maintaining context across interactions.
+
+### **Mission**
+Your mission is to build a **multi-step conversational AI system** leveraging LangChain. This system will integrate **tools** like external APIs for fetching product information, utilize **memory** to store conversation context, and generate structured outputs for issue tracking and analytics. You will also evaluate the system’s performance using automated benchmarks and responsible AI principles.
+
+### **Final Challenge**
+Design, implement, and present an **end-to-end LangChain prototype** that connects chains, tools, memory, and structured outputs. Your solution must demonstrate **high reliability**, **accuracy**, and **ethical considerations** in its responses.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Fundamentals of **LangChain** as a framework for building workflows around generative AI.
+- Applications of generative AI in **enterprise processes**, including customer support automation.
+- Best practices for **context management** using conversational memory.
+
+### **Analytics**
+- Designing workflows that integrate external APIs for **data retrieval**.
+- Structuring outputs for **issue tracking** and **business intelligence dashboards**.
+- Evaluating AI systems with metrics like **accuracy**, **response time**, and **ethical compliance**.
+
+### **AI Skills**
+- Implementing **chains** in LangChain to connect multiple steps in a workflow.
+- Using **tools** within LangChain to fetch external data.
+- Integrating **memory modules** to ensure continuity in conversations.
+- Generating structured outputs using **prompt engineering**.
+- Testing and improving AI workflows for **responsible AI** practices.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Intermediate to advanced knowledge of Python programming.
+- Familiarity with **Natural Language Processing (NLP)** concepts.
+- Basic understanding of APIs and JSON data formats.
+
+### **Tools**
+- Python IDE (e.g., VSCode, PyCharm).
+- Access to OpenAI’s GPT models or similar LLMs.
+- Postman for API testing.
+
+### **Prerequisite Skill Check**
+- Python coding proficiency: Can you write and debug Python scripts?
+- Generative AI familiarity: Have you worked with GPT models or fine-tuned NLP systems?
+- Basic API integration: Can you fetch and parse API data?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **LangChain**: Framework for building workflows around generative AI.
+- **OpenAI API**: For accessing GPT models.
+- **Memory Modules**: To store and retrieve conversational context.
+
+### **Advanced Track**
+- **Chroma**: Vector database for memory storage (optional for advanced learners).
+- **Evaluation Chains**: Tools for automated benchmarking of AI responses.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand**
+#### Scenario:
+The e-commerce company needs an AI workflow to handle customer queries, fetch product details, and escalate issues. You must understand the requirements for building a **multi-step conversational chain**.
+
+#### Student Assignment:
+- Research **LangChain components**: chains, tools, memory, and structured outputs.
+- Study a sample dataset containing customer queries and product details (fields: `query_id`, `customer_query`, `product_id`, `product_name`, `price`, `availability`, `issue_description`).
+
+#### Deliverable:
+- Submit a document summarizing how LangChain components can be used to meet the requirements.
+- Identify potential challenges (e.g., ambiguous queries, memory limitations).
+
+---
+
+### **Task 2: Data/Setup**
+#### Scenario:
+You will set up the environment and load the e-commerce dataset. The dataset includes fields like `query_id`, `customer_query`, `product_id`, `product_name`, `price`, and `availability`.
+
+#### Student Assignment:
+- Install **LangChain** and related dependencies in your Python environment.
+- Load the sample dataset into a Pandas DataFrame for preprocessing.
+- Write a Python script to test API connectivity for product information retrieval (e.g., mock API for `GET product details`).
+
+#### Deliverable:
+- Submit a Python script that loads the dataset and retrieves product details via API calls.
+- Provide a screenshot of successful API responses.
+
+---
+
+### **Task 3: Build/Execute**
+#### Scenario:
+Using LangChain, you will implement a **multi-step chain** that processes customer queries, fetches product details, and escalates unresolved issues.
+
+#### Student Assignment:
+- Build a **SequentialChain** in LangChain to handle:
+  1. Parsing customer queries.
+  2. Fetching product information using the API.
+  3. Escalating complex issues.
+- Integrate **memory** to store context across multiple queries from the same customer.
+
+#### Deliverable:
+- Submit your Python code for the SequentialChain.
+- Provide logs showing sample input queries and corresponding outputs.
+
+---
+
+### **Task 4: GenAI/Explanation**
+#### Scenario:
+Your AI workflow must generate **structured responses** (e.g., JSON format) to customer queries, including product details and escalation status.
+
+#### Student Assignment:
+- Use **prompt engineering** to design templates for structured responses.
+- Implement structured outputs in JSON format using LangChain.
+- Write a short explanation of how prompt engineering improves response accuracy.
+
+#### Deliverable:
+- Submit the updated Python script with structured output generation.
+- Provide 3 sample queries and their JSON responses.
+
+---
+
+### **Task 5: Audit/Responsible AI**
+#### Scenario:
+The workflow must comply with responsible AI practices, ensuring accuracy, fairness, and ethical handling of customer data.
+
+#### Student Assignment:
+- Implement an **Evaluation Chain** in LangChain to benchmark the workflow.
+- Check for biases in product recommendations and escalation decisions.
+- Write a report outlining responsible AI improvements.
+
+#### Deliverable:
+- Submit the evaluation results and responsible AI report.
+- Highlight areas for improvement (e.g., response accuracy or ethical compliance).
+
+---
+
+### **Task 6: Present Recommendation**
+#### Scenario:
+You will present your finished prototype to stakeholders. The presentation must include workflow architecture, sample customer interactions, and evaluation results.
+
+#### Student Assignment:
+- Create a presentation showcasing:
+  1. Workflow overview (chains, tools, memory, and outputs).
+  2. Sample interactions and JSON outputs.
+  3. Evaluation metrics and responsible AI practices.
+- Record a video demo of the prototype in action.
+
+#### Deliverable:
+- Submit the presentation slides (PDF) and video demo link.
+- Provide a summary document with key recommendations.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is LangChain primarily used for?**
+   - A. Building deep learning models  
+   - B. Creating workflows around generative AI  
+   - C. Replacing APIs in enterprise systems  
+   - D. Designing frontend applications  
+   **Correct Answer: B**
+
+2. **Which LangChain component is used to store conversation context?**
+   - A. Chains  
+   - B. Memory  
+   - C. Tools  
+   - D. Prompts  
+   **Correct Answer: B**
+
+3. **What does a SequentialChain in LangChain achieve?**
+   - A. Executes multiple steps sequentially in a workflow  
+   - B. Stores data in a relational database  
+   - C. Generates random customer queries  
+   - D. Conducts API testing  
+   **Correct Answer: A**
+
+4. **Which format is ideal for structuring AI-generated responses for analytics?**
+   - A. CSV  
+   - B. JSON  
+   - C. XML  
+   - D. Plain text  
+   **Correct Answer: B**
+
+5. **What is the primary purpose of memory in LangChain workflows?**
+   - A. To store large datasets  
+   - B. To ensure context continuity in conversations  
+   - C. To optimize API calls  
+   - D. To generate structured outputs  
+   **Correct Answer: B**
+
+6. **Why is prompt engineering important in generative AI workflows?**
+   - A. To reduce system latency  
+   - B. To improve the accuracy and relevance of responses  
+   - C. To fetch data from external APIs  
+   - D. To increase programming efficiency  
+   **Correct Answer: B**
+
+7. **Which tool can be used to evaluate the accuracy of LangChain workflows?**
+   - A. Chroma  
+   - B. PyTorch  
+   - C. Evaluation Chains  
+   - D. TensorFlow  
+   **Correct Answer: C**
+
+8. **What ethical principle is crucial for AI workflows?**
+   - A. Randomized Decision Making  
+   - B. Transparency and Bias Mitigation  
+   - C. Avoiding Automation  
+   - D. Prioritization of Speed Over Accuracy  
+   **Correct Answer: B**
+
+9. **What is the output of the LangChain workflow in Task 4?**
+   - A. Plain text response  
+   - B. JSON-formatted structured output  
+   - C. Excel report  
+   - D. Graphical chart  
+   **Correct Answer: B**
+
+10. **Which of the following is NOT a component of LangChain?**
+    - A. Tools  
+    - B. Memory  
+    - C. Chains  
+    - D. Neural Networks  
+    **Correct Answer: D**
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+For successful completion of this simulation, submit the following:
+1. Python scripts for all tasks.
+2. Screenshots of API responses and logs for sample queries.
+3. JSON responses for 3 sample queries.
+4. Responsible AI report.
+5. Presentation slides (PDF).
+6. Video demo link.
+
+### **Grading Rubric**
+- **40%**: Correct implementation of LangChain workflow (chains, tools, memory, structured outputs).  
+- **20%**: Accuracy of generated responses and structured outputs.  
+- **20%**: Responsible AI evaluation report.  
+- **20%**: Quality of presentation and demo.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details**
+Upon successful completion and verification of your tasks, earn the **LangChain Developer – Enterprise AI Workflow** certificate. This certificate validates your expertise in building advanced generative AI workflows using LangChain.
+
+### **Employability Score Example**
+Your simulation performance will be graded on:
+- **Technical Skills** (40%): Python, LangChain implementation.
+- **Problem Solving** (30%): Workflow design and debugging.
+- **Communication Skills** (20%): Presentation and explanation of results.
+- **Ethical AI Awareness** (10%): Responsible AI practices.
+
+Achieve a score above **85%** to unlock exclusive job opportunities in **AI Development** and **Enterprise Automation**.
+
+---
+
+## 57. LangGraph Developer – Build an Agentic Workflow
+
+# LangGraph Developer – Build an Agentic Workflow
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+The rise of Agentic AI (autonomous agents capable of performing multi-step, goal-driven tasks) has created a demand for skilled engineers who can design and build workflows that enable AI agents to interact with tools, humans, and external systems seamlessly. You’ve been hired as a **LangGraph Developer** at **FlowAI**, a cutting-edge organization specializing in the development of agent-based systems. 
+
+Your mission is to design, implement, and test a modular LangGraph-based workflow that integrates state management, tools, and human approval checkpoints. This workflow will serve as the backbone for an AI-powered assistant capable of autonomously completing complex tasks such as scheduling, document drafting, and task prioritization.
+
+### **Mission**
+As the LangGraph Developer, you’ll be tasked with creating a robust agentic workflow using LangChain’s graph-based architecture. You will define the state management structure, design agent interactions, connect external tools (e.g., APIs), and implement a human-in-the-loop approval mechanism. Finally, you will test and audit the system for responsible AI deployment.
+
+### **Final Challenge**
+Your final challenge will be to deliver a fully functional LangGraph workflow for an AI assistant that can:
+1. Process a user's task request (e.g., "Organize a meeting with John, draft an agenda, and send confirmation").
+2. Break down the task into sub-tasks using agents.
+3. Execute sub-tasks by interacting with external tools like Google Calendar and email APIs.
+4. Request human approval for sensitive actions (e.g., sending an email).
+5. Return the final output as a cohesive response.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- The principles of Agentic AI and how workflows are built using LangChain.
+- The role of state management and human oversight in AI-driven systems.
+- Best practices for modular and scalable AI workflow design.
+
+### **Analytics**
+- Tracking task execution and bottlenecks in an agentic workflow.
+- Analyzing agent decision-making processes and improving them.
+- Using metrics to evaluate the success and efficiency of your workflow.
+
+### **AI Skills**
+- Designing a LangGraph for multi-agent workflows.
+- Implementing state management for dynamic task tracking.
+- Integrating external tools (e.g., APIs) into LangChain workflows.
+- Testing and auditing workflows for bias, errors, and ethical considerations.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Strong understanding of Python programming.
+- Familiarity with concepts of AI agents and workflows.
+- Basic understanding of APIs and JSON data structures.
+- Knowledge of LangChain or similar frameworks is recommended but not mandatory.
+
+### **Tools**
+- Python 3.8+
+- Jupyter Notebook or Visual Studio Code
+- LangChain
+- OpenAI API (or equivalent LLM API)
+- Google Calendar API (or similar tool APIs)
+
+### **Prerequisite Skill Check**
+Before starting, ensure you can:
+- Write Python functions that interact with APIs.
+- Understand how to use OpenAI’s GPT models for prompt engineering.
+- Install and configure Python packages.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **LangChain's LangGraph Module**: For creating workflow graphs with AI agents.
+- **OpenAI GPT API**: For natural language processing and task reasoning.
+- **Google Calendar API**: For scheduling and managing events.
+- **Python Logging and Debugging**: For tracking agent actions and debugging workflows.
+
+### **Advanced Track**
+- **Vector Databases**: For storing and retrieving contextual information.
+- **LangChain Memory Management**: For enabling agents to retain context across multiple tasks.
+- **Human-in-the-Loop Interfaces**: For implementing approval mechanisms.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Role of LangGraphs**
+#### **Scenario**
+You’re starting your journey as a LangGraph Developer at FlowAI. Your first task is to understand the foundational concepts of LangGraph, including nodes, directed edges, and how states are managed.
+
+#### **Student Assignment**
+- Study the documentation for LangChain's LangGraph module and its role in AI workflows.
+- Write a brief summary of:
+  1. What a LangGraph is.
+  2. The difference between a Tool Node, Agent Node, and Human Approval Node.
+
+#### **Deliverable**
+Submit a 300-word summary explaining LangGraphs and their components. Include examples of how each node type can be used in a workflow.
+
+---
+
+### **Task 2: Define and Set Up the Workflow**
+#### **Scenario**
+Your manager has requested a LangGraph workflow blueprint for an AI assistant that automates scheduling tasks, drafts emails, and requires human approval for sending sensitive emails.
+
+#### **Student Assignment**
+- Create a LangGraph blueprint with:
+  1. Nodes for task input, agents, tools, and human approval.
+  2. State management to track sub-task progress.
+
+- Use pseudocode or a Python skeleton to outline your implementation steps.
+
+#### **Deliverable**
+Submit a LangGraph blueprint (diagram or detailed explanation) and a Python script skeleton for your workflow.
+
+---
+
+### **Task 3: Build and Execute the LangGraph**
+#### **Scenario**
+With your blueprint approved, it’s time to build the workflow in Python using LangChain. You’ll implement agents for task decomposition and tool interactions.
+
+#### **Student Assignment**
+- Implement the LangGraph in Python.
+- Create agents for:
+  1. Task decomposition.
+  2. Scheduling with Google Calendar API.
+  3. Drafting emails using OpenAI GPT.
+- Ensure all outputs are logged for debugging.
+
+#### **Deliverable**
+Submit your Python code for the fully functional LangGraph workflow, along with a README file detailing how to run the script.
+
+---
+
+### **Task 4: Integrate Generative AI for Contextual Explanations**
+#### **Scenario**
+The AI assistant must provide meaningful explanations for its actions to increase user trust and transparency.
+
+#### **Student Assignment**
+- Use the OpenAI API to generate natural language explanations for:
+  1. Why a task was decomposed into specific sub-tasks.
+  2. Why a particular scheduling slot was chosen.
+  3. Why human approval is required for certain actions.
+
+#### **Deliverable**
+Submit Python code showcasing the integration of generative AI for explanations. Provide example outputs for the 3 scenarios above.
+
+---
+
+### **Task 5: Audit for Responsible AI Practices**
+#### **Scenario**
+Before your LangGraph workflow goes live, you need to audit it for potential errors, biases, and ethical concerns. This includes ensuring that the AI assistant respects user preferences and privacy.
+
+#### **Student Assignment**
+- Audit the LangGraph for:
+  1. Potential bias in task decomposition and decision-making.
+  2. Data privacy concerns in tool integrations.
+  3. Failures to explain actions effectively.
+- Propose solutions to address the identified issues.
+
+#### **Deliverable**
+Submit an audit report (500 words) detailing your findings and recommendations for improvement.
+
+---
+
+### **Task 6: Present Your Recommendation**
+#### **Scenario**
+It’s time to present your LangGraph workflow to FlowAI’s leadership team. They expect a clear explanation of how the system works, its benefits, and its reliability.
+
+#### **Student Assignment**
+- Prepare a presentation including:
+  1. An overview of your LangGraph workflow.
+  2. Key features: task decomposition, tool integration, and human approval.
+  3. Results from your audit and how issues were addressed.
+  4. A demonstration of the workflow in action.
+
+#### **Deliverable**
+Submit a presentation deck (10-12 slides) with speaker notes and a recorded demo (3-5 minutes) of your LangGraph workflow in action.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. What is a LangGraph in LangChain?
+   - A. A database for storing AI models.
+   - B. A graph-based architecture for building workflows.
+   - C. A tool for generating graphs from data.
+   - D. A language translation framework.  
+   **Answer: B**
+
+2. What is the purpose of a Tool Node in a LangGraph?
+   - A. To store data.
+   - B. To execute specific actions like calling APIs.
+   - C. To manage state.
+   - D. To provide human approvals.  
+   **Answer: B**
+
+3. Which of the following is an example of state management in LangGraph?
+   - A. Logging errors in a file.
+   - B. Keeping track of completed sub-tasks.
+   - C. Generating natural language explanations.
+   - D. Sending an email to the user.  
+   **Answer: B**
+
+4. What is the role of a Human Approval Node in a LangGraph?
+   - A. To automate all decision-making.
+   - B. To provide transparency in AI workflows.
+   - C. To request human input for critical tasks.
+   - D. To generate sub-tasks.  
+   **Answer: C**
+
+5. Which API would you integrate for scheduling tasks in the LangGraph?
+   - A. Twitter API
+   - B. Google Maps API
+   - C. Google Calendar API
+   - D. OpenWeather API  
+   **Answer: C**
+
+6. What is the primary function of the OpenAI GPT API in the workflow?
+   - A. To manage state.
+   - B. To generate natural language responses and explanations.
+   - C. To call external APIs.
+   - D. To store user data.  
+   **Answer: B**
+
+7. Why is task decomposition important in an agentic workflow?
+   - A. To reduce the number of nodes in the LangGraph.
+   - B. To break down complex tasks into manageable sub-tasks.
+   - C. To replace the need for human approval.
+   - D. To improve API integration.  
+   **Answer: B**
+
+8. What is a potential bias to look for during an audit of the LangGraph?
+   - A. Tasks being completed too quickly.
+   - B. Over-dependence on certain tools.
+   - C. Unequal prioritization of sub-tasks based on user demographics.
+   - D. Slow response times from external APIs.  
+   **Answer: C**
+
+9. What is the key advantage of integrating a human-in-the-loop system?
+   - A. It reduces the need for agent-based decision-making.
+   - B. It ensures compliance with ethical and privacy standards.
+   - C. It increases the speed of task execution.
+   - D. It eliminates the need for state management.  
+   **Answer: B**
+
+10. What should be included in the final LangGraph workflow presentation?
+    - A. A detailed audit report.
+    - B. A live demonstration of the workflow.
+    - C. A list of all Python libraries used.
+    - D. All of the above.  
+    **Answer: D**
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- **Task 1:** Summary document explaining LangGraphs and their components.
+- **Task 2:** LangGraph blueprint and Python script skeleton.
+- **Task 3:** Fully functional Python code for the LangGraph workflow and README file.
+- **Task 4:** Python code for generative AI explanations with example outputs.
+- **Task 5:** Audit report detailing findings and recommendations.
+- **Task 6:** Presentation deck (10-12 slides) and recorded video demo (3-5 minutes).
+
+### **Grading Rubric**
+| Criteria                  | Points | Description                                                                 |
+|---------------------------|--------|-----------------------------------------------------------------------------|
+| Completeness              | 30     | All tasks and deliverables are submitted and meet the requirements.         |
+| Code Quality              | 20     | Code is well-documented, modular, and functional.                           |
+| Creativity and Innovation | 20     | Workflow design demonstrates creativity and effective problem-solving.      |
+| Audit and Ethics          | 20     | Audit report identifies valid issues and provides actionable recommendations.|
+| Presentation              | 10     | Slides and video are clear, professional, and effectively communicate ideas.|
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Once your final submission is reviewed and approved, you will receive the **LangGraph Developer – Agentic Workflow Builder** certificate, which can be added to your LinkedIn profile and resume. This certificate demonstrates your expertise in designing and implementing agentic workflows using LangChain, making you a competitive candidate for roles in AI workflow development.
+
+### **Employability Score Example**
+Your performance across all tasks will contribute to your **Skillzza Employability Score (SES)**. A high SES signals your readiness to employers. Example breakdown:
+- **Technical Skills:** 45/50
+- **Problem-Solving Ability:** 40/40
+- **Communication Skills:** 9/10  
+**Total SES:** 94/100
+
+---
+
+## 58. AI Agent Developer – Customer Support Agent
+
+# AI Agent Developer – Customer Support Agent: Virtual Internship Track
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario:**
+The future of customer service relies on intelligent automation. As an AI Agent Developer specializing in customer support, you are tasked with designing, training, and deploying an AI-powered virtual assistant that efficiently handles customer queries, resolves common issues, and escalates complex requests to human agents. This simulation places you in the role of a developer at a SaaS company that wants to automate FAQs and streamline escalation workflows while maintaining high customer satisfaction.
+
+### **Mission:**
+Your mission is to design and deploy a conversational AI agent capable of handling customer FAQs, integrating with support tools, escalating unresolved tickets, and ensuring seamless communication while adhering to responsible AI principles. The ultimate goal is to enhance the company’s support experience and deliver measurable improvements in response time and resolution accuracy.
+
+### **Final Challenge:**
+You will present a fully functional AI customer support agent prototype to the leadership team, showcasing how it addresses FAQs, handles escalations, and improves KPIs such as average response time, first-contact resolution rate, and customer satisfaction score.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge:**
+- Fundamentals of conversational AI in customer support.
+- Escalation workflows and ticket management in customer service operations.
+- Metrics to evaluate AI agent performance (e.g., CSAT, FCR, average handling time).
+
+### **Analytics:**
+- Understanding customer query patterns and FAQ data analysis.
+- Metrics-driven testing and optimization of AI agent responses.
+
+### **AI Skills:**
+- Creating dialogue flows and training natural language models.
+- Integrating APIs for escalation workflows.
+- Testing AI agents for conversation quality and responsible AI compliance.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background:**
+- Intermediate programming knowledge (Python is preferred).
+- Understanding of customer service operations and workflows.
+- Basic knowledge of machine learning and natural language processing.
+
+### **Tools:**
+- Python IDE (e.g., Jupyter Notebook or VS Code).
+- Access to datasets (customer interaction logs, FAQ database).
+- OpenAI GPT or similar conversational AI frameworks.
+
+### **Prerequisite Skill Check:**
+- Can you write Python scripts to process text data?
+- Do you understand what APIs are and how to integrate them?
+- Can you explain the basics of natural language processing (NLP)?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools:**
+- Natural Language Processing libraries such as Hugging Face Transformers.
+- OpenAI GPT API or similar conversational AI platforms.
+- Workflow automation tools like Zapier or custom Python scripts.
+- KPI dashboards using Excel or Power BI.
+
+### **Advanced Track:**
+- Fine-tuning pre-trained language models for customer support.
+- Integrating chatbots with CRM systems like Salesforce or Zendesk.
+- Leveraging Responsible AI frameworks for bias detection and mitigation.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand – Analyzing Customer Queries**
+#### **Scenario:**
+You’ve been provided with a dataset containing historical customer interaction logs. Your first step is to analyze the dataset, identify commonly asked questions, and categorize them into themes (e.g., billing, technical support, account management).
+
+#### **Student Assignment:**
+- Load the dataset and perform exploratory analysis to understand customer query patterns.
+- Identify the top 10 FAQs based on frequency.
+- Categorize FAQs into logical groups.
+
+#### **Deliverable:**
+Submit a report containing:
+1. Visualizations showing the distribution of query types.
+2. A list of top 10 FAQs and their respective categories.
+
+---
+
+### **Task 2: Data/Setup – Preparing the FAQ Dataset**
+#### **Scenario:**
+You need to format the FAQ data for training a conversational AI model. This involves cleaning the text, removing duplicates, and ensuring FAQs are mapped to clear response templates.
+
+#### **Student Assignment:**
+- Preprocess the FAQ dataset (remove noise, duplicates, and irrelevant data).
+- Structure the data into a Q&A format (e.g., JSON or CSV format) suitable for training.
+- Create sample response templates for each FAQ category.
+
+#### **Deliverable:**
+Submit the cleaned and structured FAQ dataset along with response templates.
+
+---
+
+### **Task 3: Build/Execute – Developing the AI Agent**
+#### **Scenario:**
+It’s time to build the AI agent! Using OpenAI GPT (or an alternative NLP platform), train the model using the FAQ dataset and create dialogue flows to handle customer queries.
+
+#### **Student Assignment:**
+- Train the conversational AI model using the prepared dataset.
+- Build logical dialogue flows for handling different FAQ categories.
+- Test the model locally to ensure it responds accurately to queries.
+
+#### **Deliverable:**
+Submit the Python code (or equivalent) for training and deploying the AI model, along with screenshots of test conversations.
+
+---
+
+### **Task 4: GenAI/Explanation – Handling Escalations**
+#### **Scenario:**
+Not all customer queries can be resolved by the AI agent. Create an escalation workflow where unresolved queries are handed over to human agents via API integration (e.g., Zendesk or Slack).
+
+#### **Student Assignment:**
+- Develop logic to identify unresolved queries (e.g., confidence threshold or “fallback” intents).
+- Integrate APIs to escalate tickets to human agents.
+- Test the escalation workflow with sample queries.
+
+#### **Deliverable:**
+Submit the Python script for API integration and a flow diagram explaining the escalation process.
+
+---
+
+### **Task 5: Audit/Responsible AI – Ensuring Ethical AI Standards**
+#### **Scenario:**
+Your AI agent must comply with responsible AI principles. This includes ensuring unbiased responses, avoiding harmful outputs, and providing transparency in escalation workflows.
+
+#### **Student Assignment:**
+- Audit the AI model for bias in responses (e.g., gender, race, or cultural bias).
+- Implement safeguards to prevent harmful outputs.
+- Create a responsible AI checklist for your project.
+
+#### **Deliverable:**
+Submit the audit report, safeguards implemented, and the responsible AI checklist.
+
+---
+
+### **Task 6: Present Recommendation – Improving KPIs**
+#### **Scenario:**
+Present your AI agent prototype to the leadership team, emphasizing how it improves customer support KPIs like average response time, CSAT, and FCR.
+
+#### **Student Assignment:**
+- Prepare a presentation with metrics showing the agent’s impact on KPIs.
+- Create a live demo showcasing the agent handling queries and escalating tickets.
+- Recommend further improvements to the AI agent.
+
+#### **Deliverable:**
+Submit the presentation slides and demo video.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **Which metric is most relevant to assess an AI agent’s ability to resolve customer queries on the first attempt?**
+   - A) CSAT
+   - B) Average Response Time  
+   - C) First Contact Resolution (FCR)
+   - D) Escalation Ratio  
+   - **Answer:** C
+
+2. **What is the best format for structuring FAQ data for training a conversational AI?**
+   - A) Plain text
+   - B) JSON or CSV
+   - C) PDF files
+   - D) XML documents  
+   - **Answer:** B
+
+3. **Which library is widely used for building NLP models?**
+   - A) Matplotlib  
+   - B) Pandas  
+   - C) Hugging Face Transformers  
+   - D) TensorFlow  
+   - **Answer:** C
+
+4. **What is the purpose of fallback intents in a conversational AI?**
+   - A) To escalate unresolved queries to human agents.  
+   - B) To prioritize certain customer queries.  
+   - C) To provide alternative answers to FAQs.  
+   - D) To train the model on new data.  
+   - **Answer:** A
+
+5. **Why is auditing an AI agent for bias important?**
+   - A) To improve performance metrics.  
+   - B) To ensure ethical use of AI.  
+   - C) To reduce latency in responses.  
+   - D) To increase customer satisfaction.  
+   - **Answer:** B
+
+6. **Which of these tools is commonly used for API integration in customer support workflows?**
+   - A) Slack  
+   - B) Zapier  
+   - C) Jupyter Notebook  
+   - D) Excel  
+   - **Answer:** B
+
+7. **What is CSAT a measure of?**
+   - A) Customer satisfaction level.  
+   - B) Agent escalation efficiency.  
+   - C) Average handling time.  
+   - D) Response accuracy.  
+   - **Answer:** A
+
+8. **What is the primary role of response templates in conversational AI?**
+   - A) To improve training speed.  
+   - B) To ensure consistent responses for FAQs.  
+   - C) To customize escalation workflows.  
+   - D) To reduce bias in the model.  
+   - **Answer:** B
+
+9. **What is the minimum confidence threshold typically used to trigger escalation?**
+   - A) 80%  
+   - B) 60%  
+   - C) 50%  
+   - D) 90%  
+   - **Answer:** A
+
+10. **Which KPI measures the time taken for the agent to respond to customer queries?**
+    - A) First Contact Resolution  
+    - B) Average Handling Time  
+    - C) Average Response Time  
+    - D) Escalation Ratio  
+    - **Answer:** C
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts:**
+- Task 1: Data analysis report with visualizations and FAQ categories.
+- Task 2: Cleaned FAQ dataset and response templates.
+- Task 3: AI model training code and test conversation screenshots.
+- Task 4: Escalation workflow script and flow diagram.
+- Task 5: Responsible AI audit report.
+- Task 6: Presentation slides and demo video.
+
+### **Grading Rubric:**
+- Depth of analysis in Task 1: 20%
+- Quality of dataset preparation in Task 2: 15%
+- Functionality of AI agent in Task 3: 25%
+- Accuracy of escalation workflows in Task 4: 15%
+- Responsible AI implementation in Task 5: 15%
+- Presentation clarity and impact in Task 6: 10%
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details:**
+Upon successful completion and submission of all tasks, you will receive the **AI Agent Developer – Customer Support Agent** certificate. This certificate validates your skills in building, deploying, and auditing conversational AI for customer service applications.
+
+### **Employability Score Example:**
+Your final score will also include an employability score (e.g., 85/100), calculated based on:
+- Analytical skills demonstrated in Task 1.
+- Technical proficiency in Tasks 2 and 3.
+- Problem-solving approach in Task 4.
+- Ethical considerations in Task 5.
+- Presentation and communication skills in Task 6.
+
+---
+
+## 59. AI Agent Developer – Sales Qualification Agent
+
+# AI Agent Developer – Sales Qualification Agent
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+You are hired as an AI Agent Developer at a fast-paced software company that specializes in building conversational AI solutions for sales teams. Your mission is to design and deploy an AI-powered Sales Qualification Agent that automates lead qualification, interacts with prospects, and updates the CRM system. The company is launching a new product and expects a surge in inbound leads. Your agent must efficiently score and qualify these leads, ensuring sales teams focus only on high-value opportunities.
+
+### **Mission**  
+Your mission is to design, build, and test an advanced conversational AI agent capable of:  
+- Interpreting lead data.  
+- Conducting initial qualification conversations.  
+- Scoring leads based on predefined criteria.  
+- Updating the CRM system with qualified leads.  
+
+By the end of the simulation, you will present a fully functional Sales Qualification Agent prototype, along with a detailed report explaining its design logic, performance metrics, and ability to align with responsible AI principles.
+
+### **Final Challenge**  
+Deploy your Sales Qualification Agent in a simulated environment where it processes real-world lead data. Ensure the agent generates accurate scores, provides clear qualification logic, and seamlessly integrates with a CRM system. Your report will be evaluated for clarity, technical accuracy, and ethical considerations.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Sales qualification frameworks (e.g., BANT, CHAMP).  
+- Conversational AI use cases in sales pipelines.  
+- CRM integrations and workflows.  
+
+### **Analytics Skills**  
+- Lead scoring methodologies.  
+- Analyzing conversation metrics for agent optimization.  
+- Performance benchmarking for AI agents.  
+
+### **AI Skills**  
+- Building conversational agents using NLP frameworks.  
+- Designing qualification logic for AI models.  
+- Responsible AI principles in agent deployment.  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Experience in Python programming.  
+- Basic understanding of machine learning and NLP.  
+- Familiarity with sales processes and CRM tools.  
+
+### **Tools**  
+- Python (with libraries like Rasa, spaCy, or HuggingFace Transformers).  
+- Access to a CRM sandbox (e.g., Salesforce Developer Edition).  
+- Lead data in CSV format.  
+
+### **Prerequisite Skill Check**  
+- Python scripting proficiency.  
+- Ability to preprocess and clean datasets.  
+- Understanding of AI conversational systems.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Rasa**: Framework for building conversational AI agents.  
+- **spaCy**: NLP library for processing text data.  
+- **Salesforce API**: For CRM integration.  
+
+### **Advanced Track**  
+- **HuggingFace Transformers**: For advanced NLP model building.  
+- **LangChain**: Framework for building AI agents with reasoning capabilities.  
+- **Weights & Biases**: For tracking model performance metrics.  
+
+---
+
+## 5. Tasks to Be Performed
+
+### **Task 1: Understand the Problem Statement**  
+#### **Scenario**  
+You are given a dataset of inbound leads with fields like name, email, company size, budget, and purchase timeline. Your team needs an automated agent that qualifies these leads based on BANT (Budget, Authority, Need, Timeline) criteria.
+
+#### **Student Assignment**  
+- Review the provided dataset and qualification framework (BANT).  
+- Analyze the current manual lead qualification process your company follows.  
+- Explore how conversational AI can replace manual efforts and improve efficiency.  
+
+#### **Deliverable**  
+A document summarizing:  
+- Key qualification criteria and dataset field mapping.  
+- The benefits of using conversational AI over manual workflows.  
+
+---
+
+### **Task 2: Data Preparation and Environment Setup**  
+#### **Scenario**  
+You receive a CSV file containing 500 inbound leads. Some rows have missing or inconsistent data. You need to clean the dataset and set up your AI development environment.
+
+#### **Student Assignment**  
+- Preprocess the lead dataset to handle missing values and standardize fields like budget, timeline, and company size.  
+- Install and configure Python libraries (Rasa, spaCy, Salesforce API).  
+
+#### **Deliverable**  
+- A cleaned CSV file.  
+- A screenshot of your Python environment setup.  
+
+---
+
+### **Task 3: Build the Qualification Agent**  
+#### **Scenario**  
+Using the cleaned dataset and qualification logic, build a conversational AI agent capable of asking relevant questions and qualifying leads based on BANT criteria.
+
+#### **Student Assignment**  
+- Create an AI agent using Rasa or HuggingFace.  
+- Design conversation flows (e.g., greeting, asking qualifying questions, confirming details).  
+- Integrate lead scoring logic into the agent’s decision-making process.  
+
+#### **Deliverable**  
+- Python scripts for the AI agent.  
+- A flowchart showing conversation design.  
+
+---
+
+### **Task 4: Incorporate Generative AI for Enhanced Interaction**  
+#### **Scenario**  
+Your agent needs to generate human-like responses and adapt to ambiguous answers. You decide to use a Generative AI model (e.g., GPT) to enhance conversational abilities.
+
+#### **Student Assignment**  
+- Integrate a GPT model into your agent for generating dynamic responses.  
+- Fine-tune the model using sample lead queries (e.g., “I’m not sure about my budget, but I’m interested in your product”).  
+
+#### **Deliverable**  
+- Code for GPT integration.  
+- A document detailing how generative AI improves interactions.  
+
+---
+
+### **Task 5: Audit for Responsible AI**  
+#### **Scenario**  
+Your agent must adhere to ethical AI practices, such as avoiding bias in lead qualification and ensuring transparency in decision-making.
+
+#### **Student Assignment**  
+- Perform an audit of your AI agent’s qualification logic.  
+- Identify potential biases in the dataset or model predictions (e.g., underrepresentation of small businesses).  
+- Suggest mitigation strategies.  
+
+#### **Deliverable**  
+- An audit report highlighting biases and mitigation strategies.  
+
+---
+
+### **Task 6: Present the Agent Prototype and Recommendations**  
+#### **Scenario**  
+Your manager asks you to present the final prototype and a report explaining its functionality, performance metrics, and responsible AI considerations.  
+
+#### **Student Assignment**  
+- Create a 10-slide presentation summarizing the agent’s features, performance, and ethical safeguards.  
+- Include a demo showcasing the agent qualifying leads and updating the CRM.  
+
+#### **Deliverable**  
+- A presentation deck.  
+- Demo video or live demonstration link.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **Question Bank (10 MCQs)**  
+
+1. What does BANT stand for in sales qualification?  
+   - A. Budget, Authority, Need, Timeline  
+   - B. Budget, Analysis, Negotiation, Timeline  
+   - C. Buyer's Attention, Need, Time  
+   - D. Business, Area, Negotiation, Target  
+   **Correct Answer:** A  
+
+2. Which Python library is primarily used for building conversational AI agents?  
+   - A. TensorFlow  
+   - B. Rasa  
+   - C. PyTorch  
+   - D. OpenCV  
+   **Correct Answer:** B  
+
+3. What field in the dataset indicates the urgency of a lead's purchase decision?  
+   - A. Company Name  
+   - B. Budget  
+   - C. Timeline  
+   - D. Email  
+   **Correct Answer:** C  
+
+4. Which tool is best for CRM integration in the Sales Qualification Agent project?  
+   - A. TensorFlow  
+   - B. Salesforce API  
+   - C. Matplotlib  
+   - D. NumPy  
+   **Correct Answer:** B  
+
+5. What is the purpose of Generative AI in this simulation?  
+   - A. Automating lead scoring.  
+   - B. Creating human-like responses.  
+   - C. Cleaning datasets.  
+   - D. Performing audits.  
+   **Correct Answer:** B  
+
+6. What is the first step in data preprocessing?  
+   - A. Model training  
+   - B. Handling missing values  
+   - C. Integrating the CRM  
+   - D. Deploying the agent  
+   **Correct Answer:** B  
+
+7. Which framework can be used for advanced NLP in AI agents?  
+   - A. HuggingFace Transformers  
+   - B. OpenCV  
+   - C. Scikit-learn  
+   - D. Pandas  
+   **Correct Answer:** A  
+
+8. Responsible AI principles include:  
+   - A. Ensuring transparency.  
+   - B. Reducing biases.  
+   - C. Ethical decision-making.  
+   - D. All of the above.  
+   **Correct Answer:** D  
+
+9. What metric evaluates an AI agent’s lead qualification accuracy?  
+   - A. Loss function  
+   - B. Precision and recall  
+   - C. Batch size  
+   - D. Learning rate  
+   **Correct Answer:** B  
+
+10. Which document is critical for auditing AI systems?  
+   - A. Source code documentation  
+   - B. Audit report  
+   - C. User manual  
+   - D. Budget forecast  
+   **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Cleaned dataset (CSV).  
+- Python scripts (AI agent, GPT integration, CRM integration).  
+- Flowchart of conversation design.  
+- Responsible AI audit report.  
+- Presentation deck and demo video link.  
+
+### **Grading Rubric**  
+| **Criteria**              | **Points** |  
+|----------------------------|------------|  
+| Data preprocessing quality | 20         |  
+| AI agent functionality     | 30         |  
+| GPT integration            | 20         |  
+| Responsible AI audit        | 20         |  
+| Presentation clarity       | 10         |  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+### **Certificate Details**  
+Upon successful submission and verification, you will earn a **Skillzza Advanced AI Agent Developer Certificate**.  
+
+### **Employability Score Example**  
+Your performance in this simulation will be scored on the following:  
+- **Technical Proficiency:** 40%  
+- **Problem-Solving Skills:** 25%  
+- **Communication Skills:** 20%  
+- **Responsible AI Understanding:** 15%  
+
+A high employability score increases your visibility to recruiters seeking AI Agent Developers in the sales domain.
+
+---
+
+## 60. AI Agent Developer – HR Recruitment Agent
+
+# AI Agent Developer – HR Recruitment Agent Virtual Internship Track  
+
+## 1. What is this Job Simulation All About?  
+
+### **Scenario**  
+You are hired by "TalentOptimize Inc.," a global HR consulting firm that specializes in using AI technologies to streamline recruitment processes. Your role as an AI Agent Developer is to design, implement, and evaluate a recruitment agent powered by generative AI and recommendation algorithms. The agent should parse job descriptions (JDs), analyze candidate profiles, rank them for suitability, and incorporate bias control mechanisms to ensure fair and ethical hiring practices.  
+
+### **Mission**  
+Your mission is to develop and deploy an AI-based recruitment agent capable of automating candidate screening and ranking while adhering to Responsible AI principles in HR. You will work with structured and unstructured datasets, leverage pre-trained generative AI models for text analysis, and implement bias detection and control mechanisms.  
+
+### **Final Challenge**  
+By the end of this internship, you will present a fully functional AI HR Recruitment Agent prototype, complete with its screening and ranking logic, a bias audit report, and recommendations for ethical deployment in hiring workflows.  
+
+---  
+
+## 2. What Will You Learn?  
+
+### **Domain Knowledge**  
+- Fundamentals of HR recruitment workflows and candidate screening processes.  
+- AI applications in the recruitment industry, including generative AI and recommendation systems.  
+- Ethical considerations and bias controls in hiring decisions.  
+
+### **Analytics**  
+- Data preprocessing for HR datasets (e.g., resumes, job descriptions).  
+- Candidate ranking metrics, including relevance scoring and diversity analysis.  
+- Bias detection techniques in AI models.  
+
+### **AI Skills**  
+- Building generative AI agents for text parsing and information extraction.  
+- Designing recommendation systems for ranking candidates.  
+- Implementing Responsible AI principles (fairness, transparency, accountability).  
+
+---  
+
+## 3. What Are the Prerequisites?  
+
+### **Recommended Background**  
+- Basic understanding of AI and machine learning concepts.  
+- Familiarity with Python programming and libraries (e.g., Pandas, NumPy, Scikit-learn).  
+- Experience with Natural Language Processing (NLP) techniques and frameworks.  
+
+### **Tools**  
+- Python 3.x  
+- OpenAI's GPT model or similar generative AI frameworks.  
+- Bias detection libraries (e.g., Aequitas, IBM AI Fairness 360).  
+
+### **Prerequisite Skill Check**  
+Before starting, you should know how to:  
+- Parse and clean text data using Python.  
+- Perform basic data analysis using Pandas.  
+- Understand key metrics for ranking algorithms (e.g., precision, recall).  
+
+---  
+
+## 4. What Tools Will You Learn?  
+
+### **Core Tools**  
+- OpenAI GPT (or other NLP models for parsing and summarization).  
+- Scikit-learn for candidate ranking algorithms.  
+- Pandas for HR data manipulation.  
+
+### **Advanced Track**  
+- IBM AI Fairness 360 for bias detection and mitigation.  
+- Streamlit for building interactive dashboards for HR agents.  
+- LangChain for advanced generative AI workflows.  
+
+---  
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand**  
+**Scenario:** You are provided with a set of job descriptions (JDs) and candidate profiles. Your first task is to understand the structure and nuances of HR data.  
+
+**Student Assignment:**  
+- Analyze the provided dataset, which includes 20 job descriptions and 200 anonymized candidate profiles.  
+- Identify key fields in the data (e.g., skills, experience, qualifications).  
+- Summarize trends in JD requirements and candidate attributes.  
+
+**Deliverable:**  
+A report detailing:  
+- Key trends in JD requirements (e.g., top skills, common qualifications).  
+- Candidate profile diversity (e.g., experience levels, skillset coverage).  
+
+---
+
+### **Task 2: Data/Setup**  
+**Scenario:** Your team needs you to preprocess the HR dataset for AI model training.  
+
+**Student Assignment:**  
+- Clean and preprocess the JD and candidate profile datasets (e.g., remove duplicates, standardize fields).  
+- Tokenize text fields (skills, experience, qualifications) using NLP techniques.  
+- Split the dataset into training and testing subsets.  
+
+**Deliverable:**  
+A cleaned and tokenized dataset saved as CSV files, ready for AI model input.  
+
+---
+
+### **Task 3: Build/Execute**  
+**Scenario:** You need to build the AI recruitment agent that matches JDs to candidate profiles and ranks them.  
+
+**Student Assignment:**  
+- Use OpenAI GPT for parsing job descriptions and summarizing key requirements.  
+- Implement a candidate ranking algorithm based on a scoring system (e.g., matching skills, experience levels).  
+- Generate top-10 ranked candidates for each JD.  
+
+**Deliverable:**  
+Python scripts that:  
+- Parse and summarize JDs using generative AI.  
+- Rank candidates and output top-10 matches per JD.  
+
+---
+
+### **Task 4: GenAI/Explanation**  
+**Scenario:** Your manager asks you to automate explanations for ranking decisions using generative AI.  
+
+**Student Assignment:**  
+- Use GPT to generate a justification for each candidate’s ranking based on matching criteria.  
+- Ensure explanations are clear and align with the scoring logic.  
+
+**Deliverable:**  
+A JSON file containing:  
+- Candidate rankings per JD.  
+- GPT-generated explanations for each rank.  
+
+---
+
+### **Task 5: Audit/Responsible AI**  
+**Scenario:** You are tasked with auditing the AI recruitment agent for potential biases.  
+
+**Student Assignment:**  
+- Use IBM AI Fairness 360 to audit the ranking system for gender and ethnicity biases.  
+- Identify any disparities in candidate rankings based on sensitive attributes.  
+
+**Deliverable:**  
+A bias audit report that includes:  
+- Metrics evaluating fairness in rankings.  
+- Recommendations for mitigating any biases found.  
+
+---
+
+### **Task 6: Present Recommendation**  
+**Scenario:** You need to present your recruitment agent prototype and bias audit findings to the HR leadership team.  
+
+**Student Assignment:**  
+- Create a dashboard using Streamlit to visualize JD summaries, candidate rankings, and bias audit results.  
+- Prepare a 5-minute pitch explaining your prototype and its Responsible AI features.  
+
+**Deliverable:**  
+- A Streamlit dashboard URL showcasing your recruitment agent.  
+- A slide deck summarizing your findings and recommendations.  
+
+---  
+
+## 6. MCQs Post Task Completion  
+
+### **Question 1:**  
+Which of the following is a key field in a typical job description dataset?  
+A. Geographical coordinates  
+B. Candidate’s hobbies  
+C. Required skills  
+D. Browser history  
+**Correct Answer:** C  
+
+### **Question 2:**  
+What is the primary goal of tokenizing text data in NLP?  
+A. To encrypt the data  
+B. To convert text into numerical representations for processing  
+C. To increase the size of the dataset  
+D. To remove punctuation marks  
+**Correct Answer:** B  
+
+### **Question 3:**  
+Which library is commonly used for bias detection in AI systems?  
+A. Matplotlib  
+B. Aequitas  
+C. TensorFlow  
+D. Keras  
+**Correct Answer:** B  
+
+### **Question 4:**  
+What does a candidate ranking algorithm typically rely on?  
+A. Random selection  
+B. Matching criteria such as skills and experience  
+C. Social media profiles  
+D. Candidate’s personal preferences  
+**Correct Answer:** B  
+
+### **Question 5:**  
+Which generative AI model is suitable for summarizing job descriptions?  
+A. Linear Regression  
+B. OpenAI GPT  
+C. Decision Tree  
+D. Random Forest  
+**Correct Answer:** B  
+
+### **Question 6:**  
+What is a common method to mitigate gender bias in AI models?  
+A. Removing gender information from training data  
+B. Adding more male data to balance the dataset  
+C. Ignoring fairness metrics  
+D. Increasing model complexity  
+**Correct Answer:** A  
+
+### **Question 7:**  
+What does IBM AI Fairness 360 provide?  
+A. Data visualization tools  
+B. Fairness metrics and bias mitigation techniques  
+C. Deep learning frameworks  
+D. Cloud-based AI services  
+**Correct Answer:** B  
+
+### **Question 8:**  
+Which Python library is primarily used for creating interactive dashboards?  
+A. Seaborn  
+B. Streamlit  
+C. Keras  
+D. Scipy  
+**Correct Answer:** B  
+
+### **Question 9:**  
+How does generative AI explain ranking decisions?  
+A. By analyzing statistical distributions  
+B. By generating natural language explanations based on the scoring logic  
+C. By visualizing the ranking process  
+D. By modifying ranking scores  
+**Correct Answer:** B  
+
+### **Question 10:**  
+What is the first step in auditing an AI recruitment agent for bias?  
+A. Delete all sensitive attributes from the dataset  
+B. Check model accuracy metrics  
+C. Evaluate disparities in outcomes across demographic groups  
+D. Train the model on a larger dataset  
+**Correct Answer:** C  
+
+---
+
+## 7. Submit Your Completed Task  
+
+**Submission Artifacts:**  
+- Task 1: Trend analysis report (PDF/Word).  
+- Task 2: Cleaned datasets (CSV files).  
+- Task 3: Python scripts for parsing and ranking.  
+- Task 4: JSON file containing rankings and explanations.  
+- Task 5: Bias audit report (PDF).  
+- Task 6: Streamlit dashboard URL and slide deck (PDF/PowerPoint).  
+
+**Grading Rubric:**  
+- **Completeness:** Are all tasks submitted with required artifacts? (30%)  
+- **Accuracy:** Are rankings and bias audit results consistent with expectations? (30%)  
+- **Innovation:** Does the candidate demonstrate unique approaches in explanations or visualizations? (20%)  
+- **Presentation:** Is the final pitch and dashboard professional and well-structured? (20%)  
+
+---  
+
+## 8. Earn Certificate Post Verification  
+
+Congratulations on completing the **AI Agent Developer – HR Recruitment Agent** Virtual Internship Track!  
+
+### **Certificate Details**  
+Upon successful review of your submitted tasks, you will receive a certificate highlighting your achievement. This certificate will confirm your proficiency in:  
+- Designing and implementing generative AI applications for HR recruitment.  
+- Building candidate ranking systems with fairness and bias controls.  
+- Leveraging Responsible AI principles in real-world workflows.  
+
+### **Employability Score Example**  
+Your performance will be assessed and converted into an Employability Score (0–100):  
+- **Skill Proficiency:** 40 points  
+- **Problem Solving:** 30 points  
+- **Presentation Quality:** 20 points  
+- **Timeliness:** 10 points  
+
+A score above 85 demonstrates exceptional readiness for AI Agent Developer roles in HR and recruitment domains.  
+
+---
+
+## 61. Omnichannel CX Analyst – Map the Customer Journey
+
+# Omnichannel CX Analyst – Map the Customer Journey
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+Businesses today operate across multiple channels such as physical stores, websites, apps, social media, and customer service hotlines. To deliver seamless customer experiences, organizations need analysts who can track, evaluate, and optimize customer journeys across these touchpoints. As an **Omnichannel CX Analyst**, you'll help brands understand how their customers interact across channels and identify pain points that impact satisfaction and loyalty.
+
+### **Mission**
+Your mission is to map the customer journey for a fictional retail brand, **Trendify**, which operates both online and offline. You will identify key touchpoints, analyze customer behavior across channels, uncover friction areas, and propose actionable recommendations to improve the experience.
+
+### **Final Challenge**
+The internship culminates in presenting a detailed **Customer Journey Map**, channel analysis, and strategic recommendations to Trendify’s executive team. Your report will detail pain points, analytics findings, and actionable fixes to improve omnichannel customer experience.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Fundamentals of Customer Experience (CX) and Omnichannel engagement.
+- Key concepts like customer journey mapping, touchpoint analysis, and pain point identification.
+- Understanding customer expectations across physical and digital channels.
+
+### **Analytics**
+- Analyzing channel-specific data (web traffic, app usage, in-store feedback, social media engagement, etc.).
+- Identifying patterns in customer behavior and satisfaction metrics.
+- Quantifying the impact of pain points on conversion, retention, and NPS (Net Promoter Score).
+
+### **AI Skills**
+- Using AI tools to visualize customer journeys and segment audiences.
+- Employing sentiment analysis for customer feedback.
+- Leveraging predictive analytics to forecast customer behavior and recommend optimizations.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Intermediate understanding of customer service or business analysis.
+- Familiarity with CX concepts such as NPS, KPIs, and customer satisfaction metrics.
+
+### **Tools**
+- Basic knowledge of Excel or Google Sheets.
+- Experience with visualization tools like Tableau, Power BI, or Google Data Studio.
+- Optional: Familiarity with text analysis or sentiment analysis tools.
+
+### **Prerequisite Skill Check**
+Before starting, ensure you can:
+- Create simple data visualizations (charts, graphs).
+- Read and interpret customer feedback or survey data.
+- Understand basic customer journey mapping concepts.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+1. **Google Sheets** – For data organization and analysis.
+2. **Miro** – Collaborative tool to design customer journey maps.
+3. **Google Data Studio** – To visualize CX metrics and trends.
+
+### **Advanced Track**
+- **Tableau** – Advanced data visualization for omnichannel insights.
+- **MonkeyLearn** – AI-powered sentiment analysis for customer feedback.
+- **HubSpot or Zendesk Analytics** – Customer service platform metrics.
+
+---
+
+## 5. Tasks to Be Performed
+
+### **Task 1: Understand the Customer Journey**
+#### **Scenario**
+Trendify is facing a drop in customer satisfaction scores and repeat purchases. You have been hired to investigate the root causes by mapping the customer journey and identifying friction points across channels.
+
+#### **Student Assignment**
+- Read the provided CX primer on customer journey mapping.
+- Review a dataset containing customer interaction details across Trendify’s channels (e.g., website, app, store visits, social media, customer service).
+- Identify the key stages of the customer journey (Awareness, Consideration, Purchase, Post-purchase).
+
+#### **Deliverable**
+Submit a summary document outlining the customer journey stages for Trendify, including a description of each stage and its importance in CX.
+
+---
+
+### **Task 2: Organize Data for Journey Mapping**
+#### **Scenario**
+You’ve identified the key stages of the customer journey. Now, you need to organize Trendify’s omnichannel dataset for further analysis.
+
+#### **Student Assignment**
+- Import the dataset into Google Sheets.
+- Clean and preprocess the data for analysis (e.g., remove duplicates, handle missing values).
+- Categorize data points into touchpoints based on the journey stages (e.g., website visits for Awareness, customer service calls for Post-purchase).
+
+#### **Deliverable**
+Submit the cleaned and categorized dataset, including a brief description of how you categorized the data into touchpoints.
+
+---
+
+### **Task 3: Build the Customer Journey Map**
+#### **Scenario**
+With the data organized, it’s time to visually represent Trendify’s customer journey and highlight interactions across channels.
+
+#### **Student Assignment**
+- Use Miro or Google Slides to create a customer journey map.
+- Include each journey stage, touchpoints, and potential pain points based on the data insights.
+- Add annotations to highlight key metrics such as customer satisfaction scores, bounce rates, and average response time.
+
+#### **Deliverable**
+Submit your customer journey map as a PDF or shareable link. Include a brief explanation of each stage and touchpoint.
+
+---
+
+### **Task 4: Conduct Sentiment Analysis**
+#### **Scenario**
+Trendify has provided customer feedback data from surveys and reviews. Your task is to use AI tools to uncover sentiment trends and correlate them to specific touchpoints.
+
+#### **Student Assignment**
+- Use MonkeyLearn or a similar tool to analyze customer feedback for sentiment (positive, neutral, negative).
+- Tag feedback with corresponding touchpoints (e.g., website, app, in-store).
+- Summarize sentiment trends and identify areas with high negative sentiment.
+
+#### **Deliverable**
+Submit a sentiment analysis report containing:
+- Sentiment scores for each touchpoint.
+- Key insights into areas with negative feedback.
+- Example customer quotes supporting your findings.
+
+---
+
+### **Task 5: Audit for Responsible CX**
+#### **Scenario**
+Trendify wants to ensure their customer journey is inclusive and ethical. They’ve asked you to audit the journey map for accessibility and equity issues.
+
+#### **Student Assignment**
+- Review the customer journey map for potential biases (e.g., does the website exclude certain demographics? Are physical stores accessible?).
+- Recommend inclusive practices to ensure all customer groups can engage seamlessly with Trendify across channels.
+
+#### **Deliverable**
+Submit an audit report highlighting accessibility challenges and recommended solutions for more inclusive CX.
+
+---
+
+### **Task 6: Present Recommendations**
+#### **Scenario**
+The Trendify executive team is eager to hear your findings and recommendations. It’s time to deliver your analysis in a professional format.
+
+#### **Student Assignment**
+- Prepare a PowerPoint or PDF presentation summarizing:
+  - The customer journey map.
+  - Your sentiment analysis findings.
+  - Key pain points and accessibility issues.
+  - Actionable recommendations for improving CX across channels.
+- Include visualizations (charts, graphs) to support your argument.
+
+#### **Deliverable**
+Submit your presentation deck with speaker notes outlining your key insights and recommendations.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the first step in customer journey mapping?**  
+   A. Conduct sentiment analysis  
+   B. Identify customer touchpoints  
+   C. Analyze conversion rates  
+   D. Evaluate app performance  
+   **Correct Answer: B**
+
+2. **Which CX metric measures customer loyalty?**  
+   A. NPS (Net Promoter Score)  
+   B. CTR (Click-Through Rate)  
+   C. Bounce Rate  
+   D. Cart Abandonment Rate  
+   **Correct Answer: A**
+
+3. **What tool is best suited for creating a visual customer journey map?**  
+   A. Google Sheets  
+   B. Miro  
+   C. MonkeyLearn  
+   D. HubSpot  
+   **Correct Answer: B**
+
+4. **Which channel is most associated with post-purchase feedback?**  
+   A. Social media  
+   B. Customer service hotline  
+   C. Website homepage  
+   D. Advertisement campaigns  
+   **Correct Answer: B**
+
+5. **What does sentiment analysis primarily evaluate?**  
+   A. Customer purchase behavior  
+   B. Positive, neutral, and negative feedback  
+   C. Website traffic patterns  
+   D. Product availability  
+   **Correct Answer: B**
+
+6. **What is a common pain point during the consideration stage?**  
+   A. Lack of product reviews  
+   B. Long queue times in-store  
+   C. Poor response times from customer service  
+   D. Delayed order delivery  
+   **Correct Answer: A**
+
+7. **Which AI tool can be used for text-based sentiment analysis?**  
+   A. Tableau  
+   B. MonkeyLearn  
+   C. Google Data Studio  
+   D. Miro  
+   **Correct Answer: B**
+
+8. **What is the purpose of an accessibility audit in CX?**  
+   A. To improve product pricing  
+   B. To ensure customer channels are inclusive  
+   C. To increase website traffic  
+   D. To evaluate customer loyalty  
+   **Correct Answer: B**
+
+9. **Which metric indicates customer dissatisfaction with a website experience?**  
+   A. High bounce rate  
+   B. High conversion rate  
+   C. High app download rate  
+   D. High NPS score  
+   **Correct Answer: A**
+
+10. **What is the ultimate goal of customer journey mapping?**  
+    A. Reduce marketing costs  
+    B. Increase brand awareness  
+    C. Identify and resolve pain points  
+    D. Improve employee engagement  
+    **Correct Answer: C**
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- Task 1: Customer journey stages summary document (Word/PDF).  
+- Task 2: Cleaned and categorized dataset (Excel/Google Sheets).  
+- Task 3: Visual Customer Journey Map (PDF/Link).  
+- Task 4: Sentiment analysis report (Word/PDF).  
+- Task 5: Accessibility audit report (Word/PDF).  
+- Task 6: Presentation deck and speaker notes (PowerPoint/PDF).
+
+### **Grading Rubric**
+- **Accuracy of Insights (40%)**: Data analysis and pain point identification.  
+- **Completeness (30%)**: All stages, touchpoints, and deliverables submitted.  
+- **Creativity (20%)**: Presentation design and visualization quality.  
+- **Actionability (10%)**: Feasibility and impact of recommendations.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details**
+Upon successful completion and verification of your work, you will earn the **Omnichannel CX Analyst Certificate**. This credential demonstrates proficiency in mapping customer journeys, analyzing omnichannel data, and delivering actionable CX recommendations.
+
+### **Employability Score**
+Your performance will be assessed and assigned an **Employability Score** based on the grading rubric metrics. A minimum score of 75% is required to earn the certificate. Top scorers will receive a **Skillzza Badge** for exceptional performance, boosting their visibility to hiring companies.
+
+---
+
+## 62. AI Customer Service Manager – Design a GenAI Contact Centre
+
+# AI Customer Service Manager – Design a GenAI Contact Centre
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+As businesses scale, customer service is often their first line of defense to retain customers, resolve complaints, and build brand loyalty. However, traditional contact centres face challenges like long response times, high agent turnover, and inconsistent customer experiences. Imagine being brought on board by a leading e-commerce company, "ShopSphere," to revolutionize their customer service operations using Generative AI (GenAI). Your mission is to design and implement an AI-powered contact centre that improves efficiency, enhances customer satisfaction, and integrates seamlessly with human agents.  
+
+### **Mission**  
+Your goal is to identify inefficiencies in ShopSphere’s current contact centre workflow, implement AI-powered solutions to address gaps, and design an agent-assist system using GenAI to optimize operations. You will evaluate KPIs before and after integration and present your findings to senior leadership.  
+
+### **Final Challenge**  
+Build a GenAI-powered contact centre framework for ShopSphere by leveraging AI tools for process automation, conversation modeling, and sentiment analysis. You will need to produce a detailed workflow diagram, a GenAI implementation plan, and a KPI improvement report for final submission.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Fundamentals of customer experience (CX) and contact centre operations  
+- Key pain points in traditional service models and how AI addresses them  
+- Metrics that define success in customer service (e.g., CSAT, NPS, AHT)  
+
+### **Analytics**  
+- Sentiment analysis and conversation modeling techniques  
+- Data-driven decision-making to optimize workflows and improve KPIs  
+- Evaluation of pre- and post-implementation metrics  
+
+### **AI Skills**  
+- Designing GenAI-powered workflows for customer service  
+- Leveraging tools like OpenAI GPT APIs for dynamic customer interaction  
+- Building an agent-assist system for real-time support  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Intermediate knowledge of Artificial Intelligence and Machine Learning  
+- Familiarity with customer service workflows or CX management principles  
+- Basic understanding of Python programming and APIs  
+
+### **Tools**  
+- Python (for API integration)  
+- OpenAI GPT APIs (or similar generative AI tools)  
+- Visualization tools (e.g., Lucidchart, Miro) for workflow design  
+- Excel/Google Sheets for KPI analysis  
+
+### **Prerequisite Skill Check**  
+- Can you write basic Python scripts to call APIs?  
+- Do you understand what KPIs like CSAT, FCR, and AHT measure?  
+- Have you worked with data visualization tools for process mapping?  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- OpenAI GPT APIs for conversational AI modeling  
+- Python libraries: Pandas, Numpy, and Plotly for data analysis and visualization  
+- Sentiment analysis tools like Hugging Face Transformers  
+
+### **Advanced Track**  
+- Fine-tuning GenAI models for specific use cases (e.g., customer sentiment prediction)  
+- Building decision trees and agent-assist workflows using AI  
+- Real-time monitoring dashboards for CX metrics  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand**  
+#### **Scenario**  
+ShopSphere’s leadership team has provided the current contact centre workflow and customer complaints data. You need to analyze the workflow and identify pain points affecting service quality.  
+
+#### **Student Assignment**  
+- Study the provided workflow diagram and identify bottlenecks.  
+- Analyze customer complaints data to spot trends (e.g., delays, unresolved issues).  
+- List areas where AI solutions can improve efficiency.  
+
+#### **Deliverable**  
+- A report summarizing pain points and AI opportunities.  
+- Annotated workflow diagram highlighting inefficiencies.  
+
+---
+
+### **Task 2: Data/Setup**  
+#### **Scenario**  
+You will prepare the dataset for AI implementation. This involves cleaning the data, performing exploratory data analysis (EDA), and identifying meaningful features like response times, resolution rates, and sentiment scores.  
+
+#### **Student Assignment**  
+- Perform EDA on the customer complaints dataset.  
+- Clean and preprocess data, ensuring it’s ready for AI modeling.  
+- Generate sentiment scores for each complaint using a pre-trained sentiment analysis model.  
+
+#### **Deliverable**  
+- Preprocessed dataset with added sentiment scores.  
+- EDA report with visualizations showing key trends (e.g., recurring complaint types).  
+
+---
+
+### **Task 3: Build/Execute**  
+#### **Scenario**  
+Using OpenAI GPT APIs, you will create a chatbot that can handle customer inquiries, classify complaints, and provide resolution suggestions. Integrate the chatbot with a basic agent-assist system to help human agents with real-time recommendations.  
+
+#### **Student Assignment**  
+- Create a Python script to integrate with OpenAI GPT API for generating responses.  
+- Train the chatbot to classify complaints into categories (e.g., payment issues, delivery delays).  
+- Build a basic agent-assist system that suggests responses based on customer sentiment and query type.  
+
+#### **Deliverable**  
+- Python script for chatbot integration.  
+- Agent-assist prototype with sample queries and responses.  
+
+---
+
+### **Task 4: GenAI/Explanation**  
+#### **Scenario**  
+Explain the rationale behind your GenAI implementation to ShopSphere’s leadership team. You need to justify how the chatbot and agent-assist system will improve customer service efficiency and satisfaction.  
+
+#### **Student Assignment**  
+- Create a presentation explaining the GenAI model, its features, and functionality.  
+- Use case studies/examples to demonstrate its capabilities.  
+- Highlight the impact on KPIs like CSAT, AHT, and FCR.  
+
+#### **Deliverable**  
+- Presentation deck with visuals (graphs, process flows, case studies).  
+
+---
+
+### **Task 5: Audit/Responsible AI**  
+#### **Scenario**  
+To ensure ethical AI implementation, ShopSphere requires you to audit the chatbot system for bias, fairness, and transparency. You will also propose fail-safe mechanisms for cases where human intervention is necessary.  
+
+#### **Student Assignment**  
+- Analyze chatbot responses for potential bias or inaccuracies.  
+- Develop guidelines for ethical AI use in customer service.  
+- Suggest mechanisms for agent override when the AI fails or escalates issues.  
+
+#### **Deliverable**  
+- Audit report on fairness and bias.  
+- Ethical AI guidelines document.  
+
+---
+
+### **Task 6: Present Recommendation**  
+#### **Scenario**  
+Prepare a final presentation for ShopSphere’s executives, summarizing your findings, proposed GenAI solutions, and projected KPI improvements.  
+
+#### **Student Assignment**  
+- Consolidate all previous tasks into a cohesive report.  
+- Prepare a visual presentation highlighting the proposed GenAI contact centre framework.  
+- Include KPI projections and a roadmap for implementation.  
+
+#### **Deliverable**  
+- Final report (PDF).  
+- Presentation deck (PPT/Google Slides).  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **Question 1**  
+What does CSAT measure?  
+A. Average handling time  
+B. Customer satisfaction  
+C. Call escalation rate  
+D. Resolution time  
+**Answer:** B  
+
+### **Question 2**  
+Which tool can be used to perform sentiment analysis?  
+A. NumPy  
+B. Hugging Face Transformers  
+C. Lucidchart  
+D. OpenCV  
+**Answer:** B  
+
+### **Question 3**  
+What component is essential for an agent-assist system?  
+A. Customer database  
+B. Recommendation engine  
+C. Payment gateway  
+D. Sentiment score  
+**Answer:** B  
+
+### **Question 4**  
+A KPI that tracks how quickly agents resolve customer issues is called:  
+A. CSAT  
+B. AHT  
+C. FCR  
+D. NPS  
+**Answer:** C  
+
+### **Question 5**  
+What is the primary purpose of auditing an AI system in customer service?  
+A. Improving marketing campaigns  
+B. Ensuring ethical and fair usage  
+C. Increasing sales  
+D. Enhancing product design  
+**Answer:** B  
+
+### **Question 6**  
+Which Python library is commonly used for data manipulation and analysis?  
+A. TensorFlow  
+B. Pandas  
+C. OpenCV  
+D. Flask  
+**Answer:** B  
+
+### **Question 7**  
+What does GPT stand for in OpenAI GPT?  
+A. General Predictive Technology  
+B. Generative Pre-trained Transformer  
+C. Graphic Processing Tool  
+D. General Processing Transformer  
+**Answer:** B  
+
+### **Question 8**  
+What is the role of fail-safe mechanisms in GenAI systems?  
+A. To reduce response times  
+B. To ensure humans can intervene when needed  
+C. To track customer complaints  
+D. To automate workflows  
+**Answer:** B  
+
+### **Question 9**  
+Which visualization tool is best suited for creating workflow diagrams?  
+A. Hugging Face  
+B. Lucidchart  
+C. Numpy  
+D. OpenAI API  
+**Answer:** B  
+
+### **Question 10**  
+What does AHT stand for?  
+A. Average Handling Time  
+B. Agent Health Tracking  
+C. Artificial Heuristic Tools  
+D. Advanced Help Timeline  
+**Answer:** A  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Annotated workflow diagram (Task 1)  
+- Preprocessed dataset and EDA report (Task 2)  
+- Python script and chatbot prototype (Task 3)  
+- Presentation deck on GenAI framework (Task 4)  
+- Ethical AI audit report and guidelines (Task 5)  
+- Final report and implementation roadmap (Task 6)  
+
+### **Grading Rubric**  
+- **Completeness:** All deliverables are submitted and meet the specified requirements.  
+- **Accuracy:** Analysis, scripts, and recommendations are data-driven and logical.  
+- **Innovation:** Creative use of GenAI in solving customer service challenges.  
+- **Presentation:** Clear, professional, and visually appealing deliverables.  
+- **Ethical Considerations:** Thoughtful and thorough approach to responsible AI usage.  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful verification of your submission, you will earn the “**AI Customer Service Manager – Design a GenAI Contact Centre**” certificate.  
+
+### **Certificate Details**  
+- **Name:** [Your Full Name]  
+- **Completion Date:** [Date]  
+- **Certificate ID:** [Unique ID]  
+
+### **Employability Score Example**  
+**Employability Score:** 92/100  
+**Competencies:**  
+- Sentiment Analysis: 9/10  
+- GenAI Workflow Design: 9/10  
+- AI Ethical Auditing: 10/10  
+- KPI Optimization: 9/10  
+- Presentation Skills: 8/10  
+
+
+
+---
+
+## 64. AI Avatar Designer – Build a Virtual Receptionist
+
+# AI Avatar Designer – Build a Virtual Receptionist
+
+## 1. What is this Job Simulation All About?
+
+**Scenario:**  
+Imagine you are part of an innovative AI startup tasked with designing a virtual receptionist for a global coworking space brand. Your goal is to create an AI-powered avatar that can welcome visitors, answer frequently asked questions, and assist with scheduling meeting rooms. The avatar must be engaging, professional, and capable of holding natural conversations with users.
+
+**Mission:**  
+In this job simulation, you will design, build, and test a conversational AI avatar. You'll start by defining a persona for the virtual receptionist, build its knowledge base, integrate conversational logic, create a script for its interactions, and finally test and improve its performance.
+
+**Final Challenge:**  
+You will deliver a fully functional AI-powered virtual receptionist that can handle at least 10 different visitor scenarios, including answering questions, addressing common complaints, and performing basic scheduling. Your final deliverable will include the avatar’s persona document, conversation flow design, scripts, and deployment test results.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge:**  
+  - Fundamentals of conversational AI and persona design for virtual avatars.
+  - Key principles in designing user-friendly virtual assistants for customer-facing roles.  
+  - Understanding human-AI interaction and how to optimize for engagement and clarity.
+
+- **Analytics and Conversation Design:**  
+  - Constructing knowledge bases for FAQs and user queries.  
+  - Mapping conversation flows and decision trees in dialogue systems.  
+  - Designing conversational scripts to reflect a professional and consistent tone.
+
+- **AI Skills:**  
+  - Leveraging natural language processing (NLP) for conversational AI.  
+  - Training and fine-tuning generative AI models for specific use cases.  
+  - Testing and evaluating AI for responsible and bias-free interactions.
+
+---
+
+## 3. What Are the Prerequisites?
+
+- **Recommended Background:**  
+  - Familiarity with basic programming concepts and an understanding of AI/ML fundamentals.  
+  - Experience with conversational AI frameworks (e.g., Dialogflow, Rasa) is helpful but not mandatory.  
+
+- **Tools Knowledge:**  
+  - Basic knowledge of tools like Python, JSON, and chatbot platforms.  
+  - Familiarity with text processing libraries such as spaCy or NLTK is a plus.  
+
+- **Prerequisite Skill Check:**  
+  - Can you write a simple "if-else" conditional statement in Python?  
+  - Are you familiar with how chatbots work and the concept of intents and entities?  
+  - Do you understand how to test and debug software applications?
+
+---
+
+## 4. What Tools Will You Learn?
+
+- **Core Tools:**  
+  - **Dialogflow** for building and training conversational agents.  
+  - **Python** for scripting and fine-tuning conversational logic.  
+  - **Google Sheets** or **Airtable** for creating and managing the knowledge base.
+
+- **Advanced Track:**  
+  - **Avatar SDKs** for designing realistic virtual avatars (e.g., Ready Player Me, Inworld.ai).  
+  - **LLMs (Large Language Models)** for generating conversational responses (e.g., OpenAI’s GPT).
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Problem and Define the Avatar Persona**
+
+**Scenario:**  
+The coworking space brand has asked for a friendly and professional virtual receptionist that can handle interactions with users in English. The receptionist must reflect the brand’s values: professionalism, inclusivity, and innovation.
+
+**Student Assignment:**  
+- Study the company background and target audience.  
+- Define a detailed persona for the virtual receptionist, including its appearance, tone, and key personality traits.  
+- Draft a document that outlines the avatar’s objective and scope of interactions (e.g., greeting visitors, answering FAQs, scheduling appointments).  
+
+**Deliverable:**  
+- A detailed persona document with at least the following fields: Name, Appearance, Personality Traits, Tone of Voice, and Key Responsibilities.
+
+---
+
+### **Task 2: Build the Knowledge Base for the Avatar**
+
+**Scenario:**  
+The virtual receptionist will need to answer FAQs and provide assistance to users. You are tasked with building an initial knowledge base that will serve as the foundation for the avatar’s conversational abilities.
+
+**Student Assignment:**  
+- Research common FAQs for coworking spaces (e.g., pricing, amenities, booking rules).  
+- Organize the questions and answers into a structured format using Google Sheets or Airtable.  
+- Include at least 20 questions and answers in the knowledge base.  
+
+**Deliverable:**  
+- A knowledge base in Google Sheets or Airtable with fields: Question, Answer, and Tags (e.g., pricing, scheduling).
+
+---
+
+### **Task 3: Configure the Avatar’s Chatbot and Train the AI**
+
+**Scenario:**  
+It’s time to bring the virtual receptionist to life! You will set up a chatbot platform, import the knowledge base, and train the AI to handle user queries.
+
+**Student Assignment:**  
+- Choose a conversational AI platform (e.g., Dialogflow, Rasa).  
+- Create intents and entities based on the knowledge base.  
+- Train the AI using the imported data and refine its ability to understand user queries.  
+
+**Deliverable:**  
+- A working chatbot model that can handle the 20 FAQs with appropriate responses.  
+- Screenshots or a short video demonstrating the chatbot’s functionality.
+
+---
+
+### **Task 4: Generate AI Avatar Scripts for Conversations**
+
+**Scenario:**  
+The virtual receptionist’s conversations must feel natural and engaging. You will design scripted responses and use a generative AI tool to generate variations of these scripts.
+
+**Student Assignment:**  
+- Write a list of 10 scripted dialogues for common scenarios (e.g., greeting visitors, answering FAQs, handling complaints).  
+- Use a generative AI tool like OpenAI’s GPT to create variations of these scripts.  
+- Ensure the scripts align with the persona’s tone and personality.  
+
+**Deliverable:**  
+- A document with the original scripts and AI-generated variations for the 10 scenarios.  
+
+---
+
+### **Task 5: Test and Audit the Avatar for Responsible AI Practices**
+
+**Scenario:**  
+Before launching the virtual receptionist, you need to test its performance and ensure it aligns with ethical AI principles, such as avoiding bias and ensuring inclusivity.
+
+**Student Assignment:**  
+- Test the avatar with 10 different user inputs, including edge cases (e.g., ambiguous or offensive queries).  
+- Document the avatar’s responses and identify areas for improvement.  
+- Write a short report on how the avatar adheres to responsible AI principles.
+
+**Deliverable:**  
+- A testing report with user input, avatar output, and identified issues.  
+- A brief summary of the ethical considerations addressed in the avatar’s design.
+
+---
+
+### **Task 6: Present Your Final Avatar and Recommendations**
+
+**Scenario:**  
+The client is excited to see the final virtual receptionist in action. You will present your work, explain your design choices, and outline recommendations for future improvements.
+
+**Student Assignment:**  
+- Create a presentation (slides or a video) showcasing the avatar’s persona, knowledge base, conversation flow, and testing results.  
+- Include a demo of the avatar handling at least 5 different scenarios.  
+- Suggest improvements or future features for the avatar.  
+
+**Deliverable:**  
+- A presentation (PDF or video) with the avatar’s demo and recommendations for future iterations.
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **Question 1:**  
+What is the main objective of designing a persona for the virtual receptionist?  
+A. To limit the AI’s capabilities  
+B. To give the AI a unique personality and tone  
+C. To make the avatar look more human-like  
+D. To make the AI completely autonomous  
+
+**Answer:** B  
+
+---
+
+### **Question 2:**  
+Which of the following is NOT a component of a chatbot knowledge base?  
+A. Questions  
+B. Answers  
+C. Tags  
+D. Images  
+
+**Answer:** D  
+
+---
+
+### **Question 3:**  
+What is the purpose of training an AI chatbot?  
+A. To make it capable of understanding user intents and generating appropriate responses.  
+B. To give it a physical appearance.  
+C. To ensure it can work offline.  
+D. To reduce the programming effort required.  
+
+**Answer:** A  
+
+---
+
+### **Question 4:**  
+Which tool is commonly used for creating conversational agents?  
+A. Microsoft PowerPoint  
+B. Dialogflow  
+C. Adobe Photoshop  
+D. Tableau  
+
+**Answer:** B  
+
+---
+
+### **Question 5:**  
+What is the primary goal of inclusive design in AI avatars?  
+A. To minimize costs.  
+B. To ensure the avatar can interact with all users respectfully and without bias.  
+C. To make the avatar look futuristic.  
+D. To reduce the avatar’s response time.  
+
+**Answer:** B  
+
+---
+
+### **Question 6:**  
+What is an “intent” in the context of conversational AI?  
+A. A user’s goal or purpose behind a query.  
+B. A type of error in chatbot design.  
+C. A pre-defined script for all conversations.  
+D. A way to measure AI’s performance.  
+
+**Answer:** A  
+
+---
+
+### **Question 7:**  
+Which of the following is an ethical consideration in designing an AI avatar?  
+A. Adding a lot of humor to the conversation.  
+B. Testing for bias and inclusivity.  
+C. Limiting the AI’s response time to save server costs.  
+D. Using obscure language to make the AI seem more intelligent.  
+
+**Answer:** B  
+
+---
+
+### **Question 8:**  
+What is the purpose of generating variations for scripted dialogues?  
+A. To confuse the user.  
+B. To reduce the workload of the avatar.  
+C. To make the avatar’s responses sound more natural and less repetitive.  
+D. To save memory space.  
+
+**Answer:** C  
+
+---
+
+### **Question 9:**  
+Which of the following is an example of an edge case in chatbot testing?  
+A. “What are your business hours?”  
+B. “Are you alive?”  
+C. “How much does a meeting room cost?”  
+D. “Can I book a desk for tomorrow?”  
+
+**Answer:** B  
+
+---
+
+### **Question 10:**  
+What should be included in the testing report for the virtual receptionist?  
+A. User input, avatar output, and identified issues.  
+B. Only successful cases of user interaction.  
+C. A summary of the avatar’s appearance.  
+D. The cost of creating the avatar.  
+
+**Answer:** A  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts:**  
+- Persona Document (Task 1)  
+- Knowledge Base (Task 2)  
+- Chatbot Model Screenshots/Video (Task 3)  
+- AI Avatar Scripts Document (Task 4)  
+- Testing Report (Task 5)  
+- Presentation or Video Demo (Task 6)  
+
+### **Grading Rubric:**  
+- **Persona Design (15%)**: Is the persona well-defined with realistic traits and attributes?  
+- **Knowledge Base (20%)**: Is the knowledge base comprehensive and well-organized?  
+- **Chatbot Functionality (20%)**: Does the chatbot handle queries accurately?  
+- **Script Quality (15%)**: Are the scripts engaging, natural, and aligned with the persona?  
+- **Testing and Audit (20%)**: Is the testing thorough? Are ethical considerations addressed?  
+- **Presentation (10%)**: Is the final demo professional and easy to follow?  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful completion and verification of your tasks, you will earn the **AI Avatar Designer – Build a Virtual Receptionist** certificate. This certificate highlights your proficiency in creating persona-driven conversational AI avatars for customer-facing roles.  
+
+**Example Employability Score:**  
+- **Persona Design:** 85%  
+- **Knowledge Base Construction:** 90%  
+- **AI Chatbot Development:** 88%  
+- **Conversation Scripting:** 83%  
+- **Testing and Ethics Audit:** 92%  
+- **Presentation and Delivery:** 87%  
+- **Overall Employability Score:** 88.5%  
+
+This certificate demonstrates your readiness for roles in conversational AI design, user experience, and customer interaction automation.  
+
+---
+
+## 65. AI Avatar Product Manager – Design an AI Digital Human
+
+# AI Avatar Product Manager – Design an AI Digital Human
+
+## 1. What is this Job Simulation All About?
+
+### Scenario  
+Imagine a future where digital human avatars handle customer support, provide personalized services, and even act as virtual companions. As an AI Avatar Product Manager, you’ll lead the development of a cutting-edge AI Digital Human. Your goal is to bridge the gap between user needs and technical capabilities by defining the use case, crafting the persona, designing conversational interactions, and ensuring the AI avatar meets key performance benchmarks.
+
+### Mission  
+Your mission is to conceptualize, design, and evaluate an AI-powered digital human capable of holding natural, engaging, and contextually relevant conversations. You will work across the lifecycle of product development, from ideation to KPI measurement, ensuring the avatar meets both business and user expectations.
+
+### Final Challenge  
+At the end of this simulation, you will present a product pitch for your AI Digital Human. Your pitch will include the use case, target user persona, core capabilities, conversation architecture, and the designed KPIs to measure success. You’ll also address ethical considerations and responsible AI practices in your design.
+
+---
+
+## 2. What Will You Learn?
+
+### Domain Knowledge  
+- Understanding the role of AI avatars in customer engagement, education, healthcare, and entertainment.  
+- Creating realistic, empathetic digital personas tailored to specific user groups.  
+- Ethical and responsible design of conversational AI systems.  
+
+### Analytics  
+- Mapping user needs into technical requirements.  
+- Understanding conversational design metrics (e.g., response time, user satisfaction, retention).  
+- Measuring performance against Key Performance Indicators (KPIs).  
+
+### AI Skills  
+- Designing conversation flows and intents for natural language understanding (NLU).  
+- Integrating generative AI tools for dynamic and realistic interactions.  
+- Applying responsible AI principles to avoid bias and ensure fairness in AI behavior.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### Recommended Background  
+- Familiarity with product management or user research methodologies.  
+- Basic understanding of AI systems, especially conversational AI and NLP.  
+- Prior experience with design tools or frameworks is a plus.  
+
+### Tools  
+- Access to a conversational AI platform (e.g., DialogFlow, Rasa, or similar).  
+- Prototyping tools like Figma or Canva for avatar design.  
+- Optional: Python and Jupyter Notebook for advanced customization.
+
+### Prerequisite Skill Check  
+- **Do you understand the basics of AI and machine learning?**  
+- **Have you worked with user personas or customer journey mapping before?**  
+- **Are you familiar with ethical considerations in AI?**
+
+---
+
+## 4. What Tools Will You Learn?
+
+### Core Tools  
+- **DialogFlow**: To design conversation flows and intents.  
+- **Canva or Figma**: For prototyping and visualizing your AI avatar.  
+- **Google Sheets or Excel**: To manage and track performance KPIs.  
+
+### Advanced Track  
+- **Python with NLP libraries (spaCy or NLTK)**: For advanced conversational design.  
+- **OpenAI’s GPT-4 API**: To implement generative AI features in your avatar.  
+- **Bias Detection Frameworks**: To evaluate fairness and inclusivity in AI responses.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand – Define the Use Case**  
+#### Scenario:  
+You have been hired by a healthcare startup to design an AI Digital Human that can act as a mental health support assistant for users. The CEO wants the avatar to provide empathetic support, answer common mental health questions, and encourage users to seek professional help if needed.  
+
+#### Student Assignment:  
+- Research the mental health chatbot use case.  
+- Define the target audience and the specific value the AI avatar will provide.  
+- Identify the key challenges this type of AI avatar might face (e.g., ethical concerns, privacy, accuracy).  
+
+#### Deliverable:  
+A 300-word use case document outlining:  
+- Problem statement.  
+- Target audience and their pain points.  
+- Expected value and outcomes.
+
+---
+
+### **Task 2: Data/Setup – Create the Persona**  
+#### Scenario:  
+Your team has identified the need for a trustworthy and empathetic digital persona. It’s now your job to create a detailed persona that aligns with the avatar’s role as a mental health support assistant.  
+
+#### Student Assignment:  
+- Create a persona profile that includes:  
+  - Name, age, and visual appearance.  
+  - Communication style (e.g., tone, vocabulary).  
+  - Emotional intelligence capabilities.  
+- Use design software (e.g., Figma or Canva) to create a visual representation of the avatar.  
+
+#### Deliverable:  
+1. A one-page persona profile document.  
+2. A visual design of the AI avatar.
+
+---
+
+### **Task 3: Build/Execute – Design the Conversation Architecture**  
+#### Scenario:  
+Now that the persona is ready, it’s time to design the avatar’s conversational capabilities. The goal is to ensure the AI provides empathetic, accurate, and on-brand responses while maintaining user engagement.  
+
+#### Student Assignment:  
+- Outline a conversation flow for the following scenarios:  
+  1. User reports feeling anxious.  
+  2. User asks for tips to improve sleep.  
+  3. User requests information about professional counseling.  
+- Define intents, entities, and sample utterances using a conversational AI platform like DialogFlow.  
+
+#### Deliverable:  
+1. A conversation flow diagram (PDF or image).  
+2. DialogFlow project export file containing defined intents and entities.
+
+---
+
+### **Task 4: GenAI/Explanation – Implement Generative AI for Dynamic Responses**  
+#### Scenario:  
+To make the AI avatar more dynamic, you decide to integrate a generative AI model like GPT-4 for open-ended conversations. Your task is to ensure it generates responses that are empathetic, accurate, and contextually relevant.  
+
+#### Student Assignment:  
+- Connect GPT-4 API to the conversational AI platform.  
+- Fine-tune the response generation by writing a set of prompts.  
+- Test sample conversations to ensure the avatar’s responses align with the defined persona.  
+
+#### Deliverable:  
+1. A set of 5 GPT-4 prompts optimized for empathetic responses.  
+2. A recorded or text-based dialogue demonstrating the generative AI in action.
+
+---
+
+### **Task 5: Audit/Responsible AI – Evaluate for Bias and Responsiveness**  
+#### Scenario:  
+Before the avatar goes live, you need to ensure it adheres to responsible AI principles. This involves testing for bias, inclusivity, and response accuracy.  
+
+#### Student Assignment:  
+- Test the avatar across diverse user scenarios (e.g., different age groups, genders, and cultural backgrounds).  
+- Identify potential biases in the responses.  
+- Suggest improvements to make the avatar more inclusive.  
+
+#### Deliverable:  
+1. A bias evaluation report (500 words).  
+2. Spreadsheet of test results (e.g., responsiveness, accuracy, inclusivity ratings).
+
+---
+
+### **Task 6: Present Recommendation – Final Product Pitch**  
+#### Scenario:  
+You’re ready to present your AI Digital Human to the healthcare startup’s leadership team. Your pitch needs to cover the avatar’s use case, persona, conversation architecture, generative AI integration, and KPIs.  
+
+#### Student Assignment:  
+- Create a 5-slide presentation covering:  
+  - Use case and target audience.  
+  - Persona design.  
+  - Conversation architecture and generative AI integration.  
+  - KPIs and performance metrics.  
+  - Ethical considerations and audit results.  
+- Record a 5-minute video presenting your pitch.  
+
+#### Deliverable:  
+1. A 5-slide presentation (PDF or PPT format).  
+2. A 5-minute video pitch recording.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. What is the primary purpose of defining a use case in AI product management?  
+   - A) To create marketing materials.  
+   - B) To identify the target audience and their needs.  
+   - C) To define the conversational architecture.  
+   - D) To test the product for biases.  
+   **Correct Answer: B**
+
+2. Which tool is commonly used for designing conversation flows?  
+   - A) Canva  
+   - B) DialogFlow  
+   - C) Excel  
+   - D) Figma  
+   **Correct Answer: B**
+
+3. What is an example of an AI avatar KPI?  
+   - A) The number of lines of code written.  
+   - B) User satisfaction score.  
+   - C) The cost of the avatar’s design.  
+   - D) Number of meetings held during development.  
+   **Correct Answer: B**
+
+4. Which of the following best describes "persona design"?  
+   - A) Writing code for the avatar.  
+   - B) Defining the avatar’s visual and behavioral characteristics.  
+   - C) Testing the avatar for biases.  
+   - D) Training the AI model.  
+   **Correct Answer: B**
+
+5. How does generative AI improve an AI avatar’s performance?  
+   - A) By automating the training process.  
+   - B) By generating dynamic and human-like responses.  
+   - C) By reducing the need for product managers.  
+   - D) By ensuring the avatar is bias-free.  
+   **Correct Answer: B**
+
+6. Why is bias evaluation critical in AI avatar design?  
+   - A) To meet marketing deadlines.  
+   - B) To improve the avatar’s response speed.  
+   - C) To ensure fairness and inclusivity in interactions.  
+   - D) To enhance visual design.  
+   **Correct Answer: C**
+
+7. What is a conversation flow?  
+   - A) The avatar’s facial expressions during interaction.  
+   - B) The sequence of interactions between the user and the avatar.  
+   - C) The platform used to design the avatar.  
+   - D) The list of tools required for development.  
+   **Correct Answer: B**
+
+8. Which API is commonly used for generative AI integration?  
+   - A) GPT-4 API  
+   - B) Canva API  
+   - C) DialogFlow API  
+   - D) Figma API  
+   **Correct Answer: A**
+
+9. What should be included in the final product pitch?  
+   - A) Lines of code written.  
+   - B) A detailed persona profile.  
+   - C) The avatar’s manufacturing costs.  
+   - D) A list of competitors.  
+   **Correct Answer: B**
+
+10. What is the role of KPIs in AI avatar design?  
+    - A) To measure the avatar’s success and impact.  
+    - B) To define the avatar’s appearance.  
+    - C) To eliminate the need for user feedback.  
+    - D) To train the AI model.  
+    **Correct Answer: A**
+
+---
+
+## 7. Submit Your Completed Task
+
+### Submission Artifacts  
+1. Use case document.  
+2. Persona profile and visual representation.  
+3. Conversation flow diagram and DialogFlow export file.  
+4. GPT-4 prompts and test conversation.  
+5. Bias evaluation report and test results.  
+6. Final 5-slide presentation and video pitch.
+
+### Grading Rubric  
+- **Clarity of Use Case (15%)**: Clear articulation of the problem, target audience, and value proposition.  
+- **Persona Design (20%)**: Creativity, alignment with use case, and visual quality.  
+- **Conversation Architecture (20%)**: Logical flow, well-defined intents, and user-centric design.  
+- **Generative AI Integration (15%)**: Effective use of GPT-4 for natural, empathetic conversations.  
+- **Bias and Responsiveness Testing (20%)**: Depth of evaluation and actionable recommendations.  
+- **Final Pitch (10%)**: Persuasiveness, clarity, and alignment with business goals.  
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful completion of the internship, you will receive a certificate titled:  
+**"Certified AI Product Manager: AI Avatar Development"**  
+
+### Employability Score Example  
+- **Technical Skills:** 85/100  
+- **Product Management Expertise:** 90/100  
+- **Responsible AI Knowledge:** 95/100  
+- **Overall Employability Score:** 90/100  
+
+This certificate demonstrates your ability to conceptualize, design, and evaluate AI Digital Humans for real-world applications, making you a strong candidate for roles in AI product management and conversational AI design.
+
+---
+
+## 66. Customer Success Analyst – Predict Customer Churn
+
+# Virtual Internship: Customer Success Analyst – Predict Customer Churn  
+**Domain:** SaaS / AI  
+**Level:** Intermediate  
+**Duration:** 4 Hours  
+
+---
+
+### 1. What is this Job Simulation All About?
+
+#### **Scenario**  
+You are hired as a Customer Success Analyst at a fast-growing SaaS company that provides a subscription-based product management platform. Your primary responsibility is to analyze customer behavior, identify those at risk of churning (canceling their subscription), and collaborate with the customer success team to proactively retain these customers.  
+
+The company has recently started leveraging AI tools to predict customer churn and develop targeted intervention strategies. Your mission is to harness customer health data to build an AI model capable of predicting churn, interpret the results, and propose actionable insights to help the company improve customer retention.
+
+#### **Mission**  
+- Build a customer churn prediction model using customer health and engagement data.  
+- Evaluate customers’ risk of churning and identify key drivers of churn.  
+- Develop a customer success intervention plan for high-risk customers.  
+
+#### **Final Challenge**  
+Present a report to the leadership team summarizing:  
+1. Key insights from churn prediction analysis.  
+2. Recommendations for reducing churn and improving customer retention.  
+3. A sample success plan for a high-risk customer.
+
+---
+
+### 2. What Will You Learn?
+
+#### **Domain Knowledge**  
+- Fundamentals of Customer Success in SaaS.  
+- Understanding customer health scores and key churn indicators.  
+- Strategies for customer retention and crafting success plans.  
+
+#### **Analytics Skills**  
+- Exploratory Data Analysis (EDA) of customer data.  
+- Feature engineering for customer behavior analysis.  
+- Using predictive analytics to identify churn risks.  
+
+#### **AI Skills**  
+- Building and fine-tuning a machine learning model for churn prediction.  
+- Interpreting model outputs for actionable recommendations.  
+- Implementing Responsible AI practices (e.g., bias detection, explainability).  
+
+---
+
+### 3. What Are the Prerequisites?
+
+#### **Recommended Background**  
+- Basic understanding of SaaS business models and customer retention strategies.  
+- Familiarity with data analysis and visualizations.  
+- Prior experience with Python and machine learning concepts.  
+
+#### **Tools**  
+- Python programming environment (Jupyter Notebook or Google Colab).  
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.  
+
+#### **Prerequisite Skill Check**  
+Can you:  
+1. Load and clean a dataset using Pandas?  
+2. Build a simple classification model using Scikit-learn?  
+3. Create visualizations to identify patterns in data?  
+
+If not, we recommend completing a short course on Python for Data Science before starting this track.
+
+---
+
+### 4. What Tools Will You Learn?
+
+#### **Core Tools**  
+- **Python Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn.  
+- **Machine Learning:** Logistic regression, decision trees, feature importance analysis.  
+
+#### **Advanced Track**  
+- **Responsible AI:** SHAP for explainability, fairness checks in churn predictions.  
+
+---
+
+### 5. Tasks to be Performed
+
+#### **Task 1: Understand – Explore Customer Churn Dynamics**  
+**Scenario:**  
+Your company has collected customer health data, including engagement metrics, support tickets, product usage, and customer tenure. The leadership team has tasked you with understanding the key factors contributing to customer churn.  
+
+**Student Assignment:**  
+- Study the dataset provided (`customer_health_data.csv`).  
+- Identify and define key features (e.g., usage frequency, number of support tickets, NPS scores).  
+- Research and summarize the common drivers of churn in SaaS businesses.  
+
+**Deliverable:**  
+Submit a one-page summary of churn drivers with a brief description of the dataset features.
+
+---
+
+#### **Task 2: Data/Setup – Clean and Prepare the Data**  
+**Scenario:**  
+The raw dataset has missing values and inconsistent entries. To ensure the accuracy of your analysis, you need to clean and preprocess the data.  
+
+**Student Assignment:**  
+- Handle missing or null values appropriately.  
+- Encode categorical variables (e.g., customer segment, industry).  
+- Scale numeric features for consistent input to machine learning models.  
+- Split the data into training and testing sets (80/20 split).  
+
+**Deliverable:**  
+Submit a clean dataset and a description of the preprocessing steps you performed.
+
+---
+
+#### **Task 3: Build/Execute – Predict Churn Using Machine Learning**  
+**Scenario:**  
+You are now ready to build a predictive model to classify customers as either "churn" or "not churn."  
+
+**Student Assignment:**  
+- Train a Logistic Regression model to predict churn.  
+- Evaluate the model's performance using metrics like accuracy, precision, recall, and F1-score.  
+- Perform hyperparameter tuning to improve model performance.  
+
+**Deliverable:**  
+Submit the trained model, evaluation metrics, and a short explanation of how you improved model performance.  
+
+---
+
+#### **Task 4: GenAI/Explanation – Identify Key Drivers of Churn**  
+**Scenario:**  
+Leadership wants to know *why* your model predicts certain customers are at risk of churning. Use interpretability techniques to explain the predictions.  
+
+**Student Assignment:**  
+- Use SHAP (SHapley Additive exPlanations) to identify the top features influencing churn predictions.  
+- Visualize and summarize the contribution of each feature to the model's decisions.  
+- Highlight one example of a high-risk customer and explain why the model flagged them.  
+
+**Deliverable:**  
+Submit a report with SHAP visualizations and an explanation of key churn drivers.
+
+---
+
+#### **Task 5: Audit/Responsible AI – Ensure Model Fairness**  
+**Scenario:**  
+The leadership team is concerned about potential bias in the model. For instance, are certain customer segments unfairly flagged as high risk?  
+
+**Student Assignment:**  
+- Analyze the fairness of your model across different customer demographics (e.g., industry, region).  
+- Identify any biases and adjust the model or preprocessing steps if necessary.  
+- Document your Responsible AI process and findings.  
+
+**Deliverable:**  
+Submit a fairness analysis report with any corrective actions taken.  
+
+---
+
+#### **Task 6: Present Recommendation – Propose a Retention Strategy**  
+**Scenario:**  
+You’ve identified high-risk customers and the key drivers of churn. It’s now time to present a retention strategy to the leadership team.  
+
+**Student Assignment:**  
+- Create a customer success plan for one high-risk customer, including engagement strategies, personalized recommendations, and a measurable action plan.  
+- Summarize overall recommendations for reducing churn.  
+
+**Deliverable:**  
+Submit a 3-slide presentation or report summarizing:  
+1. High-risk customer profile and proposed success plan.  
+2. Insights from churn analysis.  
+3. Retention strategy recommendations.
+
+---
+
+### 6. MCQs Post Task Completion
+
+1. **What is a common driver of churn in SaaS businesses?**  
+   A. High product engagement  
+   B. Lack of product training  
+   C. Frequent feature updates  
+   D. High NPS scores  
+   **Answer:** B  
+
+2. **Which metric measures the proportion of correctly identified churn cases?**  
+   A. Precision  
+   B. Recall  
+   C. Accuracy  
+   D. F1-score  
+   **Answer:** B  
+
+3. **What is the purpose of SHAP in churn prediction analysis?**  
+   A. To improve model accuracy  
+   B. To explain feature importance  
+   C. To preprocess data  
+   D. To scale numerical variables  
+   **Answer:** B  
+
+4. **Why is scaling important in machine learning?**  
+   A. To enhance categorical features  
+   B. To normalize the influence of features with different ranges  
+   C. To remove duplicate entries  
+   D. To handle missing values  
+   **Answer:** B  
+
+5. **Which of the following is NOT a typical feature in churn modeling?**  
+   A. Customer tenure  
+   B. Support ticket submissions  
+   C. Product feature requests  
+   D. Employee satisfaction score  
+   **Answer:** D  
+
+6. **What does hyperparameter tuning involve?**  
+   A. Modifying the dataset  
+   B. Optimizing the model's parameters to improve performance  
+   C. Visualizing model predictions  
+   D. Explaining model predictions  
+   **Answer:** B  
+
+7. **Which metric is most useful for handling imbalanced datasets?**  
+   A. Accuracy  
+   B. Precision  
+   C. Recall  
+   D. Both B and C  
+   **Answer:** D  
+
+8. **What is the purpose of splitting your dataset into training and testing sets?**  
+   A. To ensure all data is used for training  
+   B. To evaluate the model on unseen data  
+   C. To improve the accuracy of the training set  
+   D. To reduce overfitting  
+   **Answer:** B  
+
+9. **Which of the following would indicate potential bias in your churn prediction model?**  
+   A. High recall for all customer segments  
+   B. Consistent performance across all demographics  
+   C. Disproportionately higher false positive rate for one customer segment  
+   D. Low precision for all customer segments  
+   **Answer:** C  
+
+10. **What should be included in a customer success plan?**  
+    A. A detailed product roadmap  
+    B. Personalized recommendations and engagement strategies  
+    C. Financial projections for the customer  
+    D. Competitor analysis  
+    **Answer:** B  
+
+---
+
+### 7. Submit Your Completed Task
+
+#### **Submission Artifacts**  
+1. Cleaned dataset.  
+2. Trained machine learning model (e.g., `.pkl` file).  
+3. Evaluation metrics (e.g., accuracy, precision, recall).  
+4. SHAP visualizations and churn driver explanations.  
+5. Fairness analysis report.  
+6. Final presentation or report with recommendations.  
+
+#### **Grading Rubric**  
+- **Data Preparation (20 points):** Completeness and correctness of data cleaning and preprocessing.  
+- **Model Performance (20 points):** Evaluation metrics and explanation of improvements.  
+- **Interpretability (20 points):** Quality of SHAP visualizations and explanations.  
+- **Fairness Analysis (20 points):** Identification and mitigation of biases.  
+- **Recommendations (20 points):** Actionability and relevance of customer success plan and retention strategies.  
+
+---
+
+### 8. Earn Certificate Post Verification
+
+Once your submission has been verified, you will receive the **Skillzza Virtual Internship: Customer Success Analyst – Predict Customer Churn** certificate. This certificate can be added to your LinkedIn profile and resume.  
+
+#### **Employability Score Example**  
+Upon completion, you will receive an employability score based on:  
+- Data Analytics: 85%  
+- AI Implementation: 90%  
+- Business Acumen: 88%  
+- Overall: 88%  
+
+Demonstrate your skills and readiness to tackle real-world challenges in the SaaS industry!  
+
+---
+
+## 69. Marketing Technology Analyst – AI Campaign Optimisation
+
+# Marketing Technology Analyst – AI Campaign Optimisation
+
+## What is this Job Simulation All About?
+
+### Scenario  
+Imagine you are a Marketing Technology Analyst working for a fast-growing e-commerce company that sells eco-friendly products. The company recently launched several digital marketing campaigns across Google Ads, Facebook, and email marketing platforms. However, the team is struggling to optimise these campaigns effectively to maximise conversions while staying within budget.  
+
+Your mission is to leverage marketing analytics and AI tools to segment the audience, generate tailored content using GenAI, and optimise campaign performance.  
+
+### Mission  
+You will step into the role of a Marketing Technology Analyst to:  
+- Analyse campaign performance data to uncover insights.  
+- Use AI-powered tools for audience segmentation.  
+- Generate personalised marketing content using GenAI models.  
+- Recommend optimisation strategies to improve ROI.  
+
+### Final Challenge  
+The internship will conclude with a simulated boardroom presentation where you’ll present your analysis, GenAI-generated content, and detailed optimisation recommendations to the Marketing Director and the Growth Team.  
+
+---
+
+## What Will You Learn?
+
+### Domain Knowledge  
+- Fundamentals of marketing analytics and campaign performance metrics (CTR, CPC, ROAS, etc.).  
+- Audience segmentation techniques.  
+- Practical strategies for digital ad optimisation across different platforms.  
+
+### Analytics  
+- Use of data analysis tools to interpret campaign performance data.  
+- Extract actionable insights from click-through rates, conversion rates, and audience engagement metrics.  
+
+### AI Skills  
+- Hands-on experience with Generative AI tools for creating personalised marketing content.  
+- Understanding of AI-driven segmentation and predictive models.  
+- Application of AI tools to optimise campaign budgets and targeting.  
+
+---
+
+## What Are the Prerequisites?
+
+### Recommended Background  
+- Basic understanding of digital marketing and advertising platforms (e.g., Google Ads, Facebook Ads).  
+- Familiarity with data analysis concepts like averages, trends, and percentages.  
+- Interest in AI applications in marketing.  
+
+### Tools  
+You’ll need access to:  
+- Google Sheets or Excel for data analysis.  
+- A Generative AI tool (e.g., ChatGPT, Jasper.ai, or Copy.ai).  
+- A segmentation tool like Google Analytics or HubSpot.  
+
+### Prerequisite Skill Check  
+Before starting, you should be able to:  
+1. Calculate basic marketing metrics such as CTR (Click-Through Rate) and ROAS (Return on Ad Spend).  
+2. Navigate tools like Google Sheets or Excel and apply formulas.  
+3. Understand how digital advertisements work (e.g., paid search, display, social media ads).  
+
+---
+
+## What Tools Will You Learn?
+
+### Core Tools  
+- **Google Analytics**: Audience segmentation and tracking user behavior.  
+- **Google Sheets**: Campaign performance analysis and visualisation.  
+- **Generative AI** (ChatGPT/Jasper.ai): Creating personalised content at scale.  
+
+### Advanced Track  
+- **Looker Studio**: Advanced data visualisation for marketing dashboards.  
+- **Ad Performance Platforms**: Understanding campaign tracking tools.  
+
+---
+
+## Tasks to be Performed  
+
+### **Task 1: Understand Campaign Metrics**  
+#### Scenario  
+You are handed the campaign performance report for a recent marketing initiative. The report includes metrics like impressions, clicks, CTR, CPC, conversions, and ROAS. Your first task is to understand the KPIs and identify which campaigns are underperforming.  
+
+#### Student Assignment  
+- Review the dataset provided, which includes metrics for three campaigns: *Google Ads*, *Facebook Ads*, and *Email Marketing*.  
+- Calculate key performance metrics and identify trends.  
+
+#### Deliverable  
+Submit a summary report highlighting:  
+1. Campaigns ranked by performance (e.g., highest ROI).  
+2. Any anomalies or trends observed.  
+
+---
+
+### **Task 2: Data Segmentation and Audience Analysis**  
+#### Scenario  
+The marketing team suspects that poor audience targeting is contributing to underwhelming campaign performance. You are tasked with segmenting the audience based on demographics, interests, and past purchasing behavior.  
+
+#### Student Assignment  
+- Use the audience data provided (age, gender, location, purchase history).  
+- Create at least three audience segments (e.g., "Eco-conscious millennials," "Budget-friendly families").  
+
+#### Deliverable  
+Submit a document with:  
+1. Defined audience segments and their characteristics.  
+2. The rationale for selecting these segments.  
+
+---
+
+### **Task 3: Generate AI-Powered Campaign Content**  
+#### Scenario  
+Once the audience segments are defined, the marketing team needs fresh content tailored to each segment. You’ve been asked to use Generative AI to create ad copy for *Google Ads* and *Facebook Ads*.  
+
+#### Student Assignment  
+- Use a Generative AI tool (e.g., ChatGPT) to create ad copy based on the audience segments defined in Task 2.  
+- Ensure the content aligns with the company’s eco-friendly brand voice.  
+
+#### Deliverable  
+Submit:  
+1. Three sets of ad copy tailored to each audience segment.  
+2. Justification for how the content aligns with the audience’s needs and the brand’s identity.  
+
+---
+
+### **Task 4: Optimise Campaigns Using AI**  
+#### Scenario  
+The marketing team has requested you to use an AI-powered optimisation tool to simulate changes to the campaign. Your goal is to increase ROI while staying within the budget.  
+
+#### Student Assignment  
+- Use the provided campaign data and feed it into the AI optimisation tool (e.g., Google Ads Performance Planner).  
+- Adjust variables like budget allocation, bid strategy, and targeting.  
+
+#### Deliverable  
+Submit:  
+1. A before-and-after comparison of the campaign metrics (e.g., CTR, ROAS).  
+2. A short explanation of what changes were made and why.  
+
+---
+
+### **Task 5: Audit for Responsible AI**  
+#### Scenario  
+Your manager is concerned about ethical considerations in using Generative AI for marketing. She asks you to assess the AI-generated content for biases and ensure it is inclusive.  
+
+#### Student Assignment  
+- Review the ad copy generated in Task 3 for potential biases (e.g., stereotypes, exclusionary language).  
+- Revise the content to ensure it aligns with ethical marketing practices.  
+
+#### Deliverable  
+Submit a revised ad copy along with a brief explanation of the changes made and why they were necessary.  
+
+---
+
+### **Task 6: Present Recommendations**  
+#### Scenario  
+You are required to present your findings and recommendations to the Marketing Director and Growth Team. This presentation is critical to securing approval for implementing your optimisation strategy.  
+
+#### Student Assignment  
+- Prepare a 5-slide presentation covering:  
+  1. Campaign performance analysis (Task 1).  
+  2. Audience segmentation (Task 2).  
+  3. AI-generated content (Task 3).  
+  4. Optimisation strategy (Task 4).  
+  5. Responsible AI audit (Task 5).  
+
+#### Deliverable  
+Submit your presentation in PDF format.  
+
+---
+
+## MCQs Post Task Completion  
+
+1. What does CTR stand for in digital marketing?  
+   - A. Conversion Tracking Rate  
+   - B. Click-Through Rate  
+   - C. Campaign Target Reach  
+   - D. Cost-To-Revenue  
+   **Correct Answer**: B  
+
+2. What metric measures the revenue generated per dollar spent on ads?  
+   - A. CPC  
+   - B. CTR  
+   - C. ROAS  
+   - D. CPM  
+   **Correct Answer**: C  
+
+3. Which of the following is a common tool for audience segmentation?  
+   - A. Excel  
+   - B. Google Analytics  
+   - C. Canva  
+   - D. Trello  
+   **Correct Answer**: B  
+
+4. What is the primary purpose of Generative AI in marketing?  
+   - A. Email automation  
+   - B. Content creation  
+   - C. Campaign budgeting  
+   - D. Performance tracking  
+   **Correct Answer**: B  
+
+5. Which of the following is NOT a campaign performance metric?  
+   - A. Impressions  
+   - B. CTR  
+   - C. CPC  
+   - D. AI score  
+   **Correct Answer**: D  
+
+6. What does “segmentation” help marketers achieve?  
+   - A. Broader audience reach  
+   - B. Specific targeting for better campaign performance  
+   - C. Lower ad spend  
+   - D. Higher CPM  
+   **Correct Answer**: B  
+
+7. Which AI tool is commonly used for optimising Google Ads campaigns?  
+   - A. HubSpot  
+   - B. Google Ads Performance Planner  
+   - C. Canva  
+   - D. MailChimp  
+   **Correct Answer**: B  
+
+8. What is an ethical concern when using Generative AI for marketing content?  
+   - A. Content creativity  
+   - B. Biased or insensitive language  
+   - C. High ad spend  
+   - D. Low CTR  
+   **Correct Answer**: B  
+
+9. What is ROAS a measure of in digital marketing?  
+   - A. Revenue Over All Spending  
+   - B. Return On Ad Spend  
+   - C. Rate Of Audience Satisfaction  
+   - D. Reach Of Advertising Scale  
+   **Correct Answer**: B  
+
+10. Why should marketers audit AI-generated content?  
+    - A. To ensure high CTR  
+    - B. To avoid biases and ensure inclusiveness  
+    - C. To reduce CPC  
+    - D. To improve impressions  
+    **Correct Answer**: B  
+
+---
+
+## Submit Your Completed Task  
+
+### Submission Artifacts  
+For each task, upload:  
+1. **Task 1**: Campaign performance summary report.  
+2. **Task 2**: Audience segmentation document.  
+3. **Task 3**: AI-generated ad copy.  
+4. **Task 4**: Optimisation comparison report.  
+5. **Task 5**: Revised ethical ad copy and audit notes.  
+6. **Task 6**: Final presentation (PDF format).  
+
+### Grading Rubric  
+- **Clarity of Analysis**: 20%  
+- **Accuracy of Segmentation**: 15%  
+- **Creativity in Content**: 20%  
+- **Optimisation Strategy**: 20%  
+- **Ethical Audit**: 15%  
+- **Presentation Quality**: 10%  
+
+---
+
+## Earn Certificate Post Verification  
+
+### Certificate Details  
+Upon successful completion and verification, you will receive a **"Marketing Technology Analyst – AI Campaign Optimisation" Certificate**.  
+
+### Employability Score Example  
+Your employability score will reflect your performance in key areas:  
+- Data Analysis: 85%  
+- Creativity: 90%  
+- Responsible AI: 80%  
+- Presentation Skills: 88%  
+
+
+---
+
+## 71. Social Media Intelligence Analyst – Decode a Brand Conversation
+
+# Social Media Intelligence Analyst – Decode a Brand Conversation
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+You’ve been hired as a Social Media Intelligence Analyst for a leading digital marketing agency. Your client is a fast-growing brand in the lifestyle and fitness industry that wants to understand how customers perceive its products online. The brand also wants to compare its social media performance with key competitors and identify actionable insights to improve its online reputation.
+
+Social media platforms like Twitter, Instagram, and forums are flooded with conversations about the brand, its competitors, and related topics. Your mission is to decode these conversations using social media analytics techniques and provide insights that drive business decisions.
+
+---
+
+### **Mission**
+Your role is to analyze the brand’s social media presence, interpret sentiment, identify recurring themes, and benchmark its performance against competitors. Your work will directly influence the brand’s digital marketing strategy.
+
+---
+
+### **Final Challenge**
+By the end of this internship, you will present a comprehensive social media intelligence report covering:
+1. Customer sentiment analysis for the brand.
+2. Thematic analysis of conversations.
+3. Competitive benchmarking insights.
+4. Actionable recommendations for improving the brand’s social media strategy.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Fundamentals of Social Media Intelligence: Understanding key metrics like engagement rate, sentiment analysis, and conversation themes.
+- Competitor Analysis in Social Tech: How to benchmark brand performance against competitors.
+- Social Listening: Techniques to analyze public sentiment and brand perception.
+
+### **Analytics**
+- Data extraction and cleaning for social media insights.
+- Sentiment scoring using natural language processing (NLP).
+- Keyword and theme clustering.
+
+### **AI Skills**
+- Leveraging AI-based sentiment analysis tools (e.g., TextBlob, VADER).
+- Using machine learning for thematic clustering.
+- Applying generative AI for summarizing complex data.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Knowledge of social media platforms like Twitter, Instagram, and LinkedIn.
+- Basic understanding of data analysis and visualization.
+- Familiarity with marketing concepts and competitive benchmarking.
+
+### **Tools**
+- Google Sheets/Excel for data organization.
+- Python (basic knowledge) for sentiment and thematic analysis.
+- PowerPoint or Canva for presenting insights.
+
+### **Prerequisite Skill Check**
+Before starting, you should be able to:
+1. Explain metrics like sentiment score, engagement rate, and reach.
+2. Write basic Python scripts for data manipulation.
+3. Create simple visualizations in Excel or Google Sheets.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **Social Media APIs**: Extract data from platforms like Twitter.
+- **TextBlob/VADER**: Conduct sentiment analysis using Python.
+- **Excel/Google Sheets**: Organize and analyze social media data.
+- **Tableau/Power BI**: Visualize trends and patterns in data.
+
+### **Advanced Track**
+- **Google Colab**: Run Python notebooks for analysis.
+- **OpenAI GPT**: Summarize and generate insights from large datasets.
+- **Brandwatch/HubSpot**: Explore professional social listening platforms.
+
+---
+
+## 5. Tasks to Be Performed
+
+### **Task 1: Understand the Brand & Competitors**
+#### **Scenario**
+Your client’s brand, **FitSphere**, is a direct-to-consumer fitness equipment brand. They provide high-quality, portable fitness gear for home workouts. Their key competitors are **HomeFit** and **ActiveEdge**. You need to understand the brand’s market positioning and gather initial data for analysis.
+
+#### **Student Assignment**
+1. Research the brand FitSphere, its product offerings, and its target audience.
+2. Identify 3 key competitors and compare their social media presence, including platforms they are most active on (e.g., Instagram, Twitter, TikTok).
+3. Prepare a summary of FitSphere’s strengths and weaknesses compared to its competitors.
+
+#### **Deliverable**
+- A 2-3 slide summary of FitSphere’s social media presence and its competitors’ comparative analysis.
+
+---
+
+### **Task 2: Collect and Prepare Social Media Data**
+#### **Scenario**
+Your team has access to FitSphere’s public Twitter data via an API. You need to extract 500 recent tweets mentioning the brand and prepare the data for analysis.
+
+#### **Student Assignment**
+1. Use the Twitter API (or a provided dataset) to extract 500 tweets mentioning FitSphere.
+2. Clean and preprocess the data: remove duplicates, stopwords, and irrelevant tweets.
+3. Organize the cleaned data in a CSV file with the following columns:
+   - Timestamp
+   - Username
+   - Tweet content
+   - Engagement metrics (likes, retweets, replies)
+
+#### **Deliverable**
+- A cleaned CSV file with the required fields, ready for analysis.
+
+---
+
+### **Task 3: Analyze Sentiment of the Conversations**
+#### **Scenario**
+Your client wants to understand how customers feel about their brand. Use NLP-based sentiment analysis to classify the tweets as positive, negative, or neutral.
+
+#### **Student Assignment**
+1. Use Python and the VADER or TextBlob library to perform sentiment analysis on the tweets.
+2. Add a new column to the CSV file for sentiment score (positive, negative, neutral).
+3. Summarize the overall sentiment distribution for FitSphere.
+
+#### **Deliverable**
+- Updated CSV with sentiment scores.
+- A bar chart or pie chart summarizing sentiment distribution.
+
+---
+
+### **Task 4: Identify Themes Using Generative AI**
+#### **Scenario**
+Your client wants to know the major themes in customer conversations. Summarize the key topics and sentiments using an AI-powered tool.
+
+#### **Student Assignment**
+1. Use OpenAI GPT (or another NLP model) to identify and summarize key themes in the tweets.
+2. Categorize the themes into positive and negative buckets (e.g., “Quality Issues,” “Great Customer Service”).
+3. Write a 250-word summary highlighting the major themes.
+
+#### **Deliverable**
+- A thematic analysis report with key themes and examples of tweets under each category.
+
+---
+
+### **Task 5: Conduct Competitor Benchmarking**
+#### **Scenario**
+Your client wants to know how their social media performance compares to competitors. Use a provided dataset containing social media metrics for FitSphere, HomeFit, and ActiveEdge.
+
+#### **Student Assignment**
+1. Analyze the dataset for key metrics such as engagement rate, sentiment distribution, and follower growth.
+2. Compare FitSphere’s metrics to its competitors and identify areas where the brand is leading or lagging.
+3. Create a dashboard or visualizations to showcase the comparative performance.
+
+#### **Deliverable**
+- A dashboard or set of visualizations comparing FitSphere’s social media metrics with competitors.
+
+---
+
+### **Task 6: Present Recommendations**
+#### **Scenario**
+Your client expects a comprehensive report with actionable insights. They need your recommendations to improve their social media strategy based on your analysis.
+
+#### **Student Assignment**
+1. Create a 5-7 slide presentation summarizing:
+   - Sentiment analysis and thematic insights.
+   - Competitive benchmarking results.
+   - Key recommendations for improving social media strategy.
+2. Record a 5-minute video presenting your findings.
+
+#### **Deliverable**
+- A presentation deck (PPT or PDF).
+- A 5-minute recorded video explaining your analysis and recommendations.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary purpose of sentiment analysis in social media intelligence?**  
+   A. Identifying competitors  
+   B. Measuring engagement rate  
+   C. Understanding customer emotions from text  
+   D. Extracting social media metrics  
+   **Answer**: C  
+
+2. **Which of the following tools is commonly used for sentiment analysis in Python?**  
+   A. Matplotlib  
+   B. Pandas  
+   C. VADER  
+   D. Tableau  
+   **Answer**: C  
+
+3. **What is a common metric used to measure social media engagement?**  
+   A. Timestamps  
+   B. Retweets  
+   C. Sentiment score  
+   D. Hashtags  
+   **Answer**: B  
+
+4. **What is the purpose of thematic analysis in social media intelligence?**  
+   A. Cleaning the dataset  
+   B. Identifying recurring patterns or topics  
+   C. Extracting numerical data  
+   D. Predicting future trends  
+   **Answer**: B  
+
+5. **What is the role of generative AI in social media intelligence?**  
+   A. Writing tweets for a brand  
+   B. Summarizing and categorizing social media data  
+   C. Increasing social media followers  
+   D. Scheduling posts  
+   **Answer**: B  
+
+6. **Which of these is NOT a step in social media data analysis?**  
+   A. Data extraction  
+   B. Sentiment analysis  
+   C. Competitor hiring  
+   D. Thematic clustering  
+   **Answer**: C  
+
+7. **What should be the format of cleaned social media data?**  
+   A. A Word document with a summary  
+   B. A plain text file  
+   C. A CSV file with structured columns  
+   D. A JSON file  
+   **Answer**: C  
+
+8. **What does a high engagement rate typically indicate?**  
+   A. Poor performance  
+   B. High audience interaction with posts  
+   C. Low follower count  
+   D. Negative sentiment  
+   **Answer**: B  
+
+9. **How can competitor benchmarking help a brand?**  
+   A. By avoiding competition  
+   B. By identifying areas for improvement or differentiation  
+   C. By increasing production costs  
+   D. By reducing marketing efforts  
+   **Answer**: B  
+
+10. **Which visualization is best for showing sentiment distribution?**  
+    A. Line chart  
+    B. Pie chart  
+    C. Scatter plot  
+    D. Histogram  
+    **Answer**: B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+1. Cleaned CSV file with sentiment scores.
+2. Thematic analysis report (250 words).
+3. Visualizations and dashboard for competitor benchmarking.
+4. Presentation deck (5-7 slides).
+5. Recorded 5-minute video presenting findings.
+
+### **Grading Rubric**
+- **Data Preparation (20%)**: CSV file is well-structured and cleaned.
+- **Sentiment Analysis (20%)**: Accurate sentiment scoring and visualization.
+- **Thematic Analysis (20%)**: Themes are clearly identified and categorized.
+- **Competitor Benchmarking (20%)**: Dashboard or visuals clearly show comparative insights.
+- **Presentation (20%)**: Clear, actionable recommendations with professional design.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon completing all tasks and submitting deliverables, you will receive a **Digital Certificate of Completion** for the “Social Media Intelligence Analyst – Decode a Brand Conversation” virtual internship. The certificate will include an **Employability Score** based on:
+- **Data Analysis Proficiency**: 30%
+- **AI and Sentiment Analysis Knowledge**: 30%
+- **Presentation Clarity**: 20%
+- **Attention to Detail**: 20%
+
+Boost your resume and showcase your expertise in social media analytics to potential employers!
+
+---
+
+## 75. UI/UX Designer – Design an AI Product Experience
+
+# UI/UX Designer – Design an AI Product Experience
+
+## 1. What is this Job Simulation All About?
+
+**Scenario:**  
+Imagine you’ve been hired as a UI/UX Designer for an innovative AI startup developing a cutting-edge product: an AI-powered mental wellness assistant. Your goal is to ensure the product provides an intuitive, user-friendly, and visually appealing experience while addressing end-user needs effectively.
+
+**Mission:**  
+Your mission is to guide the design process for this AI product by conducting user research, developing personas, designing user flows, creating wireframes, and testing usability. By the end of this simulation, you will deliver a prototype-ready design that balances functionality, accessibility, and aesthetics.
+
+**Final Challenge:**  
+Present your design recommendations, supported by research findings, design decisions, and usability test outcomes, to the product team. Convince stakeholders that your design ensures a delightful user experience while meeting business goals.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge:**  
+  - Fundamentals of UI/UX design principles for AI products.  
+  - Human-centered design thinking and user research methodologies.  
+  - Accessibility standards in digital product design.  
+
+- **Analytics:**  
+  - Analyze user feedback and behavioral data to support design decisions.  
+  - Evaluate usability test results and iterate on designs.
+
+- **AI Skills:**  
+  - Understand how AI-driven features (e.g., chatbots, predictive analytics) impact user interaction.  
+  - Design interfaces that make AI capabilities intuitive for users.
+
+---
+
+## 3. What Are the Prerequisites?
+
+- **Recommended Background:**  
+  - Basic knowledge of UI/UX design principles.  
+  - Familiarity with digital tools like Figma, Adobe XD, or Sketch.  
+  - Understanding of user-centered design practices and usability testing.
+
+- **Tools Required:**  
+  - Figma (or similar design tool).  
+  - Miro (or a similar platform for brainstorming and user flows).  
+  - Google Forms (or similar tool for survey creation).  
+
+- **Prerequisite Skill Check:**  
+  - Can you define the difference between UI and UX?  
+  - Have you created wireframes or prototypes before?  
+  - Are you familiar with basic usability testing techniques?
+
+---
+
+## 4. What Tools Will You Learn?
+
+**Core Tools:**  
+- **Figma:** Wireframing, prototyping, and collaborative design.  
+- **Miro:** Mapping user flows and brainstorming.  
+- **Google Forms:** Crafting user surveys for research.
+
+**Advanced Track:**  
+- **Adobe XD:** High-fidelity prototyping.  
+- **Maze:** Conducting usability tests and collecting actionable insights.  
+- **WCAG Guidelines:** Ensuring accessibility in your designs.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand – Conduct User Research**
+**Scenario:**  
+You are tasked with understanding the target audience for the AI mental wellness assistant. You need to uncover user pain points, preferences, and expectations for an AI-powered product that supports mental health.
+
+**Student Assignment:**  
+- Create a Google Form survey with 10 targeted questions to gather insights on user needs (e.g., "What challenges do you face in maintaining mental wellness?").  
+- Conduct 3 virtual interviews with potential users to uncover qualitative insights.
+
+**Deliverable:**  
+Submit a short report summarizing the survey results and key findings from interviews. Include charts or graphs representing quantitative data.
+
+---
+
+### **Task 2: Data/Setup – Develop Personas**
+**Scenario:**  
+Based on your user research, you need to create detailed personas that represent the core segments of your audience. These personas will guide your design decisions throughout the project.
+
+**Student Assignment:**  
+- Use Miro or a similar tool to create 3 personas. Include key details: demographics, goals, frustrations, and behaviors.  
+- Highlight how each persona interacts with AI products and their expectations.
+
+**Deliverable:**  
+Submit a PDF or image export of your personas from Miro, ensuring each persona is well-defined with visuals.
+
+---
+
+### **Task 3: Build/Execute – Design the User Flow**
+**Scenario:**  
+You need to map out the user journey for interacting with the AI mental wellness assistant, from onboarding to using its features (e.g., mood tracking, chatbot conversations).
+
+**Student Assignment:**  
+- Use Miro to create a user flow diagram that highlights key paths like onboarding, accessing features, and receiving insights.  
+- Define decision points and actions at each step (e.g., "User selects mood tracker → AI provides analysis").
+
+**Deliverable:**  
+Submit a user flow diagram exported from Miro. Include annotations explaining each step and decision point.
+
+---
+
+### **Task 4: GenAI/Explanation – Create Wireframes**
+**Scenario:**  
+It’s time to convert your user flow into wireframes for core screens of the AI product. Focus on intuitive layouts and ensuring users can easily interact with AI features.
+
+**Student Assignment:**  
+- Design wireframes for 3 primary screens: Onboarding, Mood Tracking Dashboard, and Chatbot Interface.  
+- Ensure your designs follow accessibility guidelines (e.g., WCAG contrast standards).
+
+**Deliverable:**  
+Submit high-quality wireframes created in Figma or Adobe XD. Include annotations describing design choices.
+
+---
+
+### **Task 5: Audit/Responsible AI – Conduct Usability Testing**
+**Scenario:**  
+You need to ensure your wireframes deliver a seamless experience. Conduct usability tests to gather feedback and identify areas for improvement.
+
+**Student Assignment:**  
+- Share your wireframes with 3 test users and ask them to perform specific tasks (e.g., "Navigate to the Mood Tracker").  
+- Gather feedback on usability issues and suggestions for improvement.
+
+**Deliverable:**  
+Submit a usability test report summarizing participant feedback, including a prioritized list of design improvements.
+
+---
+
+### **Task 6: Present Recommendation – Final Design Proposal**
+**Scenario:**  
+You’re presenting your design recommendations to the product team. Use data from research, personas, and usability tests to justify your decisions.
+
+**Student Assignment:**  
+- Create a presentation deck showcasing your design process: research findings, personas, user flow, wireframes, and test results.  
+- Include actionable recommendations for the product team.
+
+**Deliverable:**  
+Submit your presentation as a PDF or PowerPoint file. Ensure it’s visually engaging and includes clear, data-driven insights.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary purpose of user personas in UI/UX design?**  
+   A. To define brand colors  
+   B. To represent user segments and guide design decisions  
+   C. To create wireframes  
+   D. To test usability  
+   **Correct Answer:** B  
+
+2. **What is a user flow diagram used for?**  
+   A. To create a visual hierarchy  
+   B. To map out the user journey and decision points  
+   C. To define accessibility standards  
+   D. To conduct user interviews  
+   **Correct Answer:** B  
+
+3. **Which tool is typically used for creating wireframes?**  
+   A. Google Sheets  
+   B. Miro  
+   C. Figma  
+   D. Zoom  
+   **Correct Answer:** C  
+
+4. **What are WCAG guidelines focused on?**  
+   A. Branding consistency  
+   B. Accessibility in digital design  
+   C. User research methods  
+   D. Navigation patterns  
+   **Correct Answer:** B  
+
+5. **How can usability tests improve a design?**  
+   A. By identifying visual elements  
+   B. By gathering feedback to refine interactions  
+   C. By defining user personas  
+   D. By mapping user flows  
+   **Correct Answer:** B  
+
+6. **What is the role of onboarding in a user flow?**  
+   A. To showcase branding  
+   B. To introduce users to the product and its features  
+   C. To conduct usability tests  
+   D. To evaluate AI algorithms  
+   **Correct Answer:** B  
+
+7. **Why is accessibility important in UI/UX design?**  
+   A. To improve visual appeal  
+   B. To ensure inclusivity for all users  
+   C. To speed up development  
+   D. To optimize AI performance  
+   **Correct Answer:** B  
+
+8. **What is a wireframe?**  
+   A. A high-fidelity prototype  
+   B. A blueprint of a screen layout  
+   C. A user flow diagram  
+   D. A branding guide  
+   **Correct Answer:** B  
+
+9. **What should be included in a usability test report?**  
+   A. Product branding guidelines  
+   B. Accessibility standards  
+   C. Feedback from test participants and design improvements  
+   D. User flow diagrams  
+   **Correct Answer:** C  
+
+10. **What is the purpose of presenting your design recommendations?**  
+   A. To finalize branding  
+   B. To justify design decisions and highlight user insights  
+   C. To test AI algorithms  
+   D. To recruit users for testing  
+   **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task
+
+**Submission Artifacts:**  
+- Task 1: Research report (survey results and interview findings).  
+- Task 2: Personas (PDF or image export).  
+- Task 3: User flow diagram (Miro export).  
+- Task 4: Wireframes (Figma or Adobe XD export).  
+- Task 5: Usability test report (feedback summary and design improvements).  
+- Task 6: Presentation deck (PDF or PowerPoint).
+
+**Grading Rubric:**  
+- Research quality and depth: 20%  
+- Persona development accuracy: 15%  
+- User flow clarity: 15%  
+- Wireframe usability and accessibility: 25%  
+- Usability test insights: 15%  
+- Presentation effectiveness: 10%
+
+---
+
+## 8. Earn Certificate Post Verification
+
+**Certificate Details:**  
+Upon successful task submission and verification, you will receive a certificate titled:  
+*"Certified UI/UX Designer – AI Product Experience Specialist"*  
+
+**Employability Score Example:**  
+- **Problem-Solving:** 8/10  
+- **Creativity:** 9/10  
+- **Research Skills:** 8/10  
+- **User-Centered Design:** 9/10  
+- **Technical Skills (Tools):** 8/10
+
+---
+
+## 78. AWS AI Architect – Design a GenAI Enterprise Solution
+
+# AWS AI Architect – Design a GenAI Enterprise Solution
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+Imagine you are an AWS AI Architect working for a global consulting firm. Your client, a leading ecommerce company, wants to deploy a Generative AI (GenAI) solution to enhance customer experience by providing intelligent product recommendations and real-time customer support. They require a solution that is scalable, secure, cost-effective, and compliant with industry regulations.  
+
+Your mission is to design this enterprise GenAI solution using AWS services, ensuring seamless integration, responsible AI practices, and optimal performance.  
+
+### **Mission**  
+You will navigate through real-world challenges such as defining business requirements, designing a cloud-based architecture, integrating GenAI tools, addressing security concerns, and estimating operational costs.  
+
+### **Final Challenge**  
+At the end of this internship, you will present a comprehensive AWS-based GenAI enterprise solution to the client’s stakeholders. Your solution must include architecture diagrams, security measures, cost analysis, and a justification of your design decisions.  
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Enterprise architecture principles for GenAI solutions  
+- AWS services for AI and machine learning  
+- Responsible AI practices and compliance standards  
+
+### **Analytics Skills**  
+- Cost estimation models for cloud-based solutions  
+- Performance optimization techniques  
+- Data pipeline architecture design  
+
+### **AI Skills**  
+- Integration of GenAI tools (e.g., Amazon Bedrock, SageMaker)  
+- Retrieval-Augmented Generation (RAG) methodology  
+- Designing scalable and secure AI pipelines  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Intermediate knowledge of cloud computing, preferably AWS  
+- Basic understanding of machine learning and AI principles  
+- Familiarity with Python programming  
+
+### **Tools**  
+- AWS Management Console  
+- Visual diagram tools (e.g., Lucidchart, Draw.io)  
+- Python libraries for AI (e.g., Hugging Face, LangChain)  
+
+### **Prerequisite Skill Check**  
+Before starting, ensure you can:  
+1. Set up an AWS account and navigate the Management Console.  
+2. Build and deploy a basic machine learning model using AWS SageMaker.  
+3. Write Python scripts to interact with cloud services.  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Amazon Bedrock**: Managed service to build and scale GenAI applications.  
+- **AWS SageMaker**: Train and deploy AI models at scale.  
+- **AWS Lambda**: Serverless computing for event-driven logic.  
+- **Amazon DynamoDB**: NoSQL database for real-time data processing.  
+- **AWS Identity and Access Management (IAM)**: Secure access control for cloud resources.  
+
+### **Advanced Track Tools**  
+- **Amazon CloudWatch**: Monitoring and observability for AWS resources.  
+- **AWS Cost Explorer**: Analyze and optimize cloud costs.  
+- **AWS Key Management Service (KMS)**: Encryption for sensitive data.  
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand Business Requirements**  
+**Scenario**: The client has provided a business summary document outlining their objectives for implementing GenAI. Your first task is to analyze their requirements and translate them into technical specifications.  
+
+**Student Assignment**:  
+- Review the business summary.  
+- Identify key requirements like scalability, compliance, and AI capabilities.  
+- Map out the functional and non-functional requirements.  
+
+**Deliverable**: A one-page technical requirement document summarizing the client’s goals and expectations.  
+
+---
+
+### **Task 2: Data Pipeline and Environment Setup**  
+**Scenario**: Now that the requirements are clear, you need to prepare the AWS environment and set up the data pipeline for the solution.  
+
+**Student Assignment**:  
+- Configure the necessary AWS services: Amazon S3, DynamoDB, and IAM roles.  
+- Design the data pipeline to feed inputs into the GenAI model (e.g., real-time customer queries).  
+- Ensure scalability by implementing auto-scaling policies.  
+
+**Deliverable**: A diagram of the data pipeline architecture and screenshots of the AWS environment setup.  
+
+---
+
+### **Task 3: Build and Deploy GenAI Model**  
+**Scenario**: You need to build a GenAI model using AWS services to process natural language queries and return intelligent responses.  
+
+**Student Assignment**:  
+- Use Amazon Bedrock to deploy foundation models for GenAI.  
+- Integrate SageMaker for custom model training if needed.  
+- Implement Retrieval-Augmented Generation (RAG) to enhance the model’s accuracy.  
+
+**Deliverable**: A deployed GenAI solution with sample inputs and outputs showcasing its functionality.  
+
+---
+
+### **Task 4: Implement Responsible AI and Security Measures**  
+**Scenario**: To ensure compliance and ethical AI practices, you must integrate responsible AI principles and security protocols into the design.  
+
+**Student Assignment**:  
+- Configure AWS IAM policies for role-based access control (RBAC).  
+- Implement encryption using AWS KMS for data security.  
+- Add filters to prevent bias or inappropriate GenAI outputs.  
+
+**Deliverable**: Documentation describing the security and responsible AI measures implemented, along with AWS configuration screenshots.  
+
+---
+
+### **Task 5: Audit and Optimize Solution**  
+**Scenario**: The client needs assurance that the solution is cost-effective and optimized for performance.  
+
+**Student Assignment**:  
+- Use Amazon CloudWatch to monitor resource usage and identify bottlenecks.  
+- Analyze operational costs using AWS Cost Explorer and suggest optimizations.  
+- Identify risks and propose mitigation strategies.  
+
+**Deliverable**: A performance audit report and cost optimization plan.  
+
+---
+
+### **Task 6: Present Enterprise Solution**  
+**Scenario**: Your final task is to present the GenAI enterprise solution to the client’s stakeholders, explaining design decisions, cost estimates, and security measures.  
+
+**Student Assignment**:  
+- Create a PowerPoint presentation summarizing the solution architecture, costs, and responsible AI practices.  
+- Justify your design choices using data and client requirements.  
+
+**Deliverable**: A professional presentation deck (min. 10 slides) and a recorded video walkthrough (optional).  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **1. Which AWS service is best suited for deploying foundation models for GenAI?**  
+A. AWS Lambda  
+B. Amazon Bedrock  
+C. Amazon DynamoDB  
+D. AWS Cost Explorer  
+**Correct Answer**: B  
+
+### **2. What is the primary function of AWS SageMaker?**  
+A. Monitoring cloud resources  
+B. Training and deploying machine learning models  
+C. Managing encryption keys  
+D. Storing unstructured data  
+**Correct Answer**: B  
+
+### **3. Which AWS feature is essential for encrypting sensitive data?**  
+A. Amazon CloudWatch  
+B. AWS IAM  
+C. AWS KMS  
+D. Amazon S3  
+**Correct Answer**: C  
+
+### **4. What does Retrieval-Augmented Generation (RAG) primarily achieve?**  
+A. Encrypts GenAI outputs  
+B. Enhances model accuracy using external data sources  
+C. Automates GenAI deployment  
+D. Reduces AWS cloud costs  
+**Correct Answer**: B  
+
+### **5. Which tool is used to monitor AWS resource usage and performance?**  
+A. Amazon DynamoDB  
+B. AWS Cost Explorer  
+C. Amazon CloudWatch  
+D. AWS Key Management Service  
+**Correct Answer**: C  
+
+### **6. What is a key benefit of using AWS IAM?**  
+A. Provides serverless computing capabilities  
+B. Enables role-based access control  
+C. Optimizes cloud costs  
+D. Trains AI models  
+**Correct Answer**: B  
+
+### **7. Which AWS service is used to analyze and optimize cloud costs?**  
+A. AWS Lambda  
+B. Amazon Bedrock  
+C. AWS Cost Explorer  
+D. Amazon SageMaker  
+**Correct Answer**: C  
+
+### **8. What is the purpose of auto-scaling policies in AWS?**  
+A. To enforce compliance standards  
+B. To manage encryption keys  
+C. To handle variable workloads dynamically  
+D. To train foundation models  
+**Correct Answer**: C  
+
+### **9. Why is bias filtering important in GenAI solutions?**  
+A. To improve cost optimization  
+B. To ensure ethical AI outputs  
+C. To enhance encryption strength  
+D. To accelerate model deployment  
+**Correct Answer**: B  
+
+### **10. What is Amazon DynamoDB primarily used for?**  
+A. Training AI models  
+B. Storing structured and unstructured data  
+C. Monitoring resource usage  
+D. Encrypting sensitive data  
+**Correct Answer**: B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Task 1: Technical requirement document (PDF/Word).  
+- Task 2: Data pipeline diagram and AWS setup screenshots (PNG/PDF).  
+- Task 3: GenAI solution output samples (JSON/Excel).  
+- Task 4: Security and responsible AI documentation (PDF).  
+- Task 5: Cost optimization plan (PDF/Word).  
+- Task 6: Presentation deck (PPT/PDF) and optional video walkthrough (MP4).  
+
+### **Grading Rubric**  
+- **Completeness**: All deliverables submitted and aligned with the task requirements.  
+- **Technical Accuracy**: Solutions are feasible and correctly implemented using AWS services.  
+- **Clarity**: Documentation and presentation are clear and well-structured.  
+- **Creativity**: Innovative approaches to solving client challenges.  
+- **Professionalism**: Deliverables are polished and meet industry standards.  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful completion and verification of your tasks, you will earn the **AWS AI Architect Virtual Internship Certificate**.  
+
+### **Certificate Details**  
+- Recognizes your expertise in cloud-based GenAI architecture design.  
+- Demonstrates skills in AWS services, responsible AI practices, and cost optimization.  
+- Includes an **Employability Score** (example: 87/100), showcasing your proficiency to recruiters.  
+
+Start your journey to becoming an AWS AI Architect today!
+
+---
+
+## 79. Data Lake Architect – Build an Enterprise Data Foundation
+
+# Data Lake Architect – Build an Enterprise Data Foundation
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario:**
+In the modern enterprise landscape, data is the lifeblood of decision-making. As a Data Lake Architect, you are tasked with designing a scalable and efficient data lake solution to serve as the backbone for enterprise-wide analytics. Your mission? To integrate disparate data sources, establish robust ingestion pipelines, and ensure governance while optimizing the architecture for analytics workloads.
+
+### **Mission:**
+You are hired as a Data Lake Architect at a multinational retail company, "RetailSphere Inc." The company is struggling to unify its data environment. They have transactional data from point-of-sale systems, customer profiles from CRM tools, and inventory data from supply chain systems—all siloed in disparate formats. Your goal is to design an enterprise data lake architecture that consolidates these data streams, supports analytics, and ensures regulatory compliance.
+
+### **Final Challenge:**
+Present a fully operational enterprise data lake blueprint, complete with ingestion pipelines, governance strategy, and analytics integration. Your solution will be judged on scalability, performance, compliance, and clarity of recommendations.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge:**  
+  - Principles of data engineering and architecture.  
+  - Data lake vs. data warehouse: key differences and use cases.  
+  - Regulatory compliance for enterprise data (e.g., GDPR, CCPA).  
+
+- **Analytics:**  
+  - Data modeling for analytics workloads.  
+  - Query optimization in data lakes.  
+
+- **AI Skills:**  
+  - Perform metadata tagging and cataloging using AI tools.  
+  - Automate schema evolution with generative AI solutions.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background:**
+- Solid understanding of database management systems (DBMS).  
+- Basic programming skills (Python/SQL).  
+- Familiarity with cloud ecosystems such as AWS, Azure, or GCP.
+
+### **Tools:**
+- AWS Glue or Azure Data Factory (for ingestion).  
+- Apache Hadoop or Delta Lake (for architecture).  
+- Apache Spark (for analytics).  
+
+### **Prerequisite Skill Check:**
+- Can you write a basic SQL query to extract data?  
+- Do you understand the principles of ETL (Extract, Transform, Load)?  
+- Have you worked with cloud-based data storage solutions before?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools:**
+- **AWS S3 / Azure Data Lake Storage:** Cloud-based storage for the data lake.  
+- **Apache Spark:** Distributed computing for data processing.  
+- **Apache Hive:** Metadata and query management.  
+
+### **Advanced Track:**
+- **Delta Lake:** Transactional storage layer for data lakes.  
+- **Data Catalogs:** Automated metadata tagging and search tools.  
+- **AI-Powered Governance Tools:** Tools for compliance automation (e.g., Immuta).
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Data Landscape**
+#### **Scenario:**  
+RetailSphere Inc. collects data from multiple sources:  
+1. **Sales Transactions:** Point-of-sale data in CSV format.  
+2. **Customer Profiles:** CRM data in JSON format.  
+3. **Inventory:** Supply chain data in MySQL databases.  
+
+You need to analyze the data sources and identify challenges in integration.
+
+#### **Student Assignment:**  
+- Review provided datasets (sample CSV, JSON, and SQL dump).  
+- Identify schema mismatches, duplication, and data quality issues.  
+- Map out the relationships between datasets.  
+
+#### **Deliverable:**  
+A report summarizing:  
+- Data source types and formats.  
+- Challenges in unifying the data.  
+- A preliminary schema for integration.
+
+---
+
+### **Task 2: Setup the Data Lake Environment**
+#### **Scenario:**  
+RetailSphere Inc. wants to use AWS as the cloud platform for their data lake. You need to configure the foundational infrastructure.
+
+#### **Student Assignment:**  
+- Provision an S3 bucket for the data lake.  
+- Set up AWS Glue for ETL pipelines.  
+- Create IAM roles and policies for secure access.  
+
+#### **Deliverable:**  
+- Screenshots of the S3 bucket and Glue configurations.  
+- A document outlining IAM policy settings.  
+
+---
+
+### **Task 3: Build and Execute Data Ingestion Pipelines**
+#### **Scenario:**  
+Your task is to ingest data from all sources into the data lake while ensuring scalability and fault tolerance.
+
+#### **Student Assignment:**  
+- Use AWS Glue to create ingestion pipelines for CSV, JSON, and SQL data.  
+- Perform schema unification during ingestion.  
+- Implement error handling for incomplete or corrupt data.  
+
+#### **Deliverable:**  
+- Python/AWS Glue scripts for ingestion.  
+- Logs showing successful ingestion.  
+- Unified schema stored in the data lake.
+
+---
+
+### **Task 4: AI-Powered Metadata Tagging**
+#### **Scenario:**  
+RetailSphere Inc. needs a searchable data catalog to support analytics. Use AI tools to generate metadata tags and automate schema evolution.
+
+#### **Student Assignment:**  
+- Use AWS Glue Data Catalog or Apache Atlas to tag datasets with metadata.  
+- Implement AI-driven schema evolution to handle new data.  
+- Provide a queryable view of metadata for analysts.  
+
+#### **Deliverable:**  
+- Metadata tagging scripts.  
+- Screenshots of the catalog interface.  
+- A report on schema evolution automation.
+
+---
+
+### **Task 5: Audit and Responsible Data Governance**
+#### **Scenario:**  
+RetailSphere Inc. needs to comply with GDPR and CCPA regulations. Implement governance policies for data handling.
+
+#### **Student Assignment:**  
+- Define governance policies for data retention and access control.  
+- Use Immuta or AWS Lake Formation to enforce compliance.  
+- Audit data access logs to ensure compliance.  
+
+#### **Deliverable:**  
+- Governance policy document.  
+- Screenshots of compliance tool configurations.  
+- Audit logs showing adherence to policies.
+
+---
+
+### **Task 6: Present Recommendations to Stakeholders**
+#### **Scenario:**  
+RetailSphere Inc. executives need a presentation summarizing your data lake architecture and its business impact.
+
+#### **Student Assignment:**  
+- Create a presentation highlighting architecture design, governance strategy, and analytics potential.  
+- Include ROI calculations (e.g., cost savings from improved data accessibility).  
+- Prepare to answer questions on scalability and compliance.  
+
+#### **Deliverable:**  
+- PowerPoint presentation (10 slides max).  
+- ROI calculation spreadsheet.  
+- Recorded video or written script for key points.
+
+---
+
+## 6. MCQs Post Task Completion
+
+### **Question 1:**  
+Which of the following is a primary benefit of a data lake?  
+A. Supports structured data only.  
+B. Enables real-time data analytics.  
+C. Consolidates data from multiple formats and sources.  
+D. Requires only on-premise infrastructure.  
+**Correct Answer:** C  
+
+### **Question 2:**  
+What is the purpose of a data catalog in a data lake?  
+A. To store raw data.  
+B. To provide metadata management and search capabilities.  
+C. To perform real-time analysis.  
+D. To enforce data retention policies.  
+**Correct Answer:** B  
+
+### **Question 3:**  
+Which tool is commonly used for ETL in AWS?  
+A. Apache Kafka  
+B. AWS Glue  
+C. Apache Flink  
+D. Azure Data Factory  
+**Correct Answer:** B  
+
+### **Question 4:**  
+Delta Lake enhances traditional data lakes by adding:  
+A. Query optimization.  
+B. Transactional capabilities.  
+C. Metadata tagging.  
+D. Real-time streaming.  
+**Correct Answer:** B  
+
+### **Question 5:**  
+What does GDPR stand for?  
+A. General Data Protection Regulation  
+B. Global Data Processing Rules  
+C. Government Data Privacy Regulation  
+D. General Directive on Privacy Rights  
+**Correct Answer:** A  
+
+### **Question 6:**  
+Which of the following ensures data governance in a data lake?  
+A. Using Spark for analytics.  
+B. Implementing access control policies.  
+C. Storing data in JSON format.  
+D. Using Hadoop for storage.  
+**Correct Answer:** B  
+
+### **Question 7:**  
+What type of data format is ideal for analytics in a data lake?  
+A. XML  
+B. Parquet  
+C. Text  
+D. Raw Binary  
+**Correct Answer:** B  
+
+### **Question 8:**  
+Which AWS service can be used for securing data lake access?  
+A. AWS S3  
+B. AWS IAM  
+C. AWS Glue  
+D. AWS Athena  
+**Correct Answer:** B  
+
+### **Question 9:**  
+What is schema evolution in a data lake?  
+A. Changing the physical storage format.  
+B. Automating changes to the data schema as new data arrives.  
+C. Migrating the data lake to a data warehouse.  
+D. Removing old data from the lake.  
+**Correct Answer:** B  
+
+### **Question 10:**  
+Which of the following is a common challenge in data lakes?  
+A. Data duplication and quality issues.  
+B. Lack of storage capacity.  
+C. Inability to handle unstructured data.  
+D. High cost of implementation.  
+**Correct Answer:** A  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts:**  
+- Task 1: Data Landscape Report (PDF/Word).  
+- Task 2: Infrastructure Setup Screenshots and IAM Policy Document.  
+- Task 3: Code for Ingestion Pipelines and Logs.  
+- Task 4: Metadata Tagging Scripts and Catalog Screenshots.  
+- Task 5: Governance Policy Document, Tool Configuration Screenshots, Audit Logs.  
+- Task 6: Presentation (PPT) and ROI Calculation Spreadsheet.
+
+### **Grading Rubric:**  
+- **Completeness (40%):** All deliverables submitted and functional.  
+- **Accuracy (30%):** Solutions address the given objectives correctly.  
+- **Creativity (20%):** Innovative approaches in architecture and presentation.  
+- **Clarity (10%):** Clear documentation and presentation.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful completion of the internship track and submission verification, you will earn:  
+- **Certificate Title:** *Certified Data Lake Architect*  
+- **Issued By:** Skillzza Virtual Internship Platform  
+- **Employability Score:**  
+  - **Technical Skills:** 90/100  
+  - **Problem Solving:** 85/100  
+  - **Communication:** 80/100  
+  - **Overall Score:** 85/100  
+
+This certificate validates your expertise in designing scalable, compliant, and analytics-ready enterprise data lake architectures.
+
+---
+
+## 81. AI Data Engineer – Build a RAG Data Pipeline
+
+# AI Data Engineer – Build a RAG Data Pipeline
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+Imagine you're an AI Data Engineer at a fast-growing tech startup that specializes in building intelligent search and retrieval systems. Your team has been tasked with creating a **Retrieval-Augmented Generation (RAG) pipeline** for a business client who needs a robust solution for document search and question answering. The client has a large repository of internal documents (e.g., policy manuals, reports, and technical documents) and wants to leverage generative AI to provide accurate and contextual answers to user queries.
+
+### **Mission**  
+Your mission is to design and implement a fully functional **RAG Data Pipeline**, which involves preprocessing raw documents, generating embeddings, storing them in a **Vector Database**, retrieving relevant documents for a user query, and integrating this with a generative AI model for answer generation.
+
+### **Final Challenge**  
+At the end of the internship, you will present a fully operational RAG pipeline to simulate a real-world project delivery. You'll showcase your pipeline's ability to answer user queries accurately while ensuring scalability, efficiency, and adherence to ethical AI principles.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge**
+  - Retrieval-Augmented Generation (RAG) architecture and its applications.
+  - Key concepts in Information Retrieval and Natural Language Processing (NLP).
+  - Fundamentals of Vector Databases and their role in modern AI pipelines.
+
+- **Analytics & Data Engineering**
+  - Document preprocessing techniques (e.g., tokenization, chunking, cleaning).
+  - Embedding generation using pre-trained language models.
+  - Indexing and querying in Vector Databases.
+
+- **AI Skills**
+  - Leveraging transformer-based models for embeddings (e.g., Sentence Transformers).
+  - Integration of Vector Databases with GenAI models for question answering.
+  - Applying Responsible AI principles in data pipeline design.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Intermediate-level knowledge of Python.  
+- Familiarity with Natural Language Processing (NLP) concepts like embeddings and tokenization.  
+- Understanding of REST APIs and JSON data format.  
+- Basic knowledge of cloud-based tools (e.g., AWS, GCP, or Azure) is a plus.
+
+### **Tools You’ll Need**  
+- Python (3.7+).
+- Jupyter Notebook or any Python IDE (e.g., VSCode, PyCharm).
+- Access to a cloud-based service (e.g., Pinecone, Weaviate, or FAISS for vector databases).
+- Pre-trained NLP models such as Sentence Transformers or OpenAI's Embedding API.
+
+### **Prerequisite Skill Check**  
+Before starting, you should be able to:  
+1. Explain the concept of embeddings and their use in NLP.  
+2. Write basic Python scripts for data preprocessing.  
+3. Query a REST API using Python libraries like `requests`.  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- **Hugging Face Transformers**: For embedding generation from large language models.  
+- **Vector Databases**: Pinecone, Weaviate, or FAISS for storing and querying embeddings.  
+- **OpenAI API**: For Generative AI model integration.  
+- **Python Libraries**: Pandas, NumPy, Scikit-learn, and Matplotlib for data processing and analysis.  
+
+### **Advanced Track**
+- **LangChain Framework**: To streamline RAG pipeline development.  
+- **Docker**: For containerizing your RAG pipeline.  
+- **Cloud Deployment**: Deploying the pipeline on AWS or GCP (optional).  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Problem and Define Pipeline Architecture**  
+**Scenario:** Your client has provided a dataset of internal documents (PDFs and TXT files) containing critical company information. You need to design a RAG pipeline that processes these documents and integrates with a generative AI model to provide query-based answers.  
+
+**Student Assignment:**  
+- Research the RAG architecture.  
+- Define the components of your pipeline (e.g., preprocessing, embedding generation, vector DB, retrieval, GenAI integration).  
+- Document the flow of data through your pipeline.  
+
+**Deliverable:**  
+- Submit a flowchart or diagram of your pipeline architecture with a brief explanation of each component.
+
+---
+
+### **Task 2: Data Preprocessing**  
+**Scenario:** The provided dataset contains raw documents with inconsistent formatting, typos, and irrelevant information. Before you can generate embeddings, these documents need to be cleaned and structured.  
+
+**Student Assignment:**  
+- Write a Python script to preprocess the documents:  
+  - Remove special characters and stopwords.  
+  - Split long documents into smaller, meaningful chunks (e.g., 200-300 words).  
+  - Save the processed chunks into a structured format (e.g., JSON or CSV).  
+
+**Deliverable:**  
+- Upload the cleaned and structured dataset in JSON or CSV format.  
+- Submit your Python code with comments explaining each step.
+
+---
+
+### **Task 3: Generate Embeddings and Store in a Vector Database**  
+**Scenario:** Now that the documents are preprocessed, the next step is to generate vector embeddings and store them in a Vector Database. These embeddings will allow you to efficiently retrieve relevant chunks during query time.  
+
+**Student Assignment:**  
+- Use a pre-trained embedding model (e.g., Sentence Transformers or OpenAI Embedding API) to generate embeddings for your document chunks.  
+- Set up a Vector Database (e.g., Pinecone, Weaviate, or FAISS) and store the embeddings for efficient search and retrieval.  
+
+**Deliverable:**  
+- Upload the Python script used to generate embeddings and interact with the Vector Database.  
+- Include a sample output showcasing stored embeddings in the Vector Database.
+
+---
+
+### **Task 4: Integrate Generative AI for Query-Based Retrieval**  
+**Scenario:** After storing embeddings in the Vector Database, the client now wants to test the pipeline's ability to retrieve relevant document chunks and generate contextual answers to user queries.  
+
+**Student Assignment:**  
+- Write a Python script to:  
+  - Accept a user query as input.  
+  - Use the Vector Database to retrieve the top 3 relevant document chunks for the query.  
+  - Pass these chunks to a Generative AI model (e.g., OpenAI GPT-4) to generate a coherent answer.  
+
+**Deliverable:**  
+- Submit your Python script and a sample output showcasing a query and the AI-generated answer.  
+- Provide a brief explanation of how retrieval and generation were integrated.
+
+---
+
+### **Task 5: Audit for Accuracy and Responsible AI Practices**  
+**Scenario:** The client has concerns about the accuracy and fairness of the AI-generated answers. You need to audit the RAG pipeline to ensure it adheres to Responsible AI principles and minimizes bias or misinformation.  
+
+**Student Assignment:**  
+- Identify potential risks in the pipeline (e.g., misinformation, biased embeddings, hallucinations).  
+- Perform an accuracy check for a set of test queries by comparing AI-generated answers to ground truth data.  
+- Suggest strategies to mitigate risks (e.g., adding a fact-checking layer or confidence thresholds).  
+
+**Deliverable:**  
+- Submit a report highlighting identified risks, audit results, and proposed mitigation strategies.
+
+---
+
+### **Task 6: Present Your RAG Pipeline**  
+**Scenario:** It’s time to showcase your RAG pipeline to the client. Demonstrate its functionality, explain the architecture, and highlight how it meets the client’s requirements.  
+
+**Student Assignment:**  
+- Prepare a presentation that includes:  
+  - An overview of the pipeline architecture.  
+  - A walkthrough of the preprocessing, embedding generation, and retrieval processes.  
+  - Live demo of the pipeline answering a sample query.  
+  - Responsible AI measures implemented.  
+
+**Deliverable:**  
+- Submit a recording of your presentation (5-7 minutes).  
+- Include your presentation slides and any supporting documentation.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary function of a Vector Database in a RAG pipeline?**  
+   A. Storing raw documents.  
+   B. Storing embeddings for efficient retrieval.  
+   C. Generating embeddings from text.  
+   D. Training generative AI models.  
+   **Answer:** B  
+
+2. **Which library is commonly used for generating embeddings in NLP tasks?**  
+   A. TensorFlow  
+   B. Pandas  
+   C. Hugging Face Transformers  
+   D. Seaborn  
+   **Answer:** C  
+
+3. **What is the purpose of chunking in document preprocessing?**  
+   A. To remove duplicates.  
+   B. To split documents into smaller, manageable parts.  
+   C. To compress the document size.  
+   D. To encrypt the document for security.  
+   **Answer:** B  
+
+4. **What does RAG stand for?**  
+   A. Retrieval-Augmented Grouping  
+   B. Retrieval-Augmented Generation  
+   C. Recurrent-Augmented Generation  
+   D. Retrieval and Grouping  
+   **Answer:** B  
+
+5. **Which type of model is typically used for embedding generation?**  
+   A. Generative Adversarial Networks (GANs)  
+   B. Convolutional Neural Networks (CNNs)  
+   C. Recurrent Neural Networks (RNNs)  
+   D. Transformer-based models  
+   **Answer:** D  
+
+6. **What is a potential risk of using Generative AI in the RAG pipeline?**  
+   A. Slow response time.  
+   B. High cost of storage.  
+   C. Generating biased or incorrect information.  
+   D. Increased preprocessing requirements.  
+   **Answer:** C  
+
+7. **Which of the following is NOT a Vector Database?**  
+   A. Pinecone  
+   B. MongoDB  
+   C. FAISS  
+   D. Weaviate  
+   **Answer:** B  
+
+8. **What is the main advantage of using embeddings in a retrieval system?**  
+   A. They reduce database size.  
+   B. They enable semantic similarity search.  
+   C. They eliminate the need for preprocessing.  
+   D. They create human-readable text.  
+   **Answer:** B  
+
+9. **What is the role of Responsible AI in a RAG pipeline?**  
+   A. To improve system speed.  
+   B. To ensure the AI output is fair, unbiased, and accurate.  
+   C. To detect errors in the Python code.  
+   D. To reduce processing costs.  
+   **Answer:** B  
+
+10. **Which step should be performed first in building a RAG pipeline?**  
+    A. Generating embeddings.  
+    B. Auditing for fairness.  
+    C. Document preprocessing.  
+    D. Querying the Vector Database.  
+    **Answer:** C  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**  
+For each task, submit the following:  
+1. **Task 1:** Pipeline architecture diagram and explanation (PDF or image).  
+2. **Task 2:** Preprocessed dataset (JSON/CSV) and Python code.  
+3. **Task 3:** Embedding generation script, sample embeddings, and vector database interaction code.  
+4. **Task 4:** Query-to-answer demo script and output samples.  
+5. **Task 5:** Responsible AI audit report.  
+6. **Task 6:** Presentation recording, slides, and supporting documentation.  
+
+### **Grading Rubric**  
+- Completeness and correctness of deliverables (40%).  
+- Code quality, documentation, and comments (30%).  
+- Creativity in pipeline architecture and Responsible AI measures (20%).  
+- Clarity and professionalism of the final presentation (10%).  
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Once your tasks are verified and meet the outlined criteria, you will receive a **"Certified AI Data Engineer – RAG Specialist"** certificate.  
+
+### **Example Certificate**  
+- **Name:** [Your Name]  
+- **Role:** AI Data Engineer  
+- **Course:** Build a RAG Data Pipeline  
+- **Completion Score:** 94%  
+- **Employability Score:** 92% (Technical Skills: 95%, Problem Solving: 90%, Communication: 89%)  
+
+Congratulations on becoming an AI Data Engineer specializing in RAG pipelines!
+
+---
+
+## 84. AI IT Service Manager – Design an Agentic IT Helpdesk
+
+# AI IT Service Manager – Design an Agentic IT Helpdesk  
+**Domain:** IT / Agentic AI  
+**Level:** Advanced  
+**Duration:** 6 Hours  
+
+---
+
+## 1. What is this Job Simulation All About?  
+### **Scenario:**  
+You are an AI IT Service Manager tasked with transforming a traditional IT helpdesk into a cutting-edge, agentic AI-powered helpdesk. The goal is to enhance ticket resolution efficiency, improve the user experience, and implement governance policies to ensure responsible AI practices. Your stakeholders include IT administrators, end-users, and company leadership, all relying on your expertise to deliver a seamless automated helpdesk system.  
+
+### **Mission:**  
+Your mission is to design an AI-driven IT helpdesk system that integrates ticket workflows, intelligent agents, a knowledge base, and automated processes. Additionally, you will implement governance measures to ensure ethical and responsible AI usage. This immersive simulation will test your ability to optimize IT service management using AI tools while balancing automation with human oversight.  
+
+### **Final Challenge:**  
+At the end of this internship, you will present a detailed IT helpdesk solution that includes a defined ticket workflow, agentic AI configurations, an enriched knowledge base, automation scripts, governance policies, and data-driven recommendations.  
+
+---
+
+## 2. What Will You Learn?  
+### **Domain Knowledge:**  
+- Fundamentals of IT service management (ITSM) workflows.  
+- The role of AI in IT operations and helpdesk services.  
+- Governance and ethical considerations for AI-driven IT solutions.  
+
+### **Analytics:**  
+- Analyze ticket patterns and service metrics to identify bottlenecks.  
+- Optimize agent performance using data-driven insights.  
+
+### **AI Skills:**  
+- Design and deploy agentic AI models for IT queries.  
+- Implement automation workflows using AI tools.  
+- Create governance frameworks for responsible AI usage.  
+
+---
+
+## 3. What Are the Prerequisites?  
+### **Recommended Background:**  
+- Basic understanding of IT service management concepts.  
+- Familiarity with AI and automation frameworks.  
+
+### **Tools:**  
+- Access to a cloud-based AI platform (e.g., Azure, AWS, or Google AI).  
+- Workflow automation tools (e.g., Zapier, UiPath).  
+- Dataset visualization tools (e.g., Tableau, Power BI).  
+
+### **Prerequisite Skill Check:**  
+1. Define “agentic AI” and its application in IT service management.  
+2. Explain how automation improves IT service workflows.  
+3. Identify ethical challenges in AI-driven IT solutions.  
+
+---
+
+## 4. What Tools Will You Learn?  
+### **Core Tools:**  
+- **Zendesk**: For IT helpdesk ticket management and workflow design.  
+- **Dialogflow CX**: For building conversational AI agents.  
+- **Power Automate**: For automating repetitive IT tasks.  
+
+### **Advanced Track:**  
+- **AI Governance Toolkit**: For designing responsible AI policies within IT service environments.  
+- **ElasticSearch**: For integrating and optimizing knowledge base queries.  
+- **Python**: For scripting custom automations and visualizing IT metrics.  
+
+---
+
+## 5. Tasks to be Performed  
+
+---
+
+### **Task 1: Understand the IT Helpdesk System**  
+#### **Scenario:**  
+Your company processes hundreds of IT support tickets daily. Currently, resolution times are slow due to repetitive queries and inefficient workflows. Leadership has asked you to analyze the existing system and identify areas for AI intervention.  
+
+#### **Student Assignment:**  
+- Study the provided dataset of historical IT tickets (fields: ticket ID, category, issue description, resolution time, agent notes).  
+- Categorize tickets into “simple,” “complex,” and “critical” based on resolution time and issue type.  
+- Identify areas where agentic AI could reduce resolution time.  
+
+#### **Deliverable:**  
+Submit a report categorizing tickets and highlighting inefficiencies in the current IT helpdesk system. Include 3 suggested areas for AI intervention.  
+
+---
+
+### **Task 2: Build the Ticket Workflow & Knowledge Base**  
+#### **Scenario:**  
+You need to design a workflow for handling IT tickets more efficiently. Additionally, a centralized knowledge base must be created to assist AI agents in resolving simple queries autonomously.  
+
+#### **Student Assignment:**  
+- Create a ticket workflow diagram with stages (e.g., ticket creation, classification, agent assignment, resolution).  
+- Build a knowledge base using sample queries and solutions provided (fields: query, solution, tags).  
+- Integrate the knowledge base with Zendesk.  
+
+#### **Deliverable:**  
+Submit the ticket workflow diagram and a functional knowledge base in Zendesk. Include screenshots of the integration process.  
+
+---
+
+### **Task 3: Configure Agentic AI for IT Queries**  
+#### **Scenario:**  
+To automate IT support, you will configure conversational AI agents capable of handling simple and repetitive queries. These AI agents must escalate complex or critical tickets to human agents.  
+
+#### **Student Assignment:**  
+- Use Dialogflow CX to create conversational flows for sample IT queries (e.g., password reset, software installation).  
+- Configure escalation triggers for complex issues.  
+- Test the AI agents with sample queries.  
+
+#### **Deliverable:**  
+Submit a video recording of the conversational flows and escalation triggers in action. Provide the Dialogflow CX configuration files.  
+
+---
+
+### **Task 4: Automate IT Processes Using AI**  
+#### **Scenario:**  
+Certain IT processes, such as ticket triage and resolution updates, are repetitive and time-consuming. Automating these tasks will improve efficiency and reduce human error.  
+
+#### **Student Assignment:**  
+- Use Power Automate to script workflows for ticket triage and resolution updates.  
+- Automate notifications for ticket status changes.  
+- Test the automation with sample tickets.  
+
+#### **Deliverable:**  
+Submit the Power Automate scripts and a demonstration video showing ticket triage and resolution updates.  
+
+---
+
+### **Task 5: Audit the AI System for Responsible Usage**  
+#### **Scenario:**  
+Leadership has emphasized the importance of responsible AI. You are tasked with auditing the AI-powered IT helpdesk system to ensure it adheres to governance policies.  
+
+#### **Student Assignment:**  
+- Use the AI Governance Toolkit to identify biases in ticket classification and agent responses.  
+- Develop a policy document outlining ethical AI usage in IT service management.  
+- Recommend changes to improve fairness and transparency.  
+
+#### **Deliverable:**  
+Submit the audit report and the policy document. Include screenshots or logs from the AI Governance Toolkit.  
+
+---
+
+### **Task 6: Present Your AI IT Helpdesk Solution**  
+#### **Scenario:**  
+You need to present your IT helpdesk solution to company leadership. Your presentation should demonstrate the workflow, agentic AI capabilities, automation scripts, and governance policies.  
+
+#### **Student Assignment:**  
+- Create a PowerPoint presentation summarizing your solution.  
+- Include visuals of the ticket workflow, AI agent configurations, and automation scripts.  
+- Explain how governance policies ensure responsible AI usage.  
+
+#### **Deliverable:**  
+Submit the PowerPoint presentation and a 5-minute recorded video of your pitch.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+1. **What is the primary benefit of agentic AI in IT service management?**  
+   A. Reducing ticket volume  
+   B. Automating ticket creation  
+   C. Accelerating ticket resolution  
+   D. Eliminating IT agents  
+   **Correct Answer:** C  
+
+2. **Which tool is best for building conversational AI agents for IT queries?**  
+   A. ElasticSearch  
+   B. Dialogflow CX  
+   C. Power Automate  
+   D. Zendesk  
+   **Correct Answer:** B  
+
+3. **What is the purpose of a knowledge base in an AI IT helpdesk?**  
+   A. To store user data  
+   B. To enable AI agents to answer queries autonomously  
+   C. To track ticket resolution times  
+   D. To handle critical tickets  
+   **Correct Answer:** B  
+
+4. **Which field is critical for ticket categorization in the dataset?**  
+   A. Agent notes  
+   B. Resolution time  
+   C. Ticket ID  
+   D. Tags  
+   **Correct Answer:** B  
+
+5. **What is a key feature of the AI Governance Toolkit?**  
+   A. Automating workflows  
+   B. Identifying biases in AI systems  
+   C. Configuring conversational flows  
+   D. Optimizing ticket workflows  
+   **Correct Answer:** B  
+
+6. **What is an escalation trigger in Dialogflow CX?**  
+   A. A rule that assigns tickets to an agent  
+   B. A mechanism to escalate complex queries to human agents  
+   C. A script for automating ticket creation  
+   D. A tool for building workflows  
+   **Correct Answer:** B  
+
+7. **Which tool is used to design ticket workflows?**  
+   A. Power Automate  
+   B. Zendesk  
+   C. ElasticSearch  
+   D. AI Governance Toolkit  
+   **Correct Answer:** B  
+
+8. **What is the role of Power Automate in an AI IT helpdesk?**  
+   A. To create conversational flows  
+   B. To automate repetitive IT tasks  
+   C. To store ticket data  
+   D. To audit AI systems  
+   **Correct Answer:** B  
+
+9. **What is the ethical consideration for AI in IT service management?**  
+   A. Reducing ticket resolution time  
+   B. Ensuring fairness and transparency in AI decision-making  
+   C. Automating complex queries  
+   D. Optimizing agent performance  
+   **Correct Answer:** B  
+
+10. **What is the final deliverable for Task 6?**  
+   A. AI Governance Toolkit logs  
+   B. PowerPoint presentation and recorded pitch video  
+   C. Knowledge base configuration  
+   D. Ticket workflow diagram  
+   **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task  
+### **Submission Artifacts:**  
+- Task 1: Categorization report.  
+- Task 2: Workflow diagram and knowledge base screenshots.  
+- Task 3: Video recording and Dialogflow CX configuration files.  
+- Task 4: Automation scripts and demonstration video.  
+- Task 5: Audit report and policy document.  
+- Task 6: PowerPoint presentation and recorded pitch video.  
+
+### **Grading Rubric:**  
+- **Accuracy:** 40% – Correct implementation of workflows, AI configurations, and automations.  
+- **Completeness:** 30% – Submission of all artifacts and deliverables.  
+- **Innovation:** 20% – Quality of solutions and governance policies.  
+- **Presentation:** 10% – Clarity and professionalism of the final presentation.  
+
+---
+
+## 8. Earn Certificate Post Verification  
+Upon successful completion of all tasks and verification of artifacts, you will receive a Skillzza Certificate for **“AI IT Service Manager – Agentic IT Helpdesk Design.”**  
+
+### **Employability Score Example:**  
+Your employability score will be calculated based on:  
+- **Technical Proficiency:** 40%  
+- **Problem Solving:** 30%  
+- **Responsible AI Practices:** 20%  
+- **Presentation Skills:** 10%  
+
+This score will be shared on your Skillzza profile to showcase your expertise to potential employers.  
+
+---
+
+## 86. AI Project Manager – Rescue a Delayed AI Project
+
+# AI Project Manager – Rescue a Delayed AI Project
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**
+You are an AI Project Manager at a mid-sized artificial intelligence development firm. One of your critical projects—a machine learning model designed to predict product demand for a major retail client—has fallen behind schedule by three months due to scope creep, resource shortages, and technical bottlenecks. The client is losing patience and is considering terminating the contract unless immediate action is taken.
+
+Your task? Rescue the project by identifying the root causes of the delays, formulating a recovery plan, and regaining client trust through transparent communication and effective leadership.
+
+---
+
+### **Mission**
+Your mission is to:
+1. Assess the project data to analyze the reasons for the delay.
+2. Develop actionable strategies to overcome bottlenecks and resource constraints.
+3. Create a comprehensive recovery plan and communicate it effectively to stakeholders.
+
+This simulation will immerse you in the high-stakes world of project management for AI development, teaching you how to manage complex timelines, technical challenges, and client relations simultaneously.
+
+---
+
+### **Final Challenge**
+Deliver a polished recovery plan in the form of a project roadmap and a stakeholder communication memo. Demonstrate your ability to manage risks, resources, and expectations in a high-pressure project rescue scenario.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge:**
+  - Fundamentals of AI project management and delivery.
+  - Identifying and addressing project risks, scope creep, and resource limitations.
+  - Effective communication strategies for technical and non-technical stakeholders.
+
+- **Analytics:**
+  - Root cause analysis of project delays.
+  - Creating recovery metrics and progress tracking frameworks.
+
+- **AI Skills:**
+  - Understanding AI project pipelines and their unique challenges.
+  - Managing machine learning lifecycle bottlenecks (data processing, model training, deployment).
+  - Aligning technical and business objectives.
+
+---
+
+## 3. What Are the Prerequisites?
+
+- **Recommended Background:**
+  - Experience in project management or familiarity with Agile methodologies.
+  - Basic understanding of AI/ML concepts, such as data preprocessing, model development, and deployment.
+
+- **Tools:**
+  - Proficiency in using project management tools (e.g., MS Project, JIRA, or Trello) is highly recommended.
+  - Familiarity with data visualization tools (e.g., Power BI, Tableau) is a plus.
+
+- **Prerequisite Skill Check:**
+  - Are you comfortable reading and interpreting project Gantt charts?
+  - Do you understand basic AI development stages (data collection, preprocessing, model training)?
+  - Can you create a basic project timeline with milestones?
+
+---
+
+## 4. What Tools Will You Learn?
+
+- **Core Tools:**
+  - JIRA (for task tracking and sprint planning).
+  - Microsoft Excel (for data analysis of project delays).
+  - PowerPoint (for creating project recovery presentations).
+  - Slack/Email (for client and team communication).
+
+- **Advanced Track:**
+  - Power BI (for visualizing project performance metrics).
+  - GitHub (for managing AI model development workflows).
+  - Risk assessment frameworks (e.g., FMEA).
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand – Analyze the Current State of the AI Project**
+- **Scenario:** You’ve been handed the current project status reports, including Gantt charts, team performance metrics, and client feedback logs. Your first task is to assess the health of the project to identify key areas of concern.
+- **Student Assignment:** 
+  - Analyze the Gantt chart to identify overdue milestones.
+  - Review the client feedback to understand their concerns.
+  - Examine team performance metrics and resource allocation.
+- **Deliverable:** 
+  - A one-page summary identifying at least three root causes of the project delay, supported by data from the reports.
+
+---
+
+### **Task 2: Data/Setup – Prioritize Recovery Objectives**
+- **Scenario:** After identifying the root causes, you need to set clear recovery objectives. The client wants the project delivered within 6 weeks, but your team has limited resources.
+- **Student Assignment:** 
+  - Use provided project data (e.g., resource availability, task dependencies) to prioritize tasks.
+  - Define SMART (Specific, Measurable, Achievable, Relevant, Time-bound) recovery objectives.
+- **Deliverable:** 
+  - A prioritized task list and a set of 3–5 SMART objectives for the recovery plan.
+
+---
+
+### **Task 3: Build/Execute – Develop a Recovery Plan**
+- **Scenario:** Now it’s time to create a detailed recovery plan. You’ll need to reallocate resources, adjust timelines, and propose additional measures to meet the client’s deadline.
+- **Student Assignment:** 
+  - Use JIRA to create a sprint plan for the next 6 weeks.
+  - Develop a revised Gantt chart with updated timelines.
+  - Propose solutions to address the identified bottlenecks (e.g., outsourcing, overtime, automation).
+- **Deliverable:** 
+  - A detailed recovery plan document that includes the revised Gantt chart, sprint plan, and proposed solutions.
+
+---
+
+### **Task 4: GenAI/Explanation – Use Generative AI to Draft Stakeholder Communication**
+- **Scenario:** You must communicate the recovery plan to the client and stakeholders. Miscommunication could lead to further misunderstandings or mistrust.
+- **Student Assignment:** 
+  - Use a Generative AI tool (like ChatGPT) to draft a stakeholder memo explaining the recovery plan.
+  - Ensure the memo is clear, concise, and aligned with the client’s priorities.
+- **Deliverable:** 
+  - A polished, client-ready stakeholder memo generated using GenAI, explaining the recovery steps, timelines, and expected outcomes.
+
+---
+
+### **Task 5: Audit/Responsible AI – Ensure Ethical and Responsible AI Practices**
+- **Scenario:** The project involves sensitive customer data, and the client is concerned about data privacy and ethical AI practices.
+- **Student Assignment:** 
+  - Review the project scope and ensure compliance with data privacy laws (e.g., GDPR, CCPA).
+  - Identify any ethical or bias-related risks in the AI model.
+  - Propose mitigation steps for the identified risks.
+- **Deliverable:** 
+  - A checklist of compliance and ethical considerations, along with a brief report on how these will be addressed in the recovery plan.
+
+---
+
+### **Task 6: Present Recommendation – Deliver the Recovery Plan**
+- **Scenario:** The client has scheduled a meeting to review your recovery plan. Your goal is to gain their approval and rebuild trust.
+- **Student Assignment:** 
+  - Create a PowerPoint presentation summarizing the recovery plan.
+  - Include key insights from the root cause analysis, revised timelines, and risk mitigation strategies.
+  - Practice delivering the presentation using a clear and professional tone.
+- **Deliverable:** 
+  - A 6–8 slide PowerPoint presentation, including a script or speaker notes.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary reason for conducting a root cause analysis in project recovery?**  
+   A) To assign blame for delays  
+   B) To uncover underlying issues causing the delays  
+   C) To create a Gantt chart  
+   D) To estimate project budgets  
+   **Correct Answer:** B  
+
+2. **What does SMART stand for in project management?**  
+   A) Specific, Measurable, Achievable, Relevant, Timely  
+   B) Simple, Manageable, Adaptable, Repeatable, Testable  
+   C) Systematic, Measurable, Accurate, Reliable, Timed  
+   D) Strategic, Measurable, Attainable, Relevant, Timely  
+   **Correct Answer:** A  
+
+3. **Which tool is most suited for sprint planning in this simulation?**  
+   A) PowerPoint  
+   B) JIRA  
+   C) Excel  
+   D) Slack  
+   **Correct Answer:** B  
+
+4. **What is the main benefit of Generative AI in stakeholder communication?**  
+   A) Automating sprint planning  
+   B) Drafting clear and engaging communication  
+   C) Performing root cause analysis  
+   D) Revising Gantt charts  
+   **Correct Answer:** B  
+
+5. **What is scope creep?**  
+   A) A delay in the project due to technical errors  
+   B) Uncontrolled changes or continuous growth in a project’s scope  
+   C) The inability to meet deadlines  
+   D) The process of completing tasks ahead of schedule  
+   **Correct Answer:** B  
+
+6. **What should be included in a recovery plan?**  
+   A) Root cause analysis, revised timelines, and mitigation strategies  
+   B) Only revised timelines  
+   C) Cost estimation details  
+   D) A list of team members  
+   **Correct Answer:** A  
+
+7. **Which compliance laws should be considered for data privacy?**  
+   A) GDPR and CCPA  
+   B) HIPAA and SOX  
+   C) ISO 9001  
+   D) PCI DSS  
+   **Correct Answer:** A  
+
+8. **What is the purpose of a Gantt chart?**  
+   A) To track project expenses  
+   B) To visualize project timelines and dependencies  
+   C) To assign blame for delays  
+   D) To communicate with stakeholders  
+   **Correct Answer:** B  
+
+9. **How can you mitigate resource shortages during a recovery plan?**  
+   A) Ignore the shortage  
+   B) Outsource tasks or reallocate team members  
+   C) Extend the deadline  
+   D) Add more features to the project  
+   **Correct Answer:** B  
+
+10. **Why is ethical and responsible AI important in project management?**  
+    A) It reduces the cost of the project  
+    B) It ensures compliance and avoids reputational risks  
+    C) It simplifies stakeholder communication  
+    D) It speeds up the development process  
+    **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- Task 1: Root cause analysis summary (1 page).  
+- Task 2: Prioritized task list and SMART objectives document.  
+- Task 3: Recovery plan document (including Gantt chart and sprint plan).  
+- Task 4: Stakeholder communication memo (AI-generated).  
+- Task 5: Ethical and compliance checklist with mitigation report.  
+- Task 6: PowerPoint presentation with speaker notes.  
+
+### **Grading Rubric**
+- **Completeness (40%):** Did the submission include all required artifacts?  
+- **Clarity (20%):** Are the materials clear, concise, and well-structured?  
+- **Analysis (20%):** Does the submission demonstrate strong analytical skills in identifying and addressing issues?  
+- **Professionalism (20%):** Are the materials polished and client-ready?  
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful verification of your submissions, you will earn a **Certificate of Completion** for the Virtual Internship: "AI Project Manager – Rescue a Delayed AI Project."  
+
+Your efforts will also contribute to your **Employability Score**, which will reflect your proficiency in:  
+- Analytical Thinking: 90/100  
+- Project Management: 85/100  
+- Stakeholder Communication: 88/100  
+- Responsible AI Practices: 92/100  
+
+Use this certificate and score to showcase your skills to potential employers!
+
+---
+
+## 87. Sustainability Analyst – Build a Corporate Carbon Dashboard
+
+# Sustainability Analyst – Build a Corporate Carbon Dashboard
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+You have been hired as a Sustainability Analyst for a multinational corporation aiming to reduce its carbon footprint and improve environmental impact transparency. The company operates across various industries, generating Scope 1, Scope 2, and Scope 3 emissions. Your mission is to design a corporate carbon dashboard that visualizes emissions data and provides actionable insights for a reduction plan.
+
+### **Mission**  
+Your mission is to analyze corporate emissions data across three scopes, identify key contributors, and create a data-driven dashboard that empowers stakeholders to make informed decisions. You will also propose a sustainability roadmap based on your findings to help the company align its operations with global climate goals, such as those outlined in the Paris Agreement.
+
+### **Final Challenge**  
+Your final task is to present a polished carbon dashboard to key stakeholders, explaining the data insights, reduction strategies, and how the dashboard can drive measurable impact. You will need to defend your recommendations using analytics and responsible AI principles.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**
+- Understanding of carbon accounting methodologies (Scope 1, 2, 3 emissions).
+- Strategies for corporate sustainability and emission reduction.
+- Familiarity with global frameworks such as the Greenhouse Gas Protocol.
+
+### **Analytics**
+- Emissions data categorization and analysis.
+- Identifying high-impact areas for carbon reduction.
+- Visual storytelling with dashboards.
+
+### **AI Skills**
+- Using AI-powered tools for data cleaning and visualization.
+- Applying predictive models to estimate future emissions trends.
+- Responsible AI practices when communicating sustainability metrics.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**
+- Basic knowledge of sustainability concepts and environmental science.
+- Familiarity with data analytics and dashboard creation.
+- Interest in corporate environmental strategy.
+
+### **Tools**
+- Spreadsheet software (Excel/Google Sheets for data manipulation).
+- Data visualization tools (Tableau, Power BI, or alternative).
+- Python for data analysis (optional but recommended).
+
+### **Prerequisite Skill Check**
+Students should be able to:
+- Work with basic spreadsheet formulas like SUM, IF, and VLOOKUP.
+- Create charts and graphs (bar charts, pie charts, trend lines).
+- Understand emissions categories (Scope 1, 2, 3).
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**
+- Google Sheets / Excel: Data cleaning and organization.
+- Tableau or Power BI: Dashboard creation and data visualization.
+- Python (optional): Advanced emissions trend analysis.
+
+### **Advanced Track**
+- AI-powered carbon accounting tools like ClimateOS or Sphera.
+- APIs for emissions data (e.g., Climate Data API or CarbonScope).
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Carbon Emissions Landscape**
+#### **Scenario**  
+Your manager hands you a briefing document outlining the company’s operations and emissions footprint. You need to identify the key differentiators between Scope 1, Scope 2, and Scope 3 emissions and their impact on corporate sustainability goals.
+
+#### **Student Assignment**
+- Read the provided document on carbon emissions and the Greenhouse Gas Protocol.  
+- Summarize the differences between Scope 1, Scope 2, and Scope 3 emissions.  
+- Identify three challenges companies face when tracking Scope 3 emissions.
+
+#### **Deliverable**
+Submit a one-page summary defining Scope 1, Scope 2, and Scope 3 emissions, including examples for each scope and key challenges.
+
+---
+
+### **Task 2: Prepare and Clean Emissions Data**
+#### **Scenario**  
+You have received raw emissions data from the company’s various departments, including energy consumption, transportation, and supplier data. The data is inconsistent and requires cleaning before analysis.
+
+#### **Student Assignment**
+- Import the raw emissions dataset into Excel or Google Sheets.  
+- Perform the following data cleaning tasks:  
+  - Remove duplicates.  
+  - Standardize units of measurement (e.g., convert kWh to MWh).  
+  - Handle missing values using interpolation or replacement strategies.  
+- Categorize the cleaned data into Scope 1, Scope 2, and Scope 3 emissions.
+
+#### **Deliverable**
+Submit the cleaned and categorized dataset in .xlsx or Google Sheets format.
+
+---
+
+### **Task 3: Build the Carbon Dashboard**
+#### **Scenario**  
+After cleaning the data, your next task is to build a visual dashboard that highlights the company’s carbon emissions across Scope 1, Scope 2, and Scope 3. The dashboard should include actionable insights and trends.
+
+#### **Student Assignment**
+- Use Tableau or Power BI to create the dashboard.  
+- Include the following visualizations:  
+  - Total emissions by scope (bar chart).  
+  - Monthly emissions trend (line graph).  
+  - Percentage contribution of Scope 3 emissions (pie chart).  
+- Ensure that the dashboard is clear, interactive, and stakeholder-friendly.
+
+#### **Deliverable**
+Submit a link or export of your dashboard in Tableau/Power BI format, with screenshots explaining each visualization.
+
+---
+
+### **Task 4: Generate Insights Using GenAI**
+#### **Scenario**  
+The company wants to leverage AI for deeper insights into emissions data. You are tasked with using a Generative AI tool to generate a narrative analysis of the data and suggest areas for improvement.
+
+#### **Student Assignment**
+- Use a Generative AI tool (e.g., ChatGPT or Bard) to analyze the cleaned dataset.  
+- Provide insights on:  
+  - Which scope contributes the most to emissions and why.  
+  - Predictive trends for emissions in the next 5 years.  
+  - Three reduction strategies based on the data.  
+
+#### **Deliverable**  
+Submit the AI-generated narrative analysis and highlight how the GenAI tool helped derive actionable insights.
+
+---
+
+### **Task 5: Audit the Dashboard for Responsible AI**
+#### **Scenario**  
+Your manager is concerned about the ethical implications of using AI for sustainability reporting. You need to audit your dashboard and explain how responsible AI principles have been incorporated.
+
+#### **Student Assignment**
+- Perform an audit of your dashboard and AI narrative analysis.  
+- Evaluate potential biases or inaccuracies in the data and AI-generated insights.  
+- Suggest improvements to enhance transparency and trust.
+
+#### **Deliverable**  
+Submit a 500-word audit report highlighting the responsible AI measures taken and areas for improvement.
+
+---
+
+### **Task 6: Present Your Recommendations**
+#### **Scenario**  
+You are invited to present your carbon dashboard and reduction strategy at the company’s sustainability meeting. Prepare a presentation that effectively communicates your findings and recommendations.
+
+#### **Student Assignment**
+- Create a slide deck with the following sections:  
+  - Company’s emissions overview.  
+  - Dashboard insights and visualizations.  
+  - Proposed reduction strategies with cost implications and potential ROI.  
+
+#### **Deliverable**  
+Submit your presentation deck in .pptx or Google Slides format.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What are Scope 1 emissions?**  
+   A. Emissions from purchased electricity or steam  
+   B. Emissions from employee commuting  
+   C. Direct emissions from owned or controlled sources  
+   D. Emissions from suppliers  
+   **Correct Answer:** C  
+
+2. **What is the primary challenge in tracking Scope 3 emissions?**  
+   A. Lack of technology  
+   B. Complexity of supply chains  
+   C. High energy costs  
+   D. Regulatory barriers  
+   **Correct Answer:** B  
+
+3. **What is the purpose of data cleaning in emissions analysis?**  
+   A. To make the data more complex  
+   B. To prepare the data for visualization and analysis  
+   C. To ignore irrelevant data points  
+   D. To eliminate Scope 3 emissions  
+   **Correct Answer:** B  
+
+4. **Which tool is commonly used for creating dashboards?**  
+   A. WordPress  
+   B. Tableau  
+   C. Canva  
+   D. GitHub  
+   **Correct Answer:** B  
+
+5. **What does a pie chart typically represent in a dashboard?**  
+   A. Trends over time  
+   B. Percentages of a whole  
+   C. Predictions for the future  
+   D. Ranking of variables  
+   **Correct Answer:** B  
+
+6. **Which AI tool can be used for narrative analysis of data?**  
+   A. Tableau  
+   B. ChatGPT  
+   C. Excel  
+   D. Slack  
+   **Correct Answer:** B  
+
+7. **What is the main goal of a corporate carbon dashboard?**  
+   A. To increase profits  
+   B. To visualize emissions data and support sustainability decisions  
+   C. To reduce employee commuting  
+   D. To report earnings to shareholders  
+   **Correct Answer:** B  
+
+8. **Why is Responsible AI important in sustainability reporting?**  
+   A. To minimize the use of data  
+   B. To ensure transparency and avoid bias in insights  
+   C. To increase the cost of analysis  
+   D. To reduce emissions  
+   **Correct Answer:** B  
+
+9. **What is the Greenhouse Gas Protocol?**  
+   A. A global emissions trading platform  
+   B. A set of standards for measuring and managing greenhouse gas emissions  
+   C. A government organization for climate change  
+   D. A renewable energy certification program  
+   **Correct Answer:** B  
+
+10. **Which of the following is NOT a carbon reduction strategy?**  
+   A. Switching to renewable energy sources  
+   B. Using energy-efficient equipment  
+   C. Increasing fossil fuel usage  
+   D. Implementing a waste reduction program  
+   **Correct Answer:** C  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**
+- **Task 1:** One-page summary defining Scope 1, 2, 3 emissions and challenges.  
+- **Task 2:** Cleaned and categorized emissions dataset (.xlsx or Google Sheets).  
+- **Task 3:** Carbon dashboard (Tableau/Power BI file and screenshots).  
+- **Task 4:** AI-generated narrative analysis (.docx or .pdf).  
+- **Task 5:** Responsible AI audit report (500-word document).  
+- **Task 6:** Presentation deck (.pptx or Google Slides).
+
+### **Grading Rubric**  
+- **Understanding (20%)**: Accurate definitions and explanations of Scope 1, 2, 3 emissions.  
+- **Data Accuracy (20%)**: Clean and organized dataset with clear categories and no errors.  
+- **Dashboard Design (25%)**: Clarity, usability, and effectiveness of visualizations.  
+- **Insight Generation (15%)**: Quality and relevance of AI-generated analysis.  
+- **Responsible AI Practices (10%)**: Quality of audit and ethical considerations.  
+- **Presentation Skills (10%)**: Clear and impactful communication of findings and recommendations.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details**  
+After successful completion of the internship simulation and verification of submitted tasks, you will earn the **Skillzza Certified Sustainability Analyst** badge.  
+
+### **Employability Score Example**  
+Your performance will be scored out of 100 based on the grading rubric.  
+- **Score: 85/100**  
+- Proficiency Level: **Advanced**  
+- Skills Acquired: Carbon Accounting, Data Visualization, Dashboard Design, Responsible AI Principles.  
+- Feedback: Excellent understanding of Scope 1, 2, and 3 emissions. Strong dashboard design and insightful analysis. Minor improvement required in responsible AI audit depth.  
+
+Completion of this simulation will enhance your employability for roles such as Sustainability Analyst, Environmental Data Specialist, and Corporate Social Responsibility (CSR) Analyst.  
+
+---
+
+## 90. Real Estate AI Analyst – Predict Property Demand
+
+# Real Estate AI Analyst – Predict Property Demand
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario:**
+The real estate industry is undergoing a massive transformation, driven by AI and data analytics. As a Real Estate AI Analyst in a PropTech startup, your role is to leverage cutting-edge AI models to predict property demand across different locations. Your insights will help the company identify high-demand areas, optimize investments, and provide data-driven recommendations to clients, including property developers and investors.
+
+### **Mission:**
+Your mission is to build and deploy an AI-driven Property Demand Prediction Model using market data, evaluate location-specific demand metrics, and present your insights to key stakeholders for strategic decision-making. You’ll need to ensure that your recommendations are ethically sound, explainable, and aligned with sustainable urban planning principles.
+
+### **Final Challenge:**
+Deploy a predictive demand model for a new metropolitan area, analyze patterns across neighborhoods, and create a visually compelling report to recommend the top 3 high-demand areas for development. Justify your selections with data insights, responsible AI considerations, and potential business implications.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge:**
+- Fundamentals of PropTech and its impact on real estate markets.
+- Key metrics for evaluating property demand, including population growth, pricing trends, and economic indicators.
+- Location-based analysis and its influence on real estate investment strategies.
+
+### **Analytics and AI Skills:**
+- Data pre-processing for real estate datasets (e.g., handling missing values, feature engineering).
+- Building machine learning models for demand prediction (e.g., regression, clustering).
+- Geospatial data analysis and heatmap visualization techniques.
+- Applying Responsible AI principles like fairness, transparency, and bias mitigation.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background:**
+- Intermediate to advanced knowledge of data analytics and machine learning.
+- Basic understanding of real estate markets or willingness to learn quickly.
+- Familiarity with Python programming and libraries like Pandas, Scikit-learn, and Matplotlib.
+
+### **Tools:**
+- Python (Jupyter Notebook or Colab)
+- Libraries: Pandas, NumPy, Scikit-learn, GeoPandas, Matplotlib/Seaborn, Folium.
+- Optional: Tableau or Power BI for data visualization.
+
+### **Prerequisite Skill Check:**
+- Can you load, clean, and preprocess a dataset in Python?
+- Are you familiar with regression models and how to evaluate them?
+- Do you understand the basics of geospatial mapping (latitude/longitude)?
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools:**
+- **Python Libraries:** Pandas, NumPy, Scikit-learn, GeoPandas.
+- **Geospatial Visualization:** Folium or Plotly.
+- **Data Visualization:** Matplotlib, Seaborn, Tableau/Power BI (optional).
+  
+### **Advanced Track (Optional):**
+- Introduction to Neural Networks for time-series or demand prediction.
+- Advanced Responsible AI techniques using Fairlearn or AIF360.
+- Deployment of models using Flask or Streamlit.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand the Real Estate Market**
+#### **Scenario:**
+Your manager has provided a dataset containing real estate market data, including historical property prices, population growth, household income, crime rates, and proximity to schools and public transport. Your first task is to explore the dataset and identify key factors that influence property demand.
+
+#### **Student Assignment:**
+- Analyze the dataset and identify relevant trends and patterns.
+- Calculate correlations between features like property prices, population density, and proximity to amenities.
+- Present a summary of your findings.
+
+#### **Deliverable:**
+- A Jupyter Notebook with exploratory data analysis (EDA) including visualizations and summary statistics.
+
+---
+
+### **Task 2: Data Cleaning and Feature Engineering**
+#### **Scenario:**
+The dataset contains missing values and inconsistent formats. You’ve also noticed some features that could be engineered to better capture demand signals, such as "Distance to Nearest School" or "Crime Rate Index."
+
+#### **Student Assignment:**
+- Handle missing data (e.g., imputation or removal).
+- Engineer new features that could improve model prediction accuracy.
+- Normalize and scale features for better model performance.
+
+#### **Deliverable:**
+- A cleaned and feature-engineered dataset in CSV format.
+- A Python script detailing all transformations.
+
+---
+
+### **Task 3: Build and Train Your Property Demand Model**
+#### **Scenario:**
+Using the cleaned dataset, you’ll now build a machine learning model to predict property demand in different areas. Your manager has suggested starting with regression models but encourages experimentation with other algorithms like Decision Trees or Gradient Boosting.
+
+#### **Student Assignment:**
+- Train a regression model to predict demand (target variable: Demand Score).
+- Evaluate the model using appropriate metrics (e.g., RMSE, MAE).
+- Experiment with at least one advanced algorithm and compare results.
+
+#### **Deliverable:**
+- A trained model file (e.g., `.pkl`) and evaluation report.
+- A Jupyter Notebook showing the model-building process.
+
+---
+
+### **Task 4: Geospatial Analysis and Demand Visualization**
+#### **Scenario:**
+Your trained model is ready, but stakeholders need to see the results in an actionable format. Use geospatial mapping techniques to visualize property demand across different neighborhoods.
+
+#### **Student Assignment:**
+- Apply your model to predict demand scores for all neighborhoods in the dataset.
+- Create a heatmap or choropleth map to visually represent demand distribution.
+- Identify high-demand and low-demand areas with actionable insights.
+
+#### **Deliverable:**
+- A geospatial visualization (e.g., Folium map or heatmap) highlighting demand patterns.
+- A short report summarizing insights from the visualization.
+
+---
+
+### **Task 5: Audit for Responsible AI**
+#### **Scenario:**
+A stakeholder raised concerns about potential biases in your model. For instance, could the model disadvantage certain neighborhoods (e.g., low-income areas) due to biased data?
+
+#### **Student Assignment:**
+- Analyze the model for biases using fairness metrics.
+- Document potential risks and propose solutions to mitigate bias (e.g., reweighting data, excluding problematic features).
+- Ensure model predictions are explainable to non-technical stakeholders.
+
+#### **Deliverable:**
+- A bias audit report including metrics and mitigation strategies.
+- A presentation slide summarizing Responsible AI considerations.
+
+---
+
+### **Task 6: Present Your Recommendations**
+#### **Scenario:**
+The final challenge is to present your findings to the executive team. They are interested in the top 3 neighborhoods for investment, along with data-driven justifications and an explanation of the model’s predictions.
+
+#### **Student Assignment:**
+- Create a presentation summarizing your findings, including:
+  - Key features influencing demand.
+  - Geospatial visualization of high-demand areas.
+  - Top 3 neighborhoods for investment, with reasoning.
+  - Responsible AI considerations.
+- Record a 5-minute video presenting your recommendations.
+
+#### **Deliverable:**
+- A PowerPoint or PDF presentation.
+- A recorded video (5 minutes max) presenting your findings and recommendations.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is a key factor influencing property demand in urban areas?**
+   - A. Number of parks in the neighborhood  
+   - B. Proximity to public transport  
+   - C. Availability of retail stores  
+   - D. All of the above  
+   **Correct Answer: D**
+
+2. **Which machine learning algorithm is suitable for regression tasks?**
+   - A. K-Means  
+   - B. Random Forest  
+   - C. Gradient Boosting  
+   - D. Both B and C  
+   **Correct Answer: D**
+
+3. **What does RMSE measure in a regression model?**
+   - A. Model accuracy  
+   - B. Root Mean Squared Error of predictions  
+   - C. Classification precision  
+   - D. Regression bias  
+   **Correct Answer: B**
+
+4. **Which Python library is best suited for creating geospatial visualizations?**
+   - A. Matplotlib  
+   - B. GeoPandas  
+   - C. Folium  
+   - D. Both B and C  
+   **Correct Answer: D**
+
+5. **What is the purpose of feature scaling in machine learning?**
+   - A. Increase data size  
+   - B. Reduce model complexity  
+   - C. Normalize data for better model performance  
+   - D. Remove irrelevant features  
+   **Correct Answer: C**
+
+6. **What does a choropleth map visualize?**
+   - A. Statistical data over geographical areas  
+   - B. Changes in time-series data  
+   - C. Relationships between variables  
+   - D. None of the above  
+   **Correct Answer: A**
+
+7. **Which metric is used to evaluate fairness in AI models?**
+   - A. Precision  
+   - B. Recall  
+   - C. Demographic Parity  
+   - D. F1 Score  
+   **Correct Answer: C**
+
+8. **What is the primary goal of Responsible AI?**
+   - A. Maximizing model accuracy  
+   - B. Ensuring ethical and unbiased use of AI  
+   - C. Reducing computational cost  
+   - D. Automating decision-making  
+   **Correct Answer: B**
+
+9. **What is the difference between imputation and removal of missing data?**
+   - A. Imputation replaces missing values; removal deletes them.  
+   - B. Imputation is faster than removal.  
+   - C. Removal is more accurate than imputation.  
+   - D. None of the above.  
+   **Correct Answer: A**
+
+10. **Which tool is commonly used for handling geospatial data in Python?**
+    - A. Pandas  
+    - B. GeoPandas  
+    - C. TensorFlow  
+    - D. Seaborn  
+    **Correct Answer: B**
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts:**
+1. Jupyter Notebooks for Tasks 1-5.
+2. Cleaned dataset (CSV file).
+3. Geospatial visualization (HTML or image file).
+4. Final presentation (PDF/PowerPoint).
+5. Video recording of your presentation (5 minutes).
+
+### **Grading Rubric:**
+- **Data Analysis (20%):** Depth and clarity of insights during EDA.
+- **Data Preparation (20%):** Quality of cleaning and feature engineering.
+- **Model Performance (20%):** Accuracy and relevance of the predictive model.
+- **Visualization (20%):** Clarity and impact of geospatial and other visualizations.
+- **Presentation (20%):** Communication, data storytelling, and justification of recommendations.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+### **Certificate Details:**
+Participants who complete all tasks and pass the grading rubric with a score of 80% or higher will receive a **"Certified Real Estate AI Analyst"** certificate.
+
+### **Sample Employability Score:**
+- **Domain Knowledge:** 8/10  
+- **Technical Skills:** 9/10  
+- **Analytical Thinking:** 9/10  
+- **Communication and Presentation:** 8/10  
+- **Overall Score:** 87%  
+
+This certificate demonstrates your expertise in applying AI and data analytics for real estate market analysis, making you a valuable asset for PropTech companies and real estate investment firms.
+
+---
+
+## 93. LegalTech Analyst – Contract Risk Detection
+
+# LegalTech Analyst – Contract Risk Detection Virtual Internship
+
+---
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+In the fast-evolving LegalTech industry, companies are leveraging AI to automate contract analysis, improve legal workflows, and detect risks hidden in contract clauses. You’ve just been hired as a LegalTech Analyst at a leading AI-powered legal services firm, **ClauseGuard Technologies**. Your mission is to analyze legal contracts, identify risky clauses, and provide actionable recommendations to mitigate potential legal and business risks.
+
+### **Mission**  
+Your task is to assist the legal team by building a scalable AI pipeline to:  
+- Extract relevant clauses from contracts.  
+- Detect and flag risky clauses using pre-defined risk categories.  
+- Summarize risks and provide actionable recommendations for resolution.  
+
+### **Final Challenge**  
+For your final assignment, you will analyze a real-world contract, use AI tools to detect risks, explain the rationale behind the flagged risks, and deliver a concise summary report with actionable recommendations to senior stakeholders.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Fundamentals of contract structures: clauses, terms, and risk categories.  
+- Key legal risks in contracts: breach of contract, indemnity, liability, and termination risks.  
+- Industry-standard risk mitigation strategies in contract negotiation.  
+
+### **Analytics & Workflow Skills**  
+- Clause pattern recognition and risk categorization.  
+- Workflow design for contract analysis using AI tools.  
+- Summarization and concise report writing for legal stakeholders.  
+
+### **AI Skills**  
+- Natural Language Processing (NLP) for text classification and information extraction.  
+- Implementing pre-trained models for clause identification.  
+- Responsible AI practices in legal data processing.  
+
+---
+
+## 3. What Are the Prerequisites?  
+
+### **Recommended Background**  
+- **Legal Knowledge**: Familiarity with legal terminology and basic contract structures.  
+- **AI/NLP Basics**: Understanding of text analysis concepts like tokenization, language models, and embeddings.  
+- **Analytical Thinking**: Ability to analyze textual data critically and draw logical conclusions.  
+
+### **Tools & Software**  
+- Python (for data processing and AI modeling).  
+- Jupyter Notebook (for code execution).  
+- Pre-trained NLP libraries (spaCy, Hugging Face Transformers).  
+
+### **Prerequisite Skill Check**  
+- Demonstrate basic Python programming skills (e.g., data manipulation using Pandas).  
+- Familiarity with contract clauses like confidentiality, indemnity, and dispute resolution.  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **spaCy**: For clause extraction and named entity recognition (NER).  
+- **Hugging Face Transformers**: For fine-tuning pre-trained language models.  
+- **Excel/Google Sheets**: For organizing and analyzing flagged risks.  
+
+### **Advanced Track**  
+- **ONNX Runtime**: For optimizing AI models for faster inference.  
+- **LangChain**: To build explainable AI workflows for legal risk detection.  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand**  
+#### **Scenario**  
+You are given a legal contract and a risk taxonomy document that defines common risk types (e.g., termination, indemnity, and liability risks). Your first step is to thoroughly understand risk categories and their implications.  
+
+#### **Student Assignment**  
+- Read the provided **Risk Taxonomy Document** and identify key risk types.  
+- Review the sample contract and highlight clauses that may correspond to risk categories.  
+
+#### **Deliverable**  
+- A 1-page summary of the risk categories and examples of clauses associated with each category.  
+
+---
+
+### **Task 2: Data/Setup**  
+#### **Scenario**  
+To begin automated analysis, you need to preprocess the contract text and prepare it for clause extraction.  
+
+#### **Student Assignment**  
+1. Load the sample contract into a Python script.  
+2. Use **spaCy** to split the contract into clauses and tokenize the text.  
+3. Annotate a subset of clauses manually to create a training dataset.  
+
+#### **Deliverable**  
+- A CSV file with tokenized clauses and annotated risk categories for at least 20 clauses.  
+
+---
+
+### **Task 3: Build/Execute**  
+#### **Scenario**  
+Now, it’s time to build an AI model to classify clauses into risk categories.  
+
+#### **Student Assignment**  
+1. Fine-tune a **Hugging Face Transformers** model on the annotated clause dataset.  
+2. Implement a pipeline to classify clauses into risk categories.  
+3. Evaluate the model's performance (precision, recall, F1-score).  
+
+#### **Deliverable**  
+- A Jupyter Notebook with model training code, evaluation metrics, and sample predictions.  
+
+---
+
+### **Task 4: GenAI/Explanation**  
+#### **Scenario**  
+Your AI model has flagged several risky clauses. Your task is to explain the flagged risks in simple terms to non-technical legal stakeholders.  
+
+#### **Student Assignment**  
+- Use **LangChain** or a similar framework to generate explanations for flagged clauses.  
+- Provide a human-readable summary of why each clause was flagged.  
+
+#### **Deliverable**  
+- A document with 5 flagged clauses, their risk categories, and AI-generated explanations.  
+
+---
+
+### **Task 5: Audit/Responsible AI**  
+#### **Scenario**  
+Your legal team is concerned about potential bias or errors in the AI system. You need to conduct an audit to ensure the AI is reliable and fair.  
+
+#### **Student Assignment**  
+1. Analyze false positives and false negatives in the model's predictions.  
+2. Propose improvements for reducing model bias (e.g., expanding the training dataset).  
+3. Document how your model complies with Responsible AI guidelines.  
+
+#### **Deliverable**  
+- An audit report with error analysis and recommendations for improvement.  
+
+---
+
+### **Task 6: Present Recommendation**  
+#### **Scenario**  
+You will present your findings and recommendations to senior legal stakeholders in a concise, actionable format.  
+
+#### **Student Assignment**  
+- Create a risk summary report for the analyzed contract.  
+- Include key risks, their implications, and actionable recommendations.  
+- Prepare a 5-slide presentation summarizing the results.  
+
+#### **Deliverable**  
+- A risk summary report (PDF/Word) and a slide deck (PDF/PPT).  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+1. **What is the primary purpose of clause extraction in contract analysis?**  
+   A. To identify grammatical errors.  
+   B. To split the contract into smaller sections for targeted analysis.  
+   C. To summarize the entire contract.  
+   D. To create a new contract.  
+   **Answer**: B  
+
+2. **Which of the following is NOT a common risk category in contracts?**  
+   A. Indemnity  
+   B. Termination  
+   C. Marketing Risk  
+   D. Liability  
+   **Answer**: C  
+
+3. **What is the role of spaCy in this workflow?**  
+   A. To create interactive dashboards.  
+   B. To tokenize text and extract clauses.  
+   C. To generate risk summaries.  
+   D. To perform contract negotiations.  
+   **Answer**: B  
+
+4. **What metric is most useful for evaluating a classification model?**  
+   A. F1-score  
+   B. Mean Squared Error  
+   C. BLEU Score  
+   D. Page Rank  
+   **Answer**: A  
+
+5. **What is a false positive in risk detection?**  
+   A. A clause flagged as risky that is actually safe.  
+   B. A clause that is safe but not flagged.  
+   C. A clause flagged as safe that is actually risky.  
+   D. A clause that is neither risky nor safe.  
+   **Answer**: A  
+
+6. **Which library is used for fine-tuning pre-trained language models?**  
+   A. TensorFlow  
+   B. Hugging Face Transformers  
+   C. Matplotlib  
+   D. NumPy  
+   **Answer**: B  
+
+7. **What does Responsible AI NOT involve?**  
+   A. Ensuring the model is explainable.  
+   B. Mitigating bias in the model’s predictions.  
+   C. Optimizing the model for speed.  
+   D. Protecting sensitive legal data.  
+   **Answer**: C  
+
+8. **What is the output of tokenization in NLP?**  
+   A. A summary of the text.  
+   B. A set of smaller text units like words or phrases.  
+   C. A graph representing the text.  
+   D. A compressed version of the document.  
+   **Answer**: B  
+
+9. **Why is manual annotation important for training the AI model?**  
+   A. It improves the model’s interpretability.  
+   B. It ensures the dataset reflects real-world examples.  
+   C. It replaces the need for model evaluation.  
+   D. It reduces the time required for training.  
+   **Answer**: B  
+
+10. **What is the final deliverable of this internship?**  
+    A. A complete legal contract.  
+    B. A risk summary report with recommendations.  
+    C. A new AI algorithm.  
+    D. A presentation on AI ethics.  
+    **Answer**: B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Task 1: Risk taxonomy summary document.  
+- Task 2: Annotated clause dataset (CSV).  
+- Task 3: Model training notebook with evaluation results.  
+- Task 4: Risk explanations document.  
+- Task 5: AI audit report.  
+- Task 6: Risk summary report and slide deck.  
+
+### **Grading Rubric**  
+- **Completeness**: Were all tasks submitted with required artifacts? (30%)  
+- **Accuracy**: Were risks identified and categorized correctly? (30%)  
+- **Clarity**: Were reports and presentations clear and actionable? (20%)  
+- **Innovation**: Were additional insights or improvements suggested? (20%)  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful completion and verification of your submitted tasks, you will earn the **Skillzza LegalTech Analyst Virtual Internship Certificate**.  
+
+### **Certificate Details**  
+- **Title**: LegalTech Analyst – Contract Risk Detection  
+- **Level**: Intermediate  
+- **Duration**: 4 hours  
+- **Employability Score Example**:  
+  - Risk Identification: 85/100  
+  - AI Model Implementation: 90/100  
+  - Stakeholder Communication: 80/100  
+  - Responsible AI Practices: 88/100  
+
+
+
+---
+
+## 96. Citizen Services AI Agent – Resolve a Government Complaint
+
+# Citizen Services AI Agent – Resolve a Government Complaint
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+Imagine working as an AI Specialist for a government innovation lab tasked with improving citizen services. Your mission is to enhance the efficiency of handling citizen complaints by designing an AI-based solution that automates complaint resolution, reduces response times, and ensures that unresolved complaints are escalated appropriately.  
+
+You will be working with a dataset of citizen complaints categorized by department, issue type, and resolution status. Your job is to build a Citizen Services AI Agent capable of classifying complaints, retrieving relevant knowledge articles for resolution, and escalating unresolved complaints to the appropriate department.
+
+### **Mission**  
+Your task is to design and execute a pipeline for the Citizen Services AI Agent that:  
+1. **Classifies complaints** based on department and urgency.  
+2. **Retrieves knowledge base articles** to offer automated resolutions.  
+3. Determines when a complaint needs **human escalation** and routes it to the correct department.  
+
+### **Final Challenge**  
+By the end of this simulation, you will present a functional AI pipeline alongside a report detailing classification accuracy, knowledge retrieval effectiveness, and escalation logic. Your solution will demonstrate how this system can improve citizen satisfaction and reduce service delays.
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- The structure and workflows of citizen service departments in government.  
+- Common types of citizen complaints and their resolution pipelines.  
+
+### **Analytics Skills**  
+- Text classification and feature engineering for complaint data.  
+- Metrics for evaluating resolution and escalation pipelines.  
+
+### **AI Skills**  
+- Leveraging Natural Language Processing (NLP) for text classification.  
+- Implementing retrieval-based systems using embeddings for knowledge search.  
+- Designing escalation logic based on classification confidence thresholds.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Basic understanding of government processes or public service workflows.  
+- Familiarity with Python programming.  
+
+### **Tools You Should Know**  
+- Python libraries for data analysis (Pandas, NumPy).  
+- NLP libraries such as spaCy, Hugging Face, or NLTK.  
+- Basic knowledge of machine learning models and evaluation metrics.  
+
+### **Prerequisite Skill Check**  
+Before starting, ensure you can:  
+1. Perform basic text preprocessing tasks like tokenization.  
+2. Understand how to evaluate a classification model using metrics like accuracy or F1-score.  
+3. Write basic SQL queries for handling structured data.
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Hugging Face Transformers**: For text classification and embeddings.  
+- **ElasticSearch or FAISS**: For knowledge retrieval.  
+- **Python**: For scripting and implementing the AI pipeline.  
+
+### **Advanced Track**  
+- **Responsible AI Frameworks**: Testing for fairness and bias in classification.  
+- **LangChain**: Advanced integration of generative AI for explanations.
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand the Problem**  
+#### **Scenario**  
+A government services portal receives 10,000+ citizen complaints every month. These complaints vary from potholes and waste management to utility bill disputes. Your first step is to understand the dataset and problem statement.  
+
+#### **Student Assignment**  
+1. Explore a provided dataset containing complaints with fields:  
+   - `Complaint_ID`: Unique identifier.  
+   - `Citizen_Name`: Name of complainant.  
+   - `Complaint_Text`: The full description of the complaint.  
+   - `Department`: Department responsible for resolution (e.g., Waste Management, Public Works).  
+   - `Urgency`: Low, Medium, High.  
+   - `Status`: Resolved, Pending, Escalated.  
+2. Analyze the dataset for patterns, such as the most common complaint types and departments with the highest complaint volumes.  
+
+#### **Deliverable**  
+Submit a short report (300 words) with:  
+- Key patterns in the dataset.  
+- Suggestions for how AI can reduce backlog and improve response times.
+
+---
+
+### **Task 2: Prepare the Data**  
+#### **Scenario**  
+You must clean and preprocess the complaint data to prepare it for text classification.  
+
+#### **Student Assignment**  
+1. Perform text preprocessing on the `Complaint_Text` field, including:  
+   - Tokenization.  
+   - Stopword removal.  
+   - Lemmatization.  
+2. Split the dataset into training, validation, and test sets.  
+3. Encode the labels (`Department`) for classification using one-hot encoding or label encoding.  
+
+#### **Deliverable**  
+Submit the cleaned dataset and a summary of your preprocessing steps.
+
+---
+
+### **Task 3: Build the Classification Model**  
+#### **Scenario**  
+Now, you will build a machine learning model to classify complaints into the correct department.  
+
+#### **Student Assignment**  
+1. Train a text classification model using Hugging Face Transformers (e.g., DistilBERT).  
+2. Evaluate the model using metrics like accuracy, precision, recall, and F1-score. Aim for an F1-score > 0.8.  
+3. Save the trained model for later use in the pipeline.  
+
+#### **Deliverable**  
+Submit the trained model file and a report on model performance (include a confusion matrix).
+
+---
+
+### **Task 4: Integrate Knowledge Retrieval**  
+#### **Scenario**  
+Once a complaint is classified, the AI Agent should retrieve relevant knowledge articles to suggest resolutions.  
+
+#### **Student Assignment**  
+1. Load a provided knowledge base with fields:  
+   - `Article_ID`: Unique identifier.  
+   - `Department`: Associated department.  
+   - `Keywords`: Tags for retrieval.  
+   - `Article_Text`: Full text of the article.  
+2. Use embeddings (e.g., SentenceTransformers) to generate vector representations for the articles and complaints.  
+3. Implement a similarity search algorithm (e.g., cosine similarity) to retrieve the top 3 articles for each complaint.  
+
+#### **Deliverable**  
+Submit your knowledge retrieval script and an output file showing the top 3 articles for 10 test complaints.
+
+---
+
+### **Task 5: Test Responsible AI Practices**  
+#### **Scenario**  
+AI systems for citizen services must be fair and unbiased. You need to audit your classification model for potential biases.  
+
+#### **Student Assignment**  
+1. Analyze model performance across different demographics (e.g., names indicating gender or region).  
+2. Check for overrepresentation or neglect of certain complaint categories.  
+3. Propose methods to address any bias found (e.g., rebalancing training data).  
+
+#### **Deliverable**  
+Submit an audit report (300 words) outlining your findings and proposed solutions.
+
+---
+
+### **Task 6: Present Final Recommendation**  
+#### **Scenario**  
+You are pitching your solution to government stakeholders. Summarize your AI pipeline and demonstrate its impact on complaint resolution efficiency.  
+
+#### **Student Assignment**  
+1. Create a presentation (5 slides) covering:  
+   - Problem statement and dataset analysis.  
+   - Classification model results.  
+   - Knowledge retrieval accuracy.  
+   - Responsible AI findings.  
+   - Overall impact and next steps.  
+2. Record a 3-minute video walkthrough of your presentation.  
+
+#### **Deliverable**  
+Submit your slides and video walkthrough.
+
+---
+
+## 6. MCQs Post Task Completion  
+
+1. **What is the primary goal of the AI Agent in this simulation?**  
+   A. Replace human agents entirely  
+   B. Automate complaint classification and resolution  
+   C. Increase the number of complaints received  
+   D. Create new knowledge articles  
+   **Correct Answer**: B  
+
+2. **What does the `Urgency` field in the dataset represent?**  
+   A. The department responsible for the complaint  
+   B. The likelihood of escalation  
+   C. The priority level of the complaint  
+   D. The time taken to resolve the complaint  
+   **Correct Answer**: C  
+
+3. **Which library is recommended for text classification in this simulation?**  
+   A. TensorFlow  
+   B. Hugging Face Transformers  
+   C. OpenCV  
+   D. Scikit-learn  
+   **Correct Answer**: B  
+
+4. **What metric is best for evaluating imbalanced classification tasks?**  
+   A. Accuracy  
+   B. F1-score  
+   C. Mean Squared Error  
+   D. ROC-AUC  
+   **Correct Answer**: B  
+
+5. **What is the purpose of embeddings in knowledge retrieval?**  
+   A. To improve classification accuracy  
+   B. To convert text into numerical representations for similarity search  
+   C. To identify bias in the dataset  
+   D. To preprocess text data  
+   **Correct Answer**: B  
+
+6. **Which method is used to measure similarity between embeddings?**  
+   A. Cosine similarity  
+   B. Euclidean distance  
+   C. Manhattan distance  
+   D. All of the above  
+   **Correct Answer**: A  
+
+7. **What is an example of a responsible AI practice?**  
+   A. Ignoring bias in the dataset  
+   B. Auditing the model for fairness  
+   C. Using only accuracy as the evaluation metric  
+   D. Maximizing model complexity  
+   **Correct Answer**: B  
+
+8. **What is the role of the knowledge base in this project?**  
+   A. To store resolved complaints  
+   B. To provide suggested resolutions for classified complaints  
+   C. To replace the NLP model  
+   D. To store complaint escalation data  
+   **Correct Answer**: B  
+
+9. **What file format is typically used for saving a trained Hugging Face model?**  
+   A. .json  
+   B. .pt  
+   C. .csv  
+   D. .h5  
+   **Correct Answer**: B  
+
+10. **What is the next step if a complaint cannot be resolved by the AI Agent?**  
+    A. Archive the complaint  
+    B. Escalate it to the appropriate department  
+    C. Delete the complaint  
+    D. Automatically mark it as resolved  
+    **Correct Answer**: B  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+1. Task 1: Dataset analysis report.  
+2. Task 2: Cleaned dataset and preprocessing summary.  
+3. Task 3: Trained model and performance report.  
+4. Task 4: Knowledge retrieval script and output file.  
+5. Task 5: Responsible AI audit report.  
+6. Task 6: Presentation slides and video walkthrough.  
+
+### **Grading Rubric**  
+- **Problem Understanding (10%)**: Depth of dataset analysis and insights.  
+- **Data Preparation (15%)**: Quality of preprocessing and label encoding.  
+- **Model Development (25%)**: Classification accuracy and F1-score.  
+- **Knowledge Retrieval (20%)**: Relevance of retrieved articles.  
+- **Responsible AI (15%)**: Thoroughness of bias audit and solutions.  
+- **Presentation (15%)**: Clarity, structure, and impact of final recommendation.
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+Upon successful submission and review, you will earn the **"Citizen Services AI Agent – GovTech Innovator"** certificate, showcasing your expertise in:  
+- AI-driven complaint resolution systems.  
+- Responsible AI practices for public services.  
+- NLP and knowledge retrieval techniques.  
+
+### **Example Employability Score**  
+Your certificate will include an employability score based on:  
+- **Technical Proficiency (40%)**: Classification and knowledge retrieval performance.  
+- **Problem-Solving (30%)**: Dataset insights and model improvements.  
+- **Communication (30%)**: Presentation quality and clarity.  
+
+
+
+---
+
+## 98. Drone Technology Analyst – AI-Based Infrastructure Inspection
+
+# Drone Technology Analyst – AI-Based Infrastructure Inspection
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+In the rapidly evolving DroneTech industry, drones equipped with AI capabilities are transforming infrastructure inspections by delivering precise, efficient, and cost-effective results. As a Drone Technology Analyst, you'll play a critical role in ensuring infrastructure safety by leveraging drone-collected data and AI-driven models to detect structural risks in bridges, towers, and pipelines.  
+
+### **Mission**  
+Your mission is to simulate a professional role in a DroneTech company tasked with analyzing drone-captured imagery and sensor data. You will develop AI models to detect potential infrastructure risks, audit model performance for responsible AI practices, and present actionable insights to stakeholders.  
+
+### **Final Challenge**  
+At the end of this internship, you will deliver a comprehensive risk report based on drone imagery captured from a bridge inspection. The report will include AI-detected anomalies, risk categorization, and actionable recommendations for remediation.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge**:  
+  - Fundamentals of DroneTech and its applications in infrastructure inspection.  
+  - Structural risk analysis for bridges and pipelines.  
+  - Real-world challenges in data collection using drones.  
+
+- **Analytics Skills**:  
+  - Preprocessing drone imagery and sensor data.  
+  - Anomaly detection using AI models.  
+  - Presenting actionable insights in comprehensible formats.  
+
+- **AI Skills**:  
+  - Training and deploying AI models for image classification and risk detection.  
+  - Responsible AI practices, including bias detection and audit trails.  
+  - Utilizing Generative AI for report explanations and stakeholder communication.
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Experience with Python and data analytics.  
+- Basic understanding of AI/ML concepts and computer vision.  
+- Familiarity with drone operations and image/video data formats.  
+
+### **Tools Required**  
+- Python IDE (Jupyter Notebook or PyCharm).  
+- Access to AI libraries such as TensorFlow or PyTorch.  
+- Image annotation tools like LabelImg or CVAT.  
+- Visualization tools (Matplotlib, Seaborn).  
+
+### **Prerequisite Skill Check**  
+1. Can you preprocess and clean image datasets?  
+2. Are you familiar with convolutional neural networks (CNNs)?  
+3. Can you interpret AI model outputs for decision-making?  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Drone Data Pipeline**: Handling drone-captured images and sensor datasets.  
+- **Computer Vision Libraries**: OpenCV, TensorFlow, PyTorch.  
+- **Data Visualization**: Matplotlib, Plotly, Seaborn.  
+
+### **Advanced Track**  
+- **Generative AI**: GPT-based tools for stakeholder report creation.  
+- **Responsible AI Frameworks**: Model auditing with Lime or SHAP.  
+- **Cloud Platforms**: AWS SageMaker for scalable AI model deployment.
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand**  
+**Scenario**: Your company has been hired to inspect a bridge for structural vulnerabilities using drone technology. You receive a briefing about the inspection goals and the expected outcomes.  
+**Student Assignment**: Review the inspection brief, learn about the structural risks commonly associated with bridges, and understand the data format captured by drones (images and sensor logs).  
+**Deliverable**: Submit a summary document outlining the inspection objectives and risk indicators.
+
+---
+
+### **Task 2: Data/Setup**  
+**Scenario**: You have received raw drone data comprising high-resolution images and sensor readings. Before AI modeling, you need to preprocess and annotate the data.  
+**Student Assignment**:  
+- Clean the image dataset to remove duplicates or irrelevant data.  
+- Annotate images to highlight cracks, rust, or other anomalies using tools like LabelImg.  
+- Split the dataset into training and testing subsets.  
+**Deliverable**: Submit the preprocessed dataset and a summary of your annotation process.
+
+---
+
+### **Task 3: Build/Execute**  
+**Scenario**: Your team is tasked with training an AI model to detect anomalies in the drone imagery. You will use CNNs for image classification and anomaly detection.  
+**Student Assignment**:  
+- Build a convolutional neural network (CNN) using TensorFlow or PyTorch.  
+- Train the model using the annotated dataset.  
+- Evaluate the model's accuracy and generate predictions on the test set.  
+**Deliverable**: Submit the Python code, model evaluation metrics (accuracy, precision, recall), and predictions.
+
+---
+
+### **Task 4: GenAI/Explanation**  
+**Scenario**: Stakeholders need a clear explanation of the AI results and actionable recommendations based on detected risks. Use Generative AI tools to draft a professional report.  
+**Student Assignment**:  
+- Input AI prediction results into a GPT-based tool to generate a stakeholder-friendly report.  
+- Ensure the report includes detected anomalies, severity levels, and remediation steps.  
+**Deliverable**: Submit the AI-generated report in PDF format.
+
+---
+
+### **Task 5: Audit/Responsible AI**  
+**Scenario**: Before releasing the AI model for operational use, you need to ensure it adheres to responsible AI practices. This includes auditing for bias and interpretability.  
+**Student Assignment**:  
+- Use SHAP or Lime to interpret AI model predictions.  
+- Verify that the model is free from bias (e.g., ensuring consistent detection across different image qualities).  
+- Document the audit findings.  
+**Deliverable**: Submit the audit report highlighting interpretability insights and bias checks.
+
+---
+
+### **Task 6: Present Recommendation**  
+**Scenario**: Your final task is to present actionable recommendations to the engineering team based on your analysis. Stakeholders expect concise and impactful insights.  
+**Student Assignment**:  
+- Create a presentation summarizing the bridge inspection results, AI model outputs, and risk categorization.  
+- Include visualizations and a clear call-to-action for remediation priorities.  
+**Deliverable**: Submit the presentation in PowerPoint or PDF format.
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary role of drones in infrastructure inspection?**  
+   A. Capturing high-resolution images and sensor data  
+   B. Repairing structural defects  
+   C. Replacing human engineers  
+   D. Eliminating all risks  
+   **Correct Answer**: A  
+
+2. **What preprocessing step is crucial before training an AI model on drone images?**  
+   A. Data splitting  
+   B. Image annotation  
+   C. Removing duplicates  
+   D. All of the above  
+   **Correct Answer**: D  
+
+3. **Which AI model architecture is best suited for image classification?**  
+   A. Recurrent Neural Networks (RNNs)  
+   B. Convolutional Neural Networks (CNNs)  
+   C. Generative Adversarial Networks (GANs)  
+   D. Decision Trees  
+   **Correct Answer**: B  
+
+4. **What tool can be used to annotate structural anomalies in images?**  
+   A. TensorFlow  
+   B. LabelImg  
+   C. OpenCV  
+   D. PyTorch  
+   **Correct Answer**: B  
+
+5. **What does SHAP stand for in the context of AI model auditing?**  
+   A. Structural Hazard Analysis Process  
+   B. SHape Approximation Protocol  
+   C. SHapley Additive exPlanations  
+   D. Sensor Hazard Assessment Program  
+   **Correct Answer**: C  
+
+6. **Which metric is NOT typically used to evaluate AI models?**  
+   A. Accuracy  
+   B. Precision  
+   C. Recall  
+   D. Structural Integrity  
+   **Correct Answer**: D  
+
+7. **What is the advantage of using Generative AI for report creation?**  
+   A. Automates drone image annotation  
+   B. Provides clear and professional explanations  
+   C. Reduces model bias  
+   D. Improves image resolution  
+   **Correct Answer**: B  
+
+8. **What visualization tool is best for presenting bridge inspection results?**  
+   A. Matplotlib  
+   B. Jupyter Notebook  
+   C. TensorFlow  
+   D. LabelImg  
+   **Correct Answer**: A  
+
+9. **What type of bias can occur in AI models for drone inspections?**  
+   A. Detection bias due to image quality variations  
+   B. Irrelevant data bias  
+   C. Annotation bias  
+   D. All of the above  
+   **Correct Answer**: D  
+
+10. **What should be included in the final stakeholder presentation?**  
+    A. Anomaly detection results and severity levels  
+    B. AI model configuration details  
+    C. Drone technical specifications  
+    D. Raw image dataset  
+    **Correct Answer**: A  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**  
+- Task 1: Summary document (Inspection objectives and risk indicators).  
+- Task 2: Preprocessed dataset and annotation summary.  
+- Task 3: Python code, model evaluation metrics, and predictions.  
+- Task 4: AI-generated stakeholder report (PDF).  
+- Task 5: Audit report highlighting interpretability and bias checks.  
+- Task 6: Final presentation (PowerPoint or PDF).  
+
+### **Grading Rubric**  
+- **Accuracy (30%)**: How well the AI model detects anomalies.  
+- **Depth (25%)**: Quality of annotations and audit findings.  
+- **Clarity (20%)**: Presentation and report readability.  
+- **Application (25%)**: Actionable recommendations for stakeholders.
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful submission and review of your tasks, you will earn the **Drone Technology Analyst – AI-Based Infrastructure Inspection** certificate.  
+
+### **Employability Score Example**  
+- **Technical Skills**: 92/100  
+- **Domain Knowledge**: 88/100  
+- **Communication Skills**: 85/100  
+- **Problem Solving**: 90/100  
+
+Your certificate and score will demonstrate your expertise and readiness for roles in DroneTech and AI-driven infrastructure inspection.
+
+---
+
+## 99. Space Technology Analyst – AI for Satellite Intelligence
+
+# Space Technology Analyst – AI for Satellite Intelligence
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+You are recruited as a Space Technology Analyst for a leading SpaceTech organization specializing in satellite intelligence. Your mission is to optimize the use of satellite imagery to detect anomalies, such as environmental changes, infrastructure damage, or illegal activities. You will leverage AI and machine learning algorithms to analyze geospatial data, detect patterns, identify anomalies, and generate actionable intelligence reports for stakeholders like government agencies, environmental organizations, and private enterprises.
+
+### **Mission**  
+Your objective is to develop a satellite image analysis pipeline that processes raw geospatial data, identifies anomalies using AI models, and translates findings into actionable intelligence. You will simulate real-world scenarios where timely intelligence is critical for decision-making, such as disaster response, infrastructure monitoring, or environmental conservation.
+
+### **Final Challenge**  
+The final challenge involves detecting anomalies in a satellite-generated dataset, validating your findings with a responsible AI framework, and presenting a high-stakes intelligence report to stakeholders. This is your chance to prove your expertise in SpaceTech analytics and AI-driven decision-making.
+
+---
+
+## 2. What Will You Learn?
+
+- **Domain Knowledge**  
+  - Basics of satellite data acquisition, formats, and processing.  
+  - Understanding geospatial intelligence and its applications in disaster management, environmental monitoring, and defense.  
+
+- **Analytics Skills**  
+  - Satellite image preprocessing techniques (e.g., georeferencing, resolution adjustment).  
+  - Identifying anomalies and patterns in geospatial datasets.  
+
+- **AI Skills**  
+  - Building AI pipelines for image processing and anomaly detection.  
+  - Using pre-trained models for satellite image classification and segmentation.  
+  - Responsible AI practices in SpaceTech for ethical insights.  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Familiarity with machine learning concepts and Python programming.  
+- Basic understanding of satellite imagery and geospatial data.  
+- Prior experience with image processing or computer vision is beneficial.  
+
+### **Tools**  
+- Python (NumPy, Pandas, OpenCV, TensorFlow/PyTorch, Matplotlib).  
+- QGIS or ArcGIS (optional for geospatial data visualization).  
+- Cloud platforms (Google Earth Engine or AWS for satellite image datasets).  
+
+### **Prerequisite Skill Check**  
+- Write Python code to load, preprocess, and visualize an image dataset.  
+- Describe the differences between supervised and unsupervised learning models.  
+- Explain how satellite imagery can be used for environmental monitoring.  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **OpenCV**: Image processing and feature extraction.  
+- **TensorFlow/PyTorch**: Implementing AI models for anomaly detection.  
+- **Google Earth Engine (GEE)**: Accessing satellite image datasets.  
+
+### **Advanced Track**  
+- **QGIS**: Analyzing geospatial data with advanced visualization techniques.  
+- **Responsible AI Toolkit**: Implementing fairness and transparency in SpaceTech models.  
+
+---
+
+## 5. Tasks to be Performed
+
+### **Task 1: Understand**  
+#### Scenario  
+Your team has received raw satellite imagery for a disaster-prone region. Stakeholders are counting on you to provide actionable insights to prevent future damage. Before diving into the data, you must understand the scope and types of satellite images provided.  
+
+#### Student Assignment  
+- Research the types of satellite images (optical vs. radar).  
+- Identify the key metadata fields in the dataset (e.g., resolution, timestamp, geolocation).  
+
+#### Deliverable  
+A short report summarizing the dataset characteristics, the types of anomalies to detect, and the potential challenges in processing satellite imagery.  
+
+---
+
+### **Task 2: Data/Setup**  
+#### Scenario  
+The raw satellite images are available in TIFF format, but they need to be preprocessed before analysis. Your task is to clean, preprocess, and prepare the data for AI-based anomaly detection.  
+
+#### Student Assignment  
+- Use OpenCV or similar libraries to load and preprocess images (e.g., resize, grayscale conversion).  
+- Extract metadata fields (e.g., coordinates, timestamps) for analysis.  
+- Visualize a subset of images using Matplotlib for exploratory analysis.  
+
+#### Deliverable  
+A set of preprocessed images and a Jupyter notebook showing the preprocessing pipeline.  
+
+---
+
+### **Task 3: Build/Execute**  
+#### Scenario  
+You are tasked with building an anomaly detection model using AI. The goal is to identify regions in the satellite images where anomalies such as deforestation or infrastructure damage might have occurred.  
+
+#### Student Assignment  
+- Train an anomaly detection model using unsupervised learning (e.g., autoencoders).  
+- Test the model on preprocessed satellite images.  
+- Fine-tune the model to minimize false positives and false negatives.  
+
+#### Deliverable  
+A trained AI model and a notebook documenting the training process, evaluation metrics, and sample outputs.  
+
+---
+
+### **Task 4: GenAI/Explanation**  
+#### Scenario  
+Stakeholders need to understand the anomalies detected without technical jargon. Using Generative AI tools, you must create a simplified explanation for non-technical audiences.  
+
+#### Student Assignment  
+- Use Generative AI (e.g., ChatGPT or GPT-based tools) to draft a summary explaining the detected anomalies.  
+- Include visuals (e.g., annotated satellite images) to support your explanation.  
+
+#### Deliverable  
+A stakeholder-friendly document summarizing the anomalies and their implications, accompanied by annotated visuals.  
+
+---
+
+### **Task 5: Audit/Responsible AI**  
+#### Scenario  
+Your anomaly detection model must be reviewed for bias and ethical implications. Ensure that your AI pipeline aligns with responsible AI practices.  
+
+#### Student Assignment  
+- Evaluate the model for any biases (e.g., geographic or data selection bias).  
+- Apply fairness metrics and transparency checks to your pipeline.  
+- Suggest improvements to make the AI model more ethical.  
+
+#### Deliverable  
+A responsible AI audit report outlining the steps taken to ensure fairness and ethics in the analysis.  
+
+---
+
+### **Task 6: Present Recommendation**  
+#### Scenario  
+You are presenting your findings to a panel of stakeholders, including government officials and environmental agencies. Your goal is to deliver actionable recommendations based on the anomalies detected.  
+
+#### Student Assignment  
+- Create a presentation summarizing the analysis, key findings, and recommendations.  
+- Include insights on how stakeholders can act on the intelligence provided.  
+
+#### Deliverable  
+A presentation deck (PPT or PDF) with data visualizations, recommendations, and a clear action plan.  
+
+---
+
+## 6. MCQs Post Task Completion
+
+1. **What is the primary advantage of radar satellite imagery over optical imagery?**  
+   A) Higher resolution.  
+   B) Ability to penetrate clouds and operate at night.  
+   C) Faster data processing.  
+   D) Easier to visualize.  
+   **Correct Answer:** B  
+
+2. **Which library is commonly used for image preprocessing in Python?**  
+   A) NumPy.  
+   B) OpenCV.  
+   C) SciPy.  
+   D) Pandas.  
+   **Correct Answer:** B  
+
+3. **What type of learning is best suited for anomaly detection?**  
+   A) Supervised learning.  
+   B) Reinforcement learning.  
+   C) Unsupervised learning.  
+   D) Semi-supervised learning.  
+   **Correct Answer:** C  
+
+4. **Which metric evaluates the fairness of an AI model?**  
+   A) Accuracy.  
+   B) Precision.  
+   C) Disparate impact.  
+   D) Recall.  
+   **Correct Answer:** C  
+
+5. **What is the primary purpose of Generative AI in Task 4?**  
+   A) Detect anomalies.  
+   B) Generate stakeholder-friendly explanations.  
+   C) Train the model faster.  
+   D) Improve image resolution.  
+   **Correct Answer:** B  
+
+6. **Which tool is best suited for accessing satellite imagery datasets?**  
+   A) OpenCV.  
+   B) Google Earth Engine.  
+   C) TensorFlow.  
+   D) Matplotlib.  
+   **Correct Answer:** B  
+
+7. **What preprocessing step is critical for satellite imagery analysis?**  
+   A) Data augmentation.  
+   B) Grayscale conversion.  
+   C) Feature extraction.  
+   D) Resolution adjustment.  
+   **Correct Answer:** D  
+
+8. **Which algorithm is commonly used for unsupervised anomaly detection?**  
+   A) Random Forest.  
+   B) Autoencoder.  
+   C) Linear Regression.  
+   D) K-Nearest Neighbors.  
+   **Correct Answer:** B  
+
+9. **What is the role of an audit in responsible AI?**  
+   A) To optimize the AI model for better performance.  
+   B) To ensure ethical and unbiased decision-making.  
+   C) To generate synthetic data for training.  
+   D) To validate the data preprocessing pipeline.  
+   **Correct Answer:** B  
+
+10. **What is the main goal of presenting recommendations to stakeholders?**  
+    A) To showcase technical expertise.  
+    B) To provide actionable intelligence for decision-making.  
+    C) To justify the use of AI tools.  
+    D) To obtain funding for future projects.  
+    **Correct Answer:** B  
+
+---
+
+## 7. Submit Your Completed Task
+
+### **Submission Artifacts**  
+- Task 1: Dataset summary report.  
+- Task 2: Preprocessed images and Jupyter notebook.  
+- Task 3: Trained AI model and evaluation metrics.  
+- Task 4: Stakeholder-friendly anomaly explanation document.  
+- Task 5: Responsible AI audit report.  
+- Task 6: Presentation deck with recommendations.  
+
+### **Grading Rubric**  
+- **Accuracy (30%)**: Correct identification of anomalies.  
+- **Completeness (20%)**: All required artifacts are submitted.  
+- **Clarity (20%)**: Clear explanations and visuals in reports and presentations.  
+- **Innovation (20%)**: Novel insights or techniques applied.  
+- **Ethics (10%)**: Responsible AI considerations integrated.  
+
+---
+
+## 8. Earn Certificate Post Verification
+
+Upon successful completion and verification of your submission, you will receive a "Space Technology Analyst – AI for Satellite Intelligence" certificate.  
+
+### **Employability Score Example**  
+**Score Breakdown:**  
+- **Technical Skills:** 90/100  
+- **Domain Knowledge:** 85/100  
+- **Responsible Decision-Making:** 95/100  
+- **Presentation Skills:** 80/100  
+**Employability Score:** **88/100**  
+
+This certificate and score will showcase your readiness for advanced roles in SpaceTech analytics and AI-driven geospatial intelligence.
+
+---
+
+## 100. AI Startup Analyst – Evaluate an Early-Stage Startup
+
+# AI Startup Analyst – Evaluate an Early-Stage Startup
+
+## 1. What is this Job Simulation All About?
+
+### **Scenario**  
+You are hired as an AI Startup Analyst by a venture capital firm that specializes in investing in early-stage AI startups. Your firm is considering investing in a startup that claims to revolutionize predictive healthcare using AI. Your role is to evaluate the startup holistically—its pitch deck, market opportunity, product feasibility, technology stack, unit economics, and overall investment potential.  
+
+### **Mission**  
+Your mission is to conduct a rigorous analysis of the startup's pitch deck and supporting materials to determine if it is a viable investment. You’ll assess the market demand, validate the product’s potential, evaluate the technological stack for scalability, and analyze its unit economics to write an investment memo recommending whether to fund the startup or not.  
+
+### **Final Challenge**  
+Write a professional, data-driven investment memo that evaluates the startup across critical parameters. Your memo will be reviewed by a simulated Venture Capital Investment Committee for feedback.  
+
+---
+
+## 2. What Will You Learn?
+
+### **Domain Knowledge**  
+- Fundamentals of startup evaluation: market sizing, competitive landscape, and product-market fit.  
+- Venture capital metrics such as TAM (Total Addressable Market), CAC (Customer Acquisition Cost), LTV (Lifetime Value), and unit economics.  
+- Key components of startup pitch decks and investment memos.  
+
+### **Analytics**  
+- Analyze and interpret startup financials, growth projections, and customer acquisition models.  
+- Perform competitive analysis using secondary data research and market reports.  
+- Decompose unit economics to assess financial viability.  
+
+### **AI Skills**  
+- Evaluate the AI technology stack for feasibility, scalability, and sustainability.  
+- Use generative AI tools to synthesize information, draft segments of the investment memo, and design competitive analysis visuals.  
+- Identify ethical considerations in AI-driven startup solutions.  
+
+---
+
+## 3. What Are the Prerequisites?
+
+### **Recommended Background**  
+- Familiarity with venture capital and startup funding processes.  
+- Basic understanding of AI concepts such as machine learning, data models, and scalability.  
+- Analytical skills in market research and business strategy.  
+
+### **Tools**  
+- Spreadsheet software (Excel/Google Sheets).  
+- Generative AI tools like ChatGPT or Jasper.  
+- Presentation tools (PowerPoint/Google Slides).  
+
+### **Prerequisite Skill Check**  
+- Can you calculate basic unit economics such as CAC and LTV?  
+- Are you comfortable analyzing market reports and identifying trends?  
+- Do you understand the ethical implications of AI technologies?  
+
+---
+
+## 4. What Tools Will You Learn?
+
+### **Core Tools**  
+- **Pitch Deck Analysis Framework**: A structured method to dissect startup decks.  
+- **Excel for Financial Modeling**: Build simple financial models for unit economics.  
+- **Market Research Tools**: Use free resources like Statista, Crunchbase, and CB Insights for competitive analysis.  
+
+### **Advanced Track**  
+- **Generative AI for Memo Writing**: Automate memo drafting with AI tools.  
+- **AI Technology Evaluation Framework**: Assess AI stack scalability and alignment with business goals.  
+- **Responsible AI Audit Tools**: Identify ethical risks and mitigation strategies for AI-based startups.  
+
+---
+
+## 5. Tasks to be Performed  
+
+### **Task 1: Understand – Analyze the AI Startup Pitch Deck**  
+#### **Scenario**  
+The startup has shared its 12-slide pitch deck, which includes sections like Problem Statement, Solution, Market Opportunity, Financials, and Competitive Advantage. You need to analyze the deck’s structure and identify gaps.  
+
+#### **Student Assignment**  
+- Review the pitch deck and identify key strengths and weaknesses.  
+- Evaluate the clarity of the problem statement and solution.  
+- Assess whether the competitive advantage and market opportunity are compelling.  
+
+#### **Deliverable**  
+Submit a short report highlighting the strengths, weaknesses, and missing elements in the pitch deck.  
+
+---
+
+### **Task 2: Data/Setup – Market and Competitive Analysis**  
+#### **Scenario**  
+The startup claims to operate in a market worth $5 billion annually with only two direct competitors. You’re tasked to validate this claim using external data sources and benchmark competitors.  
+
+#### **Student Assignment**  
+- Use tools like Crunchbase and Statista to research market size and trends.  
+- Identify direct and indirect competitors. Compare their offerings and positioning.  
+- Calculate TAM, SAM (Serviceable Addressable Market), and SOM (Serviceable Obtainable Market).  
+
+#### **Deliverable**  
+Submit a spreadsheet and a 1-page summary of market validation and competitive analysis.  
+
+---
+
+### **Task 3: Build/Execute – Unit Economics Assessment**  
+#### **Scenario**  
+The startup’s financials suggest a CAC of $150 and an LTV of $1,200, with a customer retention rate of 80%. You need to verify these claims and assess their unit economics.  
+
+#### **Student Assignment**  
+- Validate the startup’s CAC and LTV figures using provided financial data.  
+- Build a simple financial model to assess scalability and break-even point.  
+- Suggest ways to optimize CAC and improve profitability.  
+
+#### **Deliverable**  
+Submit the financial model in Excel or Google Sheets and a brief recommendation report.  
+
+---
+
+### **Task 4: GenAI/Explanation – Evaluate AI Technology Stack**  
+#### **Scenario**  
+The startup claims to use a proprietary AI algorithm for predictive healthcare analytics. You need to evaluate the feasibility of this claim and check for scalability and ethical risks.  
+
+#### **Student Assignment**  
+- Review documentation on the startup’s AI technology stack (e.g., Python-based ML models, cloud hosting platforms).  
+- Use a generative AI tool to draft a summary of potential challenges in scalability and ethical concerns (e.g., bias, data privacy).  
+
+#### **Deliverable**  
+Submit a 2-page evaluation of the AI technology stack, including identified risks and recommendations.  
+
+---
+
+### **Task 5: Audit/Responsible AI – Perform an AI Ethics Audit**  
+#### **Scenario**  
+The startup has no formal Responsible AI framework. You are tasked with identifying ethical risks and proposing mitigation strategies for its predictive healthcare solution.  
+
+#### **Student Assignment**  
+- Audit the startup’s AI solution for potential biases (e.g., gender, ethnicity, socioeconomic).  
+- Suggest actionable Responsible AI practices, including data governance and transparency measures.  
+
+#### **Deliverable**  
+Submit a Responsible AI Audit checklist and a 1-page summary of proposed mitigation strategies.  
+
+---
+
+### **Task 6: Present Recommendation – Write an Investment Memo**  
+#### **Scenario**  
+The Venture Capital Investment Committee requires a final investment memo summarizing your findings across market, product, technology, and financials.  
+
+#### **Student Assignment**  
+- Consolidate findings from previous tasks into a formal investment memo.  
+- Use visuals (charts, graphs) to strengthen your arguments.  
+- Make a clear recommendation: Invest or Pass.  
+
+#### **Deliverable**  
+Submit a 5-page professional investment memo in PDF format, with supporting charts and financial models.  
+
+---
+
+## 6. MCQs Post Task Completion  
+
+### **1. What is the primary purpose of an investment memo?**  
+A. To present the startup’s pitch deck without changes  
+B. To recommend whether a startup is investment-worthy based on analysis  
+C. To calculate the startup valuation  
+D. To summarize the venture capital firm’s portfolio  
+
+**Answer:** B  
+
+---
+
+### **2. Which metric helps measure the revenue generated by a customer over their lifetime?**  
+A. CAC  
+B. Runway  
+C. LTV  
+D. Burn Rate  
+
+**Answer:** C  
+
+---
+
+### **3. What does TAM stand for?**  
+A. Total Achievable Market  
+B. Target Addressable Market  
+C. Total Addressable Market  
+D. Trustworthy AI Model  
+
+**Answer:** C  
+
+---
+
+### **4. Which of the following is NOT a common section of a startup pitch deck?**  
+A. Problem Statement  
+B. Financial Projections  
+C. Competitive Advantage  
+D. Responsible AI Audit  
+
+**Answer:** D  
+
+---
+
+### **5. What is the key benefit of using generative AI for investment memo writing?**  
+A. Automatically calculating financial models  
+B. Synthesizing data and generating professional drafts  
+C. Eliminating the need for market research  
+D. Replacing human analysts  
+
+**Answer:** B  
+
+---
+
+### **6. What does CAC stand for?**  
+A. Customer Account Credit  
+B. Cost of Acquiring Customers  
+C. Credit Approval Check  
+D. Customer Acquisition Cost  
+
+**Answer:** D  
+
+---
+
+### **7. Which of the following is an ethical issue specific to AI startups in healthcare?**  
+A. High server costs  
+B. Data privacy and bias in predictive models  
+C. Slow customer acquisition  
+D. Lack of funding  
+
+**Answer:** B  
+
+---
+
+### **8. What is the goal of a Responsible AI Audit?**  
+A. To reduce CAC  
+B. To mitigate ethical risks in AI solutions  
+C. To validate TAM calculations  
+D. To improve AI scalability  
+
+**Answer:** B  
+
+---
+
+### **9. In evaluating AI scalability, which factor is most critical?**  
+A. Cloud hosting costs  
+B. Number of employees in the startup  
+C. Training data size and model performance  
+D. Marketing expenses  
+
+**Answer:** C  
+
+---
+
+### **10. What is the typical retention rate formula used in unit economics assessment?**  
+A. Number of retained customers / Total customers  
+B. Total customers / CAC  
+C. LTV / Burn Rate  
+D. Number of retained customers / LTV  
+
+**Answer:** A  
+
+---
+
+## 7. Submit Your Completed Task  
+
+### **Submission Artifacts**  
+- Task 1: Pitch Deck Analysis Report  
+- Task 2: Market Validation Spreadsheet and Summary  
+- Task 3: Financial Model (Excel/Google Sheets)  
+- Task 4: AI Technology Evaluation Report  
+- Task 5: Responsible AI Audit Checklist and Summary  
+- Task 6: Investment Memo (PDF format)  
+
+### **Grading Rubric**  
+- **Completeness:** All tasks submitted with required artifacts (20%)  
+- **Accuracy:** Validated data and logical conclusions (30%)  
+- **Professionalism:** Well-structured reports and memo (20%)  
+- **Critical Analysis:** Depth of insights and recommendations (30%)  
+
+---
+
+## 8. Earn Certificate Post Verification  
+
+### **Certificate Details**  
+Upon successful completion of the internship and verification of your submitted artifacts, you will receive a **Skillzza Advanced Internship Certificate in AI Startup Analysis**.  
+
+### **Employability Score Example**  
+Your employability score will be calculated based on:  
+- Analytical Skills: 95%  
+- AI Technology Evaluation: 90%  
+- Responsible AI Practices: 85%  
+- Investment Memo Writing: 92%  
+
+This score will be shown on your Skillzza profile and can be shared with employers as proof of expertise in startup analysis within the venture capital domain.  
+
+---
+

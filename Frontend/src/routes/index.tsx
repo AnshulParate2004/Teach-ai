@@ -73,6 +73,9 @@ function Index() {
               </Link>
             </Button>
             <Button size="lg" variant="secondary" asChild>
+              <Link to="/portfolio">Top 100 Portfolio</Link>
+            </Button>
+            <Button size="lg" variant="outline" asChild>
               <Link to="/dashboard">View dashboard</Link>
             </Button>
           </div>

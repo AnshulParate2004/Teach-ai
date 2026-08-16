@@ -3,7 +3,7 @@ export type DomainStatus = "live" | "coming-soon";
 export interface Domain {
   slug: string;
   name: string;
-  icon: "sparkles" | "chart" | "atom" | "blocks";
+  icon: "sparkles" | "chart" | "atom" | "blocks" | "briefcase" | "heart" | "megaphone" | "palette" | "landmark" | "leaf" | "users";
   description: string;
   problemCount: number;
   status: DomainStatus;
@@ -12,44 +12,76 @@ export interface Domain {
 
 export const domains: Domain[] = [
   {
-    slug: "generative-ai",
-    name: "Generative & Agentic AI",
-    icon: "sparkles",
-    description:
-      "Ship production-shaped LLM systems: LCEL chains, RAG pipelines, LangGraph state machines, multi-agent supervisors and MCP servers.",
-    problemCount: 20,
+    slug: "design-ui-ux",
+    name: "Design & UI/UX",
+    icon: "palette",
+    description: "Job simulations and virtual internships for the Design & UI/UX sector.",
+    problemCount: 2,
     status: "live",
-    topics: ["LangChain", "LangGraph", "RAG", "Multi-Agent", "MCP"],
+    topics: ["AI", "Data", "Business Logic"],
   },
   {
-    slug: "data-science",
-    name: "Data Science",
-    icon: "chart",
-    description:
-      "Feature engineering, model selection and evaluation on messy, real-world industry datasets.",
-    problemCount: 18,
-    status: "coming-soon",
-    topics: ["EDA", "Modeling", "Evaluation"],
+    slug: "government-public-services",
+    name: "Government & Public Services",
+    icon: "landmark",
+    description: "Job simulations and virtual internships for the Government & Public Services sector.",
+    problemCount: 1,
+    status: "live",
+    topics: ["AI", "Data", "Business Logic"],
   },
   {
-    slug: "quantum-computing",
-    name: "Quantum Computing",
-    icon: "atom",
-    description:
-      "Circuit design, variational algorithms and quantum simulation with Qiskit and PennyLane.",
-    problemCount: 12,
-    status: "coming-soon",
-    topics: ["Qiskit", "VQE", "Circuits"],
+    slug: "tech-development",
+    name: "Tech & Development",
+    icon: "briefcase",
+    description: "Job simulations and virtual internships for the Tech & Development sector.",
+    problemCount: 9,
+    status: "live",
+    topics: ["AI", "Data", "Business Logic"],
   },
   {
-    slug: "blockchain",
-    name: "Blockchain",
-    icon: "blocks",
-    description:
-      "Smart contracts, on-chain data pipelines and protocol security auditing challenges.",
-    problemCount: 15,
-    status: "coming-soon",
-    topics: ["Solidity", "DeFi", "Auditing"],
+    slug: "healthcare",
+    name: "Healthcare",
+    icon: "heart",
+    description: "Job simulations and virtual internships for the Healthcare sector.",
+    problemCount: 1,
+    status: "live",
+    topics: ["AI", "Data", "Business Logic"],
+  },
+  {
+    slug: "consulting-strategy",
+    name: "Consulting & Strategy",
+    icon: "briefcase",
+    description: "Job simulations and virtual internships for the Consulting & Strategy sector.",
+    problemCount: 1,
+    status: "live",
+    topics: ["AI", "Data", "Business Logic"],
+  },
+  {
+    slug: "customer-service",
+    name: "Customer Service",
+    icon: "users",
+    description: "Job simulations and virtual internships for the Customer Service sector.",
+    problemCount: 3,
+    status: "live",
+    topics: ["AI", "Data", "Business Logic"],
+  },
+  {
+    slug: "agriculture",
+    name: "Agriculture",
+    icon: "leaf",
+    description: "Job simulations and virtual internships for the Agriculture sector.",
+    problemCount: 1,
+    status: "live",
+    topics: ["AI", "Data", "Business Logic"],
+  },
+  {
+    slug: "marketing-branding",
+    name: "Marketing & Branding",
+    icon: "megaphone",
+    description: "Job simulations and virtual internships for the Marketing & Branding sector.",
+    problemCount: 2,
+    status: "live",
+    topics: ["AI", "Data", "Business Logic"],
   },
 ];
 

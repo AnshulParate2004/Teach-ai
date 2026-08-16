@@ -1,4 +1,0 @@
-Clinical Protocol for Hypertension:
-1. First-line treatment for uncomplicated hypertension is an ACE inhibitor or ARB.
-2. If patient is over 55 or of African family origin, use Calcium Channel Blocker (CCB) first.
-3. Target blood pressure is <140/90 mmHg for most patients.

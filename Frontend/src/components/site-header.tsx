@@ -19,8 +19,7 @@ export function SiteHeader() {
 
         <nav className="hidden items-center gap-1 text-sm text-muted-foreground sm:flex">
           <Link
-            to="/domains/$slug"
-            params={{ slug: "generative-ai" }}
+            to="/portfolio"
             className="rounded-md px-3 py-1.5 transition-colors hover:bg-secondary hover:text-foreground"
             activeProps={{ className: "text-foreground" }}
           >
