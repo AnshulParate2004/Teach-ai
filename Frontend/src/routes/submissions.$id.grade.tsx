@@ -141,7 +141,7 @@ function GradePage() {
 
       <div className="mt-8 flex flex-wrap gap-3">
         <Button asChild>
-          <Link to="/domains/$slug" params={{ slug: "generative-ai" }}>
+          <Link to="/portfolio">
             Try another problem
           </Link>
         </Button>

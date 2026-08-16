@@ -126,7 +126,7 @@ function Dashboard() {
         <div className="flex items-center justify-between border-b border-border/70 p-6">
           <h2 className="text-sm font-semibold">Recent submissions</h2>
           <Button variant="ghost" size="sm" asChild>
-            <Link to="/domains/$slug" params={{ slug: "generative-ai" }}>
+            <Link to="/portfolio">
               New submission
             </Link>
           </Button>

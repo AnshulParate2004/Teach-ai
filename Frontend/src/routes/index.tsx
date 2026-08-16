@@ -67,9 +67,9 @@ function Index() {
             holds up.
           </p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
-            <Button size="lg" asChild>
-              <Link to="/domains/$slug" params={{ slug: "generative-ai" }}>
-                Browse problems <ArrowRight className="size-4" />
+            <Button asChild size="lg" className="rounded-full shadow-lg">
+              <Link to="/portfolio">
+                View all internships
               </Link>
             </Button>
             <Button size="lg" variant="secondary" asChild>

@@ -148,63 +148,83 @@ function ProblemPage() {
             <div className="rounded-2xl border bg-card p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6 pb-4 border-b">
                 <div className="p-3 bg-primary/10 text-primary rounded-xl"><Star className="size-6" /></div>
-                <h2 className="text-2xl font-bold">What is this Job Simulation All About?</h2>
+                <h2 className="text-2xl font-bold">Why complete this Job Simulation</h2>
               </div>
               <div className="prose prose-sm dark:prose-invert max-w-none">
+                <p>A risk-free way to experience work on the job with us at <strong>{problem.company}</strong>. Practice your skills with example tasks and build your confidence to ace your applications.</p>
+                <ul className="list-disc ml-4 mb-6 text-muted-foreground">
+                  <li>Self-paced</li>
+                  <li>3-4 hours</li>
+                  <li>No grades</li>
+                  <li>No assessments</li>
+                  <li>{problem.difficulty}</li>
+                </ul>
+                
                 {problem.about_company && (
                   <div className="mb-8 pb-6 border-b border-primary/10">
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>{problem.about_company}</ReactMarkdown>
                   </div>
                 )}
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{problem.problem_statement}</ReactMarkdown>
+                
+                <p className="mt-6 italic text-muted-foreground">If you would like to connect with the {problem.company} team to find out more information please email <a href={`mailto:microinternships@skillzza.com`} className="text-primary hover:underline">microinternships@skillzza.com</a></p>
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="rounded-2xl border bg-card p-8 shadow-sm">
                 <div className="flex items-center gap-3 mb-6 pb-4 border-b">
-                  <div className="p-3 bg-primary/10 text-primary rounded-xl"><BookOpen className="size-6" /></div>
-                  <h2 className="text-xl font-bold">What Will You Learn?</h2>
+                  <div className="p-3 bg-primary/10 text-primary rounded-xl"><Award className="size-6" /></div>
+                  <h2 className="text-xl font-bold">Available Achievements</h2>
                 </div>
-                <p className="text-muted-foreground mb-4 text-sm">By completing this simulation, you will gain practical exposure to:</p>
-                <div className="bg-muted/30 p-5 rounded-xl border">
-                  <List items={problem.learn && problem.learn.length > 0 ? problem.learn : ["Industry context and workflow mapping", "Data extraction and insight generation", "Prompt engineering and AI integration", "Professional deliverable creation"]} />
-                </div>
+                <ul className="space-y-4 text-sm text-foreground font-medium">
+                  <li className="flex items-center gap-3"><CheckCircle className="text-primary size-5" /> Certificate</li>
+                  <li className="flex items-center gap-3"><CheckCircle className="text-primary size-5" /> Resume Snippet</li>
+                  <li className="flex items-center gap-3"><CheckCircle className="text-primary size-5" /> Interview Tips</li>
+                </ul>
               </div>
 
               <div className="rounded-2xl border bg-card p-8 shadow-sm">
                 <div className="flex items-center gap-3 mb-6 pb-4 border-b">
-                  <div className="p-3 bg-primary/10 text-primary rounded-xl"><PenTool className="size-6" /></div>
-                  <h2 className="text-xl font-bold">What Tools Will You Learn?</h2>
+                  <div className="p-3 bg-primary/10 text-primary rounded-xl"><BookOpen className="size-6" /></div>
+                  <h2 className="text-xl font-bold">Skills you will learn and practice</h2>
                 </div>
                 <div className="bg-muted/30 p-5 rounded-xl border">
-                  <List items={problem.tools && problem.tools.length > 0 ? problem.tools : problem.tags && problem.tags.length > 0 ? problem.tags : ["ChatGPT / GenAI Assistant", "Python / Jupyter Notebooks", "Skillzza AI Mentor"]} />
+                  <List items={problem.learn && problem.learn.length > 0 ? problem.learn : ["Industry context and workflow mapping", "Data extraction and insight generation", "Prompt engineering and AI integration", "Professional deliverable creation"]} />
                 </div>
               </div>
             </div>
 
             <div className="rounded-2xl border bg-card p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6 pb-4 border-b">
-                <div className="p-3 bg-primary/10 text-primary rounded-xl"><ShieldCheck className="size-6" /></div>
-                <h2 className="text-2xl font-bold">What Are the Prerequisites?</h2>
+                <div className="p-3 bg-primary/10 text-primary rounded-xl"><PlayCircle className="size-6" /></div>
+                <h2 className="text-2xl font-bold">How it works</h2>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="font-semibold text-lg mb-2">Recommended Background</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">Students should have basic familiarity with Python, logic, and analytical problem-solving. No deep advanced technical knowledge is strictly required as the simulation is guided.</p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg mb-2">Who Can Take This Internship?</h3>
-                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-muted-foreground list-disc ml-4">
-                    <li>Engineering students</li>
-                    <li>Business & Management students</li>
-                    <li>Data Science enthusiasts</li>
-                    <li>Anyone interested in {problem.industry}</li>
-                  </ul>
-                </div>
-              </div>
+              <ul className="space-y-6">
+                <li className="flex items-start gap-4">
+                  <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-primary/20 text-primary font-bold">1</div>
+                  <div>
+                    <h3 className="font-semibold mb-1 text-lg">Complete tasks</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">Complete tasks guided by pre-recorded videos and example answers from our team at {problem.company}. No live sessions, all self-paced.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-primary/20 text-primary font-bold">2</div>
+                  <div>
+                    <h3 className="font-semibold mb-1 text-lg">Earn a certificate</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">Earn a certificate and add it to your resume and LinkedIn as an extra curricular activity.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-primary/20 text-primary font-bold">3</div>
+                  <div>
+                    <h3 className="font-semibold mb-1 text-lg">Stand out in applications</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">Confidently answer interview questions and explain why you’re a good fit for our team.</p>
+                  </div>
+                </li>
+              </ul>
             </div>
-
+            
           </div>
         )}
 
@@ -295,22 +315,27 @@ function ProblemPage() {
               </div>
               
               <div className="bg-muted/30 p-6 rounded-xl border space-y-4 mb-8">
-                <h3 className="font-semibold">Your Final Submission</h3>
-                <p className="text-sm text-muted-foreground">Submit the following artifacts (merged into a single Jupyter notebook):</p>
-                <List items={problem.submission_instructions || problem.expectedOutcome || ["Completed Jupyter Notebook"]} ordered />
+                <h3 className="font-semibold text-lg">Your Final Submission</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">Submit the exact deliverables specified in your tasks. This could include your Jupyter Notebook (.ipynb), PDF reports, presentations, or data files.</p>
+                <List items={problem.submissionInstructions?.length ? problem.submissionInstructions : problem.expectedOutcome?.length ? problem.expectedOutcome : [
+                  "Completed Jupyter Notebook (.ipynb)", 
+                  "Analytical Reports or Memorandums (.pdf)", 
+                  "Executive Presentations (.pdf / .ppt)",
+                  "Any required Datasets or CSVs"
+                ]} />
               </div>
 
               <div className="rounded-2xl border-2 border-dashed border-primary/30 bg-primary/5 p-8 text-center transition-colors hover:border-primary/50">
-                <h3 className="text-lg font-semibold mb-2">Upload Notebook (.ipynb)</h3>
+                <h3 className="text-lg font-semibold mb-2">Upload Submission Files</h3>
                 <p className="text-sm text-muted-foreground mb-6 max-w-sm mx-auto">
-                  Drag & drop your solution here to receive instant AI grading against the rubric.
+                  Drag & drop your files here. Your simulated manager will use our advanced LLM backend to automatically evaluate and grade your deliverables.
                 </p>
                 <div className="max-w-md mx-auto">
                   <UploadZone file={file} onFile={setFile} onClear={() => setFile(null)} />
                 </div>
                 <Button className="mt-8 w-full sm:w-auto" size="lg" disabled={!file || submitting} onClick={submit}>
                   {submitting && <Loader2 className="size-4 animate-spin mr-2" />}
-                  {submitting ? "Uploading & Grading…" : "Submit for Grading"}
+                  {submitting ? "Uploading & Grading…" : "Submit to Manager for Review"}
                 </Button>
               </div>
             </div>

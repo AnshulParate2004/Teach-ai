@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Lock, Sparkles, BarChart3, Atom, Blocks, ArrowRight } from "lucide-react";
+import { Lock, Sparkles, BarChart3, Atom, Blocks, ArrowRight, Briefcase, Heart, Megaphone, Palette, Landmark, Leaf, Users } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import type { Domain } from "@/data/domains";
@@ -21,6 +21,13 @@ const icons = {
   chart: BarChart3,
   atom: Atom,
   blocks: Blocks,
+  briefcase: Briefcase,
+  heart: Heart,
+  megaphone: Megaphone,
+  palette: Palette,
+  landmark: Landmark,
+  leaf: Leaf,
+  users: Users,
 };
 
 export function DomainCard({ domain }: { domain: Domain }) {

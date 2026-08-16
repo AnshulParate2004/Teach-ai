@@ -78,7 +78,7 @@ function SubmissionStatusPage() {
           It may have been cleared from this browser.
         </p>
         <Button className="mt-6" asChild>
-          <Link to="/domains/$slug" params={{ slug: "generative-ai" }}>
+          <Link to="/portfolio">
             Browse problems
           </Link>
         </Button>
@@ -175,7 +175,7 @@ function SubmissionStatusPage() {
             </Link>
           </Button>
           <Button variant="secondary" asChild>
-            <Link to="/domains/$slug" params={{ slug: "generative-ai" }}>
+            <Link to="/portfolio">
               Try another problem
             </Link>
           </Button>
