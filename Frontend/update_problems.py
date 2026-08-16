@@ -25,6 +25,7 @@ for p in problems_raw:
         "domain": "generative-ai",
         "company": p.get("company", "Tech Enterprise"),
         "role": p.get("role", "AI Engineering Intern"),
+        "about_company": p.get("about_company", ""),
         "title": p["title"],
         "industry": p["industry"],
         "problem_statement": p["problem_statement"],
@@ -38,7 +39,8 @@ for p in problems_raw:
         "tools": p["tools"],
         "steps": p["steps"],
         "knowledgeTest": p["knowledge_test"],
-        "submissionInstructions": p["submission_instructions"]
+        "submissionInstructions": p["submission_instructions"],
+        "mcqs": p.get("mcqs", [])
     })
 
 ts_content = f"""export type Difficulty = "Beginner" | "Intermediate" | "Advanced";
@@ -49,11 +51,19 @@ export interface Dataset {{
   url: string;
 }}
 
+export interface MCQ {{
+  id: number;
+  question: string;
+  options: string[];
+  correctAnswer: number;
+}}
+
 export interface Problem {{
   id: string;
   domain: string;
   company: string;
   role: string;
+  about_company: string;
   title: string;
   industry: string;
   problem_statement: string;
@@ -68,6 +78,7 @@ export interface Problem {{
   steps: string[];
   knowledgeTest: string[];
   submissionInstructions: string[];
+  mcqs?: MCQ[];
   dataset?: Dataset;
 }}
 

@@ -25,11 +25,11 @@ export function ProblemCard({ problem }: { problem: Problem }) {
         )}
       </div>
 
-      <div className="flex items-center gap-1.5 text-xs text-primary font-medium">
+      <div className="text-xs text-primary font-medium leading-relaxed">
         <span>{problem.company || "Tech Enterprise"}</span>
         {problem.role && (
           <>
-            <span className="text-muted-foreground/60">•</span>
+            <span className="mx-1.5 inline-block text-muted-foreground/60">•</span>
             <span className="text-muted-foreground font-normal">{problem.role}</span>
           </>
         )}
