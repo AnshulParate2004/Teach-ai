@@ -99,7 +99,7 @@ function DomainPage() {
         {domain.description}
       </p>
       <p className="mt-2 font-mono text-xs text-muted-foreground">
-        {problems.length} of {domain.problemCount} problems published
+        {problems.length} problem{problems.length === 1 ? "" : "s"} published
       </p>
 
       <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">

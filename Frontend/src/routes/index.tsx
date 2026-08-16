@@ -54,7 +54,7 @@ function Index() {
         <div className="pointer-events-none absolute inset-0 grid-backdrop" />
         <div className="relative mx-auto max-w-6xl px-5 py-24 text-center sm:py-32">
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/25 bg-primary/10 px-3 py-1 font-mono text-[11px] uppercase tracking-widest text-primary">
-            Generative & Agentic AI · Live
+            Generative AI & IT · Live
           </span>
           <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-semibold leading-[1.08] sm:text-6xl">
             Real industry problems.

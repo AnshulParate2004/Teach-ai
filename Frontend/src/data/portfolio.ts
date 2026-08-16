@@ -26,7 +26,7 @@ export const portfolio = [
   {
     "id": 4,
     "title": "Agentic AI Consultant \u2013 Automate a Business Process",
-    "domain": "Agentic AI",
+    "domain": "IT",
     "level": "Advanced",
     "duration": "6h",
     "assignment": "Process mapping \u2192 agent identification \u2192 tool selection \u2192 agent workflow \u2192 ROI"
@@ -34,7 +34,7 @@ export const portfolio = [
   {
     "id": 5,
     "title": "AI Agent Designer \u2013 Build Your First Agent",
-    "domain": "Agentic AI",
+    "domain": "IT",
     "level": "Intermediate",
     "duration": "4h",
     "assignment": "Goal \u2192 tools \u2192 memory \u2192 instructions \u2192 testing \u2192 evaluation"
@@ -42,7 +42,7 @@ export const portfolio = [
   {
     "id": 6,
     "title": "Multi-Agent AI \u2013 Design an AI Workforce",
-    "domain": "Agentic AI",
+    "domain": "IT",
     "level": "Advanced",
     "duration": "7h",
     "assignment": "Business workflow \u2192 specialist agents \u2192 orchestration \u2192 handoffs \u2192 evaluation"
@@ -450,7 +450,7 @@ export const portfolio = [
   {
     "id": 57,
     "title": "LangGraph Developer \u2013 Build an Agentic Workflow",
-    "domain": "Agentic AI",
+    "domain": "IT",
     "level": "Advanced",
     "duration": "8h",
     "assignment": "Graph design \u2192 state \u2192 agents \u2192 tools \u2192 human approval \u2192 testing"
@@ -458,7 +458,7 @@ export const portfolio = [
   {
     "id": 58,
     "title": "AI Agent Developer \u2013 Customer Support Agent",
-    "domain": "Agentic AI",
+    "domain": "IT",
     "level": "Intermediate",
     "duration": "5h",
     "assignment": "FAQs \u2192 tools \u2192 escalation \u2192 conversation testing \u2192 KPI"
@@ -466,7 +466,7 @@ export const portfolio = [
   {
     "id": 59,
     "title": "AI Agent Developer \u2013 Sales Qualification Agent",
-    "domain": "Agentic AI",
+    "domain": "IT",
     "level": "Advanced",
     "duration": "6h",
     "assignment": "Lead data \u2192 qualification logic \u2192 agent \u2192 CRM action \u2192 scoring"
@@ -474,7 +474,7 @@ export const portfolio = [
   {
     "id": 60,
     "title": "AI Agent Developer \u2013 HR Recruitment Agent",
-    "domain": "Agentic AI",
+    "domain": "IT",
     "level": "Advanced",
     "duration": "6h",
     "assignment": "JD \u2192 candidate profiles \u2192 screening \u2192 ranking \u2192 bias controls"
@@ -666,7 +666,7 @@ export const portfolio = [
   {
     "id": 84,
     "title": "AI IT Service Manager \u2013 Design an Agentic IT Helpdesk",
-    "domain": "IT / Agentic AI",
+    "domain": "IT",
     "level": "Advanced",
     "duration": "6h",
     "assignment": "Ticket workflow \u2192 agents \u2192 knowledge base \u2192 automation \u2192 governance"
