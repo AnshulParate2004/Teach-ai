@@ -145,10 +145,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python / Pandas",
+      "Scikit-Learn",
+      "Data Analytics",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -295,10 +295,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "Streamlit",
+      "Process Automation",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -404,10 +404,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "CrewAI / AutoGen",
+      "Prompt Engineering",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -513,10 +513,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "Prompt Engineering",
+      "OpenAI / Claude APIs",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -601,10 +601,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python / Pandas",
+      "Data Visualization",
+      "SQL",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -689,10 +689,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "RAG",
+      "Vector Databases",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -777,10 +777,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "Splunk / SIEM APIs",
+      "Cybersecurity Analytics",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -886,10 +886,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Next.js / React",
+      "Node.js",
+      "OpenAI APIs",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -974,10 +974,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "FastAPI / Flask",
+      "PostgreSQL",
+      "Docker / Deployment",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1062,10 +1062,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "LangChain / LlamaIndex",
+      "Vector Databases (Pinecone)",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1150,10 +1150,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "LangChain",
+      "Enterprise Data Integration",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1259,10 +1259,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "LangGraph",
+      "State Machines",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1347,9 +1347,9 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "LangGraph / LangChain",
+      "Python",
+      "LangChain",
+      "Dialogflow / Botpress",
       "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
@@ -1442,10 +1442,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "LangChain",
+      "CRM Integration (Salesforce)",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1537,10 +1537,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python",
+      "LangChain",
+      "ATS Integration",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1632,10 +1632,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Conversational AI Design",
+      "CX Strategy",
+      "Analytics",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1741,10 +1741,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Python / Pandas",
+      "NLP (Spacy/NLTK)",
+      "Web Scraping",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1883,10 +1883,10 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "SkillForge AI Mentor",
-      "Generative AI APIs (Groq/OpenAI)"
+      "Figma",
+      "User Journey Mapping",
+      "Prototyping",
+      "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
     "learn": [],
@@ -1978,9 +1978,9 @@ export const problems: Problem[] = [
     "difficulty": "Intermediate",
     "solved": false,
     "tags": [
-      "Python / Jupyter Notebooks",
-      "ChatGPT / Claude (Prompting)",
-      "LangGraph / LangChain",
+      "Python",
+      "Data Privacy Frameworks",
+      "NLP",
       "SkillForge AI Mentor"
     ],
     "estimatedTime": "2 hrs",
