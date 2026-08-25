@@ -6,7 +6,7 @@ export function ThemeToggle() {
   const [dark, setDark] = useState(true);
 
   useEffect(() => {
-    const stored = window.localStorage.getItem("skillforge.theme");
+    const stored = window.localStorage.getItem("skillzza.theme");
     const isDark = stored ? stored === "dark" : true;
     setDark(isDark);
     document.documentElement.classList.toggle("dark", isDark);
@@ -16,7 +16,7 @@ export function ThemeToggle() {
     const next = !dark;
     setDark(next);
     document.documentElement.classList.toggle("dark", next);
-    window.localStorage.setItem("skillforge.theme", next ? "dark" : "light");
+    window.localStorage.setItem("skillzza.theme", next ? "dark" : "light");
   };
 
   return (

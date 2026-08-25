@@ -7,13 +7,13 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SkillForge — Real industry problems, AI-graded" },
+      { title: "Skillzza — Real industry problems, AI-graded" },
       {
         name: "description",
         content:
           "Pick a real industry problem, solve it locally or in Colab, upload your notebook and get AI-graded rubric feedback in minutes.",
       },
-      { property: "og:title", content: "SkillForge — Real industry problems, AI-graded" },
+      { property: "og:title", content: "Skillzza — Real industry problems, AI-graded" },
       {
         property: "og:description",
         content:

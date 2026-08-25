@@ -2,8 +2,8 @@ problems_raw = [{'number': '1',
   'title': 'AI Agent Designer - Build Your First Agent',
   'industry': 'IT',
   'role': 'Agent Designer',
-  'problem_statement': 'As an AI Agent Designer, you are tasked with creating an intelligent virtual assistant capable of help-\n'
-                       'ing users navigate complex tasks efficiently. From understanding user goals to integrating memory and\n'
+  'problem_statement': 'As an AI Agent Designer, you are tasked with creating an intelligent virtual assistant capable of helping\n'
+                       'users navigate complex tasks efficiently. From understanding user goals to integrating memory and\n'
                        'evaluating performance, your mission is to design an AI agent that balances functionality, usability, and\n'
                        'ethical considerations. Imagine working on a groundbreaking AI product for a global tech company that\n'
                        'aims to revolutionize customer service, productivity, and personal assistance.\n'
@@ -12,34 +12,34 @@ problems_raw = [{'number': '1',
                        'user intent, recall relevant information, and deliver solutions effectively. You will also focus on responsible\n'
                        'AI practices, ensuring that your agent meets ethical standards while offering high usability.',
   'task_description': 'Analyze the problem and build an AI-assisted engine to solve it.',
-  'steps': ['**Task 1:** Understand: **Scenario:** You are tasked with designing an AI agent for a productivity app. The agent will assist users in '
-            'scheduling meetings, tracking tasks, and answering queries. **Student Assignment:** Research and define the core functionalities of the '
-            'agent. Create a user persona and list potential use cases for the agent. **Deliverable:** - A document outlining the agent’s purpose, '
+  'steps': ['**Task 1:** Understand:: You are tasked with designing an AI agent for a productivity app. The agent will assist users in '
+            'scheduling meetings, tracking tasks, and answering queries.\n\n### What you\\'ll learn\n- Research and define the core functionalities of the '
+            'agent. Create a user persona and list potential use cases for the agent.\n\n### What you\\'ll do\n- - A document outlining the agent’s purpose, '
             'target audience, and core functionali- ties. - A list of 5-7 use cases based on the user persona.',
-            '**Task 2:** Data/Setup: **Scenario:** To enable memory and goal-oriented behavior, you need to set up the foun- dational architecture '
-            'of the AI agent. This includes preparing the environment and connecting to the OpenAI API. **Student Assignment:** Set up Python, '
+            '**Task 2:** Data/Setup:: To enable memory and goal-oriented behavior, you need to set up the foun- dational architecture '
+            'of the AI agent. This includes preparing the environment and connecting to the OpenAI API.\n\n### What you\\'ll learn\n- Set up Python, '
             'install necessary libraries (OpenAI, LangChain), and con- nect to the GPT model. Design a basic agent skeleton with input/output flow. '
-            '**Deliverable:** - Python script with API setup and a basic agent scaffold. - Screenshot of the agent successfully generating sample '
+            '\n\n### What you\\'ll do\n- - Python script with API setup and a basic agent scaffold. - Screenshot of the agent successfully generating sample '
             'responses.',
-            '**Task 3:** Build/Execute: **Scenario:** You will now integrate memory functionality so the agent can retain and recall user '
-            'information across sessions. Add goal-setting logic to allow the agent to guide users toward task completion. **Student Assignment:** '
+            '**Task 3:** Build/Execute:: You will now integrate memory functionality so the agent can retain and recall user '
+            'information across sessions. Add goal-setting logic to allow the agent to guide users toward task completion.\n\n### What you\\'ll learn\n- '
             'Use LangChain to implement memory and goal-setting modules. Train the agent to store user preferences and recall them in future '
-            'interactions. Test the agent’s ability to track goals across conversations. **Deliverable:** - Python script with memory integration '
+            'interactions. Test the agent’s ability to track goals across conversations.\n\n### What you\\'ll do\n- - Python script with memory integration '
             'and goal-setting logic. - A set of test cases demonstrating that the agent can recall memory and guide users to complete tasks.',
-            '**Task 4:** GenAI/Explanation: **Scenario:** Users often need step-by-step instructions for complex processes. Add a generative layer '
-            'to the agent for explaining multi-step tasks clearly. **Student Assignment:** Integrate OpenAI’s GPT capabilities to enable the agent '
-            'to generate step- by-step instructions for tasks such as scheduling a meeting or organizing a to-do list. **Deliverable:** - Python '
+            '**Task 4:** GenAI/Explanation:: Users often need step-by-step instructions for complex processes. Add a generative layer '
+            'to the agent for explaining multi-step tasks clearly.\n\n### What you\\'ll learn\n- Integrate OpenAI’s GPT capabilities to enable the agent '
+            'to generate step- by-step instructions for tasks such as scheduling a meeting or organizing a to-do list.\n\n### What you\\'ll do\n- - Python '
             'script demonstrating generative capabilities for step-by-step instructions. - A test log showing the agent successfully explaining '
             'three distinct workflows.',
-            '**Task 5:** Audit/Responsible AI: **Scenario:** You must ensure the agent adheres to responsible AI practices. This includes avoiding '
-            'biased responses, ensuring user data privacy, and providing disclaimers for ambiguous answers. **Student Assignment:** Implement '
+            '**Task 5:** Audit/Responsible AI:: You must ensure the agent adheres to responsible AI practices. This includes avoiding '
+            'biased responses, ensuring user data privacy, and providing disclaimers for ambiguous answers.\n\n### What you\\'ll learn\n- Implement '
             'filters to detect and manage biased or inappropriate responses. Add user consent mechanisms for data storage and integrate disclaimers '
-            'for uncertain outputs. **Deliverable:** - Python script with responsible AI features implemented. - A document outlining responsible AI '
+            'for uncertain outputs.\n\n### What you\\'ll do\n- - Python script with responsible AI features implemented. - A document outlining responsible AI '
             'measures and testing results.',
-            '**Task 6:** Present Recommendation: **Scenario:** Your agent is ready for deployment, but you need to present its capabilities to the '
-            'product team. Create a demo showcasing the agent’s functionalities and explain its design choices. **Student Assignment:** Develop a '
+            '**Task 6:** Present Recommendation:: Your agent is ready for deployment, but you need to present its capabilities to the '
+            'product team. Create a demo showcasing the agent’s functionalities and explain its design choices.\n\n### What you\\'ll learn\n- Develop a '
             'short presentation and record a demo of the agent performing key tasks, showcasing its memory, goal-setting, and instructional '
-            'capabilities. Highlight responsible AI features. **Deliverable:** - Presentation slides (5-10 slides) covering agent design, features, '
+            'capabilities. Highlight responsible AI features.\n\n### What you\\'ll do\n- - Presentation slides (5-10 slides) covering agent design, features, '
             'and responsible AI considerations.'],
   'submission_instructions': [],
   'knowledge_test': [],
@@ -47,38 +47,231 @@ problems_raw = [{'number': '1',
             'Design multi-agent orchestration and human-in-the-loop handoffs',
             'Implement conversational AI state machines',
             'Validate outputs for hallucination and safety'],
-  'tools': ['Python / Jupyter Notebooks', 'ChatGPT / Claude (Prompting)', 'LangGraph / LangChain', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python / Jupyter Notebooks', 'ChatGPT / Claude (Prompting)', 'LangGraph / LangChain', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'NeuralFrontier',
-  'about_company': '**NeuralFrontier**NeuralFrontier is a leading global enterprise operating at the cutting edge of the Design & UI/UX sector,\n'
+  'about_company': '**NeuralFrontier**  is a leading global enterprise operating at the cutting edge of the Design & UI/UX sector,\n'
                    'with a mission ’To revolutionize service delivery and create long-term stakeholder value through trusted\n'
                    'innovation’.\n'
                    'With an annual revenue exceeding $5.4 billion and a presence in over 30 countries, we\n'
@@ -103,7 +296,7 @@ problems_raw = [{'number': '1',
                        'sources using responsible AI principles and synthesize your findings into actionable insights for decision-\n'
                        'makers.',
   'task_description': 'Analyze the problem and build an AI-assisted engine to solve it.',
-  'about_company': '**Stratagem Consultants**Stratagem Consultants is a leading global enterprise operating at the cutting edge of the Consulting &\n'
+  'about_company': '**Stratagem Consultants**  is a leading global enterprise operating at the cutting edge of the Consulting &\n'
                    'Strategy sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -116,93 +309,260 @@ problems_raw = [{'number': '1',
             'Leverage Generative AI to automate exploratory data analysis',
             'Communicate AI-derived recommendations to executive stakeholders',
             'Ensure data privacy and Responsible AI compliance'],
-  'tools': ['Python / Pandas', 'Scikit-Learn', 'Data Analytics', 'SkillForge AI Mentor'],
-  'steps': ['**Task 1:** Understand the Scope of Research: **Scenario:** Your manager has provided a vague request: ”Find out how AI can transform '
-            'the logistics industry.” You need to refine the research scope to make it actionable. **Student Assignment:** - Break down the research '
+  'tools': ['Python / Pandas', 'Scikit-Learn', 'Data Analytics', 'Skillzza AI Mentor'],
+  'steps': ['**Task 1:** Understand the Scope of Research:: Your manager has provided a vague request: ”Find out how AI can transform '
+            'the logistics industry.” You need to refine the research scope to make it actionable.\n\n### What you\\'ll learn\n- - Break down the research '
             'question into sub-questions (e.g., ”What are cur- rent pain points in logistics that AI can address?”). - Research current AI '
             'applications in logistics using Google Scholar and ChatGPT. - Identify specific areas (e.g., route optimization, inventory management) '
-            'for deeper research. **Deliverable:** Submit a refined research scope document (1 page) outlining sub-questions, focus areas, and the '
+            'for deeper research.\n\n### What you\\'ll do\n- Submit a refined research scope document (1 page) outlining sub-questions, focus areas, and the '
             'rationale for choosing logistics as the target industry.',
-            '**Task 2:** Data Collection and Setup: **Scenario:** You need reliable data to perform your analysis. Collect information from primary '
-            '(official reports, industry statistics) and secondary (blogs, AI forums) sources. **Student Assignment:** - Use AI-powered web scraping '
+            '**Task 2:** Data Collection and Setup:: You need reliable data to perform your analysis. Collect information from primary '
+            '(official reports, industry statistics) and secondary (blogs, AI forums) sources.\n\n### What you\\'ll learn\n- - Use AI-powered web scraping '
             'tools (or manually search) to collect recent data on logistics trends and challenges. - Organize the data into categories (e.g., pain '
-            'points, solutions, emerging technologies). - Ensure sources are credible by cross-checking for bias and accuracy. **Deliverable:** '
+            'points, solutions, emerging technologies). - Ensure sources are credible by cross-checking for bias and accuracy.\n\n### What you\\'ll do\n- '
             'Submit a structured dataset (Google Sheets or Excel) with at least 20 data points categorized and validated for your analysis.',
-            '**Task 3:** Build Insights Using AI Tools: **Scenario:** You now have raw data and need to uncover trends and actionable insights. '
-            'Leverage AI tools to synthesize information. **Student Assignment:** - Use ChatGPT to summarize industry trends and challenges based on '
+            '**Task 3:** Build Insights Using AI Tools:: You now have raw data and need to uncover trends and actionable insights. '
+            'Leverage AI tools to synthesize information.\n\n### What you\\'ll learn\n- - Use ChatGPT to summarize industry trends and challenges based on '
             'your data. - Apply NLP techniques to identify recurring terms and themes in textual data. - Highlight correlations between AI adoption '
-            'and efficiency gains in logistics. **Deliverable:** Submit a concise insights report (2 pages) summarizing trends, challenges, and op- '
+            'and efficiency gains in logistics.\n\n### What you\\'ll do\n- Submit a concise insights report (2 pages) summarizing trends, challenges, and op- '
             'portunities derived from the analysis.',
-            '**Task 4:** GenAI-Powered Explanation: **Scenario:** You need to explain complex findings to non-experts. Use generative AI tools to '
-            'craft an engaging summary. **Student Assignment:** - In ChatGPT, generate a simplified explanation of your insights for stake- holders '
+            '**Task 4:** GenAI-Powered Explanation:: You need to explain complex findings to non-experts. Use generative AI tools to '
+            'craft an engaging summary.\n\n### What you\\'ll learn\n- - In ChatGPT, generate a simplified explanation of your insights for stake- holders '
             'unfamiliar with AI. - Create a visual representation (infographic) that showcases key points using tools like Canva or Google Slides. '
-            '**Deliverable:** Submit a one-page stakeholder-friendly summary and a visual infographic explain- ing your research findings.',
-            '**Task 5:** Audit and Responsible AI Practices: **Scenario:** Your firm emphasizes responsible AI use. Ensure your research adheres to '
-            'ethical standards and avoids biased data. **Student Assignment:** - Review your data sources for potential bias or misinformation. - '
+            '\n\n### What you\\'ll do\n- Submit a one-page stakeholder-friendly summary and a visual infographic explain- ing your research findings.',
+            '**Task 5:** Audit and Responsible AI Practices:: Your firm emphasizes responsible AI use. Ensure your research adheres to '
+            'ethical standards and avoids biased data.\n\n### What you\\'ll learn\n- - Review your data sources for potential bias or misinformation. - '
             'Write a short audit report detailing how you ensured ethical AI practices throughout your research. - Identify any gaps or risks in '
-            'your findings. **Deliverable:** Submit a one-page Responsible AI Audit Report summarizing your validation pro- cess and ethical '
+            'your findings.\n\n### What you\\'ll do\n- Submit a one-page Responsible AI Audit Report summarizing your validation pro- cess and ethical '
             'considerations.',
-            '**Task 6:** Present Your Recommendation: **Scenario:** The firm’s leadership team needs your recommendation on whether logistics is a '
-            'viable market for AI expansion. Prepare and pitch your proposal. **Student Assignment:** - Combine all your findings into a '
+            '**Task 6:** Present Your Recommendation:: The firm’s leadership team needs your recommendation on whether logistics is a '
+            'viable market for AI expansion. Prepare and pitch your proposal.\n\n### What you\\'ll learn\n- - Combine all your findings into a '
             'professional presentation. - Include key insights, visualizations, risks, and actionable recommendations. - Record a 5-minute video '
-            'pitch summarizing your proposal. **Deliverable:** Submit a presentation deck (PDF or PPT) and a video recording of your pitch. — ## 6'],
+            'pitch summarizing your proposal.\n\n### What you\\'ll do\n- Submit a presentation deck (PDF or PPT) and a video recording of your pitch. — ## 6'],
   'submission_instructions': [],
   'knowledge_test': [],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary purpose of a credit-risk score?',
-            'options': ['To guarantee loan repayment',
-                        'To estimate the relative risk associated with an applicant',
-                        'To automatically reject applicants',
-                        "To determine the customer's profession"],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'What does DTI generally measure?',
-            'options': ['Debt relative to income', 'Income relative to age', 'Loan tenure', 'Customer acquisition cost'],
-            'correctAnswer': 0},
-           {'id': 3,
-            'question': 'Which is generally the strongest indicator of past repayment behaviour?',
-            'options': ['Favourite brand', 'Previous repayment history', 'Social-media activity', 'Device model'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'What is a major risk of using AI in credit assessment?',
-            'options': ['Faster processing', 'Automated calculations', 'Historical bias being reproduced by the model', 'Better data organisation'],
-            'correctAnswer': 2},
-           {'id': 5,
-            'question': 'What does Explainable AI attempt to provide?',
-            'options': ['Faster internet', 'Reasons behind model outputs', 'More database storage', 'Higher loan amounts'],
-            'correctAnswer': 1},
-           {'id': 6,
-            'question': 'Which approach is most appropriate for an AI-assisted credit system?',
-            'options': ['AI makes every final decision',
-                        'AI recommendation followed by appropriate human oversight',
-                        'Customer chooses the AI score',
-                        'Random approval'],
-            'correctAnswer': 1},
-           {'id': 7,
-            'question': 'What is a false negative in credit-risk modelling?',
-            'options': ['Correctly identifying a risky applicant',
-                        'Predicting low risk when the applicant actually presents high risk',
-                        'Predicting high risk when the applicant is low risk',
-                        'Missing data'],
-            'correctAnswer': 1},
-           {'id': 8,
-            'question': 'Why should GenAI-generated credit explanations be verified?',
-            'options': ['AI cannot produce text',
-                        'AI can hallucinate or misinterpret data',
-                        'AI cannot calculate anything',
-                        'AI cannot work with financial data'],
-            'correctAnswer': 1},
-           {'id': 9,
-            'question': 'Which variable should generally raise the strongest responsible-AI concern?',
-            'options': ['Repayment history', 'Monthly income', 'Religion', 'Existing EMI'],
-            'correctAnswer': 2},
-           {'id': 10,
-            'question': "What is the best description of this internship's AI engine?",
-            'options': ['A guaranteed loan approval system',
-                        'An AI-assisted credit decision-support system',
-                        'A customer marketing platform',
-                        'A payment gateway'],
-            'correctAnswer': 1}],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Stratagem Consultants'},
  {'number': '3',
   'title': 'Agentic AI Consultant - Automate a Business Process',
@@ -290,7 +650,7 @@ problems_raw = [{'number': '1',
                               'Task 5: Submit a **Responsible AI checklist** covering: - Bias detection results. - Transparency steps taken...',
                               'Task 6: Submit your **Prompt Engineering Playbook** (5-10 pages) with: - Overview of prompt design principle...'],
   'knowledge_test': [],
-  'about_company': '**SynthAI Labs**SynthAI Labs is a leading global enterprise operating at the cutting edge of the Tech & Development\n'
+  'about_company': '**SynthAI Labs**  is a leading global enterprise operating at the cutting edge of the Tech & Development\n'
                    'sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value through\n'
                    'trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30 countries,\n'
                    'we collectively employ over 42,000 passionate professionals.\n'
@@ -303,36 +663,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python', 'Streamlit', 'Process Automation', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'Streamlit', 'Process Automation', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'SynthAI Labs'},
  {'number': '4',
   'title': 'Multi-Agent AI - Design an AI Workforce',
@@ -416,7 +969,7 @@ problems_raw = [{'number': '1',
                               'Task 5: Submit an audit report on model fairness and proposed mitigation strategies.',
                               'Task 6: Submit a stakeholder presentation with: - Patient segmentation visualiza- tions. - Intervention stra...'],
   'knowledge_test': [],
-  'about_company': '**NovaCare Health Systems**NovaCare Health Systems is a leading global enterprise operating at the cutting edge of the '
+  'about_company': '**NovaCare Health Systems**  is a leading global enterprise operating at the cutting edge of the '
                    'Healthcare\n'
                    'sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value through\n'
                    'trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30 countries,\n'
@@ -430,36 +983,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python', 'CrewAI / AutoGen', 'Prompt Engineering', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'CrewAI / AutoGen', 'Prompt Engineering', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'NovaCare Health Systems'},
  {'number': '5',
   'title': 'GenAI Prompt Engineer - Enterprise Prompt Lab',
@@ -470,7 +1216,7 @@ problems_raw = [{'number': '1',
   'steps': [],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**Cognitive Core**Cognitive Core is a leading global enterprise operating at the cutting edge of the Agriculture sector,\n'
+  'about_company': '**Cognitive Core**  is a leading global enterprise operating at the cutting edge of the Agriculture sector,\n'
                    'with a mission ’To revolutionize service delivery and create long-term stakeholder value through trusted\n'
                    'innovation’.\n'
                    'With an annual revenue exceeding $5.4 billion and a presence in over 30 countries, we\n'
@@ -484,36 +1230,229 @@ problems_raw = [{'number': '1',
             'Leverage Generative AI to automate exploratory data analysis',
             'Communicate AI-derived recommendations to executive stakeholders',
             'Ensure data privacy and Responsible AI compliance'],
-  'tools': ['Python', 'Prompt Engineering', 'OpenAI / Claude APIs', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'Prompt Engineering', 'OpenAI / Claude APIs', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Cognitive Core'},
  {'number': '6',
   'title': 'Generative AI Data Analyst - Ask Data Questions with GenAI',
@@ -524,7 +1463,7 @@ problems_raw = [{'number': '1',
   'steps': [],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**Tech Global Dynamics**Tech Global Dynamics is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
+  'about_company': '**Tech Global Dynamics**  is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
                    'opment sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -537,36 +1476,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python / Pandas', 'Data Visualization', 'SQL', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python / Pandas', 'Data Visualization', 'SQL', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Tech Global Dynamics'},
  {'number': '7',
   'title': 'Healthcare GenAI - Clinical Knowledge Assistant',
@@ -577,7 +1709,7 @@ problems_raw = [{'number': '1',
   'steps': [],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**Tech Innovations Ltd**Tech Innovations Ltd is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
+  'about_company': '**Tech Innovations Ltd**  is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
                    'opment sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -590,36 +1722,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python', 'RAG', 'Vector Databases', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'RAG', 'Vector Databases', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Tech Innovations Ltd'},
  {'number': '8',
   'title': 'GenAI Cybersecurity Analyst - AI SOC Investigation',
@@ -702,7 +2027,7 @@ problems_raw = [{'number': '1',
                               'Task 5: Submit a fairness audit report (PDF) with actionable recommendations for bias mitigation.',
                               'Task 6: Submit a farmer advisory report (PDF or PowerPoint) incorporating AI- driven insights and recommenda...'],
   'knowledge_test': [],
-  'about_company': '**Tech Innovations Ltd**Tech Innovations Ltd is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
+  'about_company': '**Tech Innovations Ltd**  is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
                    'opment sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -715,36 +2040,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python', 'Splunk / SIEM APIs', 'Cybersecurity Analytics', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'Splunk / SIEM APIs', 'Cybersecurity Analytics', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Tech Innovations Ltd'},
  {'number': '9',
   'title': 'Full Stack Developer - Build an AI Web Application',
@@ -755,7 +2273,7 @@ problems_raw = [{'number': '1',
   'steps': [],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**Tech Innovations Ltd**Tech Innovations Ltd is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
+  'about_company': '**Tech Innovations Ltd**  is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
                    'opment sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -768,36 +2286,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Next.js / React', 'Node.js', 'OpenAI APIs', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Next.js / React', 'Node.js', 'OpenAI APIs', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Tech Innovations Ltd'},
  {'number': '10',
   'title': 'Backend Developer - Build an AI API Service',
@@ -808,7 +2519,7 @@ problems_raw = [{'number': '1',
   'steps': [],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**Tech Innovations Ltd**Tech Innovations Ltd is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
+  'about_company': '**Tech Innovations Ltd**  is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
                    'opment sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -821,36 +2532,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['FastAPI / Flask', 'PostgreSQL', 'Docker / Deployment', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['FastAPI / Flask', 'PostgreSQL', 'Docker / Deployment', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Tech Innovations Ltd'},
  {'number': '11',
   'title': 'AI Developer - Build a RAG Application',
@@ -861,7 +2765,7 @@ problems_raw = [{'number': '1',
   'steps': [],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**Tech Innovations Ltd**Tech Innovations Ltd is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
+  'about_company': '**Tech Innovations Ltd**  is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
                    'opment sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -874,36 +2778,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python', 'LangChain / LlamaIndex', 'Vector Databases (Pinecone)', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'LangChain / LlamaIndex', 'Vector Databases (Pinecone)', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Tech Innovations Ltd'},
  {'number': '12',
   'title': 'LangChain Developer - Build an Enterprise AI Workflow',
@@ -988,7 +3085,7 @@ problems_raw = [{'number': '1',
                               'Task 5: An audit report highlighting the checks performed, assumptions validated, and risk considerations.',
                               'Task 6: A 3-5 page Investment Memo in PDF format. - A PowerPoint/Google Slides deck with 5-7 slides summariz...'],
   'knowledge_test': [],
-  'about_company': '**Tech Innovations Ltd**Tech Innovations Ltd is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
+  'about_company': '**Tech Innovations Ltd**  is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
                    'opment sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -1001,36 +3098,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python', 'LangChain', 'Enterprise Data Integration', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'LangChain', 'Enterprise Data Integration', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Tech Innovations Ltd'},
  {'number': '13',
   'title': 'LangGraph Developer - Build an Agentic Workflow',
@@ -1041,7 +3331,7 @@ problems_raw = [{'number': '1',
   'steps': [],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**Tech Innovations Ltd**Tech Innovations Ltd is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
+  'about_company': '**Tech Innovations Ltd**  is a leading global enterprise operating at the cutting edge of the Tech & Devel-\n'
                    'opment sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -1054,36 +3344,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python', 'LangGraph', 'State Machines', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'LangGraph', 'State Machines', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Tech Innovations Ltd'},
  {'number': '14',
   'title': 'AI Agent Developer - Customer Support Agent',
@@ -1101,40 +3584,40 @@ problems_raw = [{'number': '1',
                        'and deliver measurable improvements in response time and resolution accuracy.\n'
                        '###',
   'task_description': 'Analyze the problem and build an AI-assisted engine to solve it.',
-  'steps': ['**Task 1:** Understand - Analyzing Customer Queries: #### **Scenario:** You’ve been provided with a dataset containing historical '
+  'steps': ['**Task 1:** Understand - Analyzing Customer Queries: ####: You’ve been provided with a dataset containing historical '
             'customer interaction logs. Your first step is to analyze the dataset, identify com- monly asked questions, and categorize them into '
-            'themes (e.g., billing, technical support, account man- agement). #### **Student Assignment:** - Load the dataset and perform '
+            'themes (e.g., billing, technical support, account man- agement). ####\n\n### What you\\'ll learn\n- - Load the dataset and perform '
             'exploratory analysis to understand customer query patterns. - Identify the top 10 FAQs based on frequency. - Categorize FAQs into '
-            'logical groups. #### **Deliverable:** Submit a report containing: 1. Visualizations showing the distribution of query types. 2. A list '
+            'logical groups. ####\n\n### What you\\'ll do\n- Submit a report containing: 1. Visualizations showing the distribution of query types. 2. A list '
             'of top 10 FAQs and their respective categories.',
-            '**Task 2:** Data/Setup - Preparing the FAQ Dataset: #### **Scenario:** You need to format the FAQ data for training a conversational AI '
+            '**Task 2:** Data/Setup - Preparing the FAQ Dataset: ####: You need to format the FAQ data for training a conversational AI '
             'model. This involves cleaning the text, removing duplicates, and ensuring FAQs are mapped to clear response templates. #### **Student '
             'Assignment:** - Preprocess the FAQ dataset (remove noise, duplicates, and irrel- evant data). - Structure the data into a Q&A format '
-            '(e.g., JSON or CSV format) suitable for training. - Create sample response templates for each FAQ category. #### **Deliverable:** '
+            '(e.g., JSON or CSV format) suitable for training. - Create sample response templates for each FAQ category. ####\n\n### What you\\'ll do\n- '
             'Submit the cleaned and structured FAQ dataset along with response tem- plates.',
-            '**Task 3:** Build/Execute - Developing the AI Agent: #### **Scenario:** It’s time to build the AI agent! Us- ing OpenAI GPT (or an '
+            '**Task 3:** Build/Execute - Developing the AI Agent: ####: It’s time to build the AI agent! Us- ing OpenAI GPT (or an '
             'alternative NLP platform), train the model using the FAQ dataset and create dialogue flows to handle customer queries. #### **Student '
             'Assignment:** - Train the conversational AI model using the prepared dataset. - Build logical dialogue flows for handling different FAQ '
-            'categories. - Test the model locally to ensure it responds accurately to queries. #### **Deliverable:** Submit the Python code (or '
+            'categories. - Test the model locally to ensure it responds accurately to queries. ####\n\n### What you\\'ll do\n- Submit the Python code (or '
             'equivalent) for training and deploying the AI model, along with screenshots of test conversations.',
-            '**Task 4:** GenAI/Explanation - Handling Escalations: #### **Scenario:** Not all customer queries can be re- solved by the AI agent. '
+            '**Task 4:** GenAI/Explanation - Handling Escalations: ####: Not all customer queries can be re- solved by the AI agent. '
             'Create an escalation workflow where unresolved queries are handed over to human agents via API integration (e.g., Zendesk or Slack). '
-            '#### **Student Assignment:** - Develop logic to identify unresolved queries (e.g., confidence threshold or “fallback” intents). - '
-            'Integrate APIs to escalate tickets to human agents. - Test the escalation workflow with sample queries. #### **Deliverable:** Submit '
+            '####\n\n### What you\\'ll learn\n- - Develop logic to identify unresolved queries (e.g., confidence threshold or “fallback” intents). - '
+            'Integrate APIs to escalate tickets to human agents. - Test the escalation workflow with sample queries. ####\n\n### What you\\'ll do\n- Submit '
             'the Python script for API integration and a flow diagram explaining the escalation process.',
-            '**Task 5:** Audit/Responsible AI - Ensuring Ethical AI Standards: #### **Scenario:** Your AI agent must com- ply with responsible AI '
+            '**Task 5:** Audit/Responsible AI - Ensuring Ethical AI Standards: ####: Your AI agent must com- ply with responsible AI '
             'principles. This includes ensuring unbiased responses, avoiding harmful outputs, and providing transparency in escalation workflows. '
-            '#### **Student Assignment:** - Audit the AI model for bias in responses (e.g., gender, race, or cultural bias). - Implement safeguards '
-            'to prevent harmful outputs. - Create a responsible AI checklist for your project. #### **Deliverable:** Submit the audit report, '
+            '####\n\n### What you\\'ll learn\n- - Audit the AI model for bias in responses (e.g., gender, race, or cultural bias). - Implement safeguards '
+            'to prevent harmful outputs. - Create a responsible AI checklist for your project. ####\n\n### What you\\'ll do\n- Submit the audit report, '
             'safeguards implemented, and the responsible AI checklist.',
-            '**Task 6:** Present Recommendation - Improving KPIs: #### **Scenario:** Present your AI agent prototype to the leadership team, '
-            'emphasizing how it improves customer support KPIs like average response time, CSAT, and FCR. #### **Student Assignment:** - Prepare a '
+            '**Task 6:** Present Recommendation - Improving KPIs: ####: Present your AI agent prototype to the leadership team, '
+            'emphasizing how it improves customer support KPIs like average response time, CSAT, and FCR. ####\n\n### What you\\'ll learn\n- - Prepare a '
             'presentation with metrics showing the agent’s impact on KPIs. - Create a live demo showcasing the agent handling queries and escalating '
-            'tickets. - Recommend 35 further improvements to the AI agent. #### **Deliverable:** Submit the presentation slides and demo video. — '
+            'tickets. - Recommend 35 further improvements to the AI agent. ####\n\n### What you\\'ll do\n- Submit the presentation slides and demo video. — '
             '##'],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**CX Solutions**CX Solutions is a leading global enterprise operating at the cutting edge of the Customer Service sector,\n'
+  'about_company': '**CX Solutions**  is a leading global enterprise operating at the cutting edge of the Customer Service sector,\n'
                    'with a mission ’To revolutionize service delivery and create long-term stakeholder value through trusted\n'
                    'innovation’.\n'
                    'With an annual revenue exceeding $5.4 billion and a presence in over 30 countries, we\n'
@@ -1148,36 +3631,229 @@ problems_raw = [{'number': '1',
             'Design multi-agent orchestration and human-in-the-loop handoffs',
             'Implement conversational AI state machines',
             'Validate outputs for hallucination and safety'],
-  'tools': ['Python', 'LangChain', 'Dialogflow / Botpress', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'LangChain', 'Dialogflow / Botpress', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'CX Solutions'},
  {'number': '15',
   'title': 'AI Agent Developer - Sales Qualification Agent',
@@ -1191,45 +3867,45 @@ problems_raw = [{'number': '1',
                        'defining a persona for the virtual receptionist, build its knowledge base, integrate conversational logic,\n'
                        'create a script for its interactions, and finally test and improve its performance.',
   'task_description': 'Analyze the problem and build an AI-assisted engine to solve it.',
-  'steps': ['**Task 1:** Understand the Problem and Define the Avatar Persona: **Scenario:** The coworking space brand has asked for a friendly and '
+  'steps': ['**Task 1:** Understand the Problem and Define the Avatar Persona:: The coworking space brand has asked for a friendly and '
             'professional virtual receptionist that can handle interactions with users in English. The receptionist must reflect the brand’s values: '
-            'professionalism, inclusivity, and innovation. **Student Assignment:** - Study the company background and target audience. - Define a '
+            'professionalism, inclusivity, and innovation.\n\n### What you\\'ll learn\n- - Study the company background and target audience. - Define a '
             'detailed persona for the virtual receptionist, including its appearance, tone, and key personality traits. - Draft a document that '
             'outlines the avatar’s objective and scope of interactions (e.g., greeting visitors, answering FAQs, scheduling appointments). '
-            '**Deliverable:** - A detailed persona document with at least the following fields: Name, Appearance, Personality Traits, Tone of Voice, '
+            '\n\n### What you\\'ll do\n- - A detailed persona document with at least the following fields: Name, Appearance, Personality Traits, Tone of Voice, '
             'and Key Responsibilities.',
-            '**Task 2:** Build the Knowledge Base for the Avatar: **Scenario:** The virtual receptionist will need to answer FAQs and provide '
+            '**Task 2:** Build the Knowledge Base for the Avatar:: The virtual receptionist will need to answer FAQs and provide '
             'assistance to users. You are tasked with building an initial knowledge base that will serve as the foundation for the avatar’s '
-            'conversational abilities. **Student Assignment:** - Research common FAQs for coworking spaces (e.g., pricing, amenities, booking '
+            'conversational abilities.\n\n### What you\\'ll learn\n- - Research common FAQs for coworking spaces (e.g., pricing, amenities, booking '
             'rules). - Organize the questions and answers into a structured format using Google Sheets or Airtable. - Include at least 20 questions '
-            'and answers in the knowledge base. **Deliverable:** - A knowledge base in Google Sheets or Airtable with fields: Question, Answer, and '
+            'and answers in the knowledge base.\n\n### What you\\'ll do\n- - A knowledge base in Google Sheets or Airtable with fields: Question, Answer, and '
             'Tags (e.g., pricing, scheduling).',
-            '**Task 3:** Configure the Avatar’s Chatbot and Train the AI: **Scenario:** It’s time to bring the virtual receptionist to life! You '
-            'will set up a chatbot platform, import the knowledge base, and train the AI to handle user queries. **Student Assignment:** - Choose a '
+            '**Task 3:** Configure the Avatar’s Chatbot and Train the AI:: It’s time to bring the virtual receptionist to life! You '
+            'will set up a chatbot platform, import the knowledge base, and train the AI to handle user queries.\n\n### What you\\'ll learn\n- - Choose a '
             'conversational AI platform (e.g., Dialogflow, Rasa). - Create intents and entities based on the knowledge base. - Train the AI using '
-            'the imported data and refine its ability to understand user queries. **Deliverable:** - A working chatbot model that can handle the 20 '
+            'the imported data and refine its ability to understand user queries.\n\n### What you\\'ll do\n- - A working chatbot model that can handle the 20 '
             'FAQs with appropriate responses. - Screenshots or a short video demonstrating the chatbot’s functionality.',
-            '**Task 4:** Generate AI Avatar Scripts for Conversations: **Scenario:** The virtual receptionist’s conversations must feel natural and '
+            '**Task 4:** Generate AI Avatar Scripts for Conversations:: The virtual receptionist’s conversations must feel natural and '
             'engaging. You will design scripted responses and use a generative AI tool to generate variations of these scripts. **Student '
             'Assignment:** - Write a list of 10 scripted dialogues for common scenarios (e.g., greeting visitors, answering FAQs, handling '
             'complaints). - Use a generative AI tool like OpenAI’s GPT to create variations of these scripts. - Ensure the scripts align with the '
-            'persona’s tone and personality. **Deliverable:** - A document with the original scripts and AI-generated variations for the 10 sce- '
+            'persona’s tone and personality.\n\n### What you\\'ll do\n- - A document with the original scripts and AI-generated variations for the 10 sce- '
             'narios.',
-            '**Task 5:** Test and Audit the Avatar for Responsible AI Practices: **Scenario:** Before launching the virtual receptionist, you need '
+            '**Task 5:** Test and Audit the Avatar for Responsible AI Practices:: Before launching the virtual receptionist, you need '
             'to test its performance and ensure it aligns with ethical AI principles, such as avoiding bias and ensuring inclusivity. **Student '
             'Assignment:** - Test the avatar with 10 different user inputs, including edge cases (e.g., ambiguous or offensive queries). - Document '
             'the avatar’s responses and identify areas for improvement. - Write a short report on how the avatar adheres to responsible AI '
-            'principles. **Deliverable:** - A testing report with user input, avatar output, and identified issues. - A brief summary of the ethical '
+            'principles.\n\n### What you\\'ll do\n- - A testing report with user input, avatar output, and identified issues. - A brief summary of the ethical '
             'considerations addressed in the avatar’s design.',
-            '**Task 6:** Present Your Final Avatar and Recommendations: **Scenario:** The client is excited to see the final virtual receptionist in '
+            '**Task 6:** Present Your Final Avatar and Recommendations:: The client is excited to see the final virtual receptionist in '
             'action. You will present your work, explain your design choices, and outline recommendations for future improvements. **Student '
             'Assignment:** - Create a presentation (slides or a video) showcasing the avatar’s persona, knowledge base, conversation flow, and '
             'testing results. - Include a demo of the avatar handling at least 38 5 different scenarios. - Suggest improvements or future features '
-            'for the avatar. **Deliverable:** - A presentation (PDF or video) with the avatar’s demo and recommendations for future iterations. — '
+            'for the avatar.\n\n### What you\\'ll do\n- - A presentation (PDF or video) with the avatar’s demo and recommendations for future iterations. — '
             '##'],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**SupportSync**SupportSync is a leading global enterprise operating at the cutting edge of the Customer Service sector,\n'
+  'about_company': '**SupportSync**  is a leading global enterprise operating at the cutting edge of the Customer Service sector,\n'
                    'with a mission ’To revolutionize service delivery and create long-term stakeholder value through trusted\n'
                    'innovation’.\n'
                    'With an annual revenue exceeding $5.4 billion and a presence in over 30 countries, we\n'
@@ -1243,36 +3919,229 @@ problems_raw = [{'number': '1',
             'Map manual processes into automated AI execution graphs',
             'Develop, test, and deploy AI solutions in a simulated environment',
             'Master prompt engineering and structured output validation'],
-  'tools': ['Python', 'LangChain', 'CRM Integration (Salesforce)', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'LangChain', 'CRM Integration (Salesforce)', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'SupportSync'},
  {'number': '16',
   'title': 'AI Agent Developer - HR Recruitment Agent',
@@ -1282,40 +4151,40 @@ problems_raw = [{'number': '1',
                        'uct usage, and customer tenure. The leadership team has tasked you with understanding the key factors\n'
                        'contributing to customer churn.',
   'task_description': 'Analyze the problem and build an AI-assisted engine to solve it.',
-  'steps': ['**Task 1:** Understand - Explore Customer Churn Dynamics: **Scenario:** Your company has collected customer health data, including '
+  'steps': ['**Task 1:** Understand - Explore Customer Churn Dynamics:: Your company has collected customer health data, including '
             'engagement metrics, support tickets, product usage, and customer tenure. The leadership team has tasked you with understanding the key '
-            'factors contributing to customer churn. 40 **Student Assignment:** - Study the dataset provided (‘customer health data.csv‘). - '
+            'factors contributing to customer churn. 40\n\n### What you\\'ll learn\n- - Study the dataset provided (‘customer health data.csv‘). - '
             'Identify and define key features (e.g., usage frequency, number of support tickets, NPS scores). - Research and summarize the common '
-            'drivers of churn in SaaS businesses. **Deliverable:** Submit a one-page summary of churn drivers with a brief description of the '
+            'drivers of churn in SaaS businesses.\n\n### What you\\'ll do\n- Submit a one-page summary of churn drivers with a brief description of the '
             'dataset features. — #',
-            '**Task 2:** Data/Setup - Clean and Prepare the Data: **Scenario:** The raw dataset has missing values and in- consistent entries. To '
-            'ensure the accuracy of your analysis, you need to clean and preprocess the data. **Student Assignment:** - Handle missing or null '
+            '**Task 2:** Data/Setup - Clean and Prepare the Data:: The raw dataset has missing values and in- consistent entries. To '
+            'ensure the accuracy of your analysis, you need to clean and preprocess the data.\n\n### What you\\'ll learn\n- - Handle missing or null '
             'values appropriately. - Encode categorical variables (e.g., customer segment, industry). - Scale numeric features for consistent input '
-            'to machine learning models. - Split the data into training and testing sets (80/20 split). **Deliverable:** Submit a clean dataset and '
+            'to machine learning models. - Split the data into training and testing sets (80/20 split).\n\n### What you\\'ll do\n- Submit a clean dataset and '
             'a description of the preprocessing steps you performed. — #',
-            '**Task 3:** Build/Execute - Predict Churn Using Machine Learning: **Scenario:** You are now ready to build a predictive model to '
-            'classify customers as either ”churn” or ”not churn.” **Student Assignment:** - Train a Logistic Regression model to predict churn. - '
+            '**Task 3:** Build/Execute - Predict Churn Using Machine Learning:: You are now ready to build a predictive model to '
+            'classify customers as either ”churn” or ”not churn.”\n\n### What you\\'ll learn\n- - Train a Logistic Regression model to predict churn. - '
             'Evaluate the model’s performance using metrics like accuracy, precision, recall, and F1-score. - Perform hyperparameter tuning to '
-            'improve model performance. **Deliverable:** Submit the trained model, evaluation metrics, and a short explanation of how you improved '
+            'improve model performance.\n\n### What you\\'ll do\n- Submit the trained model, evaluation metrics, and a short explanation of how you improved '
             'model performance. — #',
-            '**Task 4:** GenAI/Explanation - Identify Key Drivers of Churn: **Scenario:** Leadership wants to know *why* your model predicts certain '
-            'customers are at risk of churning. Use interpretability techniques to explain the predictions. **Student Assignment:** - Use SHAP '
+            '**Task 4:** GenAI/Explanation - Identify Key Drivers of Churn:: Leadership wants to know *why* your model predicts certain '
+            'customers are at risk of churning. Use interpretability techniques to explain the predictions.\n\n### What you\\'ll learn\n- - Use SHAP '
             '(SHapley Additive exPlanations) to identify the top features influencing churn predictions. - Visualize and summarize the contribution '
             'of each feature to the model’s decisions. - Highlight one example of a high-risk customer and explain why the model flagged them. '
-            '**Deliverable:** Submit a report with SHAP visualizations and an explanation of key churn drivers. — #',
-            '**Task 5:** Audit/Responsible AI - Ensure Model Fairness: **Scenario:** The leadership team is concerned about potential bias in the '
-            'model. For instance, are certain customer segments unfairly flagged as high risk? **Student Assignment:** - Analyze the fairness of '
+            '\n\n### What you\\'ll do\n- Submit a report with SHAP visualizations and an explanation of key churn drivers. — #',
+            '**Task 5:** Audit/Responsible AI - Ensure Model Fairness:: The leadership team is concerned about potential bias in the '
+            'model. For instance, are certain customer segments unfairly flagged as high risk?\n\n### What you\\'ll learn\n- - Analyze the fairness of '
             'your model across different customer demographics (e.g., industry, region). - Identify any biases and adjust the model or preprocessing '
-            'steps if necessary. - Document your Responsible AI process and findings. **Deliverable:** Submit a fairness analysis report with any '
+            'steps if necessary. - Document your Responsible AI process and findings.\n\n### What you\\'ll do\n- Submit a fairness analysis report with any '
             'corrective actions taken. — #',
-            '**Task 6:** Present Recommendation - Propose a Retention Strategy: **Scenario:** You’ve identified high-risk cus- tomers and the key '
-            'drivers of churn. It’s now time to present a retention strategy to the leadership team. **Student Assignment:** - Create a customer '
+            '**Task 6:** Present Recommendation - Propose a Retention Strategy:: You’ve identified high-risk cus- tomers and the key '
+            'drivers of churn. It’s now time to present a retention strategy to the leadership team.\n\n### What you\\'ll learn\n- - Create a customer '
             'success plan for one high-risk customer, including engagement strategies, personalized recommendations, and a measurable action plan. - '
-            'Summarize overall recommendations for reducing churn. 41 **Deliverable:** Submit a 3-slide presentation or report summarizing: 1. '
+            'Summarize overall recommendations for reducing churn. 41\n\n### What you\\'ll do\n- Submit a 3-slide presentation or report summarizing: 1. '
             'High-risk customer profile and proposed success plan. 2. Insights from churn analysis. 3. Retention strategy recommendations. — ###'],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**ClientFirst Networks**ClientFirst Networks is a leading global enterprise operating at the cutting edge of the Customer '
+  'about_company': '**ClientFirst Networks**  is a leading global enterprise operating at the cutting edge of the Customer '
                    'Service\n'
                    'sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value through\n'
                    'trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30 countries,\n'
@@ -1329,36 +4198,229 @@ problems_raw = [{'number': '1',
             'Leverage Generative AI to automate exploratory data analysis',
             'Communicate AI-derived recommendations to executive stakeholders',
             'Ensure data privacy and Responsible AI compliance'],
-  'tools': ['Python', 'LangChain', 'ATS Integration', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'LangChain', 'ATS Integration', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'ClientFirst Networks'},
  {'number': '17',
   'title': 'AI Customer Service Manager - Design a GenAI Contact Centre',
@@ -1464,7 +4526,7 @@ problems_raw = [{'number': '1',
                               'Task 5: Submit a revised ad copy along with a brief explanation of the changes made and why they were necess...',
                               'Task 6: Submit your presentation in PDF format. — ## MCQs Post Task Completion 1. What does CTR stand for in...'],
   'knowledge_test': [],
-  'about_company': '**Marketing Global Dynamics**Marketing Global Dynamics is a leading global enterprise operating at the cutting edge of the '
+  'about_company': '**Marketing Global Dynamics**  is a leading global enterprise operating at the cutting edge of the '
                    'Marketing\n'
                    '& Branding sector, with a mission ’To revolutionize service delivery and create long-term stakeholder\n'
                    'value through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over\n'
@@ -1478,36 +4540,229 @@ problems_raw = [{'number': '1',
             'Leverage Generative AI to automate exploratory data analysis',
             'Communicate AI-derived recommendations to executive stakeholders',
             'Ensure data privacy and Responsible AI compliance'],
-  'tools': ['Conversational AI Design', 'CX Strategy', 'Analytics', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Conversational AI Design', 'CX Strategy', 'Analytics', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Marketing Global Dynamics'},
  {'number': '18',
   'title': 'Social Media Intelligence Analyst Decode a Brand Conversation',
@@ -1593,7 +4848,7 @@ problems_raw = [{'number': '1',
                               'Task 5: A dashboard or set of visualizations comparing FitSphere’s social media metrics with competitors.',
                               'Task 6: A presentation deck (PPT or PDF). - A 5-minute recorded video explaining your analysis and recommend...'],
   'knowledge_test': [],
-  'about_company': '**Marketing Innovations Ltd**Marketing Innovations Ltd is a leading global enterprise operating at the cutting edge of the '
+  'about_company': '**Marketing Innovations Ltd**  is a leading global enterprise operating at the cutting edge of the '
                    'Marketing\n'
                    '& Branding sector, with a mission ’To revolutionize service delivery and create long-term stakeholder\n'
                    'value through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over\n'
@@ -1607,39 +4862,229 @@ problems_raw = [{'number': '1',
             'Leverage Generative AI to automate exploratory data analysis',
             'Communicate AI-derived recommendations to executive stakeholders',
             'Ensure data privacy and Responsible AI compliance'],
-  'tools': ['Python / Pandas', 'NLP (Spacy/NLTK)', 'Web Scraping', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary purpose of Generative AI in marketing?',
-            'options': ['Email automation', 'Content creation', 'Campaign budgeting', 'Performance tracking'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'What metric measures the revenue generated per dollar spent on ads?',
-            'options': ['CPC', 'CTR', 'ROAS', 'CPM'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'Which of the following is a common tool for audience segmentation?',
-            'options': ['Excel', 'Google Analytics', 'Canva', 'Trello'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Which of the following is NOT a campaign performance metric?',
-            'options': ['Impressions', 'CTR', 'CPC', 'AI score'],
-            'correctAnswer': 3},
-           {'id': 5,
-            'question': 'What does segmentation help marketers achieve?',
-            'options': ['Broader audience reach', 'Specific targeting for better campaign performance', 'Lower ad spend', 'Higher CPM'],
-            'correctAnswer': 1},
-           {'id': 6,
-            'question': 'Which AI tool is commonly used for optimising Google Ads campaigns?',
-            'options': ['HubSpot', 'Google Ads Performance Planner', 'Canva', 'MailChimp'],
-            'correctAnswer': 1},
-           {'id': 7,
-            'question': 'What is an ethical concern when using Generative AI for marketing content?',
-            'options': ['Content creativity', 'Biased or insensitive language', 'High ad spend', 'Low CTR'],
-            'correctAnswer': 1},
-           {'id': 8,
-            'question': 'Why should marketers audit AI-generated content?',
-            'options': ['To ensure high CTR', 'To avoid biases and ensure inclusiveness', 'To reduce CPC', 'To improve impressions'],
-            'correctAnswer': 1}],
+  'tools': ['Python / Pandas', 'NLP (Spacy/NLTK)', 'Web Scraping', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Marketing Innovations Ltd'},
  {'number': '19',
   'title': 'UI/UX Designer Design an AI Product Experience',
@@ -1653,40 +5098,40 @@ problems_raw = [{'number': '1',
                        'personas, designing user flows, creating wireframes, and testing usability. By the end of this simulation,\n'
                        'you will deliver a prototype-ready design that balances functionality, accessibility, and aesthetics.',
   'task_description': 'Analyze the problem and build an AI-assisted engine to solve it.',
-  'steps': ['**Task 1:** Understand - Conduct User Research: **Scenario:** You are tasked with understanding the target audience for the AI mental '
+  'steps': ['**Task 1:** Understand - Conduct User Research:: You are tasked with understanding the target audience for the AI mental '
             'wellness assistant. You need to uncover user pain points, preferences, and expectations for an AI-powered product that supports mental '
-            'health. **Student Assignment:** - Create a Google Form survey with 10 targeted questions to gather insights on user needs (e.g., ”What '
+            'health.\n\n### What you\\'ll learn\n- - Create a Google Form survey with 10 targeted questions to gather insights on user needs (e.g., ”What '
             'challenges do you face in maintaining mental wellness?”). - Conduct 3 virtual interviews with potential users to uncover qualitative '
-            'insights. **Deliverable:** Submit a short report summarizing the survey results and key findings from inter- views. Include charts or '
+            'insights.\n\n### What you\\'ll do\n- Submit a short report summarizing the survey results and key findings from inter- views. Include charts or '
             'graphs representing quantitative data.',
-            '**Task 2:** Data/Setup - Develop Personas: **Scenario:** Based on your user research, you need to create detailed personas that '
+            '**Task 2:** Data/Setup - Develop Personas:: Based on your user research, you need to create detailed personas that '
             'represent the core segments of your audience. These personas will guide your design decisions throughout the project. **Student '
             'Assignment:** - Use Miro or a similar tool to create 3 personas. Include key details: demographics, goals, frustrations, and behaviors. '
-            '- Highlight how each persona interacts with AI products and their expectations. **Deliverable:** Submit a PDF or image export of your '
+            '- Highlight how each persona interacts with AI products and their expectations.\n\n### What you\\'ll do\n- Submit a PDF or image export of your '
             'personas from Miro, ensuring each persona is well-defined with visuals.',
-            '**Task 3:** Build/Execute - Design the User Flow: **Scenario:** You need to map out the user journey for inter- acting with the AI '
-            'mental wellness assistant, from onboarding to using its features (e.g., mood tracking, chatbot conversations). **Student Assignment:** '
+            '**Task 3:** Build/Execute - Design the User Flow:: You need to map out the user journey for inter- acting with the AI '
+            'mental wellness assistant, from onboarding to using its features (e.g., mood tracking, chatbot conversations).\n\n### What you\\'ll learn\n- '
             '- Use Miro to create a user flow diagram that highlights key paths like onboarding, accessing features, and receiving insights. - '
-            'Define decision points and actions at each step (e.g., ”User selects mood tracker →AI provides analysis”). **Deliverable:** Submit a '
+            'Define decision points and actions at each step (e.g., ”User selects mood tracker →AI provides analysis”).\n\n### What you\\'ll do\n- Submit a '
             'user flow diagram exported from Miro. Include annotations explaining each step and decision point.',
-            '**Task 4:** GenAI/Explanation - Create Wireframes: **Scenario:** It’s time to convert your user flow into wire- frames for core screens '
-            'of the AI product. Focus on intuitive layouts and ensuring users can easily interact with AI features. **Student Assignment:** - Design '
+            '**Task 4:** GenAI/Explanation - Create Wireframes:: It’s time to convert your user flow into wire- frames for core screens '
+            'of the AI product. Focus on intuitive layouts and ensuring users can easily interact with AI features.\n\n### What you\\'ll learn\n- - Design '
             'wireframes for 3 primary screens: Onboarding, Mood Tracking Dashboard, and Chatbot Interface. - Ensure your designs follow '
-            'accessibility guidelines (e.g., WCAG contrast standards). **Deliverable:** Submit high-quality wireframes created in Figma or Adobe XD. '
+            'accessibility guidelines (e.g., WCAG contrast standards).\n\n### What you\\'ll do\n- Submit high-quality wireframes created in Figma or Adobe XD. '
             'Include annotations describing design choices.',
-            '**Task 5:** Audit/Responsible AI - Conduct Usability Testing: **Scenario:** You need to ensure your wireframes deliver a seamless '
-            'experience. Conduct usability tests to gather feedback and identify areas for improve- ment. **Student Assignment:** - Share your '
+            '**Task 5:** Audit/Responsible AI - Conduct Usability Testing:: You need to ensure your wireframes deliver a seamless '
+            'experience. Conduct usability tests to gather feedback and identify areas for improve- ment.\n\n### What you\\'ll learn\n- - Share your '
             'wireframes with 3 test users and ask them to perform specific tasks (e.g., ”Navigate to the Mood Tracker”). - Gather feedback on '
-            'usability issues and suggestions for improvement. **Deliverable:** Submit a usability test report summarizing participant feedback, '
+            'usability issues and suggestions for improvement.\n\n### What you\\'ll do\n- Submit a usability test report summarizing participant feedback, '
             'including a prior- itized list of design improvements.',
-            '**Task 6:** Present Recommendation - Final Design Proposal: **Scenario:** You’re presenting your design recom- mendations to the '
-            'product team. Use data from research, personas, and usability tests to justify your decisions. **Student Assignment:** - Create a '
+            '**Task 6:** Present Recommendation - Final Design Proposal:: You’re presenting your design recom- mendations to the '
+            'product team. Use data from research, personas, and usability tests to justify your decisions.\n\n### What you\\'ll learn\n- - Create a '
             'presentation deck showcasing your design process: research findings, personas, user flow, wireframes, and test results. - Include '
-            'actionable recommendations for the product team. 50 **Deliverable:** Submit your presentation as a PDF or PowerPoint file. Ensure it’s '
+            'actionable recommendations for the product team. 50\n\n### What you\\'ll do\n- Submit your presentation as a PDF or PowerPoint file. Ensure it’s '
             'visually engaging and includes clear, data-driven insights. — ##'],
   'submission_instructions': [],
   'knowledge_test': [],
-  'about_company': '**Design Global Dynamics**Design Global Dynamics is a leading global enterprise operating at the cutting edge of the Design &\n'
+  'about_company': '**Design Global Dynamics**  is a leading global enterprise operating at the cutting edge of the Design &\n'
                    'UI/UX sector, with a mission ’To revolutionize service delivery and create long-term stakeholder value\n'
                    'through trusted innovation’. With an annual revenue exceeding $5.4 billion and a presence in over 30\n'
                    'countries, we collectively employ over 42,000 passionate professionals.\n'
@@ -1699,36 +5144,229 @@ problems_raw = [{'number': '1',
             'Write comprehensive Product Requirement Documents (PRDs) for AI features',
             'Calculate expected ROI and build a transformation roadmap',
             'Identify fairness, ethical, and bias implications of AI adoption'],
-  'tools': ['Figma', 'User Journey Mapping', 'Prototyping', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Figma', 'User Journey Mapping', 'Prototyping', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Design Global Dynamics'},
  {'number': '20',
   'title': 'Citizen Services AI Agent Resolve a Government Complaint',
@@ -1815,7 +5453,7 @@ problems_raw = [{'number': '1',
                               'Task 5: Submit an audit report (300 words) outlining your findings and proposed solutions.',
                               'Task 6: Submit your slides and video walkthrough. — ## 53'],
   'knowledge_test': [],
-  'about_company': '**Government Global Dynamics**Government Global Dynamics is a leading global enterprise operating at the cutting edge of the '
+  'about_company': '**Government Global Dynamics**  is a leading global enterprise operating at the cutting edge of the '
                    'Gov-\n'
                    'ernment & Public Services sector, with a mission ’To revolutionize service delivery and create long-term\n'
                    'stakeholder value through trusted innovation’. With an annual revenue exceeding $5.4 billion and a\n'
@@ -1829,34 +5467,227 @@ problems_raw = [{'number': '1',
             'Design multi-agent orchestration and human-in-the-loop handoffs',
             'Implement conversational AI state machines',
             'Validate outputs for hallucination and safety'],
-  'tools': ['Python', 'Data Privacy Frameworks', 'NLP', 'SkillForge AI Mentor'],
-  'mcqs': [{'id': 1,
-            'question': 'What is the primary goal of this business scenario?',
-            'options': ['To automate all jobs', 'To leverage AI for operational efficiency', 'To build a basic website', 'To write manual reports'],
-            'correctAnswer': 1},
-           {'id': 2,
-            'question': 'Which of the following is a key Responsible AI principle?',
-            'options': ['Ignoring data privacy', 'Assuming AI is always correct', 'Human oversight and explainability', 'Deploying untested models'],
-            'correctAnswer': 2},
-           {'id': 3,
-            'question': 'What does a Generative AI model primarily do?',
-            'options': ['Store passwords securely',
-                        'Generate new content based on patterns learned from training data',
-                        'Fix hardware issues',
-                        'Calculate exact mathematical proofs'],
-            'correctAnswer': 1},
-           {'id': 4,
-            'question': 'Why is data cleaning an important step before AI integration?',
-            'options': ['It makes the file size larger',
-                        'It ensures the model learns from high-quality, relevant data',
-                        'It adds more bias to the model',
-                        'It automatically generates the final report'],
-            'correctAnswer': 1},
-           {'id': 5,
-            'question': 'What is the main benefit of mapping out the architecture before coding?',
-            'options': ['It identifies data flow and potential bottlenecks',
-                        'It wastes time',
-                        'It writes the code for you',
-                        'It bypasses security reviews'],
-            'correctAnswer': 0}],
+  'tools': ['Python', 'Data Privacy Frameworks', 'NLP', 'Skillzza AI Mentor'],
+  'mcqs': [
+      {
+            "id": 1,
+            "question": "What is the primary goal of this business scenario?",
+            "options": [
+                  "To automate all jobs",
+                  "To leverage AI for operational efficiency",
+                  "To build a basic website",
+                  "To write manual reports"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 2,
+            "question": "Which of the following is a key Responsible AI principle?",
+            "options": [
+                  "Ignoring data privacy",
+                  "Assuming AI is always correct",
+                  "Human oversight and explainability",
+                  "Deploying untested models"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 3,
+            "question": "What does a Generative AI model primarily do?",
+            "options": [
+                  "Store passwords securely",
+                  "Generate new content based on patterns learned from training data",
+                  "Fix hardware issues",
+                  "Calculate exact mathematical proofs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 4,
+            "question": "In the context of AI Agents, what is 'memory' used for?",
+            "options": [
+                  "Storing the AI model's weights",
+                  "Retaining context from past interactions to improve future responses",
+                  "Caching web pages for faster browsing",
+                  "Increasing the hardware RAM on the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 5,
+            "question": "What is the role of an orchestrator in a multi-agent system?",
+            "options": [
+                  "To design the user interface",
+                  "To coordinate tasks between specialized agents",
+                  "To manually review all outputs before sending to user",
+                  "To write the underlying LLM code"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 6,
+            "question": "Which framework is commonly used for building AI agents?",
+            "options": [
+                  "React",
+                  "LangChain",
+                  "Spring Boot",
+                  "Express"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 7,
+            "question": "What does RAG stand for in AI systems?",
+            "options": [
+                  "Random Access Generation",
+                  "Retrieval-Augmented Generation",
+                  "Routing and Generation",
+                  "Recurrent AI Graphs"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 8,
+            "question": "What is the purpose of a vector database in an AI pipeline?",
+            "options": [
+                  "To store relational tables",
+                  "To host a frontend application",
+                  "To store and search high-dimensional embeddings efficiently",
+                  "To manage user passwords"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 9,
+            "question": "What is a 'prompt injection' attack?",
+            "options": [
+                  "Injecting a virus into a database",
+                  "Manipulating an AI model by providing malicious input to override instructions",
+                  "Updating an AI model with new data",
+                  "Creating a new prompt template"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 10,
+            "question": "What does human-in-the-loop (HITL) mean?",
+            "options": [
+                  "The AI model works completely autonomously",
+                  "Humans must write every line of code",
+                  "A human reviews or guides the AI at critical decision points",
+                  "A human physically inputs the data"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 11,
+            "question": "Why is tokenization important for LLMs?",
+            "options": [
+                  "It creates cryptographic tokens",
+                  "It breaks text into manageable pieces for the model to process",
+                  "It adds watermarks to images",
+                  "It manages API billing"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 12,
+            "question": "What is few-shot prompting?",
+            "options": [
+                  "Providing zero examples in a prompt",
+                  "Providing a small number of examples in the prompt to guide the model's output",
+                  "Providing millions of examples to fine-tune the model",
+                  "Taking a few screenshots of the output"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 13,
+            "question": "Which of these is a common metric to evaluate LLM responses in RAG?",
+            "options": [
+                  "Frames per second",
+                  "Relevance, groundedness, and coherence",
+                  "Bandwidth speed",
+                  "Database transaction rate"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 14,
+            "question": "What is the function of an AI agent's 'tool' or 'action'?",
+            "options": [
+                  "To paint a UI",
+                  "To allow the agent to interact with external environments or APIs",
+                  "To compile the model",
+                  "To reboot the server"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 15,
+            "question": "What is temperature in the context of LLM inference?",
+            "options": [
+                  "The physical heat of the server",
+                  "A parameter controlling the randomness or creativity of the output",
+                  "A measure of how fast the response is generated",
+                  "The length of the prompt"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 16,
+            "question": "What is the primary benefit of fine-tuning an LLM?",
+            "options": [
+                  "Making it smaller to run on a phone",
+                  "Teaching it a highly specific tone, format, or niche knowledge domain",
+                  "Making it faster to respond to general queries",
+                  "Removing the need for prompts entirely"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 17,
+            "question": "What is hallucination in AI?",
+            "options": [
+                  "When an AI sees images in text",
+                  "When an AI produces a confident but factually incorrect or nonsensical response",
+                  "When an AI deletes data by mistake",
+                  "When an AI becomes self-aware"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 18,
+            "question": "In multi-agent systems, what is a 'state machine' used for?",
+            "options": [
+                  "Generating realistic graphics",
+                  "Managing the deterministic transitions between different steps or agents",
+                  "Cooling the GPU",
+                  "Parsing JSON files"
+            ],
+            "correctAnswer": 1
+      },
+      {
+            "id": 19,
+            "question": "Which architecture forms the basis of modern LLMs like GPT-4?",
+            "options": [
+                  "Convolutional Neural Networks",
+                  "Recurrent Neural Networks",
+                  "Transformer architecture",
+                  "Decision Trees"
+            ],
+            "correctAnswer": 2
+      },
+      {
+            "id": 20,
+            "question": "What is the main challenge of deploying autonomous agents in production?",
+            "options": [
+                  "Finding enough training data",
+                  "Ensuring predictable, safe, and cost-effective behavior in open-ended scenarios",
+                  "Installing Python on servers",
+                  "Designing the user interface"
+            ],
+            "correctAnswer": 1
+      }
+],
   'company': 'Government Global Dynamics'}]

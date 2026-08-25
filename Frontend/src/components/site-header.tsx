@@ -14,7 +14,7 @@ export function SiteHeader() {
           <span className="grid size-8 place-items-center rounded-lg bg-primary/15 text-primary">
             <Hexagon className="size-4" strokeWidth={2.4} />
           </span>
-          <span className="text-[15px] font-semibold tracking-tight">SkillForge</span>
+          <span className="text-[15px] font-semibold tracking-tight">Skillzza</span>
         </Link>
 
         <nav className="hidden items-center gap-1 text-sm text-muted-foreground sm:flex">
@@ -70,7 +70,7 @@ export function SiteFooter() {
   return (
     <footer className="border-t border-border/70 py-10">
       <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-        <p>© {new Date().getFullYear()} SkillForge — real problems, AI-graded.</p>
+        <p>© {new Date().getFullYear()} Skillzza — real problems, AI-graded.</p>
         <p className="font-mono">solve locally · upload .ipynb · get feedback</p>
       </div>
     </footer>

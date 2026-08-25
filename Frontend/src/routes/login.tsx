@@ -17,15 +17,15 @@ export const Route = createFileRoute("/login")({
   },
   head: () => ({
     meta: [
-      { title: "Log in — SkillForge" },
+      { title: "Log in — Skillzza" },
       {
         name: "description",
-        content: "Log in to your SkillForge account to continue learning.",
+        content: "Log in to your Skillzza account to continue learning.",
       },
-      { property: "og:title", content: "Log in — SkillForge" },
+      { property: "og:title", content: "Log in — Skillzza" },
       {
         property: "og:description",
-        content: "Log in to your SkillForge account to continue learning.",
+        content: "Log in to your Skillzza account to continue learning.",
       },
     ],
   }),

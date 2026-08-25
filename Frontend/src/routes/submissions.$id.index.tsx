@@ -18,12 +18,12 @@ export const Route = createFileRoute("/submissions/$id/")({
   },
   head: () => ({
     meta: [
-      { title: "Submission status — SkillForge" },
+      { title: "Submission status — Skillzza" },
       {
         name: "description",
         content: "Track your notebook through execution and AI grading.",
       },
-      { property: "og:title", content: "Submission status — SkillForge" },
+      { property: "og:title", content: "Submission status — Skillzza" },
       {
         property: "og:description",
         content: "Track your notebook through execution and AI grading.",

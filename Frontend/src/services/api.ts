@@ -48,7 +48,7 @@ export interface User {
 }
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
-const TOKEN_KEY = "skillforge.token";
+const TOKEN_KEY = "skillzza.token";
 
 const isBrowser = () => typeof window !== "undefined";
 
@@ -173,6 +173,39 @@ export async function fetchSubmissions(): Promise<Submission[]> {
   }
 }
 
+/* ---------------- Progress ---------------- */
+
+export async function fetchUserProblemProgress(problemId: string): Promise<number[]> {
+  try {
+    const data = await apiFetch(`/progress/${problemId}`);
+    return data.completed_task_indices || [];
+  } catch (e) {
+    console.error("Failed to fetch progress from DB", e);
+    // fallback to localstorage temporarily if db connection fails
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem(`skilzzal_progress_${problemId}`);
+      if (saved) return JSON.parse(saved);
+    }
+    return [];
+  }
+}
+
+export async function updateUserProblemProgress(problemId: string, completedIndices: number[]): Promise<void> {
+  // Sync to localstorage first for immediate feedback/fallback
+  if (typeof window !== 'undefined') {
+    localStorage.setItem(`skilzzal_progress_${problemId}`, JSON.stringify(completedIndices));
+  }
+  
+  try {
+    await apiFetch(`/progress/${problemId}`, {
+      method: 'POST',
+      body: JSON.stringify({ completed_task_indices: completedIndices })
+    });
+  } catch (e) {
+    console.error("Failed to save progress to DB", e);
+  }
+}
+
 /* ---------------- Dashboard ---------------- */
 
 export interface DomainProgress {
@@ -243,7 +276,7 @@ export async function signUp(email: string, name: string, password: string): Pro
 
 export function signOut() {
   removeToken();
-  if (isBrowser()) window.localStorage.removeItem("skillforge.user");
+  if (isBrowser()) window.localStorage.removeItem("skillzza.user");
 }
 
 export async function fetchCurrentUser(): Promise<User | null> {

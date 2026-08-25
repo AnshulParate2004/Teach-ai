@@ -2,26 +2,26 @@ import re
 import sys
 
 mapping = {
-    "AI Agent Designer - Build Your First Agent": ["Python / Jupyter Notebooks", "ChatGPT / Claude (Prompting)", "LangGraph / LangChain", "SkillForge AI Mentor"],
-    "Microfinance Analyst - AI Loan Eligibility Engine": ["Python / Pandas", "Scikit-Learn", "Data Analytics", "SkillForge AI Mentor"],
-    "Agentic AI Consultant - Automate a Business Process": ["Python", "Streamlit", "Process Automation", "SkillForge AI Mentor"],
-    "Multi-Agent AI - Design an AI Workforce": ["Python", "CrewAI / AutoGen", "Prompt Engineering", "SkillForge AI Mentor"],
-    "GenAI Prompt Engineer - Enterprise Prompt Lab": ["Python", "Prompt Engineering", "OpenAI / Claude APIs", "SkillForge AI Mentor"],
-    "Generative AI Data Analyst - Ask Data Questions with GenAI": ["Python / Pandas", "Data Visualization", "SQL", "SkillForge AI Mentor"],
-    "Healthcare GenAI - Clinical Knowledge Assistant": ["Python", "RAG", "Vector Databases", "SkillForge AI Mentor"],
-    "GenAI Cybersecurity Analyst - AI SOC Investigation": ["Python", "Splunk / SIEM APIs", "Cybersecurity Analytics", "SkillForge AI Mentor"],
-    "Full Stack Developer - Build an AI Web Application": ["Next.js / React", "Node.js", "OpenAI APIs", "SkillForge AI Mentor"],
-    "Backend Developer - Build an AI API Service": ["FastAPI / Flask", "PostgreSQL", "Docker / Deployment", "SkillForge AI Mentor"],
-    "AI Developer - Build a RAG Application": ["Python", "LangChain / LlamaIndex", "Vector Databases (Pinecone)", "SkillForge AI Mentor"],
-    "LangChain Developer - Build an Enterprise AI Workflow": ["Python", "LangChain", "Enterprise Data Integration", "SkillForge AI Mentor"],
-    "LangGraph Developer - Build an Agentic Workflow": ["Python", "LangGraph", "State Machines", "SkillForge AI Mentor"],
-    "AI Agent Developer - Customer Support Agent": ["Python", "LangChain", "Dialogflow / Botpress", "SkillForge AI Mentor"],
-    "AI Agent Developer - Sales Qualification Agent": ["Python", "LangChain", "CRM Integration (Salesforce)", "SkillForge AI Mentor"],
-    "AI Agent Developer - HR Recruitment Agent": ["Python", "LangChain", "ATS Integration", "SkillForge AI Mentor"],
-    "AI Customer Service Manager - Design a GenAI Contact Centre": ["Conversational AI Design", "CX Strategy", "Analytics", "SkillForge AI Mentor"],
-    "Social Media Intelligence Analyst Decode a Brand Conversation": ["Python / Pandas", "NLP (Spacy/NLTK)", "Web Scraping", "SkillForge AI Mentor"],
-    "UI/UX Designer Design an AI Product Experience": ["Figma", "User Journey Mapping", "Prototyping", "SkillForge AI Mentor"],
-    "Citizen Services AI Agent Resolve a Government Complaint": ["Python", "Data Privacy Frameworks", "NLP", "SkillForge AI Mentor"]
+    "AI Agent Designer - Build Your First Agent": ["Python / Jupyter Notebooks", "ChatGPT / Claude (Prompting)", "LangGraph / LangChain", "Skillzza AI Mentor"],
+    "Microfinance Analyst - AI Loan Eligibility Engine": ["Python / Pandas", "Scikit-Learn", "Data Analytics", "Skillzza AI Mentor"],
+    "Agentic AI Consultant - Automate a Business Process": ["Python", "Streamlit", "Process Automation", "Skillzza AI Mentor"],
+    "Multi-Agent AI - Design an AI Workforce": ["Python", "CrewAI / AutoGen", "Prompt Engineering", "Skillzza AI Mentor"],
+    "GenAI Prompt Engineer - Enterprise Prompt Lab": ["Python", "Prompt Engineering", "OpenAI / Claude APIs", "Skillzza AI Mentor"],
+    "Generative AI Data Analyst - Ask Data Questions with GenAI": ["Python / Pandas", "Data Visualization", "SQL", "Skillzza AI Mentor"],
+    "Healthcare GenAI - Clinical Knowledge Assistant": ["Python", "RAG", "Vector Databases", "Skillzza AI Mentor"],
+    "GenAI Cybersecurity Analyst - AI SOC Investigation": ["Python", "Splunk / SIEM APIs", "Cybersecurity Analytics", "Skillzza AI Mentor"],
+    "Full Stack Developer - Build an AI Web Application": ["Next.js / React", "Node.js", "OpenAI APIs", "Skillzza AI Mentor"],
+    "Backend Developer - Build an AI API Service": ["FastAPI / Flask", "PostgreSQL", "Docker / Deployment", "Skillzza AI Mentor"],
+    "AI Developer - Build a RAG Application": ["Python", "LangChain / LlamaIndex", "Vector Databases (Pinecone)", "Skillzza AI Mentor"],
+    "LangChain Developer - Build an Enterprise AI Workflow": ["Python", "LangChain", "Enterprise Data Integration", "Skillzza AI Mentor"],
+    "LangGraph Developer - Build an Agentic Workflow": ["Python", "LangGraph", "State Machines", "Skillzza AI Mentor"],
+    "AI Agent Developer - Customer Support Agent": ["Python", "LangChain", "Dialogflow / Botpress", "Skillzza AI Mentor"],
+    "AI Agent Developer - Sales Qualification Agent": ["Python", "LangChain", "CRM Integration (Salesforce)", "Skillzza AI Mentor"],
+    "AI Agent Developer - HR Recruitment Agent": ["Python", "LangChain", "ATS Integration", "Skillzza AI Mentor"],
+    "AI Customer Service Manager - Design a GenAI Contact Centre": ["Conversational AI Design", "CX Strategy", "Analytics", "Skillzza AI Mentor"],
+    "Social Media Intelligence Analyst Decode a Brand Conversation": ["Python / Pandas", "NLP (Spacy/NLTK)", "Web Scraping", "Skillzza AI Mentor"],
+    "UI/UX Designer Design an AI Product Experience": ["Figma", "User Journey Mapping", "Prototyping", "Skillzza AI Mentor"],
+    "Citizen Services AI Agent Resolve a Government Complaint": ["Python", "Data Privacy Frameworks", "NLP", "Skillzza AI Mentor"]
 }
 
 # 1. Update problems.ts

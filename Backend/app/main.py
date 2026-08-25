@@ -20,11 +20,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from app.api import auth, domains, problems, submissions, grades, users
+from app.api import auth, domains, problems, submissions, grades, users, progress
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to SkillForge API"}
+    return {"message": "Welcome to Skillzza API"}
 
 app.include_router(auth.router, prefix="/auth", tags=["auth"])
 app.include_router(users.router, prefix="/users", tags=["users"])
@@ -32,3 +32,4 @@ app.include_router(domains.router, prefix="/domains", tags=["domains"])
 app.include_router(problems.router, prefix="/problems", tags=["problems"])
 app.include_router(submissions.router, prefix="/submissions", tags=["submissions"])
 app.include_router(grades.router, prefix="/grades", tags=["grades"])
+app.include_router(progress.router, prefix="/progress", tags=["progress"])

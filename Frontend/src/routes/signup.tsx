@@ -17,17 +17,17 @@ export const Route = createFileRoute("/signup")({
   },
   head: () => ({
     meta: [
-      { title: "Create an account — SkillForge" },
+      { title: "Create an account — Skillzza" },
       {
         name: "description",
         content:
-          "Create a free SkillForge account and start solving AI-graded industry problems.",
+          "Create a free Skillzza account and start solving AI-graded industry problems.",
       },
-      { property: "og:title", content: "Create an account — SkillForge" },
+      { property: "og:title", content: "Create an account — Skillzza" },
       {
         property: "og:description",
         content:
-          "Create a free SkillForge account and start solving AI-graded industry problems.",
+          "Create a free Skillzza account and start solving AI-graded industry problems.",
       },
     ],
   }),

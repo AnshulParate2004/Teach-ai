@@ -27,11 +27,11 @@ export const Route = createFileRoute("/domains/$slug")({
     if (!loaderData)
       return {
         meta: [
-          { title: "Domain unavailable — SkillForge" },
+          { title: "Domain unavailable — Skillzza" },
           { name: "robots", content: "noindex" },
         ],
       };
-    const title = `${loaderData.domain.name} problems — SkillForge`;
+    const title = `${loaderData.domain.name} problems — Skillzza`;
     return {
       meta: [
         { title },

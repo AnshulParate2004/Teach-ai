@@ -23,12 +23,12 @@ export const Route = createFileRoute("/submissions/$id/grade")({
   },
   head: () => ({
     meta: [
-      { title: "Grade report — SkillForge" },
+      { title: "Grade report — Skillzza" },
       {
         name: "description",
         content: "Rubric breakdown and AI feedback for your submitted notebook.",
       },
-      { property: "og:title", content: "Grade report — SkillForge" },
+      { property: "og:title", content: "Grade report — Skillzza" },
       {
         property: "og:description",
         content: "Rubric breakdown and AI feedback for your submitted notebook.",

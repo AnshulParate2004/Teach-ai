@@ -1,6 +1,6 @@
 import { createFileRoute, notFound, Link, useNavigate, redirect } from "@tanstack/react-router";
-import { useState } from "react";
-import { ArrowLeft, Loader2, Target, CheckCircle, Star, BookOpen, PenTool, ShieldCheck, ClipboardCheck, Award, PlayCircle } from "lucide-react";
+import { useState, Fragment, useEffect } from "react";
+import { ArrowLeft, Loader2, Target, CheckCircle, Star, BookOpen, PenTool, ShieldCheck, ClipboardCheck, Award, PlayCircle, ChevronRight } from "lucide-react";
 import { toast } from "sonner";
 import { getProblem, type Problem } from "@/data/problems";
 import { DifficultyBadge } from "@/components/badges";
@@ -8,7 +8,7 @@ import { UploadZone } from "@/components/upload-zone";
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
-import { createSubmission } from "@/services/api";
+import { createSubmission, fetchUserProblemProgress, updateUserProblemProgress } from "@/services/api";
 import { cn } from "@/lib/utils";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -24,9 +24,9 @@ export const Route = createFileRoute("/problems/$id")({
     return { problem };
   },
   head: ({ loaderData }) => {
-    if (!loaderData) return { meta: [{ title: "Problem unavailable — SkillForge" }] };
+    if (!loaderData) return { meta: [{ title: "Problem unavailable — Skillzza" }] };
     const p = loaderData.problem;
-    const title = `${p.title} — SkillForge`;
+    const title = `${p.title} — Skillzza`;
     return { meta: [{ title }, { name: "description", content: p.problem_statement }] };
   },
   component: ProblemPage,
@@ -64,7 +64,38 @@ function ProblemPage() {
   const [testAnswers, setTestAnswers] = useState<Record<number, number>>({});
   const [testSubmitted, setTestSubmitted] = useState(false);
   const [testScore, setTestScore] = useState(0);
+  const [selectedTaskIdx, setSelectedTaskIdx] = useState<number>(-1);
+  const [completedTasks, setCompletedTasks] = useState<number[]>(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem(`skillzza_progress_${problem.id}`);
+      if (saved) return JSON.parse(saved);
+    }
+    return [];
+  });
   const navigate = useNavigate();
+
+  useEffect(() => {
+    fetchUserProblemProgress(problem.id).then(indices => {
+      setCompletedTasks(indices);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem(`skillzza_progress_${problem.id}`, JSON.stringify(indices));
+      }
+    });
+  }, [problem.id]);
+
+  const allTasksCompleted = problem.steps && problem.steps.length > 0 && completedTasks.length === problem.steps.length;
+
+  const markTaskComplete = (idx: number) => {
+    const next = [...new Set([...completedTasks, idx])];
+    setCompletedTasks(next);
+    updateUserProblemProgress(problem.id, next);
+    
+    if (problem.steps && idx + 1 < problem.steps.length) {
+      setSelectedTaskIdx(idx + 1);
+    } else {
+      toast.success("All tasks completed! You can now take the Knowledge Test.");
+    }
+  };
 
   const baseSkills = problem.learn && problem.learn.length > 0 ? problem.learn : [
     "Industry context and workflow mapping",
@@ -73,7 +104,7 @@ function ProblemPage() {
   ];
   
   const technicalSkills = problem.tags 
-    ? problem.tags.filter(t => t !== "SkillForge AI Mentor") 
+    ? problem.tags.filter(t => t !== "Skillzza AI Mentor") 
     : ["Prompt engineering and AI integration"];
     
   const allSkills = [...baseSkills, ...technicalSkills];
@@ -110,7 +141,7 @@ function ProblemPage() {
       </Link>
 
       <div className="mb-10 p-8 rounded-2xl bg-card border shadow-sm">
-        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-3">SkillForge Virtual Internship</p>
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-3">Skillzza Virtual Internship</p>
         <h1 className="text-3xl md:text-5xl font-bold text-foreground tracking-tight mb-5">{problem.title}</h1>
         <div className="flex flex-wrap items-center gap-4 text-sm font-medium text-muted-foreground mb-6">
           <span className="flex items-center gap-1"><strong>Role:</strong> {problem.role}</span>
@@ -133,6 +164,12 @@ function ProblemPage() {
 
       <div className="flex border-b border-border mb-8 overflow-x-auto hide-scrollbar">
         {TAB_ITEMS.map((item) => {
+          const isLocked = !allTasksCompleted && (item.id === "quiz" || item.id === "submit" || item.id === "certificate");
+          
+          if (isLocked) {
+            return null;
+          }
+
           const isActive = activeTab === item.id;
           return (
             <button
@@ -163,23 +200,29 @@ function ProblemPage() {
                 <h2 className="text-2xl font-bold">Why complete this Job Simulation</h2>
               </div>
               <div className="prose prose-sm dark:prose-invert max-w-none">
-                <p>A risk-free way to experience work on the job with us at <strong>{problem.company}</strong>. Practice your skills with example tasks and build your confidence to ace your applications.</p>
-                <ul className="list-disc ml-4 mb-6 text-muted-foreground">
-                  <li>Self-paced</li>
-                  <li>3-4 hours</li>
-                  <li>No grades</li>
-                  <li>No assessments</li>
-                  <li>{problem.difficulty}</li>
-                </ul>
+
                 
                 {problem.about_company && (
                   <div className="mb-8 pb-6 border-b border-primary/10">
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>{problem.about_company}</ReactMarkdown>
                   </div>
                 )}
+                
+                <div className="my-8 aspect-video w-full max-w-3xl overflow-hidden rounded-xl border bg-muted shadow-sm">
+                  <iframe 
+                    width="100%" 
+                    height="100%" 
+                    src="https://www.youtube.com/embed/LXb3EKWsInQ" 
+                    title="Intro Video"
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{problem.problem_statement}</ReactMarkdown>
                 
-                <p className="mt-6 italic text-muted-foreground">If you would like to connect with the {problem.company} team to find out more information please email <a href={`mailto:microinternships@skillforge.com`} className="text-primary hover:underline">microinternships@skillforge.com</a></p>
+                <p className="mt-6 italic text-muted-foreground">If you would like to connect with the {problem.company} team to find out more information please email <a href={`mailto:microinternships@skillzza.com`} className="text-primary hover:underline">microinternships@skillzza.com</a></p>
               </div>
             </div>
 
@@ -198,11 +241,18 @@ function ProblemPage() {
 
               <div className="rounded-2xl border bg-card p-8 shadow-sm">
                 <div className="flex items-center gap-3 mb-6 pb-4 border-b">
-                  <div className="p-3 bg-primary/10 text-primary rounded-xl"><BookOpen className="size-6" /></div>
-                  <h2 className="text-xl font-bold">Skills you will learn and practice</h2>
+                  <div className="p-3 bg-primary/10 text-primary rounded-xl"><PenTool className="size-6" /></div>
+                  <h2 className="text-xl font-bold">Skills you will learn and practice:</h2>
                 </div>
-                <div className="bg-muted/30 p-5 rounded-xl border">
-                  <List items={allSkills} />
+                <div className="flex flex-wrap gap-2.5">
+                  {allSkills.map((skill, idx) => (
+                    <span 
+                      key={idx} 
+                      className="inline-flex items-center rounded-full border border-primary/40 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-primary bg-background hover:bg-primary/5 transition-colors shadow-sm"
+                    >
+                      {skill}
+                    </span>
+                  ))}
                 </div>
               </div>
             </div>
@@ -241,33 +291,196 @@ function ProblemPage() {
         )}
 
         {activeTab === "tasks" && (
-            <div className="space-y-6 animate-in fade-in duration-300">
-              <div className="rounded-2xl border bg-card p-8 shadow-sm">
-                <div className="flex items-center gap-3 mb-6 pb-4 border-b">
-                  <div className="p-3 bg-primary/10 text-primary rounded-xl"><ClipboardCheck className="size-6" /></div>
-                  <h2 className="text-2xl font-bold">Tasks to be Performed</h2>
-                </div>
-                <p className="text-muted-foreground mb-6">The complete internship consists of the following practical tasks designed to simulate real workplace deliverables.</p>
+          <div className="animate-in fade-in duration-300">
+            <h2 className="text-3xl font-bold text-primary mb-8">Tasks</h2>
+            
+            <div className="flex flex-col md:flex-row gap-8 relative">
+              {/* Left Sidebar Menu */}
+              <div className="w-full md:w-1/3 flex flex-col space-y-4">
+                {/* Intro & Scenario */}
+                <button
+                  onClick={() => setSelectedTaskIdx(-1)}
+                  className={cn(
+                    "w-full text-left flex items-center justify-between py-2 transition-colors",
+                    selectedTaskIdx === -1
+                      ? "text-primary"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                >
+                  <div className="flex items-center gap-4">
+                    <div className={cn(
+                      "flex size-10 shrink-0 items-center justify-center rounded-full border",
+                      selectedTaskIdx === -1 ? "border-primary text-primary" : "border-border text-muted-foreground"
+                    )}>
+                      <Star className="size-4" />
+                    </div>
+                    <span className="font-medium text-lg">Intro & Scenario</span>
+                  </div>
+                  {selectedTaskIdx === -1 && <ChevronRight className="size-5 text-primary" />}
+                </button>
                 
-                <div className="space-y-4">
-                  {(problem.steps || []).map((step, idx) => (
-                    <div key={idx} className="rounded-xl border border-border bg-background p-6 shadow-sm hover:border-primary/40 transition-colors">
-                      <h3 className="font-semibold text-foreground mb-3 text-lg flex items-center gap-2">
-                        <span className="flex size-6 items-center justify-center rounded-full bg-primary/10 text-primary text-xs">{idx + 1}</span>
-                        Task {idx + 1}
-                      </h3>
-                      <div className="text-sm text-muted-foreground leading-relaxed whitespace-pre-wrap prose prose-sm dark:prose-invert max-w-none">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{step}</ReactMarkdown>
+                <div className="border-b border-dashed border-border w-full" />
+                
+                {/* Task list */}
+                {(problem.steps || []).map((step, idx) => {
+                  const isLocked = idx > 0 && !completedTasks.includes(idx - 1);
+                  const isCompleted = completedTasks.includes(idx);
+                  
+                  return (
+                  <Fragment key={idx}>
+                    <button
+                      onClick={() => !isLocked && setSelectedTaskIdx(idx)}
+                      disabled={isLocked}
+                      className={cn(
+                        "w-full text-left flex items-center justify-between py-2 transition-colors",
+                        isLocked && "opacity-50 cursor-not-allowed",
+                        selectedTaskIdx === idx
+                          ? "text-primary"
+                          : "text-muted-foreground hover:text-foreground"
+                      )}
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className={cn(
+                          "flex size-10 shrink-0 items-center justify-center rounded-full border font-semibold text-base",
+                          isCompleted ? "bg-primary text-primary-foreground border-primary" :
+                          selectedTaskIdx === idx ? "border-primary text-primary" : "border-border text-muted-foreground"
+                        )}>
+                          {isCompleted ? <CheckCircle className="size-5" /> : idx + 1}
+                        </div>
+                        <span className="font-medium text-lg">
+                          Task {["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"][idx] || idx + 1}
+                        </span>
+                      </div>
+                      {selectedTaskIdx === idx && <ChevronRight className="size-5 text-primary" />}
+                    </button>
+                    {idx < (problem.steps?.length || 0) - 1 && (
+                      <div className="border-b border-dashed border-border w-full" />
+                    )}
+                  </Fragment>
+                )})}
+                
+                <div className="pt-8 flex justify-center mt-auto">
+                  <button 
+                    onClick={() => {
+                      if (confirm("Are you sure you want to reset all your progress for this problem?")) {
+                        setCompletedTasks([]);
+                        updateUserProblemProgress(problem.id, []);
+                        setSelectedTaskIdx(-1);
+                      }
+                    }}
+                    className="text-xs text-muted-foreground hover:text-destructive underline decoration-dotted transition-colors"
+                  >
+                    Reset Progress
+                  </button>
+                </div>
+              </div>
+
+              {/* Right Content Area */}
+              <div className="w-full md:w-2/3">
+                <div className="bg-[#f4f7fb] dark:bg-muted/10 rounded-2xl p-8 border border-border shadow-inner min-h-[600px] max-h-[800px] overflow-y-auto">
+                  {selectedTaskIdx === -1 ? (
+                    <div className="space-y-6">
+                      <h2 className="text-2xl font-semibold text-foreground">Intro & Scenario</h2>
+                      <p className="text-muted-foreground">Background context and your project team</p>
+                      
+                      <div className="prose prose-sm md:prose-base dark:prose-invert max-w-none text-muted-foreground prose-h3:text-primary prose-h3:font-medium prose-h3:text-lg">
+                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                          {problem.about_company ? problem.about_company : "Context missing."}
+                        </ReactMarkdown>
+                        
+                        <div className="my-8 aspect-video w-full max-w-3xl overflow-hidden rounded-xl border bg-muted shadow-sm">
+                          <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/LXb3EKWsInQ" 
+                            title="Intro Video"
+                            frameBorder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowFullScreen
+                          ></iframe>
+                        </div>
+
+                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                          {problem.problem_statement}
+                        </ReactMarkdown>
                       </div>
                     </div>
-                  ))}
-                  {(!problem.steps || problem.steps.length === 0) && (
-                    <p className="text-muted-foreground text-sm italic">Tasks detailed in the notebook.</p>
-                  )}
+                  ) : (() => {
+                    const rawText = problem.steps ? problem.steps[selectedTaskIdx] : "";
+                    const bodyText = rawText.replace(/\*\*Task \d+:\*\* (.*?):\s*/, '').replace(/\\n/g, '\n');
+                    
+                    const learnSplit = bodyText.split(/### What you\\?'ll learn\s*/i);
+                    const scenario = learnSplit[0];
+                    let learn = "";
+                    let doPart = "";
+                    
+                    if (learnSplit.length > 1) {
+                      const doSplit = learnSplit[1].split(/### What you\\?'ll do\s*/i);
+                      learn = doSplit[0];
+                      if (doSplit.length > 1) {
+                        doPart = doSplit[1];
+                      }
+                    }
+
+                    return (
+                    <div className="space-y-6">
+                      <h2 className="text-2xl font-semibold text-foreground">
+                        Task {["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"][selectedTaskIdx] || selectedTaskIdx + 1}
+                        {problem.steps && problem.steps[selectedTaskIdx]?.match(/\*\*Task \d+:\*\* (.*?):/)?.[1] 
+                          ? `: ${problem.steps[selectedTaskIdx].match(/\*\*Task \d+:\*\* (.*?):/)?.[1]}`
+                          : ""}
+                      </h2>
+                      <p className="text-muted-foreground text-sm flex items-center gap-2">
+                        {problem.estimatedTime} <span className="text-muted-foreground/50">•</span> {problem.difficulty}
+                      </p>
+                      
+                      <div className="text-muted-foreground mt-8 text-sm md:text-base leading-relaxed">
+                        <div className="mb-6">
+                          <ReactMarkdown remarkPlugins={[remarkGfm]}>{scenario}</ReactMarkdown>
+                        </div>
+
+                        {learn && (
+                          <div className="mb-6">
+                            <h3 className="text-primary font-semibold text-lg mb-3">What you'll learn</h3>
+                            <div className="prose prose-sm md:prose-base dark:prose-invert max-w-none text-muted-foreground prose-ul:list-disc prose-ul:pl-4 prose-li:marker:text-primary">
+                              <ReactMarkdown remarkPlugins={[remarkGfm]}>{learn}</ReactMarkdown>
+                            </div>
+                          </div>
+                        )}
+
+                        {doPart && (
+                          <div className="mb-6">
+                            <h3 className="text-primary font-semibold text-lg mb-3">What you'll do</h3>
+                            <div className="prose prose-sm md:prose-base dark:prose-invert max-w-none text-muted-foreground prose-ul:list-disc prose-ul:pl-4 prose-li:marker:text-primary">
+                              <ReactMarkdown remarkPlugins={[remarkGfm]}>{doPart}</ReactMarkdown>
+                            </div>
+                          </div>
+                        )}
+                        
+                        <div className="pt-6 border-t border-border mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                          <p className="text-sm text-muted-foreground">
+                            When you are done with this task, mark it as complete to proceed to the next one.
+                          </p>
+                          <Button 
+                            onClick={() => markTaskComplete(selectedTaskIdx)}
+                            className="gap-2 shrink-0"
+                            variant={completedTasks.includes(selectedTaskIdx) ? "secondary" : "default"}
+                          >
+                            {completedTasks.includes(selectedTaskIdx) ? (
+                              <><CheckCircle className="size-4" /> Completed</>
+                            ) : (
+                              "Mark as Complete"
+                            )}
+                          </Button>
+                        </div>
+                      </div>
+                    </div>
+                  )})()}
                 </div>
               </div>
             </div>
-          )}
+          </div>
+        )}
 
           {activeTab === "quiz" && (
             <div className="rounded-2xl border bg-card p-8 shadow-sm space-y-6 animate-in fade-in duration-300">
@@ -362,7 +575,7 @@ function ProblemPage() {
               
               <div className="grid sm:grid-cols-2 gap-8">
                 <div className="space-y-4">
-                  <h3 className="font-semibold text-lg">SkillForge Verified Virtual Internship</h3>
+                  <h3 className="font-semibold text-lg">Skillzza Verified Virtual Internship</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Once you submit, our AI Mentor performs a detailed verification of your dataset analysis, calculations, methodology, and insights.
                   </p>

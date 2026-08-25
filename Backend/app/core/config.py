@@ -2,10 +2,10 @@ from typing import List
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "SkillForge API"
+    PROJECT_NAME: str = "Skillzza API"
     
     # Database
-    DATABASE_URL: str = "sqlite+aiosqlite:///./skillforge.db"
+    DATABASE_URL: str = "sqlite+aiosqlite:///./skillzza.db"
     
     # Auth
     JWT_SECRET: str = "super-secret-key-change-in-production"

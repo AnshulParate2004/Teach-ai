@@ -1,18 +1,21 @@
-# SkillSynth AI
+# Skillzza AI
 
 Lovable Prompt — EdTech AI-Graded Problem Platform
 
 Copy-paste everything below into Lovable.
 
-Build a modern, dark-mode-friendly EdTech web app called "SkillForge" (placeholder name) where students pick a domain, get a real-world problem statement, solve it on their own (locally or in Google Colab), and submit their solution file to get AI-graded feedback.
+Build a modern, dark-mode-friendly EdTech web app called "Skillzza" (placeholder name) where students pick a domain, get a real-world problem statement, solve it on their own (locally or in Google Colab), and submit their solution file to get AI-graded feedback.
 
 Core concept
 
 Students never write code inside this app — they solve problems externally and upload a solution file (.ipynb primarily). This is a submission + grading platform, not an IDE.
 
 Content is organized by Domain -> Problem Statements -> Submission -> AI Grade Report.
+ 
+## Recent Updates
+- Redesigned the Tasks tab into a clean master-detail (sidebar + content) layout, improving readability and matching standard learning platform UX.
 
-Domains (show all, but only "Generative & Agentic AI" is active — the rest show a "Coming Soon" badge and are non-clickable or link to a waitlist/notify-me state)
+## Domains
 
 Generative & Agentic AI — LIVE. 20 problem statements covering LangChain, LangGraph, RAG, multi-agent systems, and MCP servers.
 

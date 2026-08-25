@@ -16,12 +16,12 @@ export const Route = createFileRoute("/dashboard")({
   },
   head: () => ({
     meta: [
-      { title: "Your dashboard — SkillForge" },
+      { title: "Your dashboard — Skillzza" },
       {
         name: "description",
         content: "Track domain progress, recent submissions and scores.",
       },
-      { property: "og:title", content: "Your dashboard — SkillForge" },
+      { property: "og:title", content: "Your dashboard — Skillzza" },
       {
         property: "og:description",
         content: "Track domain progress, recent submissions and scores.",
@@ -69,7 +69,7 @@ function Dashboard() {
     <div className="mx-auto max-w-5xl px-5 py-12">
       <h1 className="text-3xl font-semibold">Dashboard</h1>
       <p className="mt-2 text-sm text-muted-foreground">
-        Your progress across every SkillForge track.
+        Your progress across every Skillzza track.
       </p>
 
       <div className="mt-8 grid gap-5 lg:grid-cols-[1fr_280px]">
