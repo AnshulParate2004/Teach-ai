@@ -1,5 +1,5 @@
 import uuid
-from sqlalchemy import Column, String, DateTime, ForeignKey
+from sqlalchemy import Column, String, DateTime, ForeignKey, Integer
 from sqlalchemy import Uuid as UUID
 from datetime import datetime, timezone
 from sqlalchemy.orm import relationship
@@ -11,6 +11,7 @@ class Submission(Base):
     id = Column(UUID, primary_key=True, default=uuid.uuid4, index=True)
     user_id = Column(UUID, ForeignKey("users.id"), nullable=False)
     problem_id = Column(UUID, ForeignKey("problems.id"), nullable=False)
+    task_index = Column(Integer, default=0, nullable=False)
     
     file_path = Column(String, nullable=False)
     status = Column(String, default="pending") # pending | running | grading | complete | failed

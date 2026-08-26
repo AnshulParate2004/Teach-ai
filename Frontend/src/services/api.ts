@@ -27,6 +27,7 @@ export interface GradeReport {
 export interface Submission {
   id: string;
   problem_id: string;
+  task_index: number;
   user_id: string;
   file_path: string;
   status: SubmissionStatus;
@@ -123,6 +124,7 @@ function mapSubmission(s: any, problemTitle: string, problemNumber?: string): Su
     ...s,
     problemTitle,
     problemNumber,
+    task_index: s.task_index || 0,
     fileName: s.file_path ? (s.file_path.split("/").pop() || s.file_path.split("\\").pop() || "notebook.ipynb") : "notebook.ipynb",
     submittedAt: s.submitted_at,
     isPassed: s.is_passed,
@@ -132,10 +134,14 @@ function mapSubmission(s: any, problemTitle: string, problemNumber?: string): Su
 export async function createSubmission(input: {
   problemId: string;
   file: File;
+  taskIndex?: number;
   quizScore?: number;
 }): Promise<Submission> {
   const formData = new FormData();
   formData.append("file", input.file);
+  if (input.taskIndex !== undefined) {
+    formData.append("task_index", input.taskIndex.toString());
+  }
   if (input.quizScore !== undefined) {
     formData.append("quiz_score", input.quizScore.toString());
   }
@@ -183,7 +189,7 @@ export async function fetchUserProblemProgress(problemId: string): Promise<numbe
     console.error("Failed to fetch progress from DB", e);
     // fallback to localstorage temporarily if db connection fails
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem(`skilzzal_progress_${problemId}`);
+      const saved = localStorage.getItem(`skillzza_user_progress_${problemId}`);
       if (saved) return JSON.parse(saved);
     }
     return [];
@@ -193,7 +199,7 @@ export async function fetchUserProblemProgress(problemId: string): Promise<numbe
 export async function updateUserProblemProgress(problemId: string, completedIndices: number[]): Promise<void> {
   // Sync to localstorage first for immediate feedback/fallback
   if (typeof window !== 'undefined') {
-    localStorage.setItem(`skilzzal_progress_${problemId}`, JSON.stringify(completedIndices));
+    localStorage.setItem(`skillzza_user_progress_${problemId}`, JSON.stringify(completedIndices));
   }
   
   try {

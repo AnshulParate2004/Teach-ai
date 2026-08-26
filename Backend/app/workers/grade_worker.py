@@ -36,10 +36,16 @@ async def grade_submission(submission_id: uuid.UUID, quiz_score: int = 0):
         execution_log = "Execution bypassed. Grade based strictly on the source code, logic, and any pre-existing cell outputs provided in the notebook JSON."
 
         
+        # Extract the specific task instruction based on the submission's task_index
+        task_instructions = ""
+        if problem.steps and 0 <= submission.task_index < len(problem.steps):
+            task_instructions = problem.steps[submission.task_index]
+            
         # 2. Grade with AI
         try:
             grade_json = await grade_notebook(
                 problem_statement=problem.problem_statement,
+                task_instructions=task_instructions,
                 rubric=problem.rubric,
                 reference_path=problem.reference_solution_path,
                 student_file_path=submission.file_path,
@@ -49,19 +55,10 @@ async def grade_submission(submission_id: uuid.UUID, quiz_score: int = 0):
             task_score = grade_json.get("total_score", 0)
             task_max = grade_json.get("max_score", 100)
             
-            # Apply 60/40 split
-            task_pct = task_score / task_max if task_max > 0 else 0
-            quiz_pct = quiz_score / 10.0
-            
-            final_total = (task_pct * 0.60 + quiz_pct * 0.40) * 100
+            # Use task score purely for task-by-task progression
+            final_total = (task_score / task_max * 100) if task_max > 0 else 0
             
             criteria = grade_json.get("criteria", [])
-            criteria.append({
-                "name": "Knowledge Assessment (Quiz)",
-                "score": quiz_score * 10,
-                "max": 100,
-                "comment": f"Scored {quiz_score} out of 10 on the Knowledge Assessment."
-            })
             
             # Save grade
             grade = Grade(

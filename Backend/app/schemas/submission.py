@@ -16,6 +16,7 @@ class SubmissionResponse(SubmissionBase):
     id: uuid.UUID
     user_id: uuid.UUID
     problem_id: uuid.UUID
+    task_index: int = 0
     submitted_at: datetime
     is_passed: bool = False
     

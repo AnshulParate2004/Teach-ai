@@ -40,6 +40,7 @@ async def create_submission(
     problem_id: str,
     background_tasks: BackgroundTasks,
     file: UploadFile = File(...),
+    task_index: int = Form(default=0),
     quiz_score: int = Form(default=0),
     current_user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db)
@@ -68,6 +69,7 @@ async def create_submission(
     submission = Submission(
         user_id=current_user.id,
         problem_id=problem.id,
+        task_index=task_index,
         file_path=file_path,
         status="pending"
     )

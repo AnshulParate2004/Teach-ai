@@ -46,13 +46,12 @@ function List({ items, ordered = false }: { items: string[]; ordered?: boolean }
   );
 }
 
-type TabId = "overview" | "tasks" | "quiz" | "submit" | "certificate";
+type TabId = "overview" | "tasks" | "quiz" | "certificate";
 
 const TAB_ITEMS: { id: TabId; label: string; icon: React.ReactNode }[] = [
   { id: "overview",    label: "Overview",       icon: <Star className="size-4" /> },
   { id: "tasks",       label: "Tasks",          icon: <ClipboardCheck className="size-4" /> },
   { id: "quiz",        label: "Knowledge Test", icon: <CheckCircle className="size-4" /> },
-  { id: "submit",      label: "Submit Project", icon: <Target className="size-4" /> },
   { id: "certificate", label: "Certificate",    icon: <Award className="size-4" /> },
 ];
 
@@ -67,7 +66,7 @@ function ProblemPage() {
   const [selectedTaskIdx, setSelectedTaskIdx] = useState<number>(-1);
   const [completedTasks, setCompletedTasks] = useState<number[]>(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem(`skillzza_progress_${problem.id}`);
+      const saved = localStorage.getItem(`skillzza_user_progress_${problem.id}`);
       if (saved) return JSON.parse(saved);
     }
     return [];
@@ -78,24 +77,14 @@ function ProblemPage() {
     fetchUserProblemProgress(problem.id).then(indices => {
       setCompletedTasks(indices);
       if (typeof window !== 'undefined') {
-        localStorage.setItem(`skillzza_progress_${problem.id}`, JSON.stringify(indices));
+        localStorage.setItem(`skillzza_user_progress_${problem.id}`, JSON.stringify(indices));
       }
     });
   }, [problem.id]);
 
   const allTasksCompleted = problem.steps && problem.steps.length > 0 && completedTasks.length === problem.steps.length;
 
-  const markTaskComplete = (idx: number) => {
-    const next = [...new Set([...completedTasks, idx])];
-    setCompletedTasks(next);
-    updateUserProblemProgress(problem.id, next);
-    
-    if (problem.steps && idx + 1 < problem.steps.length) {
-      setSelectedTaskIdx(idx + 1);
-    } else {
-      toast.success("All tasks completed! You can now take the Knowledge Test.");
-    }
-  };
+
 
   const baseSkills = problem.learn && problem.learn.length > 0 ? problem.learn : [
     "Industry context and workflow mapping",
@@ -111,10 +100,11 @@ function ProblemPage() {
 
   const submit = async () => {
     if (!file) return;
+    if (selectedTaskIdx === -1) return;
     setSubmitting(true);
     try {
-      const sub = await createSubmission({ problemId: problem.id, file, quizScore: testSubmitted ? testScore : 0 });
-      toast.success("Notebook uploaded", { description: "Grading pipeline started." });
+      const sub = await createSubmission({ problemId: problem.id, taskIndex: selectedTaskIdx, file, quizScore: testSubmitted ? testScore : 0 });
+      toast.success("Deliverables uploaded", { description: "Grading pipeline started." });
       navigate({ to: "/submissions/$id", params: { id: sub.id } });
     } catch (err: any) {
       toast.error("Upload failed", { description: err.message || "An error occurred" });
@@ -212,7 +202,7 @@ function ProblemPage() {
                   <iframe 
                     width="100%" 
                     height="100%" 
-                    src="https://www.youtube.com/embed/LXb3EKWsInQ" 
+                    src="https://www.youtube.com/embed/aircAruvnKk" 
                     title="Intro Video"
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -236,6 +226,7 @@ function ProblemPage() {
                   <li className="flex items-center gap-3"><CheckCircle className="text-primary size-5" /> Certificate</li>
                   <li className="flex items-center gap-3"><CheckCircle className="text-primary size-5" /> Resume Snippet</li>
                   <li className="flex items-center gap-3"><CheckCircle className="text-primary size-5" /> Interview Tips</li>
+                  <li className="flex items-center gap-3"><CheckCircle className="text-primary size-5" /> Skills</li>
                 </ul>
               </div>
 
@@ -392,7 +383,7 @@ function ProblemPage() {
                           <iframe 
                             width="100%" 
                             height="100%" 
-                            src="https://www.youtube.com/embed/LXb3EKWsInQ" 
+                            src="https://www.youtube.com/embed/aircAruvnKk" 
                             title="Intro Video"
                             frameBorder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -431,7 +422,7 @@ function ProblemPage() {
                           : ""}
                       </h2>
                       <p className="text-muted-foreground text-sm flex items-center gap-2">
-                        {problem.estimatedTime} <span className="text-muted-foreground/50">•</span> {problem.difficulty}
+                        2-3 hrs <span className="text-muted-foreground/50">•</span> {problem.difficulty}
                       </p>
                       
                       <div className="text-muted-foreground mt-8 text-sm md:text-base leading-relaxed">
@@ -456,23 +447,30 @@ function ProblemPage() {
                             </div>
                           </div>
                         )}
-                        
-                        <div className="pt-6 border-t border-border mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                          <p className="text-sm text-muted-foreground">
-                            When you are done with this task, mark it as complete to proceed to the next one.
+
+                        <div className="rounded-2xl border-2 border-dashed border-primary/30 bg-primary/5 p-8 text-center transition-colors hover:border-primary/50 mt-10">
+                          <h3 className="text-lg font-semibold mb-2">Upload Submission Files</h3>
+                          <p className="text-sm text-muted-foreground mb-6 max-w-sm mx-auto">
+                            Drag & drop your files here. Your simulated manager will use our advanced LLM backend to automatically evaluate and grade your deliverables.
                           </p>
-                          <Button 
-                            onClick={() => markTaskComplete(selectedTaskIdx)}
-                            className="gap-2 shrink-0"
-                            variant={completedTasks.includes(selectedTaskIdx) ? "secondary" : "default"}
-                          >
-                            {completedTasks.includes(selectedTaskIdx) ? (
-                              <><CheckCircle className="size-4" /> Completed</>
-                            ) : (
-                              "Mark as Complete"
-                            )}
+                          <div className="max-w-md mx-auto">
+                            <UploadZone file={file} onFile={setFile} onClear={() => setFile(null)} />
+                          </div>
+                          <Button className="mt-8 w-full sm:w-auto" size="lg" disabled={!file || submitting} onClick={submit}>
+                            {submitting && <Loader2 className="size-4 animate-spin mr-2" />}
+                            {submitting ? "Uploading & Grading..." : "Submit to Manager for Review"}
                           </Button>
                         </div>
+                          <div className="pt-6 border-t border-border mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                            <p className="text-sm text-muted-foreground">
+                              {completedTasks.includes(selectedTaskIdx) ? "You have successfully passed this task!" : "Submit your deliverables above. Passing the evaluation will unlock the next task."}
+                            </p>
+                            {completedTasks.includes(selectedTaskIdx) && (
+                              <div className="flex items-center gap-2 text-primary font-medium bg-primary/10 px-4 py-2 rounded-lg">
+                                <CheckCircle className="size-4" /> Task Graded & Passed
+                              </div>
+                            )}
+                          </div>
                       </div>
                     </div>
                   )})()}
@@ -528,40 +526,6 @@ function ProblemPage() {
                     )}
                   </div>
                 )}
-              </div>
-            </div>
-          )}
-
-          {activeTab === "submit" && (
-            <div className="rounded-2xl border bg-card p-8 shadow-sm space-y-6 animate-in fade-in duration-300">
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b">
-                <div className="p-3 bg-primary/10 text-primary rounded-xl"><Target className="size-6" /></div>
-                <h2 className="text-2xl font-bold">Submit Your Completed Task</h2>
-              </div>
-              
-              <div className="bg-muted/30 p-6 rounded-xl border space-y-4 mb-8">
-                <h3 className="font-semibold text-lg">Your Final Submission</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">Submit the exact deliverables specified in your tasks. This could include your Jupyter Notebook (.ipynb), PDF reports, presentations, or data files.</p>
-                <List items={problem.submissionInstructions?.length ? problem.submissionInstructions : problem.expectedOutcome?.length ? problem.expectedOutcome : [
-                  "Completed Jupyter Notebook (.ipynb)", 
-                  "Analytical Reports or Memorandums (.pdf)", 
-                  "Executive Presentations (.pdf / .ppt)",
-                  "Any required Datasets or CSVs"
-                ]} />
-              </div>
-
-              <div className="rounded-2xl border-2 border-dashed border-primary/30 bg-primary/5 p-8 text-center transition-colors hover:border-primary/50">
-                <h3 className="text-lg font-semibold mb-2">Upload Submission Files</h3>
-                <p className="text-sm text-muted-foreground mb-6 max-w-sm mx-auto">
-                  Drag & drop your files here. Your simulated manager will use our advanced LLM backend to automatically evaluate and grade your deliverables.
-                </p>
-                <div className="max-w-md mx-auto">
-                  <UploadZone file={file} onFile={setFile} onClear={() => setFile(null)} />
-                </div>
-                <Button className="mt-8 w-full sm:w-auto" size="lg" disabled={!file || submitting} onClick={submit}>
-                  {submitting && <Loader2 className="size-4 animate-spin mr-2" />}
-                  {submitting ? "Uploading & Grading…" : "Submit to Manager for Review"}
-                </Button>
               </div>
             </div>
           )}

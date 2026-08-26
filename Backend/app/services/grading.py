@@ -10,14 +10,15 @@ logger = logging.getLogger(__name__)
 litellm.success_callback = []
 litellm.failure_callback = []
 
-def get_grading_prompt(problem_statement: str, rubric_json: str, reference_notebook_code: str, student_notebook_code: str, execution_log: str) -> str:
+def get_grading_prompt(problem_statement: str, task_instructions: str, rubric_json: str, reference_notebook_code: str, student_notebook_code: str, execution_log: str) -> str:
     return f"""
 System: You are a strict and unforgiving grader. Score ONLY against the rubric provided. 
-CRITICAL RULE: First, verify if the student's submission actually attempts to solve the provided 'Problem statement'. If the submission solves a completely different problem, ignores the main constraints, or uses entirely different logic than requested, you MUST heavily penalize the 'Implementation & Logic' score (e.g. award 0 points) regardless of the code's quality.
+CRITICAL RULE: First, verify if the student's submission actually attempts to solve the provided 'Specific Task Instructions'. If the submission solves a completely different problem, ignores the main constraints, or uses entirely different logic than requested in the task, you MUST heavily penalize the score (e.g. award 0 points) regardless of the code's quality.
 NOTE ON LANGCHAIN: In modern LangChain, the pipe operator `|` is the standard and correct syntax for building LCEL (LangChain Expression Language) chains. Furthermore, passing a dictionary like `{{"text": lambda x: x}}` or using `RunnablePassthrough` to route variables between prompts is perfectly valid LCEL. DO NOT penalize these patterns. If the execution log is bypassed and there are no glaring syntax errors, assume the LCEL chain functions correctly.
 Return valid JSON only, no markdown, no preamble.
 User:
-Problem statement: {problem_statement}
+Overall Problem Context: {problem_statement}
+Specific Task Instructions: {task_instructions}
 Rubric: {rubric_json}
 Reference solution (for guidance, not required exact match): {reference_notebook_code}
 Student submission: {student_notebook_code}
@@ -55,7 +56,7 @@ async def call_llm_with_fallback(prompt: str) -> str:
         # If it fully fails, we might just return an empty JSON struct to handle gracefully
         raise
 
-async def grade_notebook(problem_statement: str, rubric: list, reference_path: str, student_file_path: str, execution_log: str) -> Dict[str, Any]:
+async def grade_notebook(problem_statement: str, task_instructions: str, rubric: list, reference_path: str, student_file_path: str, execution_log: str) -> Dict[str, Any]:
     
     student_notebook_code = ""
     try:
@@ -74,6 +75,7 @@ async def grade_notebook(problem_statement: str, rubric: list, reference_path: s
 
     prompt = get_grading_prompt(
         problem_statement=problem_statement,
+        task_instructions=task_instructions,
         rubric_json=json.dumps(rubric),
         reference_notebook_code=reference_notebook_code,
         student_notebook_code=student_notebook_code,
