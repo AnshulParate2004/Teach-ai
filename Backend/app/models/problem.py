@@ -16,6 +16,9 @@ class Problem(Base):
     problem_statement = Column(String, nullable=False)
     difficulty = Column(String, nullable=False)
     industry = Column(String, nullable=False)
+    company = Column(String, nullable=True, default="")
+    role = Column(String, nullable=True, default="")
+    about_company = Column(String, nullable=True, default="")
     estimated_time = Column(String)
     
     tags = Column(JSON, default=list)
@@ -26,6 +29,7 @@ class Problem(Base):
     steps = Column(JSON, default=list)
     knowledge_test = Column(JSON, default=list)
     submission_instructions = Column(JSON, default=list)
+    mcqs = Column(JSON, default=list)
     
     submission_format = Column(String, default="ipynb")
     dataset_url = Column(String, nullable=True)

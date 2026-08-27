@@ -74,7 +74,9 @@ function SignupPage() {
               const user = await signUp(email, name, password);
               setUser(user);
               toast.success("Account created");
-              navigate({ to: "/dashboard" });
+              const searchParams = new URLSearchParams(window.location.search);
+              const target = searchParams.get("redirect") || "/portfolio";
+              navigate({ to: target as any });
             } catch (error: any) {
               toast.error(error.message || "Failed to sign up");
               setPending(false);

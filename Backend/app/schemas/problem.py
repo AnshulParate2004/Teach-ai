@@ -8,13 +8,16 @@ class DatasetBase(BaseModel):
     url: str
 
 class ProblemBase(BaseModel):
-    id: uuid.UUID
+    id: str
     domain_id: uuid.UUID
     number: str
     title: str
     problem_statement: str
     difficulty: str
     industry: str
+    company: Optional[str] = ""
+    role: Optional[str] = ""
+    about_company: Optional[str] = ""
     estimatedTime: Optional[str] = None
     tags: List[str]
     learn: List[str]
@@ -24,6 +27,7 @@ class ProblemBase(BaseModel):
     steps: List[str]
     knowledgeTest: List[str]
     submissionInstructions: List[str]
+    mcqs: Optional[List[dict]] = []
     dataset: Optional[DatasetBase] = None
     solved: bool = False
 

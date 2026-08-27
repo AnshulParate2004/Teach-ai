@@ -1,8 +1,11 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import { problems } from "@/data/problems";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { domains } from "@/data/domains";
-import { Search, Filter } from "lucide-react";
-import { useState } from "react";
+import { Search, Filter, Loader2, Lock } from "lucide-react";
+import { useState, useEffect } from "react";
+import { useQuery } from "@tanstack/react-query";
+import { fetchProblems, Problem } from "@/services/api";
+import { useAuth } from "@/hooks/use-auth";
+import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
@@ -15,14 +18,60 @@ export const Route = createFileRoute("/portfolio")({
 });
 
 function PortfolioPage() {
+  const { user, isLoading: authLoading } = useAuth();
+  const navigate = useNavigate();
   const [search, setSearch] = useState("");
   const [selectedDomain, setSelectedDomain] = useState("all");
+
+  // Fetch problems dynamically from the database
+  const { data: problems = [], isLoading: problemsLoading } = useQuery<Problem[]>({
+    queryKey: ["problems"],
+    queryFn: () => fetchProblems(),
+  });
+
+  useEffect(() => {
+    if (!authLoading && !user) {
+      navigate({ to: "/login", search: { redirect: "/portfolio" } });
+    }
+  }, [user, authLoading, navigate]);
+
+  if (authLoading) {
+    return (
+      <div className="flex min-h-[60vh] items-center justify-center">
+        <Loader2 className="size-8 animate-spin text-primary" />
+      </div>
+    );
+  }
+
+  if (!user) {
+    return (
+      <div className="mx-auto max-w-md px-5 py-24 text-center">
+        <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+          <Lock className="size-6" />
+        </div>
+        <h2 className="text-2xl font-bold">Authentication Required</h2>
+        <p className="mt-2 text-sm text-muted-foreground">
+          Please sign in or create an account to view and participate in virtual internships.
+        </p>
+        <div className="mt-6 flex justify-center gap-3">
+          <Button asChild>
+            <Link to="/login" search={{ redirect: "/portfolio" }}>
+              Sign in
+            </Link>
+          </Button>
+          <Button variant="outline" asChild>
+            <Link to="/signup">Create account</Link>
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   const filtered = problems.filter((item) => {
     const matchesSearch =
       item.title.toLowerCase().includes(search.toLowerCase()) ||
-      item.industry.toLowerCase().includes(search.toLowerCase()) ||
-      item.company.toLowerCase().includes(search.toLowerCase());
+      (item.industry || "").toLowerCase().includes(search.toLowerCase()) ||
+      (item.company || "").toLowerCase().includes(search.toLowerCase());
     
     const matchesDomain = selectedDomain === "all" || item.domain === selectedDomain;
 
@@ -66,49 +115,56 @@ function PortfolioPage() {
       </div>
 
       <div className="rounded-xl border border-border bg-card shadow-sm overflow-hidden overflow-x-auto">
-        <table className="w-full text-left text-sm">
-          <thead className="bg-muted/50 text-muted-foreground">
-            <tr>
-              <th className="px-4 py-3 font-medium">#</th>
-              <th className="px-4 py-3 font-medium">Virtual Internship</th>
-              <th className="px-4 py-3 font-medium">Domain</th>
-              <th className="px-4 py-3 font-medium">Company</th>
-              <th className="px-4 py-3 font-medium">Level</th>
-              <th className="px-4 py-3 font-medium">Duration</th>
-            </tr>
-          </thead>
-          <tbody className="divide-y divide-border">
-            {filtered.map((item, index) => (
-              <tr key={item.id} className="hover:bg-muted/30 transition-colors">
-                <td className="px-4 py-3 text-muted-foreground">{index + 1}</td>
-                <td className="px-4 py-3 font-medium text-foreground">
-                  <Link 
-                    to="/problems/$id" 
-                    params={{ id: item.id }}
-                    className="hover:underline hover:text-primary transition-colors text-primary font-semibold"
-                  >
-                    {item.title}
-                  </Link>
-                </td>
-                <td className="px-4 py-3 text-muted-foreground">
-                  <span className="inline-flex rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
-                    {item.industry}
-                  </span>
-                </td>
-                <td className="px-4 py-3 text-muted-foreground">{item.company}</td>
-                <td className="px-4 py-3 text-muted-foreground">{item.difficulty}</td>
-                <td className="px-4 py-3 text-muted-foreground">{item.estimatedTime}</td>
-              </tr>
-            ))}
-            {filtered.length === 0 && (
+        {problemsLoading ? (
+          <div className="flex items-center justify-center py-16">
+            <Loader2 className="size-6 animate-spin text-primary mr-2" />
+            <span className="text-sm text-muted-foreground">Loading internships from database...</span>
+          </div>
+        ) : (
+          <table className="w-full text-left text-sm">
+            <thead className="bg-muted/50 text-muted-foreground">
               <tr>
-                <td colSpan={6} className="px-4 py-8 text-center text-muted-foreground">
-                  No internships found.
-                </td>
+                <th className="px-4 py-3 font-medium">#</th>
+                <th className="px-4 py-3 font-medium">Virtual Internship</th>
+                <th className="px-4 py-3 font-medium">Domain</th>
+                <th className="px-4 py-3 font-medium">Company</th>
+                <th className="px-4 py-3 font-medium">Level</th>
+                <th className="px-4 py-3 font-medium">Duration</th>
               </tr>
-            )}
-          </tbody>
-        </table>
+            </thead>
+            <tbody className="divide-y divide-border">
+              {filtered.map((item, index) => (
+                <tr key={item.id} className="hover:bg-muted/30 transition-colors">
+                  <td className="px-4 py-3 text-muted-foreground">{index + 1}</td>
+                  <td className="px-4 py-3 font-medium text-foreground">
+                    <Link 
+                      to="/problems/$id" 
+                      params={{ id: item.id }}
+                      className="hover:underline hover:text-primary transition-colors text-primary font-semibold"
+                    >
+                      {item.title}
+                    </Link>
+                  </td>
+                  <td className="px-4 py-3 text-muted-foreground">
+                    <span className="inline-flex rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
+                      {item.industry}
+                    </span>
+                  </td>
+                  <td className="px-4 py-3 text-muted-foreground">{item.company}</td>
+                  <td className="px-4 py-3 text-muted-foreground">{item.difficulty}</td>
+                  <td className="px-4 py-3 text-muted-foreground">{item.estimatedTime}</td>
+                </tr>
+              ))}
+              {filtered.length === 0 && (
+                <tr>
+                  <td colSpan={6} className="px-4 py-8 text-center text-muted-foreground">
+                    No internships found.
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        )}
       </div>
     </div>
   );

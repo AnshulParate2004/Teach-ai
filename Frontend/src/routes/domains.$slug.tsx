@@ -1,27 +1,21 @@
-import { createFileRoute, notFound, Link, redirect } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
-import { Search, ArrowLeft } from "lucide-react";
+import { createFileRoute, notFound, Link, useNavigate } from "@tanstack/react-router";
+import { useMemo, useState, useEffect } from "react";
+import { Search, ArrowLeft, Loader2, Lock } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
-import { fetchSubmissions } from "@/services/api";
+import { fetchSubmissions, fetchProblems, Problem } from "@/services/api";
 import { getDomain, type Domain } from "@/data/domains";
-import { problemsByDomain, type Problem } from "@/data/problems";
 import { ProblemCard } from "@/components/problem-card";
 import { StatusPill } from "@/components/badges";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { useAuth } from "@/hooks/use-auth";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/domains/$slug")({
-  beforeLoad: ({ context }) => {
-    const user = context.queryClient.getQueryData(["currentUser"]);
-    if (!user) {
-      throw redirect({ to: "/login" });
-    }
-  },
   loader: ({ params }) => {
     const domain = getDomain(params.slug);
     if (!domain || domain.status !== "live") throw notFound();
-    return { domain, problems: problemsByDomain(params.slug) };
+    return { domain };
   },
   head: ({ loaderData }) => {
     if (!loaderData)
@@ -45,19 +39,62 @@ export const Route = createFileRoute("/domains/$slug")({
 });
 
 function DomainPage() {
-  const { domain, problems } = Route.useLoaderData() as {
-    domain: Domain;
-    problems: Problem[];
-  };
+  const { domain } = Route.useLoaderData() as { domain: Domain };
+  const { user, isLoading: authLoading } = useAuth();
+  const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [industry, setIndustry] = useState<string | null>(null);
+
+  // Fetch domain problems dynamically from backend DB
+  const { data: problems = [], isLoading: problemsLoading } = useQuery<Problem[]>({
+    queryKey: ["problems", domain.slug],
+    queryFn: () => fetchProblems(domain.slug),
+  });
+
+  const { data: subs } = useQuery({ queryKey: ["submissions"], queryFn: fetchSubmissions, enabled: !!user });
+
+  useEffect(() => {
+    if (!authLoading && !user) {
+      navigate({ to: "/login", search: { redirect: `/domains/${domain.slug}` } });
+    }
+  }, [user, authLoading, domain.slug, navigate]);
+
+  if (authLoading) {
+    return (
+      <div className="flex min-h-[60vh] items-center justify-center">
+        <Loader2 className="size-8 animate-spin text-primary" />
+      </div>
+    );
+  }
+
+  if (!user) {
+    return (
+      <div className="mx-auto max-w-md px-5 py-24 text-center">
+        <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+          <Lock className="size-6" />
+        </div>
+        <h2 className="text-2xl font-bold">Authentication Required</h2>
+        <p className="mt-2 text-sm text-muted-foreground">
+          Please sign in or create an account to view problems in this track.
+        </p>
+        <div className="mt-6 flex justify-center gap-3">
+          <Button asChild>
+            <Link to="/login" search={{ redirect: `/domains/${domain.slug}` }}>
+              Sign in
+            </Link>
+          </Button>
+          <Button variant="outline" asChild>
+            <Link to="/signup">Create account</Link>
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   const industries = useMemo(
     () => Array.from(new Set(problems.map((p) => p.industry))).sort(),
     [problems],
   );
-
-  const { data: subs } = useQuery({ queryKey: ["submissions"], queryFn: fetchSubmissions });
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -128,13 +165,20 @@ function DomainPage() {
         </div>
       </div>
 
-      <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {filtered.map((p) => (
-          <ProblemCard key={p.id} problem={p} />
-        ))}
-      </div>
+      {problemsLoading ? (
+        <div className="flex items-center justify-center py-16">
+          <Loader2 className="size-6 animate-spin text-primary mr-2" />
+          <span className="text-sm text-muted-foreground">Loading problems from database...</span>
+        </div>
+      ) : (
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {filtered.map((p) => (
+            <ProblemCard key={p.id} problem={p} />
+          ))}
+        </div>
+      )}
 
-      {filtered.length === 0 && (
+      {!problemsLoading && filtered.length === 0 && (
         <div className="mt-12 rounded-xl border border-dashed border-border p-12 text-center">
           <p className="text-sm text-muted-foreground">
             No problems match those filters.

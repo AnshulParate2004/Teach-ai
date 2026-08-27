@@ -1,6 +1,6 @@
-import { createFileRoute, notFound, Link, useNavigate, redirect } from "@tanstack/react-router";
+import { createFileRoute, notFound, Link, useNavigate } from "@tanstack/react-router";
 import { useState, Fragment, useEffect } from "react";
-import { ArrowLeft, Loader2, Target, CheckCircle, Star, BookOpen, PenTool, ShieldCheck, ClipboardCheck, Award, PlayCircle, ChevronRight } from "lucide-react";
+import { ArrowLeft, Loader2, Target, CheckCircle, Star, BookOpen, PenTool, ShieldCheck, ClipboardCheck, Award, PlayCircle, ChevronRight, Lock } from "lucide-react";
 import { toast } from "sonner";
 import { getProblem, type Problem } from "@/data/problems";
 import { DifficultyBadge } from "@/components/badges";
@@ -8,26 +8,29 @@ import { UploadZone } from "@/components/upload-zone";
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
-import { createSubmission, fetchUserProblemProgress, updateUserProblemProgress } from "@/services/api";
+import { createSubmission, fetchUserProblemProgress, updateUserProblemProgress, fetchProblem } from "@/services/api";
+import { useAuth } from "@/hooks/use-auth";
 import { cn } from "@/lib/utils";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 export const Route = createFileRoute("/problems/$id")({
-  beforeLoad: ({ context }) => {
-    const user = context.queryClient.getQueryData(["currentUser"]);
-    if (!user) throw redirect({ to: "/login" });
-  },
-  loader: ({ params }) => {
-    const problem = getProblem(params.id);
-    if (!problem) throw notFound();
-    return { problem };
+  loader: async ({ params }) => {
+    try {
+      const p = await fetchProblem(params.id);
+      if (p) return { problem: p as Problem };
+    } catch {
+      // Fallback
+    }
+    const fallback = getProblem(params.id);
+    if (!fallback) throw notFound();
+    return { problem: fallback };
   },
   head: ({ loaderData }) => {
-    if (!loaderData) return { meta: [{ title: "Problem unavailable — Skillzza" }] };
+    if (!loaderData || !loaderData.problem) return { meta: [{ title: "Problem unavailable — Skillzza" }] };
     const p = loaderData.problem;
-    const title = `${p.title} — Skillzza`;
-    return { meta: [{ title }, { name: "description", content: p.problem_statement }] };
+    const title = `${p?.title || "Virtual Internship"} — Skillzza`;
+    return { meta: [{ title }, { name: "description", content: p?.problem_statement || "" }] };
   },
   component: ProblemPage,
 });
@@ -56,7 +59,10 @@ const TAB_ITEMS: { id: TabId; label: string; icon: React.ReactNode }[] = [
 ];
 
 function ProblemPage() {
-  const { problem } = Route.useLoaderData() as { problem: Problem };
+  const data = Route.useLoaderData() as { problem: Problem };
+  const problem = data?.problem;
+  const navigate = useNavigate();
+  const { user, isLoading: authLoading } = useAuth();
   const [file, setFile] = useState<File | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [activeTab, setActiveTab] = useState<TabId>("overview");
@@ -65,26 +71,63 @@ function ProblemPage() {
   const [testScore, setTestScore] = useState(0);
   const [selectedTaskIdx, setSelectedTaskIdx] = useState<number>(-1);
   const [completedTasks, setCompletedTasks] = useState<number[]>(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined' && problem) {
       const saved = localStorage.getItem(`skillzza_user_progress_${problem.id}`);
       if (saved) return JSON.parse(saved);
     }
     return [];
   });
-  const navigate = useNavigate();
 
   useEffect(() => {
-    fetchUserProblemProgress(problem.id).then(indices => {
-      setCompletedTasks(indices);
-      if (typeof window !== 'undefined') {
-        localStorage.setItem(`skillzza_user_progress_${problem.id}`, JSON.stringify(indices));
-      }
-    });
-  }, [problem.id]);
+    if (!authLoading && !user && problem) {
+      navigate({ to: "/login", search: { redirect: `/problems/${problem.id}` } });
+    }
+  }, [user, authLoading, problem, navigate]);
+
+  useEffect(() => {
+    if (user && problem) {
+      fetchUserProblemProgress(problem.id).then(indices => {
+        setCompletedTasks(indices);
+        if (typeof window !== 'undefined') {
+          localStorage.setItem(`skillzza_user_progress_${problem.id}`, JSON.stringify(indices));
+        }
+      });
+    }
+  }, [problem, user]);
+
+  if (authLoading) {
+    return (
+      <div className="flex min-h-[60vh] items-center justify-center">
+        <Loader2 className="size-8 animate-spin text-primary" />
+      </div>
+    );
+  }
+
+  if (!user) {
+    return (
+      <div className="mx-auto max-w-md px-5 py-24 text-center">
+        <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+          <Lock className="size-6" />
+        </div>
+        <h2 className="text-2xl font-bold">Authentication Required</h2>
+        <p className="mt-2 text-sm text-muted-foreground">
+          Please sign in or create an account to view and participate in this virtual internship.
+        </p>
+        <div className="mt-6 flex justify-center gap-3">
+          <Button asChild>
+            <Link to="/login" search={{ redirect: `/problems/${problem.id}` }}>
+              Sign in
+            </Link>
+          </Button>
+          <Button variant="outline" asChild>
+            <Link to="/signup">Create account</Link>
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   const allTasksCompleted = problem.steps && problem.steps.length > 0 && completedTasks.length === problem.steps.length;
-
-
 
   const baseSkills = problem.learn && problem.learn.length > 0 ? problem.learn : [
     "Industry context and workflow mapping",
@@ -123,8 +166,7 @@ function ProblemPage() {
   return (
     <div className="mx-auto max-w-7xl px-5 py-10 bg-muted/20 min-h-screen">
       <Link
-        to="/domains/$slug"
-        params={{ slug: problem.domain }}
+        to="/portfolio"
         className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-6"
       >
         <ArrowLeft className="size-3.5" /> Back to problems

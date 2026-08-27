@@ -71,7 +71,9 @@ function LoginPage() {
               const user = await signIn(email, password);
               setUser(user);
               toast.success("Signed in");
-              navigate({ to: "/dashboard" });
+              const searchParams = new URLSearchParams(window.location.search);
+              const target = searchParams.get("redirect") || "/portfolio";
+              navigate({ to: target as any });
             } catch (error: any) {
               toast.error(error.message || "Failed to sign in");
               setPending(false);
