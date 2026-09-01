@@ -1,0 +1,1 @@
+const fs = require("fs"); const c = fs.readFileSync("Frontend/src/data/problems.ts", "utf8").replace("export const problems: Problem[] = ", "const problems = ").replace(/import .*?;\n/g, "").replace(/export type Problem = \{[\s\S]*?\};/, "") + "\nfs.writeFileSync(\"problems.json\", JSON.stringify(problems, null, 2));"; fs.writeFileSync("temp.js", c); require("./temp.js");
